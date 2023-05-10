@@ -16,7 +16,7 @@ git submodule init
 git submodule update
 ```
 - [DX Client](https://github.com/zimmerman-team/dx.client)
-    - We currently run the `feat/DX-247-docker` branch
+    - We currently run the `develop` branch
 - [DX Server](https://github.com/zimmerman-team/dx.server)
     - We currently run the `feat/DX-247-docker` branch
 - [DX SSR](https://github.com/zimmerman-team/dx.rawgraphs-ssr)
