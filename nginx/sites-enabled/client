@@ -1,0 +1,18 @@
+server {
+    listen 80;
+    server_name APP_SUBDOMAIN.MAIN_DOMAIN;
+
+    charset koi8-r;
+    access_log  /var/log/nginx/host.access.log;
+
+    location / {
+        root /app/frontend/build;
+        try_files $uri /index.html;
+    }
+
+    error_page   500 502 503 504  /maintenance.html;
+    location = /maintenance.html {
+        root   /usr/share/nginx/html;
+        internal;
+    }
+}

@@ -1,0 +1,25 @@
+server {
+    listen 80;
+    server_name API_SUBDOMAIN.MAIN_DOMAIN;
+
+    charset koi8-r;
+    access_log  /var/log/nginx/host.access.log;
+
+    location ^~ / {
+        include proxy_params;
+        proxy_pass http://server:4200/;
+
+    }
+
+    location /files {
+        add_header 'Access-Control-Allow-Methods' 'POST, OPTIONS';
+        include proxy_params;
+        proxy_pass http://server:4200/files;
+        client_max_body_size 40M;
+    }
+    error_page   500 502 503 504  /maintenance.html;
+    location = /maintenance.html {
+        root   /usr/share/nginx/html;
+        internal;
+    }
+}
