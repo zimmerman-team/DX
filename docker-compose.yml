@@ -1,0 +1,147 @@
+version: "3.5"
+services:
+  mongo:
+    container_name: dx-mongo
+    restart: always
+    image: mongo:latest
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+    ports:
+      - 27017:27017
+    volumes:
+      - dx_mongo_data:/data/db
+    env_file:
+      - .env
+
+  solr:
+    container_name: dx-solr
+    restart: always
+    image: bitnami/solr:9.2.1
+    ports:
+      - 8983:8983
+    environment:
+      - SOLR_OPTS=-Xms${MEM_SOLR_MIN}g -Xmx${MEM_SOLR_MAX}g
+      # Authentication
+      - SOLR_ENABLE_AUTHENTICATION=yes
+      - SOLR_ADMIN_USERNAME=${SOLR_ADMIN_USERNAME}
+      - SOLR_ADMIN_PASSWORD=${SOLR_ADMIN_PASSWORD}
+    volumes:
+      # Mount the image's solr_mount_dir to the local solr_mount_dir
+      - dx_solr_data:/bitnami
+    env_file:
+      - .env
+
+  server:
+    container_name: dx-server
+    restart: always
+    build: ./dx.server
+    image: dx-server
+    environment:
+      - MONGO_HOST=${MONGO_HOST}
+      - MONGO_USERNAME=${MONGO_USERNAME}
+      - MONGO_PASSWORD=${MONGO_PASSWORD}
+      - MONGO_AUTH_SOURCE=${MONGO_AUTH_SOURCE}
+      - SSR_SUBDOMAIN=${SSR_SUBDOMAIN}
+      - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
+      - MAIN_DOMAIN=${MAIN_DOMAIN}
+      - DX_SSR_DIR=${DX_SSR_DIR}
+      - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+    ports:
+      - 4200:4200
+    depends_on:
+      - mongo
+    env_file:
+      - .env
+    volumes:
+      - ./dx.rawgraphs-ssr/:/app/dx.rawgraphs-ssr/
+      - ./dx.backend/:/app/dx.backend/
+
+  backend:
+    container_name: dx-backend
+    restart: always
+    build: 
+      context: ./dx.backend
+    image: dx-backend
+    environment:
+      - BACKEND_PORT=${BACKEND_PORT}
+      - SOLR_POST_PATH=${SOLR_POST_PATH}
+      - STAGING_DIR=${STAGING_DIR}
+      - DATA_EXPLORER_SSR=${DATA_EXPLORER_SSR}
+      - SOLR_SUBDOMAIN=${SOLR_SUBDOMAIN}
+      - MAIN_DOMAIN=${MAIN_DOMAIN}
+      - SOLR_ADMIN_PASSWORD=${SOLR_ADMIN_PASSWORD}
+      - SOLR_ADMIN_USERNAME=${SOLR_ADMIN_USERNAME}
+    ports:
+      - 4004:4004
+    depends_on:
+      - solr
+      - server
+    env_file:
+      - .env
+    volumes:
+      - ./dx.rawgraphs-ssr/:/app/dx.rawgraphs-ssr/
+      - ./dx.backend/staging/:/app/staging/
+
+  ssr:
+    container_name: dx-ssr
+    restart: always
+    build: 
+      context: ./dx.rawgraphs-ssr
+      args:
+        - MAIN_DOMAIN=${MAIN_DOMAIN}
+        - API_SUBDOMAIN=${API_SUBDOMAIN}
+    image: dx-ssr
+    environment:
+      - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
+      - MAIN_DOMAIN=${MAIN_DOMAIN}
+    ports:
+      - 4400:4400
+    depends_on:
+      - server
+      - backend
+    volumes:
+      # Persist the data files
+      - ./dx.rawgraphs-ssr/data-files:/app/data-files
+      - ./dx.rawgraphs-ssr/parsed-data-files:/app/parsed-data-files
+      - ./dx.rawgraphs-ssr/additionalDatasets.json:/app/additionalDatasets.json
+    env_file:
+      - .env
+
+  frontend:
+    container_name: dx-frontend
+    restart: always
+    build: 
+      context: .
+      args:
+        - MAIN_DOMAIN=${MAIN_DOMAIN}
+        - APP_SUBDOMAIN=${APP_SUBDOMAIN}
+        - API_SUBDOMAIN=${API_SUBDOMAIN}
+        - SSR_SUBDOMAIN=${SSR_SUBDOMAIN}
+        - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
+        - SOLR_SUBDOMAIN=${SOLR_SUBDOMAIN}
+        - REACT_APP_API=${REACT_APP_API}
+    image: dx-client
+    ports:
+      - 80:80
+    depends_on:
+      - server
+      - backend
+      - ssr
+      - solr
+    environment:
+      - REACT_APP_API=${REACT_APP_API}
+      - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
+      - REACT_APP_MAPBOX_TOKEN=${REACT_APP_MAPBOX_TOKEN}
+      - REACT_APP_CMS_API=${REACT_APP_CMS_API}
+    env_file:
+      - .env
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+
+volumes:
+  dx_mongo_data:
+  dx_solr_data:
