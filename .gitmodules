@@ -1,15 +1,15 @@
 [submodule "dx.client"]
 	path = dx.client
-	url = https://github.com/zimmerman-team/dx.client
+	url = git@github.com:zimmerman-team/dx.client.git
 [submodule "dx.server"]
 	path = dx.server
-	url = https://github.com/zimmerman-team/dx.server
+	url = git@github.com:zimmerman-team/dx.server.git
 [submodule "dx.backend"]
 	path = dx.backend
-	url = https://github.com/zimmerman-team/dx.backend
+	url = git@github.com:zimmerman-team/dx.backend.git
 [submodule "dx.rawgraphs-ssr"]
 	path = dx.rawgraphs-ssr
-	url = https://github.com/zimmerman-team/dx.rawgraphs-ssr
+	url = git@github.com:zimmerman-team/dx.rawgraphs-ssr.git
 [submodule "rawgraphs-charts"]
 	path = rawgraphs-charts
-	url = https://github.com/zimmerman-team/rawgraphs-charts
+	url = git@github.com:zimmerman-team/rawgraphs-charts.git
