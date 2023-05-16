@@ -13,7 +13,11 @@ Running and setting up is split into two parts: docker and manual. Because of th
 Initialise the following git submodules with:
 ```
 git submodule init
-git submodule update --recursive
+git submodule update
+cd dx.rawgraphs-ssr
+git submodule init
+git submodule update
+cd ..
 ```
 - [DX Client](https://github.com/zimmerman-team/dx.client)
     - We currently run the `develop` branch
