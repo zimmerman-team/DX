@@ -22,13 +22,13 @@ cd ..
 - [DX Client](https://github.com/zimmerman-team/dx.client)
     - We currently run the `develop` branch
 - [DX Server](https://github.com/zimmerman-team/dx.server)
-    - We currently run the `feat/DX-247-docker` branch
+    - We currently run the `develop` branch
 - [DX SSR](https://github.com/zimmerman-team/dx.rawgraphs-ssr)
-    - We currently run the `feat/DX-247-docker` branch
+    - We currently run the `main` branch
 - [DX Rawgraphs Charts](https://github.com/zimmerman-team/rawgraphs-charts)
     - We currently run the `feat/echarts` branch
 - [DX Backend](https://github.com/zimmerman-team/dx.backend)
-    - We currently run the `feat/DX-247-docker` branch.
+    - We currently run the `main` branch.
 
 _Note: Some of these submodules might still be private, use your access token to access them if necessary._
 
