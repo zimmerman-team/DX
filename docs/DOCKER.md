@@ -47,6 +47,12 @@ The following command is used to run all services (It will build images for each
 sudo docker compose up
 ```
 
+### Development mode
+You can run the client instead of building by running the `dev` service. This enables the client on [localhost:3000](localhost:3000) or any other port you have specified, while enabling auto-updates with hot-loading. Because of the dependency tree, this starts all the required services. Run with:
+```
+sudo docker compose up dev
+```
+
 ### Processing changes
 If you've made changes to a specific codebase, re-build that service with 
 ```

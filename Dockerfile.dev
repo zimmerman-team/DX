@@ -1,0 +1,23 @@
+FROM node:16.19.1-alpine3.17
+
+# For development add /bin/bash
+RUN apk update && apk add bash
+
+# Install and link the charts
+WORKDIR /app/charts/
+COPY ./rawgraphs-charts ./
+RUN yarn install
+RUN yarn build
+RUN yarn link
+
+# Set up the client
+WORKDIR /app/client
+
+# Copy the package.json and yarn.lock files
+COPY ./dx.client ./
+
+# Install the project dependencies and link the charts
+RUN yarn install && yarn link "@rawgraphs/rawgraphs-charts"
+
+# Start the development server
+CMD ["yarn", "start"]

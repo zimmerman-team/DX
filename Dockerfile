@@ -14,8 +14,8 @@ RUN yarn link
 # Build the react app
 WORKDIR /app/client/
 COPY ./dx.client ./
-RUN yarn install
 RUN yarn link "@rawgraphs/rawgraphs-charts"
+RUN yarn install
 RUN yarn build
 
 # NGINX SETUP

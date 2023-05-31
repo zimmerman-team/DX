@@ -109,6 +109,29 @@ services:
     env_file:
       - .env
 
+  dev:
+    container_name: dx-dev
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: dx-dev
+    ports:
+      - 3000:3000
+    depends_on:
+      - server
+      - backend
+      - ssr
+      - solr
+    volumes:
+      - ./dx.client:/app/client
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - REACT_APP_API=${REACT_APP_API}
+      - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
+      - REACT_APP_MAPBOX_TOKEN=${REACT_APP_MAPBOX_TOKEN}
+      - REACT_APP_CMS_API=${REACT_APP_CMS_API}
+
   frontend:
     container_name: dx-frontend
     restart: always
