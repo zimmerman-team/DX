@@ -17,7 +17,7 @@ WORKDIR /app/client
 COPY ./dx.client ./
 
 # Install the project dependencies and link the charts
-RUN yarn install && yarn link "@rawgraphs/rawgraphs-charts"
+RUN yarn link "@rawgraphs/rawgraphs-charts" && yarn install
 
 # Start the development server
-CMD ["yarn", "start"]
+CMD ["yarn", "docker"]
