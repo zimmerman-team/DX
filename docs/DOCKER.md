@@ -34,7 +34,6 @@ Make sure to set up your local .env file, we've provided an example under [.env.
 |---|---|---|---|---|
 | mongo | dx-mongo | 27017 | mongo:latest | Accessed through `mongodb://USER:PASS!@mongo:27017` where USER and PASS are set in the `MONGO_INITDB_` fields in .env.<br />We mount `/data/db` to our `mongo_data` docker 'volume', which is persisted. |
 | server | dx-server | 4200 | ./dx.server | Builds a nodejs image with the DX Server, run with pm2. Directories are mounted to support file manipulation. |
-| ssr | dx-ssr | 4004 | ./dx.ssr | Builds a nodejs image with the DX ssr, run with pm2. |
 | frontend | dx-frontend | 80: | . | First, creates a build directory of the DX client with the rawgraphs charts connected. Then sets up NGINX to connect to each of the services. | 
 
 ## Running

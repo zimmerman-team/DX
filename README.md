@@ -23,8 +23,6 @@ cd ..
     - We currently run the `develop` branch
 - [DX Server](https://github.com/zimmerman-team/dx.server)
     - We currently run the `develop` branch
-- [DX SSR](https://github.com/zimmerman-team/dx.rawgraphs-ssr)
-    - We currently run the `main` branch
 - [DX Rawgraphs Charts](https://github.com/zimmerman-team/rawgraphs-charts)
     - We currently run the `feat/echarts` branch
 - [DX Backend](https://github.com/zimmerman-team/dx.backend)

@@ -25,7 +25,6 @@ FROM nginx:latest
 ARG MAIN_DOMAIN
 ARG APP_SUBDOMAIN
 ARG API_SUBDOMAIN
-ARG SSR_SUBDOMAIN
 ARG BACKEND_SUBDOMAIN
 
 WORKDIR /app
@@ -47,11 +46,6 @@ RUN sed -i "s|APP_SUBDOMAIN|${APP_SUBDOMAIN}|g" /etc/nginx/sites-enabled/client
 COPY ./nginx/sites-enabled/server  /etc/nginx/sites-enabled/server
 RUN sed -i "s|MAIN_DOMAIN|${MAIN_DOMAIN}|g" /etc/nginx/sites-enabled/server
 RUN sed -i "s|API_SUBDOMAIN|${API_SUBDOMAIN}|g" /etc/nginx/sites-enabled/server
-
-# ssr
-COPY ./nginx/sites-enabled/ssr  /etc/nginx/sites-enabled/ssr
-RUN sed -i "s|MAIN_DOMAIN|${MAIN_DOMAIN}|g" /etc/nginx/sites-enabled/ssr
-RUN sed -i "s|SSR_SUBDOMAIN|${SSR_SUBDOMAIN}|g" /etc/nginx/sites-enabled/ssr
 
 # backend
 COPY ./nginx/sites-enabled/backend  /etc/nginx/sites-enabled/backend

@@ -25,10 +25,8 @@ services:
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - MONGO_AUTH_SOURCE=${MONGO_AUTH_SOURCE}
-      - SSR_SUBDOMAIN=${SSR_SUBDOMAIN}
       - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
       - MAIN_DOMAIN=${MAIN_DOMAIN}
-      - DX_SSR_DIR=${DX_SSR_DIR}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
     ports:
       - 4200:4200
@@ -37,7 +35,6 @@ services:
     env_file:
       - .env
     volumes:
-      - ./dx.rawgraphs-ssr/:/app/dx.rawgraphs-ssr/
       - ./dx.backend/:/app/dx.backend/
 
   backend:
@@ -55,34 +52,8 @@ services:
     env_file:
       - .env
     volumes:
-      - ./dx.rawgraphs-ssr/:/app/dx.rawgraphs-ssr/
       - ./dx.backend/staging/:/app/staging/
       - ./dx.backend/logging/:/app/logging/
-
-  ssr:
-    container_name: dx-ssr
-    restart: always
-    build: 
-      context: ./dx.rawgraphs-ssr
-      args:
-        - MAIN_DOMAIN=${MAIN_DOMAIN}
-        - API_SUBDOMAIN=${API_SUBDOMAIN}
-    image: dx-ssr
-    environment:
-      - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
-      - MAIN_DOMAIN=${MAIN_DOMAIN}
-    ports:
-      - 4400:4400
-    depends_on:
-      - server
-      - backend
-    volumes:
-      # Persist the data files
-      - ./dx.rawgraphs-ssr/data-files:/app/data-files
-      - ./dx.rawgraphs-ssr/parsed-data-files:/app/parsed-data-files
-      - ./dx.rawgraphs-ssr/additionalDatasets.json:/app/additionalDatasets.json
-    env_file:
-      - .env
 
   frontend:
     container_name: dx-frontend
@@ -93,7 +64,6 @@ services:
         - MAIN_DOMAIN=${MAIN_DOMAIN}
         - APP_SUBDOMAIN=${APP_SUBDOMAIN}
         - API_SUBDOMAIN=${API_SUBDOMAIN}
-        - SSR_SUBDOMAIN=${SSR_SUBDOMAIN}
         - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
         - REACT_APP_API=${REACT_APP_API}
     image: dx-client
@@ -102,7 +72,6 @@ services:
     depends_on:
       - server
       - backend
-      - ssr
     environment:
       - REACT_APP_API=${REACT_APP_API}
       - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
