@@ -15,24 +15,6 @@ services:
     env_file:
       - .env
 
-  solr:
-    container_name: dx-solr
-    restart: always
-    image: bitnami/solr:9.2.1
-    ports:
-      - 8983:8983
-    environment:
-      - SOLR_OPTS=-Xms${MEM_SOLR_MIN}g -Xmx${MEM_SOLR_MAX}g
-      # Authentication
-      - SOLR_ENABLE_AUTHENTICATION=yes
-      - SOLR_ADMIN_USERNAME=${SOLR_ADMIN_USERNAME}
-      - SOLR_ADMIN_PASSWORD=${SOLR_ADMIN_PASSWORD}
-    volumes:
-      # Mount the image's solr_mount_dir to the local solr_mount_dir
-      - dx_solr_data:/bitnami
-    env_file:
-      - .env
-
   server:
     container_name: dx-server
     restart: always
@@ -65,24 +47,17 @@ services:
       context: ./dx.backend
     image: dx-backend
     environment:
-      - BACKEND_PORT=${BACKEND_PORT}
-      - SOLR_POST_PATH=${SOLR_POST_PATH}
-      - STAGING_DIR=${STAGING_DIR}
       - DATA_EXPLORER_SSR=${DATA_EXPLORER_SSR}
-      - SOLR_SUBDOMAIN=${SOLR_SUBDOMAIN}
-      - MAIN_DOMAIN=${MAIN_DOMAIN}
-      - SOLR_ADMIN_PASSWORD=${SOLR_ADMIN_PASSWORD}
-      - SOLR_ADMIN_USERNAME=${SOLR_ADMIN_USERNAME}
     ports:
       - 4004:4004
     depends_on:
-      - solr
       - server
     env_file:
       - .env
     volumes:
       - ./dx.rawgraphs-ssr/:/app/dx.rawgraphs-ssr/
       - ./dx.backend/staging/:/app/staging/
+      - ./dx.backend/logging/:/app/logging/
 
   ssr:
     container_name: dx-ssr
@@ -109,29 +84,6 @@ services:
     env_file:
       - .env
 
-  dev:
-    container_name: dx-dev
-    restart: always
-    build:
-      context: .
-      dockerfile: Dockerfile.dev
-    image: dx-dev
-    ports:
-      - 3000:3000
-    depends_on:
-      - server
-      - backend
-      - ssr
-      - solr
-    volumes:
-      - ./dx.client:/app/client
-    environment:
-      - CHOKIDAR_USEPOLLING=true
-      - REACT_APP_API=${REACT_APP_API}
-      - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
-      - REACT_APP_MAPBOX_TOKEN=${REACT_APP_MAPBOX_TOKEN}
-      - REACT_APP_CMS_API=${REACT_APP_CMS_API}
-
   frontend:
     container_name: dx-frontend
     restart: always
@@ -143,7 +95,6 @@ services:
         - API_SUBDOMAIN=${API_SUBDOMAIN}
         - SSR_SUBDOMAIN=${SSR_SUBDOMAIN}
         - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
-        - SOLR_SUBDOMAIN=${SOLR_SUBDOMAIN}
         - REACT_APP_API=${REACT_APP_API}
     image: dx-client
     ports:
@@ -152,7 +103,6 @@ services:
       - server
       - backend
       - ssr
-      - solr
     environment:
       - REACT_APP_API=${REACT_APP_API}
       - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
@@ -167,4 +117,3 @@ services:
 
 volumes:
   dx_mongo_data:
-  dx_solr_data:

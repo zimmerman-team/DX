@@ -27,7 +27,6 @@ ARG APP_SUBDOMAIN
 ARG API_SUBDOMAIN
 ARG SSR_SUBDOMAIN
 ARG BACKEND_SUBDOMAIN
-ARG SOLR_SUBDOMAIN
 
 WORKDIR /app
 
@@ -58,10 +57,5 @@ RUN sed -i "s|SSR_SUBDOMAIN|${SSR_SUBDOMAIN}|g" /etc/nginx/sites-enabled/ssr
 COPY ./nginx/sites-enabled/backend  /etc/nginx/sites-enabled/backend
 RUN sed -i "s|MAIN_DOMAIN|${MAIN_DOMAIN}|g" /etc/nginx/sites-enabled/backend
 RUN sed -i "s|BACKEND_SUBDOMAIN|${BACKEND_SUBDOMAIN}|g" /etc/nginx/sites-enabled/backend
-
-# solr
-COPY ./nginx/sites-enabled/solr  /etc/nginx/sites-enabled/solr
-RUN sed -i "s|MAIN_DOMAIN|${MAIN_DOMAIN}|g" /etc/nginx/sites-enabled/solr
-RUN sed -i "s|SOLR_SUBDOMAIN|${SOLR_SUBDOMAIN}|g" /etc/nginx/sites-enabled/solr
 
 # Done, starting NGINX

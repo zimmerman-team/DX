@@ -41,7 +41,6 @@ We've set up a [docker-compose](docker-compose.yml) file that starts all of the 
 - The Data Explorer Server
 - Serverside rendering for e-charts
 - NGINX With The Data Explorer Client
-- The DX Backend with Apache Solr
 
 If the submodules are in place, and the .env file is set up; You can run all of these services using
 ```
