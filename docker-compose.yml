@@ -54,6 +54,12 @@ services:
     volumes:
       - ./dx.backend/staging/:/app/staging/
       - ./dx.backend/logging/:/app/logging/
+      - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
+      - ./dx.backend/sample-data-files/:/app/sample-data-files/
+    deploy:
+      resources:
+        limits:
+          memory: 8G
 
   frontend:
     container_name: dx-frontend
