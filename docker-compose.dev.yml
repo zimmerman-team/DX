@@ -1,0 +1,81 @@
+version: "3.5"
+services:
+  mongo:
+    container_name: dx-mongo-dev
+    restart: always
+    image: mongo:latest
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+    ports:
+      - 27017:27017
+    volumes:
+      - dx_mongo_data_dev:/data/db
+    env_file:
+      - .env.dev
+
+  server-dev:
+    container_name: dx-server-dev
+    restart: always
+    build:
+      context: ./dx.server
+      dockerfile: Dockerfile.dev
+    image: dx-server-dev
+    environment:
+      - MONGO_HOST=${MONGO_HOST}
+      - MONGO_USERNAME=${MONGO_USERNAME}
+      - MONGO_PASSWORD=${MONGO_PASSWORD}
+      - MONGO_AUTH_SOURCE=${MONGO_AUTH_SOURCE}
+      - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+      - DEV=${DEV}
+    ports:
+      - 4200:4200
+    env_file:
+      - .env.dev
+    volumes:
+      - ./dx.backend/:/app/dx.backend/
+      - ./dx.server/src/:/app/src/
+
+  backend-dev:
+    container_name: dx-backend-dev
+    restart: always
+    build: 
+      context: ./dx.backend
+    image: dx-backend-dev
+    environment:
+      - DATA_EXPLORER_SSR=${DATA_EXPLORER_SSR}
+    ports:
+      - 4004:4004
+    env_file:
+      - .env.dev
+    volumes:
+      # - ./dx.backend/staging/:/app/staging/
+      # - ./dx.backend/:/app/
+      - ./dx.backend/staging/:/app/staging/
+      - ./dx.backend/logging/:/app/logging/
+      - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
+      - ./dx.backend/sample-data-files/:/app/sample-data-files/
+
+  frontend-dev:
+    container_name: dx-dev
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: dx-dev
+    ports:
+      - 3000:3000
+    volumes:
+      - ./dx.client:/app/client
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - REACT_APP_API=${REACT_APP_API}
+      - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
+      - REACT_APP_MAPBOX_TOKEN=${REACT_APP_MAPBOX_TOKEN}
+      - REACT_APP_CMS_API=${REACT_APP_CMS_API}
+    env_file:
+      - .env.dev
+
+volumes:
+  dx_mongo_data_dev:
