@@ -1,7 +1,7 @@
 version: "3.5"
 services:
-  mongo:
-    container_name: dx-mongo
+  mongo-staging:
+    container_name: dx-mongo-staging
     restart: always
     image: mongo:latest
     environment:
@@ -9,14 +9,14 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
       - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
     ports:
-      - 27017:27017
+      - 27018:27017
     volumes:
-      - dx_mongo_data:/data/db
+      - dx_mongo_data_staging:/data/db
     env_file:
       - .env
 
-  server:
-    container_name: dx-server
+  server-staging:
+    container_name: dx-server-staging
     restart: always
     build: ./dx.server
     image: dx-server
@@ -28,17 +28,18 @@ services:
       - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
       - MAIN_DOMAIN=${MAIN_DOMAIN}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+      - ENV_TYPE=${ENV_TYPE}
     ports:
-      - 4200:4200
+      - 4201:4200
     depends_on:
-      - mongo
+      - mongo-staging
     env_file:
       - .env
     volumes:
       - ./dx.backend/:/app/dx.backend/
 
-  backend:
-    container_name: dx-backend
+  backend-staging:
+    container_name: dx-backend-staging
     restart: always
     build: 
       context: ./dx.backend
@@ -46,38 +47,35 @@ services:
     environment:
       - DATA_EXPLORER_SSR=${DATA_EXPLORER_SSR}
     ports:
-      - 4004:4004
+      - 4005:4004
     depends_on:
-      - server
+      - server-staging
     env_file:
       - .env
     volumes:
       - ./dx.backend/staging/:/app/staging/
-      - ./dx.backend/logging/:/app/logging/
-      - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
-      - ./dx.backend/sample-data-files/:/app/sample-data-files/
-    deploy:
-      resources:
+      - ./dx.backend/logging/:/app/logging/	
+      - ./dx.backend/parsed-data-files/:/app/parsed-data-files/	
+      - ./dx.backend/sample-data-files/:/app/sample-data-files/	
+    deploy:	
+      resources:	
         limits:
           memory: 8G
 
-  frontend:
-    container_name: dx-frontend
+  frontend-staging:
+    container_name: dx-frontend-staging
     restart: always
     build: 
       context: .
+      dockerfile: Dockerfile.staging
       args:
-        - MAIN_DOMAIN=${MAIN_DOMAIN}
-        - APP_SUBDOMAIN=${APP_SUBDOMAIN}
-        - API_SUBDOMAIN=${API_SUBDOMAIN}
-        - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
         - REACT_APP_API=${REACT_APP_API}
     image: dx-client
     ports:
-      - 80:80
+      - 81:80
     depends_on:
-      - server
-      - backend
+      - server-staging
+      - backend-staging
     environment:
       - REACT_APP_API=${REACT_APP_API}
       - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
@@ -89,6 +87,8 @@ services:
       resources:
         limits:
           memory: 8G
+    volumes:
+      - ./dx.client/staging/:/app/client/staging/
 
 volumes:
-  dx_mongo_data:
+  dx_mongo_data_staging:

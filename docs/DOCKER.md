@@ -33,10 +33,7 @@ Make sure to set up your local .env file, we've provided an example under [.env.
 | service | network name | ports | image | Additional notes |
 |---|---|---|---|---|
 | mongo | dx-mongo | 27017 | mongo:latest | Accessed through `mongodb://USER:PASS!@mongo:27017` where USER and PASS are set in the `MONGO_INITDB_` fields in .env.<br />We mount `/data/db` to our `mongo_data` docker 'volume', which is persisted. |
-| solr | dx-solr | 8983 | bitnami/solr:9.2.1 | Using bitnami instead of default solr because of the env options. We pass `SOLR_OPTS` containing memory options. We're using `SOLR_ADMIN_USERNAME` and `*_PASSWORD` to use authentication. |
 | server | dx-server | 4200 | ./dx.server | Builds a nodejs image with the DX Server, run with pm2. Directories are mounted to support file manipulation. |
-| backend | dx-backend | 4004 | ./dx.backend | Builds a nodejs image with the DX backend, run with pm2. Java is installed to run the Solr post tool. |
-| ssr | dx-ssr | 4004 | ./dx.ssr | Builds a nodejs image with the DX ssr, run with pm2. |
 | frontend | dx-frontend | 80: | . | First, creates a build directory of the DX client with the rawgraphs charts connected. Then sets up NGINX to connect to each of the services. | 
 
 ## Running

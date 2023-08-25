@@ -1,7 +1,7 @@
 version: "3.5"
 services:
-  mongo:
-    container_name: dx-mongo
+  mongo-dev:
+    container_name: dx-mongo-dev
     restart: always
     image: mongo:latest
     environment:
@@ -11,84 +11,71 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - dx_mongo_data:/data/db
+      - dx_mongo_data_dev:/data/db
     env_file:
       - .env
 
-  server:
-    container_name: dx-server
+  server-dev:
+    container_name: dx-server-dev
     restart: always
-    build: ./dx.server
-    image: dx-server
+    build:
+      context: ./dx.server
+      dockerfile: Dockerfile.dev
+    image: dx-server-dev
     environment:
       - MONGO_HOST=${MONGO_HOST}
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - MONGO_AUTH_SOURCE=${MONGO_AUTH_SOURCE}
-      - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
-      - MAIN_DOMAIN=${MAIN_DOMAIN}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+      - ENV_TYPE=${ENV_TYPE}
     ports:
       - 4200:4200
-    depends_on:
-      - mongo
     env_file:
       - .env
     volumes:
       - ./dx.backend/:/app/dx.backend/
+      - ./dx.server/src/:/app/src/
 
-  backend:
-    container_name: dx-backend
+  backend-dev:
+    container_name: dx-backend-dev
     restart: always
     build: 
       context: ./dx.backend
-    image: dx-backend
+    image: dx-backend-dev
     environment:
       - DATA_EXPLORER_SSR=${DATA_EXPLORER_SSR}
     ports:
       - 4004:4004
-    depends_on:
-      - server
     env_file:
       - .env
     volumes:
+      # - ./dx.backend/staging/:/app/staging/
+      # - ./dx.backend/:/app/
       - ./dx.backend/staging/:/app/staging/
       - ./dx.backend/logging/:/app/logging/
       - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
       - ./dx.backend/sample-data-files/:/app/sample-data-files/
-    deploy:
-      resources:
-        limits:
-          memory: 8G
 
-  frontend:
-    container_name: dx-frontend
+  frontend-dev:
+    container_name: dx-dev
     restart: always
-    build: 
+    build:
       context: .
-      args:
-        - MAIN_DOMAIN=${MAIN_DOMAIN}
-        - APP_SUBDOMAIN=${APP_SUBDOMAIN}
-        - API_SUBDOMAIN=${API_SUBDOMAIN}
-        - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
-        - REACT_APP_API=${REACT_APP_API}
-    image: dx-client
+      dockerfile: Dockerfile.dev
+    image: dx-dev
     ports:
-      - 80:80
-    depends_on:
-      - server
-      - backend
+      - 3000:3000
+    volumes:
+      - ./dx.client:/app/client
     environment:
+      - CHOKIDAR_USEPOLLING=true
       - REACT_APP_API=${REACT_APP_API}
       - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
       - REACT_APP_MAPBOX_TOKEN=${REACT_APP_MAPBOX_TOKEN}
       - REACT_APP_CMS_API=${REACT_APP_CMS_API}
     env_file:
       - .env
-    deploy:
-      resources:
-        limits:
-          memory: 8G
 
 volumes:
-  dx_mongo_data:
+  dx_mongo_data_dev:

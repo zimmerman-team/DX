@@ -7,9 +7,6 @@
 [submodule "dx.backend"]
 	path = dx.backend
 	url = git@github.com:zimmerman-team/dx.backend.git
-[submodule "dx.rawgraphs-ssr"]
-	path = dx.rawgraphs-ssr
-	url = git@github.com:zimmerman-team/dx.rawgraphs-ssr.git
 [submodule "rawgraphs-charts"]
 	path = rawgraphs-charts
 	url = git@github.com:zimmerman-team/rawgraphs-charts.git
