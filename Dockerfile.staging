@@ -1,0 +1,23 @@
+# Create the react frontend build
+FROM node:16.19.1-alpine3.17 AS client
+# For development add /bin/bash
+RUN apk update && apk add bash
+
+ARG REACT_APP_API
+ENV REACT_APP_API=$REACT_APP_API
+
+# Install and link the charts
+WORKDIR /app/charts/
+COPY ./rawgraphs-charts ./
+RUN yarn install
+RUN yarn build
+RUN yarn link
+
+# Build the react app
+WORKDIR /app/client/
+COPY ./dx.client ./
+RUN yarn link "@rawgraphs/rawgraphs-charts"
+RUN yarn install
+RUN yarn build
+
+CMD ["yarn", "docker-staging"]

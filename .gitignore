@@ -2,3 +2,4 @@
 .env.dev
 .env.test
 .env.staging
+.env.prod

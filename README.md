@@ -14,10 +14,10 @@ Initialise the following git submodules with:
 ```
 git submodule init
 git submodule update
-cd dx.rawgraphs-ssr
-git submodule init
-git submodule update
+cd dx.server
+yarn initialise-server
 cd ..
+
 ```
 - [DX Client](https://github.com/zimmerman-team/dx.client)
     - We currently run the `develop` branch
