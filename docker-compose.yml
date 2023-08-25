@@ -89,6 +89,8 @@ services:
       resources:
         limits:
           memory: 8G
+    volumes:
+      - ./dx.client/prod/:/app/client/prod/
 
 volumes:
   dx_mongo_data:
