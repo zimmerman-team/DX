@@ -28,7 +28,7 @@ services:
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - MONGO_AUTH_SOURCE=${MONGO_AUTH_SOURCE}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
-      - DEV=${DEV}
+      - ENV_TYPE=${ENV_TYPE}
     ports:
       - 4200:4200
     env_file:
