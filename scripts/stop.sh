@@ -1,10 +1,33 @@
 #!/bin/bash
 
+# Help
+if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+  echo "Used to stop services running through docker. Specify the environment type, optionally specify service names."
+  echo ""
+  echo "Usage: bash $0 [dev|test|staging|prod] [service name (optional) (up to 5 service names)]"
+  exit 0
+fi
+
+# Start
 # Check if an argument is provided
-if [ $# -ne 1 ]; then
+if [ $# -lt 1 ]; then
   echo "Usage: $0 [dev|test|staging|prod]"
   exit 1
 fi
+# Extract the first argument provided
+MODE="$1"
+# if $MODE is not dev, test, staging or prod, then exit
+if [ "$MODE" != "dev" ] && [ "$MODE" != "test" ] && [ "$MODE" != "staging" ] && [ "$MODE" != "prod" ]; then
+  echo "Invalid mode. Use 'dev', 'test', 'staging' or 'prod'."
+  exit 1
+fi
+
+# Get additional arguments (service names)
+I1="$2"
+I2="$3"
+I3="$4"
+I4="$5"
+I5="$6"
 
 # Extract the first argument provided
 MODE="$1"
