@@ -50,8 +50,6 @@ services:
     env_file:
       - .env
     volumes:
-      # - ./dx.backend/staging/:/app/staging/
-      # - ./dx.backend/:/app/
       - ./dx.backend/staging/:/app/staging/
       - ./dx.backend/logging/:/app/logging/
       - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
@@ -67,7 +65,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./dx.client:/app/client
+      - ./dx.client/src:/app/client/src
     environment:
       - CHOKIDAR_USEPOLLING=true
       - REACT_APP_API=${REACT_APP_API}
