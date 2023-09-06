@@ -90,5 +90,4 @@ else
   exit 1
 fi
 
-echo "Done, please set up your env, and run 'bash ./scripts/build.sh <MODE>' to build and start the project."
-
+echo "Setup script is done, please set up your env, and run 'bash ./scripts/build.sh <MODE>' to build and start the project."

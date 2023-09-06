@@ -50,3 +50,5 @@ else
   echo "Invalid mode. Use 'dev', 'test', 'staging' or 'prod'."
   exit 1
 fi
+
+echo "Build script is done."
