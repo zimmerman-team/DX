@@ -10,3 +10,6 @@
 [submodule "rawgraphs-charts"]
 	path = rawgraphs-charts
 	url = git@github.com:zimmerman-team/rawgraphs-charts.git
+[submodule "monitoring"]
+	path = monitoring
+	url = https://github.com/zimmerman-team/Central-Logging
