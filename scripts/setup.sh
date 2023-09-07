@@ -6,15 +6,10 @@ if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
   echo "Optionally sets up NodeJS with npm and yarn."
   echo "Optionally initialises git submodules and their setups."
   echo "Removes any .env file, and creates a copy of .env.example with the appropriate name, then symlinks it to .env."
+  echo "Optionally prepopulates DX with data"
   echo ""
-  echo "Usage: bash $0 [dev|test|staging|prod]"
+  echo "Usage: bash $0"
   exit 0
-fi
-
-# Check if an argument is provided
-if [ $# -ne 1 ]; then
-  echo "Usage: $0 [dev|test|staging|prod]"
-  exit 1
 fi
 
 # Function to prompt user for Y/n choice
@@ -86,34 +81,36 @@ if ask_for_confirmation "Do you want to initialise the submodules?"; then
   cp ./.env.example ./.env.staging
   cp ./.env.example ./.env.test
   ln -s ./.env.prod ./.env
-  echo "Done."
+  echo "Done. By default, .env has been symlinked to .env.prod."
 else
   echo "Skipping the submodules."
 fi
 
-# Extract the first argument provided
-MODE="$1"
-
-# Check the value of the provided argument and run the appropriate command
-if [ "$MODE" = "dev" ]; then
-  sudo cp .env.example .env.dev
-  sudo rm -f .env
-  sudo ln .env.dev .env
-elif [ "$MODE" = "prod" ]; then
-  sudo cp .env.example .env.prod
-  sudo rm -f .env
-  sudo ln .env.prod .env
-elif [ "$MODE" = "staging" ]; then
-  sudo cp .env.example .env.staging
-  sudo rm -f .env
-  sudo ln .env.staging .env
-elif [ "$MODE" = "test" ]; then
-  sudo cp .env.example .env.test
-  sudo rm -f .env
-  sudo ln .env.test .env
-else
-  echo "Invalid mode. Use 'dev', 'test', 'staging' or 'prod'."
-  exit 1
+echo ""
+echo "We will ask you for each of [dev | test | staging | prod] if you want to prepopulate data for that environment."
+if ask_for_confirmation "Do you want to Prepopulate data for the DEV environment?"; then
+  echo "Please update the .env.dev file with the correct values before running this script. We will open the file for you in 3 seconds"
+  sleep 3
+  nano .env.dev
+  bash ./scripts/prepopulate.sh dev
+fi
+if ask_for_confirmation "Do you want to Prepopulate data for the TEST environment?"; then
+  echo "Please update the .env.test file with the correct values before running this script. We will open the file for you in 3 seconds"
+  sleep 3
+  nano .env.test
+  bash ./scripts/prepopulate.sh test
+fi
+if ask_for_confirmation "Do you want to Prepopulate data for the STAGING environment?"; then
+  echo "Please update the .env.staging file with the correct values before running this script. We will open the file for you in 3 seconds"
+  sleep 3
+  nano .env.staging
+  bash ./scripts/prepopulate.sh staging
+fi
+if ask_for_confirmation "Do you want to Prepopulate data for the PROD environment?"; then
+  echo "Please update the .env.prod file with the correct values before running this script. We will open the file for you in 3 seconds"
+  sleep 3
+  nano .env.prod
+  bash ./scripts/prepopulate.sh prod
 fi
 
 echo "Setup script is done, please set up your env, and run 'bash ./scripts/build.sh <MODE>' to build and start the project."

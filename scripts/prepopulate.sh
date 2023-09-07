@@ -42,12 +42,15 @@ if [ "$MODE" != "prod" ]; then
     CONTAINER_ID="dx-mongo-$MODE"
 fi
 
+MONGO_INITDB_ROOT_USERNAME=$(grep -E "^MONGO_INITDB_ROOT_USERNAME=" ".env.$MODE" | cut -d= -f2)
+MONGO_INITDB_ROOT_PASSWORD=$(grep -E "^MONGO_INITDB_ROOT_PASSWORD=" ".env.$MODE" | cut -d= -f2)
+
 # copy the mongodb.dump file to the container and execute mongoimport
 sudo docker cp ./prepopulate-data/Chart "$CONTAINER_ID":/Chart
 sudo docker cp ./prepopulate-data/Report "$CONTAINER_ID":/Report
 sudo docker cp ./prepopulate-data/Dataset "$CONTAINER_ID":/Dataset
-sudo docker exec -it $CONTAINER_ID mongoimport  --username admin_example --password 'exampl3_123!' --authenticationDatabase admin --db the-data-explorer-db --collection Chart --file /Chart
-sudo docker exec -it $CONTAINER_ID mongoimport  --username admin_example --password 'exampl3_123!' --authenticationDatabase admin --db the-data-explorer-db --collection Report --file /Report
-sudo docker exec -it $CONTAINER_ID mongoimport  --username admin_example --password 'exampl3_123!' --authenticationDatabase admin --db the-data-explorer-db --collection Dataset --file /Dataset
+sudo docker exec -it $CONTAINER_ID mongoimport  --username $MONGO_INITDB_ROOT_USERNAME --password $MONGO_INITDB_ROOT_PASSWORD --authenticationDatabase admin --db the-data-explorer-db --collection Chart --file /Chart
+sudo docker exec -it $CONTAINER_ID mongoimport  --username $MONGO_INITDB_ROOT_USERNAME --password $MONGO_INITDB_ROOT_PASSWORD --authenticationDatabase admin --db the-data-explorer-db --collection Report --file /Report
+sudo docker exec -it $CONTAINER_ID mongoimport  --username $MONGO_INITDB_ROOT_USERNAME --password $MONGO_INITDB_ROOT_PASSWORD --authenticationDatabase admin --db the-data-explorer-db --collection Dataset --file /Dataset
 
 echo "Prepolulating data is done."
