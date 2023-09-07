@@ -24,11 +24,24 @@ To enable your organization to lead in your field through the power of data, we 
 equitable future for all.
 
 ## Setting up
-Running and setting up is split into two parts: docker and manual. Because of the extensiveness of these sections they are contained in their own files. However, we also have [a quickstart guide](#scripts).
+Running and setting up is split into two parts: docker and manual. Because of the extensiveness of these sections they are contained in their own files.
+
+However, our `scripts/setup.sh` script is able to set up your project folder for you.
+It will:
+- Install NodeJS 16 with NPM and Yarn. (optional)
+- Install Docker. (optional)
+- Prepare the project
+    - Initialise the submodules
+    - Prepare the rawgraphs charts
+    - Globally install webpack(-cli) for building DX Server
+    - Initialise the server's dependencies
+    - Ensure .env files are prepared for the main project and the monitoring setup (make sure to edit the values in the environment type you are setting up)
+
+We also have specific guides for local and docker setups.
 - [Docker guide](./docs/DOCKER.md)
 - [Local guide](./docs/LOCAL.md)
 
-## Submodules
+### Submodules
 Initialise the following git submodules with:
 ```
 git submodule init
@@ -46,10 +59,12 @@ cd ..
     - We currently run the `feat/echarts` branch
 - [DX Backend](https://github.com/zimmerman-team/dx.backend)
     - We currently run the `main` branch.
+- [Monitoring](https://github.com/zimmerman-team/Central-Logging)
+    - We currently run the `project/dx` branch.
 
 _Note: Some of these submodules might still be private, use your access token to access them if necessary._
 
-## Environment file
+### Environment file
 Use the .env.example file to guide you to what needs to be setup. For example, `cp .env.example .env`
 In the environment file we also explain the differences between the dev, test, staging and production versions of the .env file.
 
@@ -109,7 +124,10 @@ These scripts are provided in the ./scripts/ directory:
 - build.sh
 - start.sh
 - stop.sh
+- monitoring.sh
 
 They take an argument: `dev | test | staging | prod`
 
 You can setup and run the project in no-time. This is based on docker, so make sure it is [installed](./docs/DOCKER.md#installing-docker).
+
+The exception to the above arguments is `monitoring.sh`. This script takes `start | stop | restart | dev`, the latter starting the docker containers without detaching from the logs.

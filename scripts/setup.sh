@@ -47,6 +47,27 @@ else
   echo "Skipping NodeJS, npm and yarn installation."
 fi
 
+if ask_for_confirmation "Do you want to install Docker?"; then
+  # Add Docker's official GPG key:
+  # copied from https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
+  sudo apt-get update
+  sudo apt-get install ca-certificates curl gnupg
+  sudo install -m 0755 -d /etc/apt/keyrings
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+  # Add the repository to Apt sources:
+  echo \
+    "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+    "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  sudo apt-get update
+  echo "Done."
+  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+else
+  echo "Skipping Docker installation."
+fi
+
 if ask_for_confirmation "Do you want to initialise the submodules?"; then
   git submodule init
   git submodule update
@@ -59,7 +80,12 @@ if ask_for_confirmation "Do you want to initialise the submodules?"; then
   cd dx.server
   yarn initialise-server
   cd ..
-  # Add your step here
+  cp ./monitoring/.env.example ./monitoring/.env
+  cp ./.env.example ./.env.dev
+  cp ./.env.example ./.env.prod
+  cp ./.env.example ./.env.staging
+  cp ./.env.example ./.env.test
+  ln -s ./.env.prod ./.env
   echo "Done."
 else
   echo "Skipping the submodules."
