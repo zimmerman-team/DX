@@ -26,20 +26,20 @@ I8="$9"
 
 if [ "$1" = "start" ]; then
   echo "Starting..."
-  sudo docker compose -f docker-compose.monitoring.yml up -d $I1 $I2 $I3 $I4 $I5 $I6 $I7 $I8
+  sudo docker compose -f ./monitoring/docker-compose.yaml up -d $I1 $I2 $I3 $I4 $I5 $I6 $I7 $I8
   echo "Done."
 elif [ "$1" = "restart" ]; then
   echo "Starting..."
-  sudo docker compose -f docker-compose.monitoring.yml down
-  sudo docker compose -f docker-compose.monitoring.yml up -d $I1 $I2 $I3 $I4 $I5 $I6 $I7 $I8
+  sudo docker compose -f ./monitoring/docker-compose.yaml down
+  sudo docker compose -f ./monitoring/docker-compose.yaml up -d $I1 $I2 $I3 $I4 $I5 $I6 $I7 $I8
   echo "Done."
 elif [ "$1" = "stop" ]; then
   echo "Starting..."
-  sudo docker compose -f docker-compose.monitoring.yml down
+  sudo docker compose -f ./monitoring/docker-compose.yaml down
   echo "Done."
 elif [ "$1" = "dev" ]; then
   echo "Starting..."
-  sudo docker compose -f docker-compose.monitoring.yml up $I1 $I2 $I3 $I4 $I5 $I6 $I7 $I8
+  sudo docker compose -f ./monitoring/docker-compose.yaml up $I1 $I2 $I3 $I4 $I5 $I6 $I7 $I8
   echo "Done."
 else
   echo "Invalid mode. Use 'start', 'restart', 'stop' or 'dev'."
