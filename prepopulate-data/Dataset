@@ -1,0 +1,14 @@
+{
+  "_id": {
+    "$oid": "64f9e7c41ecd970069309b0a"
+  },
+  "name": "City population data",
+  "description": "Sample dataset containing city population data",
+  "public": false,
+  "category": "General",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1694099396812"
+    }
+  }
+}

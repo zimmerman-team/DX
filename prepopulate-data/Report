@@ -1,0 +1,68 @@
+{
+  "_id": {
+    "$oid": "64f9e8481ecd970069309b0c"
+  },
+  "name": "Exploring Global Population Data",
+  "showHeader": true,
+  "title": "From Continents to Cities",
+  "subTitle": {
+    "blocks": [
+      {
+        "key": "4198s",
+        "text": "Dive into the fascinating world of population statistics as we take you on a journey from the broadest geographic divisions down to the bustling cities. Explore the population numbers of continents, discover the diversity of countries, and zoom in to explore the demographics of cities around the world. Gain insights into how populations vary across different scales and regions, and uncover interesting trends and facts about the world's inhabitants.",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ],
+    "entityMap": {}
+  },
+  "rows": [
+    {
+      "structure": "oneByTwo",
+      "items": [
+        "64f9e7ef1ecd970069309b0b",
+        {
+          "blocks": [
+            {
+              "key": "e5t5l",
+              "text": "This chart shows the population per continent, then country, then city.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        }
+      ],
+      "contentWidths": {
+        "id": "23960c23-24e5-4932-b967-8fe20142ec8e",
+        "widths": [
+          50,
+          50
+        ]
+      },
+      "contentHeights": {
+        "id": "23960c23-24e5-4932-b967-8fe20142ec8e",
+        "heights": [
+          420,
+          420
+        ]
+      }
+    }
+  ],
+  "public": false,
+  "backgroundColor": "#252c34",
+  "titleColor": "#ffffff",
+  "descriptionColor": "#ffffff",
+  "dateColor": "#ffffff",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1694099528372"
+    }
+  }
+}

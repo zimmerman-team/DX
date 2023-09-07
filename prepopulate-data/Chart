@@ -1,0 +1,69 @@
+{
+  "_id": {
+    "$oid": "64f9e7ef1ecd970069309b0b"
+  },
+  "name": "City population",
+  "public": false,
+  "vizType": "echartsTreemap",
+  "datasetId": {
+    "$oid": "64f9e7c41ecd970069309b0a"
+  },
+  "mapping": {
+    "hierarchy": {
+      "ids": [
+        "3",
+        "4",
+        "5"
+      ],
+      "value": [
+        "Continent",
+        "Country",
+        "City"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "size": {
+      "ids": [
+        "6"
+      ],
+      "value": [
+        "Population"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "vizOptions": {
+    "width": 1009,
+    "height": 1104,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "nodeClick": "link",
+    "showLabels": true,
+    "showBreadcrumbs": true,
+    "upperLabel": true,
+    "showTooltip": true,
+    "isMonetaryValue": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "City",
+    "Continent",
+    "Country",
+    "Population"
+  ],
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1694099439140"
+    }
+  }
+}
