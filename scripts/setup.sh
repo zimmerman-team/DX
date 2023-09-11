@@ -58,4 +58,11 @@ else
   echo "Skipping NGINX."
 fi
 
+if ask_for_confirmation "Do you want to set up a connection to Kaggle?"; then
+  sudo bash ./scripts/setup/setup_kaggle.sh
+else
+  touch ./dx.backend/kaggle.json
+  echo "Skipping Kaggle Setup."
+fi
+
 echo "Setup script is done, please set up your env, and run 'bash ./scripts/build.sh <MODE>' to build and start the project."
