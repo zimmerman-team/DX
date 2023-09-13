@@ -6,11 +6,15 @@ git submodule update
 cd rawgraphs-charts
 yarn install
 yarn build
+yarn link
 cd ..
 npm i -g webpack-cli
 npm i -g webpack
 cd dx.server
+# Ensure .env is available for the execSync index of the chart rendering
+RUN echo "PARSED_DATA_FILES_PATH='$PWD/dx.backend/parsed-data-files/'" > .env
 yarn initialise-server
+rm .env
 cd ..
 cp ./monitoring/.env.example ./monitoring/.env
 cp ./.env.example ./.env.dev
