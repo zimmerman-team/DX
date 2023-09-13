@@ -18,7 +18,7 @@ fi
 MODE="$1"
 # if $MODE is not dev, test, staging or prod, then exit
 if [ "$MODE" != "dev" ] && [ "$MODE" != "test" ] && [ "$MODE" != "staging" ] && [ "$MODE" != "prod" ]; then
-  echo "Invalid mode. Use 'dev', 'test', 'staging' or 'prod'."
+  echo "Invalid mode. Use 'dev', 'test', 'staging' or 'prod'. With: bash $0 [dev|test|staging|prod] [service name (optional) (up to 5 service names)]"
   exit 1
 fi
 
