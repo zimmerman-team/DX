@@ -12,12 +12,13 @@ $1
 }
 
 print_status "Installing NVM and its prerequisites."
+sudo apt update -y
 sudo apt -y install gcc g++ make
 sudo apt install gnupg2 -y
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
-source ~/.bashrc
 
 print_status "Installing NodeJS v16 with npm."
+source ~/.bashrc
 nvm install 16
 
 print_status "Installing Yarn."

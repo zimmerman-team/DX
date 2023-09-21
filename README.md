@@ -7,6 +7,8 @@ This contains all the repositories required to run the DX project as submodules.
 DataXplorer is an AI-powered purpose-driven data exploration solution built with the
 goal of making the visual representation of data easy and powerful for everyone.
 
+To get started immediately, run `. scripts/setup.sh`. _Note, the . is important to ensure the context of the build scripts is correct._
+
 ### Mission
 Our mission is to create lasting impact for organizations that bring positive change to our world by helping them to unlock the power of data.
 
@@ -127,6 +129,8 @@ These scripts are provided in the ./scripts/ directory:
 - monitoring.sh
 
 They take an argument: `dev | test | staging | prod`
+
+To get started immediately, run `. scripts/setup.sh`. _Note, the . is important to ensure the context of the build scripts is correct._
 
 You can setup and run the project in no-time. This is based on docker, so make sure it is [installed](./docs/DOCKER.md#installing-docker).
 

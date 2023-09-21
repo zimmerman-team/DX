@@ -49,6 +49,8 @@ MONGO_INITDB_ROOT_PASSWORD=$(grep -E "^MONGO_INITDB_ROOT_PASSWORD=" ".env.$MODE"
 sudo docker cp ./prepopulate-data/Chart "$CONTAINER_ID":/Chart
 sudo docker cp ./prepopulate-data/Report "$CONTAINER_ID":/Report
 sudo docker cp ./prepopulate-data/Dataset "$CONTAINER_ID":/Dataset
+echo "Waiting for MongoDB to be available..."
+sleep 10 # wait for mongodb to start
 sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Chart --file /Chart
 sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Report --file /Report
 sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Dataset --file /Dataset

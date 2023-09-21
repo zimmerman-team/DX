@@ -69,9 +69,9 @@ sed -i 's/BACKEND_SUBDOMAIN=backend/BACKEND_SUBDOMAIN=/g' ./.env.dev
 sed -i 's/BACKEND_SUBDOMAIN=backend/BACKEND_SUBDOMAIN=backend-test/g' ./.env.test
 sed -i 's/BACKEND_SUBDOMAIN=backend/BACKEND_SUBDOMAIN=backend-staging/g' ./.env.staging
 
-sed -i 's/ENV_TYPE=backend/ENV_TYPE=dev/g' ./.env.dev
-sed -i 's/ENV_TYPE=backend/ENV_TYPE=test/g' ./.env.test
-sed -i 's/ENV_TYPE=backend/ENV_TYPE=staging/g' ./.env.staging
+sed -i 's/ENV_TYPE=/ENV_TYPE=dev/g' ./.env.dev
+sed -i 's/ENV_TYPE=/ENV_TYPE=test/g' ./.env.test
+sed -i 's/ENV_TYPE=/ENV_TYPE=staging/g' ./.env.staging
 
 print_status "Done... (By default, .env has been symlinked to .env.prod.)
 Please update the .env files with their correct values,
