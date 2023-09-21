@@ -1,7 +1,21 @@
 #!/bin/bash
 
-echo "Setting up Kaggle..."
-echo "You need to supply your username and key. They can be found here: https://www.kaggle.com/settings/account, please hit 'create new token' under API, and then copy the username and key into the prompts below."
+print_status() {
+    echo "
+
+======================================================
+                     Status Update
+------------------------------------------------------
+$1
+======================================================
+"
+}
+
+print_status "Setting up Kaggle...
+You need to supply your username and key.
+They can be found here: https://www.kaggle.com/settings/account,
+please hit 'create new token' under API,
+and then copy the username and key into the prompts below."
 
 touch ./dx.backend/kaggle.json
 

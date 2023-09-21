@@ -28,36 +28,48 @@ ask_for_confirmation() {
   esac
 }
 
+echo ""
+echo ""
 if ask_for_confirmation "Do you want to install NodeJS v16, npm and yarn?"; then
   sudo bash ./scripts/setup/install_node.sh
 else
   echo "Skipping NodeJS, npm and yarn installation."
 fi
 
+echo ""
+echo ""
 if ask_for_confirmation "Do you want to install Docker?"; then
   sudo bash ./scripts/setup/install_docker.sh
 else
   echo "Skipping Docker installation."
 fi
 
+echo ""
+echo ""
 if ask_for_confirmation "Do you want to initialise the submodules?"; then
   sudo bash ./scripts/setup/install_submodules.sh
 else
   echo "Skipping the submodules."
 fi
 
+echo ""
+echo ""
 if ask_for_confirmation "Do you want to prepopulate your DX with our base data?"; then
   sudo bash ./scripts/setup/install_base_data.sh
 else
   echo "Skipping prepopulating."
 fi
 
+echo ""
+echo ""
 if ask_for_confirmation "Do you want to install NGINX with SSL enabled?"; then
   sudo bash ./scripts/setup/install_nginx.sh
 else
   echo "Skipping NGINX."
 fi
 
+echo ""
+echo ""
 if ask_for_confirmation "Do you want to set up a connection to Kaggle?"; then
   sudo bash ./scripts/setup/setup_kaggle.sh
 else
@@ -65,4 +77,6 @@ else
   echo "Skipping Kaggle Setup."
 fi
 
-echo "Setup script is done, please set up your env, and run 'bash ./scripts/build.sh <MODE>' to build and start the project."
+echo ""
+echo ""
+echo "Setup script is done, please set up your env, and run 'bash ./scripts/build.sh <MODE>' to build the project."

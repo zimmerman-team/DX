@@ -23,8 +23,8 @@ if [ "$MODE" != "dev" ] && [ "$MODE" != "test" ] && [ "$MODE" != "staging" ] && 
 fi
 
 # copy all files from ./prepopulate-data/parsed-data-files to ./dx.backend/parsed-data-files
-cp -r ./prepopulate-data/parsed-data-files ./dx.backend/parsed-data-files
-cp -r ./prepopulate-data/sample-data-files ./dx.backend/sample-data-files
+cp -r ./prepopulate-data/parsed-data-files ./dx.backend/
+cp -r ./prepopulate-data/sample-data-files ./dx.backend/
 
 # Assign dx-mongo to $CONTAINER_ID
 SERVICE_ID="mongo"
@@ -49,8 +49,8 @@ MONGO_INITDB_ROOT_PASSWORD=$(grep -E "^MONGO_INITDB_ROOT_PASSWORD=" ".env.$MODE"
 sudo docker cp ./prepopulate-data/Chart "$CONTAINER_ID":/Chart
 sudo docker cp ./prepopulate-data/Report "$CONTAINER_ID":/Report
 sudo docker cp ./prepopulate-data/Dataset "$CONTAINER_ID":/Dataset
-sudo docker exec -it $CONTAINER_ID mongoimport  --username $MONGO_INITDB_ROOT_USERNAME --password $MONGO_INITDB_ROOT_PASSWORD --authenticationDatabase admin --db the-data-explorer-db --collection Chart --file /Chart
-sudo docker exec -it $CONTAINER_ID mongoimport  --username $MONGO_INITDB_ROOT_USERNAME --password $MONGO_INITDB_ROOT_PASSWORD --authenticationDatabase admin --db the-data-explorer-db --collection Report --file /Report
-sudo docker exec -it $CONTAINER_ID mongoimport  --username $MONGO_INITDB_ROOT_USERNAME --password $MONGO_INITDB_ROOT_PASSWORD --authenticationDatabase admin --db the-data-explorer-db --collection Dataset --file /Dataset
+sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Chart --file /Chart
+sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Report --file /Report
+sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Dataset --file /Dataset
 
 echo "Prepolulating data is done."

@@ -1,5 +1,16 @@
 #!/bin/bash
 
+print_status() {
+    echo "
+
+======================================================
+                     Status Update
+------------------------------------------------------
+$1
+======================================================
+"
+}
+
 # Function to prompt user for Y/n choice
 ask_for_confirmation() {
   read -rp "$1 (Y/n): " choice
@@ -16,7 +27,8 @@ ask_for_confirmation() {
   esac
 }
 
-echo "We will ask you for each of [dev | test | staging | prod] if you want to prepopulate data for that environment."
+print_status "We will ask you for each of [dev | test | staging | prod]
+if you want to prepopulate data for that environment."
 if ask_for_confirmation "Do you want to Prepopulate data for the DEV environment?"; then
   echo "Please update the .env.dev file with the correct values before running this script. We will open the file for you in 3 seconds"
   sleep 3

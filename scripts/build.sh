@@ -38,14 +38,17 @@ elif [ "$MODE" = "prod" ]; then
   sudo rm .env
   sudo ln .env.prod .env
   sudo docker compose build $I1 $I2 $I3 $I4 $I5
+  cp -r ./dx.client/prod /var/www/html/
 elif [ "$MODE" = "staging" ]; then
   sudo rm .env
   sudo ln .env.staging .env
   sudo docker compose -f docker-compose.staging.yml build $I1 $I2 $I3 $I4 $I5
+  cp -r ./dx.client/staging /var/www/html/
 elif [ "$MODE" = "test" ]; then
   sudo rm .env
   sudo ln .env.test .env
   sudo docker compose -f docker-compose.test.yml build $I1 $I2 $I3 $I4 $I5
+  cp -r ./dx.client/test /var/www/html/
 else
   echo "Invalid mode. Use 'dev', 'test', 'staging' or 'prod'."
   exit 1

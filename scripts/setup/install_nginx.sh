@@ -16,11 +16,22 @@ ask_for_confirmation() {
   esac
 }
 
-echo "Installing NGINX..."
+print_status() {
+    echo "
+
+======================================================
+                     Status Update
+------------------------------------------------------
+$1
+======================================================
+"
+}
+
+print_status "Installing NGINX..."
 sudo apt update
 sudo apt install nginx -y
 
-echo "Installing certbot..."
+print_status "Installing certbot..."
 sudo apt install software-properties-common -y
 sudo add-apt-repository universe -y
 sudo apt-get update -y
@@ -28,7 +39,8 @@ sudo apt-get install certbot python3-certbot-nginx -y
 
 # Configure nginx
 # sudo cp ./nginx/default /etc/nginx/sites-available/default
-echo "We will ask you for each of [test | staging | prod] if you want to create an NGINX configuration for that environment."
+print_status "We will ask you for each of [test | staging | prod]
+if you want to create an NGINX configuration for that environment."
 # Function to configure NGINX for a given environment
 configure_nginx() {
   local config_name="$1"
@@ -39,25 +51,27 @@ configure_nginx() {
   if ask_for_confirmation "Do you want to create an NGINX configuration for the $config_name environment?"; then
     mkdir $PWD/dx.client/$config_name/build # ensure an initual build folder exists to prevent nginx from crashing
     sudo cp ./scripts/setup/nginx_host_machine/base_app "/etc/nginx/sites-available/$config_name-app"
-    sudo cp ./scripts/setup/nginx_host_machine/base_app "/etc/nginx/sites-available/$config_name-server"
+    sudo cp ./scripts/setup/nginx_host_machine/base_server "/etc/nginx/sites-available/$config_name-server"
 
     read -rp "What is the base URL for the $config_name environment (without app. or server.)?: " url_var
-    sudo sed -i "s/REPL_URL/${!url_var}/g" "/etc/nginx/sites-available/$config_name-app"
-    sudo sed -i "s#REPL_ROOT#$PWD/dx.client/$config_name/build#g" "/etc/nginx/sites-available/$config_name-app"
-    sudo sed -i "s/REPL_URL/${!url_var}/g" "/etc/nginx/sites-available/$config_name-server"
-    sudo sed -i "s/REPL_PORT/${!port_var}/g" "/etc/nginx/sites-available/$config_name-server"
+    sudo sed -i "s/REPL_URL/$url_var/g" "/etc/nginx/sites-available/$config_name-app"
+    sudo sed -i "s#REPL_ROOT#/var/www/html/$config_name/build#g" "/etc/nginx/sites-available/$config_name-app"
+    sudo sed -i "s/REPL_URL/$url_var/g" "/etc/nginx/sites-available/$config_name-server"
+    sudo sed -i "s/REPL_PORT/$port_var/g" "/etc/nginx/sites-available/$config_name-server"
 
     sudo ln -s "/etc/nginx/sites-available/$config_name-app" /etc/nginx/sites-enabled/
     sudo ln -s "/etc/nginx/sites-available/$config_name-server" /etc/nginx/sites-enabled/
   fi
 }
-configure_nginx "TEST" "test_url" "test_root" "4202"
-configure_nginx "STAGING" "staging_url" "staging_root" "4201"
-configure_nginx "PROD" "prod_url" "prod_root" "4200"
+configure_nginx "test" "test_url" "test_root" "4202"
+configure_nginx "staging" "staging_url" "staging_root" "4201"
+configure_nginx "prod" "prod_url" "prod_root" "4200"
 
 # Restart nginx
+print_status "Restarting NGINX..."
 sudo service nginx restart
 
+print_status "Setting up SSL certificates..."
 if ask_for_confirmation "Do you want to set up SSL certificates for your domains?"; then
   # Set up the ssl certificate, this will require some user input.
   echo "Setting up SSL certificates..."
@@ -72,4 +86,4 @@ if ask_for_confirmation "Do you want to set up SSL certificates for your domains
   rm "$temp_cron_file"
 fi
 
-echo "Done."
+print_status "Done installing NGINX."

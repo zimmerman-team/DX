@@ -19,7 +19,7 @@ services:
     container_name: dx-server-staging
     restart: always
     build: ./dx.server
-    image: dx-server
+    image: dx-server-staging
     environment:
       - MONGO_HOST=${MONGO_HOST}
       - MONGO_USERNAME=${MONGO_USERNAME}
@@ -43,7 +43,7 @@ services:
     restart: always
     build: 
       context: ./dx.backend
-    image: dx-backend
+    image: dx-backend-staging
     environment:
       - DATA_EXPLORER_SSR=${DATA_EXPLORER_SSR}
     ports:
@@ -70,7 +70,7 @@ services:
       dockerfile: Dockerfile.staging
       args:
         - REACT_APP_API=${REACT_APP_API}
-    image: dx-client
+    image: dx-client-staging
     ports:
       - 81:80
     depends_on:
