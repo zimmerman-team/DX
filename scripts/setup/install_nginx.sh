@@ -52,15 +52,18 @@ configure_nginx() {
     mkdir $PWD/dx.client/$config_name/build # ensure an initual build folder exists to prevent nginx from crashing
     sudo cp ./scripts/setup/nginx_host_machine/base_app "/etc/nginx/sites-available/$config_name-app"
     sudo cp ./scripts/setup/nginx_host_machine/base_server "/etc/nginx/sites-available/$config_name-server"
+    sudo cp ./scripts/setup/nginx_host_machine/base_monitoring "/etc/nginx/sites-available/$config_name-monitoring"
 
     read -rp "What is the base URL for the $config_name environment (without app. or server.)?: " url_var
     sudo sed -i "s/REPL_URL/$url_var/g" "/etc/nginx/sites-available/$config_name-app"
     sudo sed -i "s#REPL_ROOT#/var/www/html/$config_name/build#g" "/etc/nginx/sites-available/$config_name-app"
     sudo sed -i "s/REPL_URL/$url_var/g" "/etc/nginx/sites-available/$config_name-server"
+    sudo sed -i "s/REPL_URL/$url_var/g" "/etc/nginx/sites-available/$config_name-monitoring"
     sudo sed -i "s/REPL_PORT/$port_var/g" "/etc/nginx/sites-available/$config_name-server"
 
     sudo ln -s "/etc/nginx/sites-available/$config_name-app" /etc/nginx/sites-enabled/
     sudo ln -s "/etc/nginx/sites-available/$config_name-server" /etc/nginx/sites-enabled/
+    sudo ln -s "/etc/nginx/sites-available/$config_name-monitoring" /etc/nginx/sites-enabled/
   fi
 }
 configure_nginx "test" "test_url" "test_root" "4202"

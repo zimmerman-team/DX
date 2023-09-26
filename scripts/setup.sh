@@ -79,4 +79,12 @@ fi
 
 echo ""
 echo ""
+if ask_for_confirmation "Do you want to set up the Monitoring environment?"; then
+  . ./scripts/setup/setup_monitoring.sh
+else
+  echo "Skipping Monitoring Setup."
+fi
+
+echo ""
+echo ""
 echo "Setup script is done, please set up your env, and run 'bash ./scripts/build.sh <MODE>' to build the project."
