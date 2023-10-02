@@ -29,25 +29,32 @@ I3="$4"
 I4="$5"
 I5="$6"
 
+sudo rm -f .env
+sudo ln .env.$MODE .env
+
+# create a compressed backup of the previous deployed build
+if [ "$MODE" != "dev" ]; then
+  directory_to_compress="/var/www/html/$MODE"
+  current_date=$(date +'%Y%m%d')
+  if [ -d "$directory_to_compress" ]; then
+    tar -cJvf "${directory_to_compress##*/}_${current_date}.tar.xz" "$directory_to_compress"
+  fi
+fi
+
 # Check the value of the provided argument and run the appropriate command
 if [ "$MODE" = "dev" ]; then
-  sudo rm .env
-  sudo ln .env.dev .env
   sudo docker compose -f docker-compose.dev.yml build $I1 $I2 $I3 $I4 $I5
 elif [ "$MODE" = "prod" ]; then
-  sudo rm .env
-  sudo ln .env.prod .env
   sudo docker compose build $I1 $I2 $I3 $I4 $I5
+  rm -rf /var/www/html/prod
   cp -r ./dx.client/prod /var/www/html/
 elif [ "$MODE" = "staging" ]; then
-  sudo rm .env
-  sudo ln .env.staging .env
   sudo docker compose -f docker-compose.staging.yml build $I1 $I2 $I3 $I4 $I5
+  rm -rf /var/www/html/staging
   cp -r ./dx.client/staging /var/www/html/
 elif [ "$MODE" = "test" ]; then
-  sudo rm .env
-  sudo ln .env.test .env
   sudo docker compose -f docker-compose.test.yml build $I1 $I2 $I3 $I4 $I5
+  rm -rf /var/www/html/test
   cp -r ./dx.client/test /var/www/html/
 else
   echo "Invalid mode. Use 'dev', 'test', 'staging' or 'prod'."

@@ -29,22 +29,17 @@ I3="$4"
 I4="$5"
 I5="$6"
 
+sudo rm -f .env
+sudo ln .env.$MODE .env
+
 # Check the value of the provided argument and run the appropriate command
 if [ "$MODE" = "dev" ]; then
-  sudo rm -f .env
-  sudo ln .env.dev .env
   sudo docker compose -f docker-compose.dev.yml up $I1 $I2 $I3 $I4 $I5
 elif [ "$MODE" = "prod" ]; then
-  sudo rm -f .env
-  sudo ln .env.prod .env
   sudo docker compose up -d $I1 $I2 $I3 $I4 $I5
 elif [ "$MODE" = "staging" ]; then
-  sudo rm -f .env
-  sudo ln .env.staging .env
   sudo docker compose -f docker-compose.staging.yml up -d $I1 $I2 $I3 $I4 $I5
 elif [ "$MODE" = "test" ]; then
-  sudo rm -f .env
-  sudo ln .env.test .env
   sudo docker compose -f docker-compose.test.yml up -d $I1 $I2 $I3 $I4 $I5
 else
   echo "Invalid mode. Use 'dev', 'test', 'staging' or 'prod'."
