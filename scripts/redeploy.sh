@@ -149,7 +149,7 @@ else
 fi
 
 echo "Restarting services..."
-./scripts/stop.sh $MODE
-./scripts/start.sh $MODE -d
+. ./scripts/stop.sh $MODE
+. ./scripts/start.sh $MODE -d
 
 echo "Redeployment script is done. Services have been rebuilt and restarted."
