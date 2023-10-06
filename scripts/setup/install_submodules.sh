@@ -45,6 +45,7 @@ cp ./.env.example ./.env.prod
 cp ./.env.example ./.env.staging
 cp ./.env.example ./.env.test
 ln -s ./.env.prod ./.env
+touch ./dx.backend/kaggle.json
 
 # update the .env files with their correct values
 # string replace .env.dev `REACT_APP_API=http://server.dx/`` with `REACT_APP_API=http://localhost:4200`
