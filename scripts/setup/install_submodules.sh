@@ -18,7 +18,7 @@ git submodule update
 
 print_status "Installing and linking rawgraphs-charts."
 cd rawgraphs-charts
-yarn install
+yarn install --network-timeout 100000
 yarn build
 yarn link
 cd ..
@@ -29,10 +29,10 @@ npm i -g webpack
 cd dx.server
 # Ensure .env is available for the execSync index of the chart rendering
 echo "PARSED_DATA_FILES_PATH='$PWD/dx.backend/parsed-data-files/'" > .env
-yarn install
+yarn install --network-timeout 100000
 # install renderChart package
 cd src/utils/renderChart
-yarn install
+yarn install --network-timeout 100000
 cd ../../../
 yarn initialise-server
 rm .env

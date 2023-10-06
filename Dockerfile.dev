@@ -6,7 +6,7 @@ RUN apk update && apk add bash
 # Install and link the charts
 WORKDIR /app/charts/
 COPY ./rawgraphs-charts ./
-RUN yarn install
+RUN yarn install --network-timeout 100000
 RUN yarn build
 RUN yarn link
 
@@ -17,7 +17,7 @@ WORKDIR /app/client
 COPY ./dx.client ./
 
 # Install the project dependencies and link the charts
-RUN yarn link "@rawgraphs/rawgraphs-charts" && yarn install
+RUN yarn link "@rawgraphs/rawgraphs-charts" && yarn install --network-timeout 100000
 
 # Start the development server
 CMD ["yarn", "docker"]
