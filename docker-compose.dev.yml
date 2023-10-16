@@ -28,6 +28,8 @@ services:
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - MONGO_AUTH_SOURCE=${MONGO_AUTH_SOURCE}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN}
+      - AUTH0_AUDIENCE=${AUTH0_AUDIENCE}
       - ENV_TYPE=${ENV_TYPE}
     ports:
       - 4200:4200
@@ -40,7 +42,7 @@ services:
   backend-dev:
     container_name: dx-backend-dev
     restart: always
-    build: 
+    build:
       context: ./dx.backend
     image: dx-backend-dev
     environment:
@@ -74,6 +76,9 @@ services:
       - REACT_APP_CMS_API=${REACT_APP_CMS_API}
       - REACT_APP_GOOGLE_API_CLIENT_ID=${REACT_APP_GOOGLE_API_CLIENT_ID}
       - REACT_APP_GOOGLE_API_DEV_KEY=${REACT_APP_GOOGLE_API_DEV_KEY}
+      - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
+      - REACT_APP_AUTH0_CLIENT=${REACT_APP_AUTH0_CLIENT}
+      - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
     env_file:
       - .env
 
