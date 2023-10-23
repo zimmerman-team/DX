@@ -30,6 +30,7 @@ services:
       - AUTH0_DOMAIN=${AUTH0_DOMAIN}
       - AUTH0_AUDIENCE=${AUTH0_AUDIENCE}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+      - ENV_TYPE=${ENV_TYPE}
     ports:
       - 4200:4200
     depends_on:
