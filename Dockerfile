@@ -30,38 +30,4 @@ RUN yarn install
 RUN yarn build
 RUN yarn docker-prod
 
-# NGINX SETUP
-FROM nginx:latest
-
-# Environment variables used by the nginx config
-ARG MAIN_DOMAIN
-ARG APP_SUBDOMAIN
-ARG API_SUBDOMAIN
-ARG BACKEND_SUBDOMAIN
-
-WORKDIR /app
-
-# Copy the NGINX config files
-COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
-COPY ./nginx/hostfile /etc/hosts
-COPY ./nginx/proxy_params /etc/nginx/proxy_params
-COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
-
-# client
-#    reference to client             client-image      local-image
-COPY --from=client /app/client/build /app/frontend/build
-COPY ./nginx/sites-enabled/client  /etc/nginx/sites-enabled/client
-RUN sed -i "s|MAIN_DOMAIN|${MAIN_DOMAIN}|g" /etc/nginx/sites-enabled/client
-RUN sed -i "s|APP_SUBDOMAIN|${APP_SUBDOMAIN}|g" /etc/nginx/sites-enabled/client
-
-# server
-COPY ./nginx/sites-enabled/server  /etc/nginx/sites-enabled/server
-RUN sed -i "s|MAIN_DOMAIN|${MAIN_DOMAIN}|g" /etc/nginx/sites-enabled/server
-RUN sed -i "s|API_SUBDOMAIN|${API_SUBDOMAIN}|g" /etc/nginx/sites-enabled/server
-
-# backend
-COPY ./nginx/sites-enabled/backend  /etc/nginx/sites-enabled/backend
-RUN sed -i "s|MAIN_DOMAIN|${MAIN_DOMAIN}|g" /etc/nginx/sites-enabled/backend
-RUN sed -i "s|BACKEND_SUBDOMAIN|${BACKEND_SUBDOMAIN}|g" /etc/nginx/sites-enabled/backend
-
-# Done, starting NGINX
+CMD ["yarn", "docker-prod"]
