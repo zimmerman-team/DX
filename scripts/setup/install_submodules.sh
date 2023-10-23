@@ -17,6 +17,7 @@ git submodule init
 git submodule update
 
 print_status "Installing and linking rawgraphs-charts."
+nvm use 16
 cd rawgraphs-charts
 yarn install --network-timeout 100000
 yarn build
