@@ -27,7 +27,10 @@ services:
       - MONGO_AUTH_SOURCE=${MONGO_AUTH_SOURCE}
       - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
       - MAIN_DOMAIN=${MAIN_DOMAIN}
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN}
+      - AUTH0_AUDIENCE=${AUTH0_AUDIENCE}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+      - ENV_TYPE=${ENV_TYPE}
     ports:
       - 4200:4200
     depends_on:
@@ -40,7 +43,7 @@ services:
   backend:
     container_name: dx-backend
     restart: always
-    build: 
+    build:
       context: ./dx.backend
     image: dx-backend
     environment:
@@ -64,7 +67,7 @@ services:
   frontend:
     container_name: dx-frontend
     restart: always
-    build: 
+    build:
       context: .
       args:
         - MAIN_DOMAIN=${MAIN_DOMAIN}
@@ -74,9 +77,12 @@ services:
         - REACT_APP_API=${REACT_APP_API}
         - REACT_APP_GOOGLE_API_CLIENT_ID=${REACT_APP_GOOGLE_API_CLIENT_ID}
         - REACT_APP_GOOGLE_API_DEV_KEY=${REACT_APP_GOOGLE_API_DEV_KEY}
+        - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
+        - REACT_APP_AUTH0_CLIENT=${REACT_APP_AUTH0_CLIENT}
+        - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
     image: dx-client
     ports:
-      - 80:80
+      - 81:80
     depends_on:
       - server
       - backend
@@ -87,6 +93,9 @@ services:
       - REACT_APP_CMS_API=${REACT_APP_CMS_API}
       - REACT_APP_GOOGLE_API_CLIENT_ID=${REACT_APP_GOOGLE_API_CLIENT_ID}
       - REACT_APP_GOOGLE_API_DEV_KEY=${REACT_APP_GOOGLE_API_DEV_KEY}
+      - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
+      - REACT_APP_AUTH0_CLIENT=${REACT_APP_AUTH0_CLIENT}
+      - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
     env_file:
       - .env
     deploy:
