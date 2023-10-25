@@ -28,6 +28,5 @@ COPY ./dx.client ./
 RUN yarn link "@rawgraphs/rawgraphs-charts"
 RUN yarn install
 RUN yarn build
-RUN yarn docker-prod
 
 CMD ["yarn", "docker-prod"]
