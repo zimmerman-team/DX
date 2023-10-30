@@ -66,6 +66,8 @@ services:
     volumes:
       # path to be changed in deployment, this path assumes as part of DX central repo
       - ./dx.backend/parsed-data-files:/parsed-data-files
+    ports:
+      - 5000:5000
     env_file:
       - .env
 
