@@ -57,6 +57,18 @@ services:
       - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
       - ./dx.backend/sample-data-files/:/app/sample-data-files/
 
+  ai-api-dev:
+    container_name: dx-ai-api-dev
+    build:
+      context: ./general-ai-api
+    image: dx-ai-api-dev
+    command: gunicorn --bind 0.0.0.0:5000 manage:app
+    volumes:
+      # path to be changed in deployment, this path assumes as part of DX central repo
+      - ./dx.backend/parsed-data-files:/parsed-data-files
+    env_file:
+      - .env
+
   frontend-dev:
     container_name: dx-dev
     restart: always

@@ -64,6 +64,20 @@ services:
         limits:
           memory: 8G
 
+  ai-api-test:
+    container_name: dx-ai-api-test
+    build:
+      context: ./general-ai-api
+    image: dx-ai-api-test
+    command: gunicorn --bind 0.0.0.0:5000 manage:app
+    volumes:
+      # path to be changed in deployment, this path assumes as part of DX central repo
+      - ./dx.backend/parsed-data-files:/parsed-data-files
+    ports:
+      - 5000:5000
+    env_file:
+      - .env
+
   frontend-test:
     container_name: dx-frontend-test
     restart: always
