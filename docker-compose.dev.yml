@@ -56,6 +56,7 @@ services:
       - ./dx.backend/logging/:/app/logging/
       - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
       - ./dx.backend/sample-data-files/:/app/sample-data-files/
+      - ./dx.backend/services/:/app/services/
 
   ai-api-dev:
     container_name: dx-ai-api-dev
@@ -93,8 +94,6 @@ services:
       - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
       - REACT_APP_AUTH0_CLIENT=${REACT_APP_AUTH0_CLIENT}
       - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
-      - REACT_APP_HUBSPOT_PORTAL_ID=${REACT_APP_HUBSPOT_PORTAL_ID}
-      - REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID=${REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID}
     env_file:
       - .env
 
