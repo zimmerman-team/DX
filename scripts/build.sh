@@ -46,16 +46,25 @@ if [ "$MODE" = "dev" ]; then
   sudo docker compose -f docker-compose.dev.yml build $I1 $I2 $I3 $I4 $I5
 elif [ "$MODE" = "prod" ]; then
   sudo docker compose build $I1 $I2 $I3 $I4 $I5
+  sudo docker compose up -d frontend
+  sleep 3 # wait for the frontend to be mounted
   rm -rf /var/www/html/prod
   cp -r ./dx.client/prod /var/www/html/
+  sudo docker compose down
 elif [ "$MODE" = "staging" ]; then
   sudo docker compose -f docker-compose.staging.yml build $I1 $I2 $I3 $I4 $I5
+  sudo docker compose -f docker-compose.staging.yml up -d frontend-staging
+  sleep 3 # wait for the frontend to be mounted
   rm -rf /var/www/html/staging
   cp -r ./dx.client/staging /var/www/html/
+  sudo docker compose -f docker-compose.staging.yml down
 elif [ "$MODE" = "test" ]; then
   sudo docker compose -f docker-compose.test.yml build $I1 $I2 $I3 $I4 $I5
+  sudo docker compose -f docker-compose.staging.yml up -d frontend-test
+  sleep 3 # wait for the frontend to be mounted
   rm -rf /var/www/html/test
   cp -r ./dx.client/test /var/www/html/
+  sudo docker compose -f docker-compose.test.yml down
 else
   echo "Invalid mode. Use 'dev', 'test', 'staging' or 'prod'."
   exit 1
