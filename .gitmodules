@@ -13,3 +13,6 @@
 [submodule "monitoring"]
 	path = monitoring
 	url = https://github.com/zimmerman-team/Central-Logging.git
+[submodule "general-ai-api"]
+	path = general-ai-api
+	url = https://github.com/zimmerman-team/general-ai-api.git

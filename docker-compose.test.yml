@@ -28,6 +28,8 @@ services:
       - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
       - MAIN_DOMAIN=${MAIN_DOMAIN}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN}
+      - AUTH0_AUDIENCE=${AUTH0_AUDIENCE}
       - ENV_TYPE=${ENV_TYPE}
     ports:
       - 4202:4200
@@ -41,7 +43,7 @@ services:
   backend-test:
     container_name: dx-backend-test
     restart: always
-    build: 
+    build:
       context: ./dx.backend
     image: dx-backend-test
     environment:
@@ -54,13 +56,25 @@ services:
       - .env
     volumes:
       - ./dx.backend/staging/:/app/staging/
-      - ./dx.backend/logging/:/app/logging/	
-      - ./dx.backend/parsed-data-files/:/app/parsed-data-files/	
-      - ./dx.backend/sample-data-files/:/app/sample-data-files/	
-    deploy:	
-      resources:	
+      - ./dx.backend/logging/:/app/logging/
+      - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
+      - ./dx.backend/sample-data-files/:/app/sample-data-files/
+    deploy:
+      resources:
         limits:
           memory: 8G
+
+  ai-api-test:
+    container_name: dx-ai-api-test
+    build:
+      context: ./general-ai-api
+    image: dx-ai-api-test
+    command: gunicorn --bind 0.0.0.0:5000 manage:app
+    volumes:
+      # path to be changed in deployment, this path assumes as part of DX central repo
+      - ./dx.backend/parsed-data-files:/parsed-data-files
+    env_file:
+      - .env
 
   frontend-test:
     container_name: dx-frontend-test
@@ -70,6 +84,13 @@ services:
       dockerfile: Dockerfile.test
       args:
         - REACT_APP_API=${REACT_APP_API}
+        - REACT_APP_GOOGLE_API_CLIENT_ID=${REACT_APP_GOOGLE_API_CLIENT_ID}
+        - REACT_APP_GOOGLE_API_DEV_KEY=${REACT_APP_GOOGLE_API_DEV_KEY}
+        - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
+        - REACT_APP_AUTH0_CLIENT=${REACT_APP_AUTH0_CLIENT}
+        - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
+        - REACT_APP_HUBSPOT_PORTAL_ID=${REACT_APP_HUBSPOT_PORTAL_ID}
+        - REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID=${REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID}
     image: dx-client-test
     ports:
       - 82:80
@@ -81,6 +102,13 @@ services:
       - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
       - REACT_APP_MAPBOX_TOKEN=${REACT_APP_MAPBOX_TOKEN}
       - REACT_APP_CMS_API=${REACT_APP_CMS_API}
+      - REACT_APP_GOOGLE_API_CLIENT_ID=${REACT_APP_GOOGLE_API_CLIENT_ID}
+      - REACT_APP_GOOGLE_API_DEV_KEY=${REACT_APP_GOOGLE_API_DEV_KEY}
+      - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
+      - REACT_APP_AUTH0_CLIENT=${REACT_APP_AUTH0_CLIENT}
+      - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
+      - REACT_APP_HUBSPOT_PORTAL_ID=${REACT_APP_HUBSPOT_PORTAL_ID}
+      - REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID=${REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID}
     env_file:
       - .env
     deploy:

@@ -63,6 +63,8 @@ cd ..
     - We currently run the `main` branch.
 - [Monitoring](https://github.com/zimmerman-team/Central-Logging)
     - We currently run the `project/dx` branch.
+- [AI API](https://github.com/zimmerman-team/general-ai-api)
+    - We currently run the `main` branch.
 
 _Note: Some of these submodules might still be private, use your access token to access them if necessary._
 

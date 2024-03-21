@@ -17,8 +17,9 @@ git submodule init
 git submodule update
 
 print_status "Installing and linking rawgraphs-charts."
+nvm use 16
 cd rawgraphs-charts
-yarn install
+yarn install --network-timeout 100000
 yarn build
 yarn link
 cd ..
@@ -29,10 +30,10 @@ npm i -g webpack
 cd dx.server
 # Ensure .env is available for the execSync index of the chart rendering
 echo "PARSED_DATA_FILES_PATH='$PWD/dx.backend/parsed-data-files/'" > .env
-yarn install
+yarn install --network-timeout 100000
 # install renderChart package
 cd src/utils/renderChart
-yarn install
+yarn install --network-timeout 100000
 cd ../../../
 yarn initialise-server
 rm .env
@@ -45,6 +46,7 @@ cp ./.env.example ./.env.prod
 cp ./.env.example ./.env.staging
 cp ./.env.example ./.env.test
 ln -s ./.env.prod ./.env
+touch ./dx.backend/kaggle.json
 
 # update the .env files with their correct values
 # string replace .env.dev `REACT_APP_API=http://server.dx/`` with `REACT_APP_API=http://localhost:4200`
@@ -72,6 +74,7 @@ sed -i 's/BACKEND_SUBDOMAIN=backend/BACKEND_SUBDOMAIN=backend-staging/g' ./.env.
 sed -i 's/ENV_TYPE=/ENV_TYPE=dev/g' ./.env.dev
 sed -i 's/ENV_TYPE=/ENV_TYPE=test/g' ./.env.test
 sed -i 's/ENV_TYPE=/ENV_TYPE=staging/g' ./.env.staging
+sed -i 's/ENV_TYPE=/ENV_TYPE=prod/g' ./.env.prod
 
 print_status "Done... (By default, .env has been symlinked to .env.prod.)
 Please update the .env files with their correct values,

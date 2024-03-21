@@ -28,6 +28,8 @@ services:
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - MONGO_AUTH_SOURCE=${MONGO_AUTH_SOURCE}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN}
+      - AUTH0_AUDIENCE=${AUTH0_AUDIENCE}
       - ENV_TYPE=${ENV_TYPE}
     ports:
       - 4200:4200
@@ -40,7 +42,7 @@ services:
   backend-dev:
     container_name: dx-backend-dev
     restart: always
-    build: 
+    build:
       context: ./dx.backend
     image: dx-backend-dev
     environment:
@@ -54,6 +56,22 @@ services:
       - ./dx.backend/logging/:/app/logging/
       - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
       - ./dx.backend/sample-data-files/:/app/sample-data-files/
+      - ./dx.backend/services/:/app/services/
+      - ./dx.backend/app.py:/app/app.py
+
+  ai-api-dev:
+    container_name: dx-ai-api-dev
+    build:
+      context: ./general-ai-api
+    image: dx-ai-api-dev
+    command: gunicorn --bind 0.0.0.0:5000 manage:app
+    volumes:
+      # path to be changed in deployment, this path assumes as part of DX central repo
+      - ./dx.backend/parsed-data-files:/parsed-data-files
+    ports:
+      - 5000:5000
+    env_file:
+      - .env
 
   frontend-dev:
     container_name: dx-dev
@@ -72,6 +90,11 @@ services:
       - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
       - REACT_APP_MAPBOX_TOKEN=${REACT_APP_MAPBOX_TOKEN}
       - REACT_APP_CMS_API=${REACT_APP_CMS_API}
+      - REACT_APP_GOOGLE_API_CLIENT_ID=${REACT_APP_GOOGLE_API_CLIENT_ID}
+      - REACT_APP_GOOGLE_API_DEV_KEY=${REACT_APP_GOOGLE_API_DEV_KEY}
+      - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
+      - REACT_APP_AUTH0_CLIENT=${REACT_APP_AUTH0_CLIENT}
+      - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
     env_file:
       - .env
 

@@ -27,7 +27,10 @@ services:
       - MONGO_AUTH_SOURCE=${MONGO_AUTH_SOURCE}
       - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
       - MAIN_DOMAIN=${MAIN_DOMAIN}
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN}
+      - AUTH0_AUDIENCE=${AUTH0_AUDIENCE}
       - DX_BACKEND_DIR=${DX_BACKEND_DIR}
+      - ENV_TYPE=${ENV_TYPE}
     ports:
       - 4200:4200
     depends_on:
@@ -40,7 +43,7 @@ services:
   backend:
     container_name: dx-backend
     restart: always
-    build: 
+    build:
       context: ./dx.backend
     image: dx-backend
     environment:
@@ -61,10 +64,22 @@ services:
         limits:
           memory: 8G
 
+  ai-api:
+    container_name: dx-ai-api
+    build:
+      context: ./general-ai-api
+    image: dx-ai-api
+    command: gunicorn --bind 0.0.0.0:5000 manage:app
+    volumes:
+      # path to be changed in deployment, this path assumes as part of DX central repo
+      - ./dx.backend/parsed-data-files:/parsed-data-files
+    env_file:
+      - .env
+
   frontend:
     container_name: dx-frontend
     restart: always
-    build: 
+    build:
       context: .
       args:
         - MAIN_DOMAIN=${MAIN_DOMAIN}
@@ -72,9 +87,16 @@ services:
         - API_SUBDOMAIN=${API_SUBDOMAIN}
         - BACKEND_SUBDOMAIN=${BACKEND_SUBDOMAIN}
         - REACT_APP_API=${REACT_APP_API}
+        - REACT_APP_GOOGLE_API_CLIENT_ID=${REACT_APP_GOOGLE_API_CLIENT_ID}
+        - REACT_APP_GOOGLE_API_DEV_KEY=${REACT_APP_GOOGLE_API_DEV_KEY}
+        - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
+        - REACT_APP_AUTH0_CLIENT=${REACT_APP_AUTH0_CLIENT}
+        - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
+        - REACT_APP_HUBSPOT_PORTAL_ID=${REACT_APP_HUBSPOT_PORTAL_ID}
+        - REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID=${REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID}
     image: dx-client
     ports:
-      - 80:80
+      - 81:80
     depends_on:
       - server
       - backend
@@ -83,6 +105,13 @@ services:
       - REACT_APP_CMS_TOKEN=${REACT_APP_CMS_TOKEN}
       - REACT_APP_MAPBOX_TOKEN=${REACT_APP_MAPBOX_TOKEN}
       - REACT_APP_CMS_API=${REACT_APP_CMS_API}
+      - REACT_APP_GOOGLE_API_CLIENT_ID=${REACT_APP_GOOGLE_API_CLIENT_ID}
+      - REACT_APP_GOOGLE_API_DEV_KEY=${REACT_APP_GOOGLE_API_DEV_KEY}
+      - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
+      - REACT_APP_AUTH0_CLIENT=${REACT_APP_AUTH0_CLIENT}
+      - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
+      - REACT_APP_HUBSPOT_PORTAL_ID=${REACT_APP_HUBSPOT_PORTAL_ID}
+      - REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID=${REACT_APP_HUBSPOT_SUBSCRIBE_FORM_ID}
     env_file:
       - .env
     deploy:
