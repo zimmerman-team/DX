@@ -79,6 +79,15 @@ fi
 
 echo ""
 echo ""
+if ask_for_confirmation "Do you want to set up a connection to HDX?"; then
+  . ./scripts/setup/setup_hdx.sh
+else
+  touch ./dx.backend/.hdx_configuration.yaml
+  echo "Skipping HDX Setup."
+fi
+
+echo ""
+echo ""
 if ask_for_confirmation "Do you want to set up the Monitoring environment?"; then
   . ./scripts/setup/setup_monitoring.sh
 else
