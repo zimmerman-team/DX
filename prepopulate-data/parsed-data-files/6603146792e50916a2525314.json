@@ -1,0 +1,3405 @@
+{
+    "dataset": [
+        {
+            "CO2emissionspercapita": 15.53300404,
+            "Entity": "United States",
+            "GDPpercapita": 14471,
+            "TotalpopulationGapminderHYDEUN": 145048176,
+            "Year": 1946
+        },
+        {
+            "CO2emissionspercapita": 16.83774596,
+            "Entity": "United States",
+            "GDPpercapita": 14057,
+            "TotalpopulationGapminderHYDEUN": 147333408,
+            "Year": 1947
+        },
+        {
+            "CO2emissionspercapita": 17.18120163,
+            "Entity": "United States",
+            "GDPpercapita": 14559,
+            "TotalpopulationGapminderHYDEUN": 149992560,
+            "Year": 1948
+        },
+        {
+            "CO2emissionspercapita": 13.98504991,
+            "Entity": "United States",
+            "GDPpercapita": 14112,
+            "TotalpopulationGapminderHYDEUN": 154449952,
+            "Year": 1949
+        },
+        {
+            "CO2emissionspercapita": 15.96900793,
+            "Entity": "United States",
+            "GDPpercapita": 15241,
+            "TotalpopulationGapminderHYDEUN": 158804000,
+            "Year": 1950
+        },
+        {
+            "CO2emissionspercapita": 16.23880919,
+            "Entity": "United States",
+            "GDPpercapita": 16126,
+            "TotalpopulationGapminderHYDEUN": 160872000,
+            "Year": 1951
+        },
+        {
+            "CO2emissionspercapita": 15.5885509,
+            "Entity": "United States",
+            "GDPpercapita": 16443,
+            "TotalpopulationGapminderHYDEUN": 163266000,
+            "Year": 1952
+        },
+        {
+            "CO2emissionspercapita": 15.70577542,
+            "Entity": "United States",
+            "GDPpercapita": 16917,
+            "TotalpopulationGapminderHYDEUN": 165910000,
+            "Year": 1953
+        },
+        {
+            "CO2emissionspercapita": 14.71560601,
+            "Entity": "United States",
+            "GDPpercapita": 16513,
+            "TotalpopulationGapminderHYDEUN": 168736000,
+            "Year": 1954
+        },
+        {
+            "CO2emissionspercapita": 15.85299775,
+            "Entity": "United States",
+            "GDPpercapita": 17370,
+            "TotalpopulationGapminderHYDEUN": 171684992,
+            "Year": 1955
+        },
+        {
+            "CO2emissionspercapita": 16.32983667,
+            "Entity": "United States",
+            "GDPpercapita": 17398,
+            "TotalpopulationGapminderHYDEUN": 174704992,
+            "Year": 1956
+        },
+        {
+            "CO2emissionspercapita": 15.91333684,
+            "Entity": "United States",
+            "GDPpercapita": 17407,
+            "TotalpopulationGapminderHYDEUN": 177751008,
+            "Year": 1957
+        },
+        {
+            "CO2emissionspercapita": 15.16098865,
+            "Entity": "United States",
+            "GDPpercapita": 16945,
+            "TotalpopulationGapminderHYDEUN": 180788000,
+            "Year": 1958
+        },
+        {
+            "CO2emissionspercapita": 15.36028132,
+            "Entity": "United States",
+            "GDPpercapita": 17901,
+            "TotalpopulationGapminderHYDEUN": 183786000,
+            "Year": 1959
+        },
+        {
+            "CO2emissionspercapita": 15.46596556,
+            "Entity": "United States",
+            "GDPpercapita": 18058,
+            "TotalpopulationGapminderHYDEUN": 186720992,
+            "Year": 1960
+        },
+        {
+            "CO2emissionspercapita": 15.17840295,
+            "Entity": "United States",
+            "GDPpercapita": 18175,
+            "TotalpopulationGapminderHYDEUN": 189570000,
+            "Year": 1961
+        },
+        {
+            "CO2emissionspercapita": 15.51630014,
+            "Entity": "United States",
+            "GDPpercapita": 18977,
+            "TotalpopulationGapminderHYDEUN": 192314000,
+            "Year": 1962
+        },
+        {
+            "CO2emissionspercapita": 15.98517622,
+            "Entity": "United States",
+            "GDPpercapita": 19515,
+            "TotalpopulationGapminderHYDEUN": 194932000,
+            "Year": 1963
+        },
+        {
+            "CO2emissionspercapita": 16.4773219,
+            "Entity": "United States",
+            "GDPpercapita": 20360,
+            "TotalpopulationGapminderHYDEUN": 197408000,
+            "Year": 1964
+        },
+        {
+            "CO2emissionspercapita": 16.96352488,
+            "Entity": "United States",
+            "GDPpercapita": 21390,
+            "TotalpopulationGapminderHYDEUN": 199734000,
+            "Year": 1965
+        },
+        {
+            "CO2emissionspercapita": 17.62877501,
+            "Entity": "United States",
+            "GDPpercapita": 22529,
+            "TotalpopulationGapminderHYDEUN": 201896000,
+            "Year": 1966
+        },
+        {
+            "CO2emissionspercapita": 18.11283841,
+            "Entity": "United States",
+            "GDPpercapita": 22842,
+            "TotalpopulationGapminderHYDEUN": 203904992,
+            "Year": 1967
+        },
+        {
+            "CO2emissionspercapita": 18.60152791,
+            "Entity": "United States",
+            "GDPpercapita": 23692,
+            "TotalpopulationGapminderHYDEUN": 205806000,
+            "Year": 1968
+        },
+        {
+            "CO2emissionspercapita": 19.36589535,
+            "Entity": "United States",
+            "GDPpercapita": 24196,
+            "TotalpopulationGapminderHYDEUN": 207659008,
+            "Year": 1969
+        },
+        {
+            "CO2emissionspercapita": 20.64550166,
+            "Entity": "United States",
+            "GDPpercapita": 23958,
+            "TotalpopulationGapminderHYDEUN": 209512992,
+            "Year": 1970
+        },
+        {
+            "CO2emissionspercapita": 20.58485357,
+            "Entity": "United States",
+            "GDPpercapita": 24395,
+            "TotalpopulationGapminderHYDEUN": 211384000,
+            "Year": 1971
+        },
+        {
+            "CO2emissionspercapita": 21.37409219,
+            "Entity": "United States",
+            "GDPpercapita": 25415,
+            "TotalpopulationGapminderHYDEUN": 213270000,
+            "Year": 1972
+        },
+        {
+            "CO2emissionspercapita": 22.13251309,
+            "Entity": "United States",
+            "GDPpercapita": 26603,
+            "TotalpopulationGapminderHYDEUN": 215179008,
+            "Year": 1973
+        },
+        {
+            "CO2emissionspercapita": 21.15449458,
+            "Entity": "United States",
+            "GDPpercapita": 26287,
+            "TotalpopulationGapminderHYDEUN": 217115008,
+            "Year": 1974
+        },
+        {
+            "CO2emissionspercapita": 20.08752548,
+            "Entity": "United States",
+            "GDPpercapita": 25956,
+            "TotalpopulationGapminderHYDEUN": 219080992,
+            "Year": 1975
+        },
+        {
+            "CO2emissionspercapita": 20.83880565,
+            "Entity": "United States",
+            "GDPpercapita": 27059,
+            "TotalpopulationGapminderHYDEUN": 221086000,
+            "Year": 1976
+        },
+        {
+            "CO2emissionspercapita": 21.22188404,
+            "Entity": "United States",
+            "GDPpercapita": 28001,
+            "TotalpopulationGapminderHYDEUN": 223136000,
+            "Year": 1977
+        },
+        {
+            "CO2emissionspercapita": 21.68057366,
+            "Entity": "United States",
+            "GDPpercapita": 29287,
+            "TotalpopulationGapminderHYDEUN": 225223008,
+            "Year": 1978
+        },
+        {
+            "CO2emissionspercapita": 21.52751047,
+            "Entity": "United States",
+            "GDPpercapita": 29951,
+            "TotalpopulationGapminderHYDEUN": 227339008,
+            "Year": 1979
+        },
+        {
+            "CO2emissionspercapita": 20.55429045,
+            "Entity": "United States",
+            "GDPpercapita": 29613,
+            "TotalpopulationGapminderHYDEUN": 229476000,
+            "Year": 1980
+        },
+        {
+            "CO2emissionspercapita": 3.070847343,
+            "Entity": "France",
+            "GDPpercapita": 4650,
+            "TotalpopulationGapminderHYDEUN": 40706904,
+            "Year": 1901
+        },
+        {
+            "CO2emissionspercapita": 2.88460806,
+            "Entity": "France",
+            "GDPpercapita": 4566,
+            "TotalpopulationGapminderHYDEUN": 40789608,
+            "Year": 1902
+        },
+        {
+            "CO2emissionspercapita": 3.166813276,
+            "Entity": "France",
+            "GDPpercapita": 4657,
+            "TotalpopulationGapminderHYDEUN": 40843224,
+            "Year": 1903
+        },
+        {
+            "CO2emissionspercapita": 3.080604706,
+            "Entity": "France",
+            "GDPpercapita": 4683,
+            "TotalpopulationGapminderHYDEUN": 40900292,
+            "Year": 1904
+        },
+        {
+            "CO2emissionspercapita": 3.111107726,
+            "Entity": "France",
+            "GDPpercapita": 4761,
+            "TotalpopulationGapminderHYDEUN": 40958592,
+            "Year": 1905
+        },
+        {
+            "CO2emissionspercapita": 3.328902021,
+            "Entity": "France",
+            "GDPpercapita": 4842,
+            "TotalpopulationGapminderHYDEUN": 41025020,
+            "Year": 1906
+        },
+        {
+            "CO2emissionspercapita": 3.54536737,
+            "Entity": "France",
+            "GDPpercapita": 5051,
+            "TotalpopulationGapminderHYDEUN": 41066652,
+            "Year": 1907
+        },
+        {
+            "CO2emissionspercapita": 3.566643339,
+            "Entity": "France",
+            "GDPpercapita": 5009,
+            "TotalpopulationGapminderHYDEUN": 41135004,
+            "Year": 1908
+        },
+        {
+            "CO2emissionspercapita": 3.642254765,
+            "Entity": "France",
+            "GDPpercapita": 5210,
+            "TotalpopulationGapminderHYDEUN": 41209572,
+            "Year": 1909
+        },
+        {
+            "CO2emissionspercapita": 3.647268667,
+            "Entity": "France",
+            "GDPpercapita": 4878,
+            "TotalpopulationGapminderHYDEUN": 41294568,
+            "Year": 1910
+        },
+        {
+            "CO2emissionspercapita": 3.791506677,
+            "Entity": "France",
+            "GDPpercapita": 5346,
+            "TotalpopulationGapminderHYDEUN": 41383848,
+            "Year": 1911
+        },
+        {
+            "CO2emissionspercapita": 3.82436975,
+            "Entity": "France",
+            "GDPpercapita": 5782,
+            "TotalpopulationGapminderHYDEUN": 41465112,
+            "Year": 1912
+        },
+        {
+            "CO2emissionspercapita": 4.12090763,
+            "Entity": "France",
+            "GDPpercapita": 5733,
+            "TotalpopulationGapminderHYDEUN": 41523004,
+            "Year": 1913
+        },
+        {
+            "CO2emissionspercapita": 2.87042564,
+            "Entity": "France",
+            "GDPpercapita": 5324,
+            "TotalpopulationGapminderHYDEUN": 41231120,
+            "Year": 1914
+        },
+        {
+            "CO2emissionspercapita": 2.536128952,
+            "Entity": "France",
+            "GDPpercapita": 5343,
+            "TotalpopulationGapminderHYDEUN": 40705028,
+            "Year": 1915
+        },
+        {
+            "CO2emissionspercapita": 2.743914512,
+            "Entity": "France",
+            "GDPpercapita": 5698,
+            "TotalpopulationGapminderHYDEUN": 39975432,
+            "Year": 1916
+        },
+        {
+            "CO2emissionspercapita": 3.091981629,
+            "Entity": "France",
+            "GDPpercapita": 4901,
+            "TotalpopulationGapminderHYDEUN": 39328984,
+            "Year": 1917
+        },
+        {
+            "CO2emissionspercapita": 2.785577009,
+            "Entity": "France",
+            "GDPpercapita": 3941,
+            "TotalpopulationGapminderHYDEUN": 38932952,
+            "Year": 1918
+        },
+        {
+            "CO2emissionspercapita": 2.990505792,
+            "Entity": "France",
+            "GDPpercapita": 4625,
+            "TotalpopulationGapminderHYDEUN": 38836732,
+            "Year": 1919
+        },
+        {
+            "CO2emissionspercapita": 3.884765411,
+            "Entity": "France",
+            "GDPpercapita": 5309,
+            "TotalpopulationGapminderHYDEUN": 39069936,
+            "Year": 1920
+        },
+        {
+            "CO2emissionspercapita": 3.508206156,
+            "Entity": "France",
+            "GDPpercapita": 5058,
+            "TotalpopulationGapminderHYDEUN": 39310488,
+            "Year": 1921
+        },
+        {
+            "CO2emissionspercapita": 4.11949632,
+            "Entity": "France",
+            "GDPpercapita": 5939,
+            "TotalpopulationGapminderHYDEUN": 39604500,
+            "Year": 1922
+        },
+        {
+            "CO2emissionspercapita": 4.609112039,
+            "Entity": "France",
+            "GDPpercapita": 6175,
+            "TotalpopulationGapminderHYDEUN": 39961988,
+            "Year": 1923
+        },
+        {
+            "CO2emissionspercapita": 5.119850242,
+            "Entity": "France",
+            "GDPpercapita": 6876,
+            "TotalpopulationGapminderHYDEUN": 40359568,
+            "Year": 1924
+        },
+        {
+            "CO2emissionspercapita": 5.254992169,
+            "Entity": "France",
+            "GDPpercapita": 6854,
+            "TotalpopulationGapminderHYDEUN": 40690332,
+            "Year": 1925
+        },
+        {
+            "CO2emissionspercapita": 5.225619753,
+            "Entity": "France",
+            "GDPpercapita": 6991,
+            "TotalpopulationGapminderHYDEUN": 40900816,
+            "Year": 1926
+        },
+        {
+            "CO2emissionspercapita": 5.190034842,
+            "Entity": "France",
+            "GDPpercapita": 6834,
+            "TotalpopulationGapminderHYDEUN": 41047820,
+            "Year": 1927
+        },
+        {
+            "CO2emissionspercapita": 5.140784359,
+            "Entity": "France",
+            "GDPpercapita": 7290,
+            "TotalpopulationGapminderHYDEUN": 41168096,
+            "Year": 1928
+        },
+        {
+            "CO2emissionspercapita": 5.660653967,
+            "Entity": "France",
+            "GDPpercapita": 7748,
+            "TotalpopulationGapminderHYDEUN": 41391944,
+            "Year": 1929
+        },
+        {
+            "CO2emissionspercapita": 5.704265949,
+            "Entity": "France",
+            "GDPpercapita": 7455,
+            "TotalpopulationGapminderHYDEUN": 41662568,
+            "Year": 1930
+        },
+        {
+            "CO2emissionspercapita": 5.194590049,
+            "Entity": "France",
+            "GDPpercapita": 6967,
+            "TotalpopulationGapminderHYDEUN": 41873056,
+            "Year": 1931
+        },
+        {
+            "CO2emissionspercapita": 4.570199295,
+            "Entity": "France",
+            "GDPpercapita": 6513,
+            "TotalpopulationGapminderHYDEUN": 41966604,
+            "Year": 1932
+        },
+        {
+            "CO2emissionspercapita": 4.74813509,
+            "Entity": "France",
+            "GDPpercapita": 6974,
+            "TotalpopulationGapminderHYDEUN": 41996672,
+            "Year": 1933
+        },
+        {
+            "CO2emissionspercapita": 4.791848732,
+            "Entity": "France",
+            "GDPpercapita": 6896,
+            "TotalpopulationGapminderHYDEUN": 42023400,
+            "Year": 1934
+        },
+        {
+            "CO2emissionspercapita": 4.648816467,
+            "Entity": "France",
+            "GDPpercapita": 6722,
+            "TotalpopulationGapminderHYDEUN": 42030080,
+            "Year": 1935
+        },
+        {
+            "CO2emissionspercapita": 4.713988492,
+            "Entity": "France",
+            "GDPpercapita": 6982,
+            "TotalpopulationGapminderHYDEUN": 42023400,
+            "Year": 1936
+        },
+        {
+            "CO2emissionspercapita": 5.18015212,
+            "Entity": "France",
+            "GDPpercapita": 7381,
+            "TotalpopulationGapminderHYDEUN": 42030080,
+            "Year": 1937
+        },
+        {
+            "CO2emissionspercapita": 4.801668271,
+            "Entity": "France",
+            "GDPpercapita": 7347,
+            "TotalpopulationGapminderHYDEUN": 42026740,
+            "Year": 1938
+        },
+        {
+            "CO2emissionspercapita": 4.665282195,
+            "Entity": "France",
+            "GDPpercapita": 7885,
+            "TotalpopulationGapminderHYDEUN": 41716024,
+            "Year": 1939
+        },
+        {
+            "CO2emissionspercapita": 3.365388551,
+            "Entity": "France",
+            "GDPpercapita": 6650,
+            "TotalpopulationGapminderHYDEUN": 40927544,
+            "Year": 1940
+        },
+        {
+            "CO2emissionspercapita": 2.99116678,
+            "Entity": "France",
+            "GDPpercapita": 5444,
+            "TotalpopulationGapminderHYDEUN": 40092288,
+            "Year": 1941
+        },
+        {
+            "CO2emissionspercapita": 3.10738583,
+            "Entity": "France",
+            "GDPpercapita": 4905,
+            "TotalpopulationGapminderHYDEUN": 39424084,
+            "Year": 1942
+        },
+        {
+            "CO2emissionspercapita": 3.196142547,
+            "Entity": "France",
+            "GDPpercapita": 4705,
+            "TotalpopulationGapminderHYDEUN": 39190212,
+            "Year": 1943
+        },
+        {
+            "CO2emissionspercapita": 2.0359265,
+            "Entity": "France",
+            "GDPpercapita": 3984,
+            "TotalpopulationGapminderHYDEUN": 39290440,
+            "Year": 1944
+        },
+        {
+            "CO2emissionspercapita": 2.698090039,
+            "Entity": "France",
+            "GDPpercapita": 4233,
+            "TotalpopulationGapminderHYDEUN": 39721432,
+            "Year": 1945
+        },
+        {
+            "CO2emissionspercapita": 4.098947578,
+            "Entity": "France",
+            "GDPpercapita": 6342,
+            "TotalpopulationGapminderHYDEUN": 40316136,
+            "Year": 1946
+        },
+        {
+            "CO2emissionspercapita": 4.502382854,
+            "Entity": "France",
+            "GDPpercapita": 6807,
+            "TotalpopulationGapminderHYDEUN": 40787220,
+            "Year": 1947
+        },
+        {
+            "CO2emissionspercapita": 4.771718812,
+            "Entity": "France",
+            "GDPpercapita": 7228,
+            "TotalpopulationGapminderHYDEUN": 41184804,
+            "Year": 1948
+        },
+        {
+            "CO2emissionspercapita": 5.510681165,
+            "Entity": "France",
+            "GDPpercapita": 8137,
+            "TotalpopulationGapminderHYDEUN": 41569624,
+            "Year": 1949
+        },
+        {
+            "CO2emissionspercapita": 4.835965005,
+            "Entity": "France",
+            "GDPpercapita": 8531,
+            "TotalpopulationGapminderHYDEUN": 41834000,
+            "Year": 1950
+        },
+        {
+            "CO2emissionspercapita": 5.44269325,
+            "Entity": "France",
+            "GDPpercapita": 8984,
+            "TotalpopulationGapminderHYDEUN": 42031000,
+            "Year": 1951
+        },
+        {
+            "CO2emissionspercapita": 5.364907836,
+            "Entity": "France",
+            "GDPpercapita": 9154,
+            "TotalpopulationGapminderHYDEUN": 42316000,
+            "Year": 1952
+        },
+        {
+            "CO2emissionspercapita": 5.03073084,
+            "Entity": "France",
+            "GDPpercapita": 9351,
+            "TotalpopulationGapminderHYDEUN": 42655000,
+            "Year": 1953
+        },
+        {
+            "CO2emissionspercapita": 5.261853155,
+            "Entity": "France",
+            "GDPpercapita": 9731,
+            "TotalpopulationGapminderHYDEUN": 43025000,
+            "Year": 1954
+        },
+        {
+            "CO2emissionspercapita": 5.506086107,
+            "Entity": "France",
+            "GDPpercapita": 10198,
+            "TotalpopulationGapminderHYDEUN": 43411000,
+            "Year": 1955
+        },
+        {
+            "CO2emissionspercapita": 6.129917414,
+            "Entity": "France",
+            "GDPpercapita": 10608,
+            "TotalpopulationGapminderHYDEUN": 43809000,
+            "Year": 1956
+        },
+        {
+            "CO2emissionspercapita": 6.276384523,
+            "Entity": "France",
+            "GDPpercapita": 11124,
+            "TotalpopulationGapminderHYDEUN": 44221000,
+            "Year": 1957
+        },
+        {
+            "CO2emissionspercapita": 5.960901946,
+            "Entity": "France",
+            "GDPpercapita": 11277,
+            "TotalpopulationGapminderHYDEUN": 44659000,
+            "Year": 1958
+        },
+        {
+            "CO2emissionspercapita": 5.810835325,
+            "Entity": "France",
+            "GDPpercapita": 11481,
+            "TotalpopulationGapminderHYDEUN": 45138000,
+            "Year": 1959
+        },
+        {
+            "CO2emissionspercapita": 5.941384094,
+            "Entity": "France",
+            "GDPpercapita": 12170,
+            "TotalpopulationGapminderHYDEUN": 45673000,
+            "Year": 1960
+        },
+        {
+            "CO2emissionspercapita": 6.081512471,
+            "Entity": "France",
+            "GDPpercapita": 12698,
+            "TotalpopulationGapminderHYDEUN": 46267000,
+            "Year": 1961
+        },
+        {
+            "CO2emissionspercapita": 6.371469936,
+            "Entity": "France",
+            "GDPpercapita": 13271,
+            "TotalpopulationGapminderHYDEUN": 46907000,
+            "Year": 1962
+        },
+        {
+            "CO2emissionspercapita": 7.027321052,
+            "Entity": "France",
+            "GDPpercapita": 13757,
+            "TotalpopulationGapminderHYDEUN": 47561000,
+            "Year": 1963
+        },
+        {
+            "CO2emissionspercapita": 7.171220347,
+            "Entity": "France",
+            "GDPpercapita": 14509,
+            "TotalpopulationGapminderHYDEUN": 48184000,
+            "Year": 1964
+        },
+        {
+            "CO2emissionspercapita": 7.223246645,
+            "Entity": "France",
+            "GDPpercapita": 15078,
+            "TotalpopulationGapminderHYDEUN": 48747000,
+            "Year": 1965
+        },
+        {
+            "CO2emissionspercapita": 7.060402053,
+            "Entity": "France",
+            "GDPpercapita": 15701,
+            "TotalpopulationGapminderHYDEUN": 49233000,
+            "Year": 1966
+        },
+        {
+            "CO2emissionspercapita": 7.501869087,
+            "Entity": "France",
+            "GDPpercapita": 16298,
+            "TotalpopulationGapminderHYDEUN": 49651000,
+            "Year": 1967
+        },
+        {
+            "CO2emissionspercapita": 7.698171694,
+            "Entity": "France",
+            "GDPpercapita": 16890,
+            "TotalpopulationGapminderHYDEUN": 50025000,
+            "Year": 1968
+        },
+        {
+            "CO2emissionspercapita": 8.211631338,
+            "Entity": "France",
+            "GDPpercapita": 17908,
+            "TotalpopulationGapminderHYDEUN": 50387000,
+            "Year": 1969
+        },
+        {
+            "CO2emissionspercapita": 8.660173701,
+            "Entity": "France",
+            "GDPpercapita": 18771,
+            "TotalpopulationGapminderHYDEUN": 50764000,
+            "Year": 1970
+        },
+        {
+            "CO2emissionspercapita": 9.05207707,
+            "Entity": "France",
+            "GDPpercapita": 19486,
+            "TotalpopulationGapminderHYDEUN": 51163000,
+            "Year": 1971
+        },
+        {
+            "CO2emissionspercapita": 9.337985969,
+            "Entity": "France",
+            "GDPpercapita": 20175,
+            "TotalpopulationGapminderHYDEUN": 51573000,
+            "Year": 1972
+        },
+        {
+            "CO2emissionspercapita": 9.956566065,
+            "Entity": "France",
+            "GDPpercapita": 21097,
+            "TotalpopulationGapminderHYDEUN": 51980000,
+            "Year": 1973
+        },
+        {
+            "CO2emissionspercapita": 9.549217163,
+            "Entity": "France",
+            "GDPpercapita": 21571,
+            "TotalpopulationGapminderHYDEUN": 52357000,
+            "Year": 1974
+        },
+        {
+            "CO2emissionspercapita": 8.497943753,
+            "Entity": "France",
+            "GDPpercapita": 21316,
+            "TotalpopulationGapminderHYDEUN": 52689000,
+            "Year": 1975
+        },
+        {
+            "CO2emissionspercapita": 9.564361932,
+            "Entity": "France",
+            "GDPpercapita": 22154,
+            "TotalpopulationGapminderHYDEUN": 52969000,
+            "Year": 1976
+        },
+        {
+            "CO2emissionspercapita": 9.056887098,
+            "Entity": "France",
+            "GDPpercapita": 22888,
+            "TotalpopulationGapminderHYDEUN": 53209000,
+            "Year": 1977
+        },
+        {
+            "CO2emissionspercapita": 9.485440239,
+            "Entity": "France",
+            "GDPpercapita": 23427,
+            "TotalpopulationGapminderHYDEUN": 53423000,
+            "Year": 1978
+        },
+        {
+            "CO2emissionspercapita": 9.886472722,
+            "Entity": "France",
+            "GDPpercapita": 24075,
+            "TotalpopulationGapminderHYDEUN": 53637000,
+            "Year": 1979
+        },
+        {
+            "CO2emissionspercapita": 9.394899243,
+            "Entity": "France",
+            "GDPpercapita": 24292,
+            "TotalpopulationGapminderHYDEUN": 53868000,
+            "Year": 1980
+        },
+        {
+            "CO2emissionspercapita": 8.416158202,
+            "Entity": "France",
+            "GDPpercapita": 24413,
+            "TotalpopulationGapminderHYDEUN": 54121000,
+            "Year": 1981
+        },
+        {
+            "CO2emissionspercapita": 8.0507455,
+            "Entity": "France",
+            "GDPpercapita": 24893,
+            "TotalpopulationGapminderHYDEUN": 54391000,
+            "Year": 1982
+        },
+        {
+            "CO2emissionspercapita": 7.751763032,
+            "Entity": "France",
+            "GDPpercapita": 25080,
+            "TotalpopulationGapminderHYDEUN": 54675000,
+            "Year": 1983
+        },
+        {
+            "CO2emissionspercapita": 7.4079268,
+            "Entity": "France",
+            "GDPpercapita": 25305,
+            "TotalpopulationGapminderHYDEUN": 54965000,
+            "Year": 1984
+        },
+        {
+            "CO2emissionspercapita": 7.281174368,
+            "Entity": "France",
+            "GDPpercapita": 25549,
+            "TotalpopulationGapminderHYDEUN": 55255000,
+            "Year": 1985
+        },
+        {
+            "CO2emissionspercapita": 6.972261279,
+            "Entity": "France",
+            "GDPpercapita": 26047,
+            "TotalpopulationGapminderHYDEUN": 55545000,
+            "Year": 1986
+        },
+        {
+            "CO2emissionspercapita": 6.797094876,
+            "Entity": "France",
+            "GDPpercapita": 26581,
+            "TotalpopulationGapminderHYDEUN": 55838000,
+            "Year": 1987
+        },
+        {
+            "CO2emissionspercapita": 6.672138992,
+            "Entity": "France",
+            "GDPpercapita": 27621,
+            "TotalpopulationGapminderHYDEUN": 56126000,
+            "Year": 1988
+        },
+        {
+            "CO2emissionspercapita": 6.96301566,
+            "Entity": "France",
+            "GDPpercapita": 28460,
+            "TotalpopulationGapminderHYDEUN": 56404000,
+            "Year": 1989
+        },
+        {
+            "CO2emissionspercapita": 7.07402174,
+            "Entity": "France",
+            "GDPpercapita": 29031,
+            "TotalpopulationGapminderHYDEUN": 56667000,
+            "Year": 1990
+        },
+        {
+            "CO2emissionspercapita": 7.489691994,
+            "Entity": "France",
+            "GDPpercapita": 29158,
+            "TotalpopulationGapminderHYDEUN": 56914000,
+            "Year": 1991
+        },
+        {
+            "CO2emissionspercapita": 7.272971347,
+            "Entity": "France",
+            "GDPpercapita": 29449,
+            "TotalpopulationGapminderHYDEUN": 57147000,
+            "Year": 1992
+        },
+        {
+            "CO2emissionspercapita": 6.898156033,
+            "Entity": "France",
+            "GDPpercapita": 29113,
+            "TotalpopulationGapminderHYDEUN": 57370000,
+            "Year": 1993
+        },
+        {
+            "CO2emissionspercapita": 6.781582989,
+            "Entity": "France",
+            "GDPpercapita": 29656,
+            "TotalpopulationGapminderHYDEUN": 57587000,
+            "Year": 1994
+        },
+        {
+            "CO2emissionspercapita": 6.878057783,
+            "Entity": "France",
+            "GDPpercapita": 30135,
+            "TotalpopulationGapminderHYDEUN": 57802000,
+            "Year": 1995
+        },
+        {
+            "CO2emissionspercapita": 7.120567681,
+            "Entity": "France",
+            "GDPpercapita": 30415,
+            "TotalpopulationGapminderHYDEUN": 58012000,
+            "Year": 1996
+        },
+        {
+            "CO2emissionspercapita": 6.972946715,
+            "Entity": "France",
+            "GDPpercapita": 30987,
+            "TotalpopulationGapminderHYDEUN": 58221000,
+            "Year": 1997
+        },
+        {
+            "CO2emissionspercapita": 7.279396555,
+            "Entity": "France",
+            "GDPpercapita": 31941,
+            "TotalpopulationGapminderHYDEUN": 58444000,
+            "Year": 1998
+        },
+        {
+            "CO2emissionspercapita": 7.182498629,
+            "Entity": "France",
+            "GDPpercapita": 32872,
+            "TotalpopulationGapminderHYDEUN": 58704000,
+            "Year": 1999
+        },
+        {
+            "CO2emissionspercapita": 7.050238049,
+            "Entity": "France",
+            "GDPpercapita": 33967,
+            "TotalpopulationGapminderHYDEUN": 59015000,
+            "Year": 2000
+        },
+        {
+            "CO2emissionspercapita": 7.084731671,
+            "Entity": "France",
+            "GDPpercapita": 34434,
+            "TotalpopulationGapminderHYDEUN": 59384000,
+            "Year": 2001
+        },
+        {
+            "CO2emissionspercapita": 6.955039156,
+            "Entity": "France",
+            "GDPpercapita": 34618,
+            "TotalpopulationGapminderHYDEUN": 59803000,
+            "Year": 2002
+        },
+        {
+            "CO2emissionspercapita": 7.014430011,
+            "Entity": "France",
+            "GDPpercapita": 34707,
+            "TotalpopulationGapminderHYDEUN": 60252000,
+            "Year": 2003
+        },
+        {
+            "CO2emissionspercapita": 6.980627922,
+            "Entity": "France",
+            "GDPpercapita": 35465,
+            "TotalpopulationGapminderHYDEUN": 60698000,
+            "Year": 2004
+        },
+        {
+            "CO2emissionspercapita": 6.986848509,
+            "Entity": "France",
+            "GDPpercapita": 35817,
+            "TotalpopulationGapminderHYDEUN": 61120000,
+            "Year": 2005
+        },
+        {
+            "CO2emissionspercapita": 6.764419952,
+            "Entity": "France",
+            "GDPpercapita": 36439,
+            "TotalpopulationGapminderHYDEUN": 61509000,
+            "Year": 2006
+        },
+        {
+            "CO2emissionspercapita": 6.55532227,
+            "Entity": "France",
+            "GDPpercapita": 37068,
+            "TotalpopulationGapminderHYDEUN": 61869000,
+            "Year": 2007
+        },
+        {
+            "CO2emissionspercapita": 6.418309216,
+            "Entity": "France",
+            "GDPpercapita": 36928,
+            "TotalpopulationGapminderHYDEUN": 62209000,
+            "Year": 2008
+        },
+        {
+            "CO2emissionspercapita": 6.110445801,
+            "Entity": "France",
+            "GDPpercapita": 35642,
+            "TotalpopulationGapminderHYDEUN": 62543000,
+            "Year": 2009
+        },
+        {
+            "CO2emissionspercapita": 6.199649437,
+            "Entity": "France",
+            "GDPpercapita": 36141,
+            "TotalpopulationGapminderHYDEUN": 62880000,
+            "Year": 2010
+        },
+        {
+            "CO2emissionspercapita": 5.777014084,
+            "Entity": "France",
+            "GDPpercapita": 36691,
+            "TotalpopulationGapminderHYDEUN": 63222000,
+            "Year": 2011
+        },
+        {
+            "CO2emissionspercapita": 5.755534947,
+            "Entity": "France",
+            "GDPpercapita": 36571,
+            "TotalpopulationGapminderHYDEUN": 63564000,
+            "Year": 2012
+        },
+        {
+            "CO2emissionspercapita": 5.741570878,
+            "Entity": "France",
+            "GDPpercapita": 36632,
+            "TotalpopulationGapminderHYDEUN": 63894000,
+            "Year": 2013
+        },
+        {
+            "CO2emissionspercapita": 5.225025344,
+            "Entity": "France",
+            "GDPpercapita": 36527,
+            "TotalpopulationGapminderHYDEUN": 64194000,
+            "Year": 2014
+        },
+        {
+            "CO2emissionspercapita": 5.292319846,
+            "Entity": "France",
+            "GDPpercapita": 36827,
+            "TotalpopulationGapminderHYDEUN": 64453000,
+            "Year": 2015
+        },
+        {
+            "CO2emissionspercapita": 5.303326599,
+            "Entity": "France",
+            "GDPpercapita": 37124,
+            "TotalpopulationGapminderHYDEUN": 64668000,
+            "Year": 2016
+        },
+        {
+            "CO2emissionspercapita": 5.786253418,
+            "Entity": "Germany",
+            "GDPpercapita": 5800,
+            "TotalpopulationGapminderHYDEUN": 56263936,
+            "Year": 1901
+        },
+        {
+            "CO2emissionspercapita": 5.586771261,
+            "Entity": "Germany",
+            "GDPpercapita": 5845,
+            "TotalpopulationGapminderHYDEUN": 57133064,
+            "Year": 1902
+        },
+        {
+            "CO2emissionspercapita": 5.922925468,
+            "Entity": "Germany",
+            "GDPpercapita": 6077,
+            "TotalpopulationGapminderHYDEUN": 58011692,
+            "Year": 1903
+        },
+        {
+            "CO2emissionspercapita": 6.047073384,
+            "Entity": "Germany",
+            "GDPpercapita": 6229,
+            "TotalpopulationGapminderHYDEUN": 58891708,
+            "Year": 1904
+        },
+        {
+            "CO2emissionspercapita": 6.395668386,
+            "Entity": "Germany",
+            "GDPpercapita": 6270,
+            "TotalpopulationGapminderHYDEUN": 59778544,
+            "Year": 1905
+        },
+        {
+            "CO2emissionspercapita": 5.965843088,
+            "Entity": "Germany",
+            "GDPpercapita": 6368,
+            "TotalpopulationGapminderHYDEUN": 60668248,
+            "Year": 1906
+        },
+        {
+            "CO2emissionspercapita": 7.18410199,
+            "Entity": "Germany",
+            "GDPpercapita": 6555,
+            "TotalpopulationGapminderHYDEUN": 61550144,
+            "Year": 1907
+        },
+        {
+            "CO2emissionspercapita": 7.153506551,
+            "Entity": "Germany",
+            "GDPpercapita": 6574,
+            "TotalpopulationGapminderHYDEUN": 62436736,
+            "Year": 1908
+        },
+        {
+            "CO2emissionspercapita": 7.033417294,
+            "Entity": "Germany",
+            "GDPpercapita": 6615,
+            "TotalpopulationGapminderHYDEUN": 63350672,
+            "Year": 1909
+        },
+        {
+            "CO2emissionspercapita": 6.935752908,
+            "Entity": "Germany",
+            "GDPpercapita": 6763,
+            "TotalpopulationGapminderHYDEUN": 64213148,
+            "Year": 1910
+        },
+        {
+            "CO2emissionspercapita": 7.044235934,
+            "Entity": "Germany",
+            "GDPpercapita": 6885,
+            "TotalpopulationGapminderHYDEUN": 65100920,
+            "Year": 1911
+        },
+        {
+            "CO2emissionspercapita": 7.578069679,
+            "Entity": "Germany",
+            "GDPpercapita": 7118,
+            "TotalpopulationGapminderHYDEUN": 65863880,
+            "Year": 1912
+        },
+        {
+            "CO2emissionspercapita": 8.028111002,
+            "Entity": "Germany",
+            "GDPpercapita": 7369,
+            "TotalpopulationGapminderHYDEUN": 66651200,
+            "Year": 1913
+        },
+        {
+            "CO2emissionspercapita": 7.400976217,
+            "Entity": "Germany",
+            "GDPpercapita": 6180,
+            "TotalpopulationGapminderHYDEUN": 67278504,
+            "Year": 1914
+        },
+        {
+            "CO2emissionspercapita": 6.842784362,
+            "Entity": "Germany",
+            "GDPpercapita": 5856,
+            "TotalpopulationGapminderHYDEUN": 67648792,
+            "Year": 1915
+        },
+        {
+            "CO2emissionspercapita": 7.411301965,
+            "Entity": "Germany",
+            "GDPpercapita": 5928,
+            "TotalpopulationGapminderHYDEUN": 67558520,
+            "Year": 1916
+        },
+        {
+            "CO2emissionspercapita": 7.801240183,
+            "Entity": "Germany",
+            "GDPpercapita": 5963,
+            "TotalpopulationGapminderHYDEUN": 67242968,
+            "Year": 1917
+        },
+        {
+            "CO2emissionspercapita": 7.703605977,
+            "Entity": "Germany",
+            "GDPpercapita": 6026,
+            "TotalpopulationGapminderHYDEUN": 65348956,
+            "Year": 1918
+        },
+        {
+            "CO2emissionspercapita": 6.083229844,
+            "Entity": "Germany",
+            "GDPpercapita": 5225,
+            "TotalpopulationGapminderHYDEUN": 63687828,
+            "Year": 1919
+        },
+        {
+            "CO2emissionspercapita": 6.874173786,
+            "Entity": "Germany",
+            "GDPpercapita": 5647,
+            "TotalpopulationGapminderHYDEUN": 62437800,
+            "Year": 1920
+        },
+        {
+            "CO2emissionspercapita": 7.522805974,
+            "Entity": "Germany",
+            "GDPpercapita": 6217,
+            "TotalpopulationGapminderHYDEUN": 62899396,
+            "Year": 1921
+        },
+        {
+            "CO2emissionspercapita": 7.186025996,
+            "Entity": "Germany",
+            "GDPpercapita": 6729,
+            "TotalpopulationGapminderHYDEUN": 63381464,
+            "Year": 1922
+        },
+        {
+            "CO2emissionspercapita": 5.205511845,
+            "Entity": "Germany",
+            "GDPpercapita": 5554,
+            "TotalpopulationGapminderHYDEUN": 63764928,
+            "Year": 1923
+        },
+        {
+            "CO2emissionspercapita": 7.037622971,
+            "Entity": "Germany",
+            "GDPpercapita": 6462,
+            "TotalpopulationGapminderHYDEUN": 64196844,
+            "Year": 1924
+        },
+        {
+            "CO2emissionspercapita": 7.085517055,
+            "Entity": "Germany",
+            "GDPpercapita": 7134,
+            "TotalpopulationGapminderHYDEUN": 64648204,
+            "Year": 1925
+        },
+        {
+            "CO2emissionspercapita": 6.347667889,
+            "Entity": "Germany",
+            "GDPpercapita": 7282,
+            "TotalpopulationGapminderHYDEUN": 65100588,
+            "Year": 1926
+        },
+        {
+            "CO2emissionspercapita": 7.342014636,
+            "Entity": "Germany",
+            "GDPpercapita": 7961,
+            "TotalpopulationGapminderHYDEUN": 65519196,
+            "Year": 1927
+        },
+        {
+            "CO2emissionspercapita": 7.661714636,
+            "Entity": "Germany",
+            "GDPpercapita": 8262,
+            "TotalpopulationGapminderHYDEUN": 65897548,
+            "Year": 1928
+        },
+        {
+            "CO2emissionspercapita": 8.134238461,
+            "Entity": "Germany",
+            "GDPpercapita": 8184,
+            "TotalpopulationGapminderHYDEUN": 66259520,
+            "Year": 1929
+        },
+        {
+            "CO2emissionspercapita": 6.931800612,
+            "Entity": "Germany",
+            "GDPpercapita": 8027,
+            "TotalpopulationGapminderHYDEUN": 66610920,
+            "Year": 1930
+        },
+        {
+            "CO2emissionspercapita": 5.759953298,
+            "Entity": "Germany",
+            "GDPpercapita": 7376,
+            "TotalpopulationGapminderHYDEUN": 66944240,
+            "Year": 1931
+        },
+        {
+            "CO2emissionspercapita": 5.16335349,
+            "Entity": "Germany",
+            "GDPpercapita": 6791,
+            "TotalpopulationGapminderHYDEUN": 67265952,
+            "Year": 1932
+        },
+        {
+            "CO2emissionspercapita": 5.397058303,
+            "Entity": "Germany",
+            "GDPpercapita": 7183,
+            "TotalpopulationGapminderHYDEUN": 67602344,
+            "Year": 1933
+        },
+        {
+            "CO2emissionspercapita": 6.009818404,
+            "Entity": "Germany",
+            "GDPpercapita": 7794,
+            "TotalpopulationGapminderHYDEUN": 67996384,
+            "Year": 1934
+        },
+        {
+            "CO2emissionspercapita": 6.608992878,
+            "Entity": "Germany",
+            "GDPpercapita": 8322,
+            "TotalpopulationGapminderHYDEUN": 68447408,
+            "Year": 1935
+        },
+        {
+            "CO2emissionspercapita": 7.24884989,
+            "Entity": "Germany",
+            "GDPpercapita": 8991,
+            "TotalpopulationGapminderHYDEUN": 68932544,
+            "Year": 1936
+        },
+        {
+            "CO2emissionspercapita": 8.107883848,
+            "Entity": "Germany",
+            "GDPpercapita": 9464,
+            "TotalpopulationGapminderHYDEUN": 69508088,
+            "Year": 1937
+        },
+        {
+            "CO2emissionspercapita": 8.569829491,
+            "Entity": "Germany",
+            "GDPpercapita": 10088,
+            "TotalpopulationGapminderHYDEUN": 70168920,
+            "Year": 1938
+        },
+        {
+            "CO2emissionspercapita": 9.15536962,
+            "Entity": "Germany",
+            "GDPpercapita": 10921,
+            "TotalpopulationGapminderHYDEUN": 70852616,
+            "Year": 1939
+        },
+        {
+            "CO2emissionspercapita": 9.161254713,
+            "Entity": "Germany",
+            "GDPpercapita": 10914,
+            "TotalpopulationGapminderHYDEUN": 71427816,
+            "Year": 1940
+        },
+        {
+            "CO2emissionspercapita": 9.183940572,
+            "Entity": "Germany",
+            "GDPpercapita": 11537,
+            "TotalpopulationGapminderHYDEUN": 71955936,
+            "Year": 1941
+        },
+        {
+            "CO2emissionspercapita": 9.257189444,
+            "Entity": "Germany",
+            "GDPpercapita": 11595,
+            "TotalpopulationGapminderHYDEUN": 72152448,
+            "Year": 1942
+        },
+        {
+            "CO2emissionspercapita": 9.434005554,
+            "Entity": "Germany",
+            "GDPpercapita": 11898,
+            "TotalpopulationGapminderHYDEUN": 72023152,
+            "Year": 1943
+        },
+        {
+            "CO2emissionspercapita": 8.488609679,
+            "Entity": "Germany",
+            "GDPpercapita": 12290,
+            "TotalpopulationGapminderHYDEUN": 70715128,
+            "Year": 1944
+        },
+        {
+            "CO2emissionspercapita": 1.687984648,
+            "Entity": "Germany",
+            "GDPpercapita": 9119,
+            "TotalpopulationGapminderHYDEUN": 68759232,
+            "Year": 1945
+        },
+        {
+            "CO2emissionspercapita": 4.026708756,
+            "Entity": "Germany",
+            "GDPpercapita": 4478,
+            "TotalpopulationGapminderHYDEUN": 67472704,
+            "Year": 1946
+        },
+        {
+            "CO2emissionspercapita": 4.70115056,
+            "Entity": "Germany",
+            "GDPpercapita": 4921,
+            "TotalpopulationGapminderHYDEUN": 67573344,
+            "Year": 1947
+        },
+        {
+            "CO2emissionspercapita": 5.499603223,
+            "Entity": "Germany",
+            "GDPpercapita": 5724,
+            "TotalpopulationGapminderHYDEUN": 68703624,
+            "Year": 1948
+        },
+        {
+            "CO2emissionspercapita": 6.220116358,
+            "Entity": "Germany",
+            "GDPpercapita": 6631,
+            "TotalpopulationGapminderHYDEUN": 69482160,
+            "Year": 1949
+        },
+        {
+            "CO2emissionspercapita": 7.299721122,
+            "Entity": "Germany",
+            "GDPpercapita": 7840,
+            "TotalpopulationGapminderHYDEUN": 69966000,
+            "Year": 1950
+        },
+        {
+            "CO2emissionspercapita": 8.206578208,
+            "Entity": "Germany",
+            "GDPpercapita": 8496,
+            "TotalpopulationGapminderHYDEUN": 70300000,
+            "Year": 1951
+        },
+        {
+            "CO2emissionspercapita": 8.652529255,
+            "Entity": "Germany",
+            "GDPpercapita": 9197,
+            "TotalpopulationGapminderHYDEUN": 70620000,
+            "Year": 1952
+        },
+        {
+            "CO2emissionspercapita": 8.791275455,
+            "Entity": "Germany",
+            "GDPpercapita": 9909,
+            "TotalpopulationGapminderHYDEUN": 70930000,
+            "Year": 1953
+        },
+        {
+            "CO2emissionspercapita": 9.262693639,
+            "Entity": "Germany",
+            "GDPpercapita": 10599,
+            "TotalpopulationGapminderHYDEUN": 71233000,
+            "Year": 1954
+        },
+        {
+            "CO2emissionspercapita": 10.11483624,
+            "Entity": "Germany",
+            "GDPpercapita": 11710,
+            "TotalpopulationGapminderHYDEUN": 71537000,
+            "Year": 1955
+        },
+        {
+            "CO2emissionspercapita": 10.6648708,
+            "Entity": "Germany",
+            "GDPpercapita": 12477,
+            "TotalpopulationGapminderHYDEUN": 71851000,
+            "Year": 1956
+        },
+        {
+            "CO2emissionspercapita": 10.77814865,
+            "Entity": "Germany",
+            "GDPpercapita": 13115,
+            "TotalpopulationGapminderHYDEUN": 72183000,
+            "Year": 1957
+        },
+        {
+            "CO2emissionspercapita": 10.42720825,
+            "Entity": "Germany",
+            "GDPpercapita": 13609,
+            "TotalpopulationGapminderHYDEUN": 72548000,
+            "Year": 1958
+        },
+        {
+            "CO2emissionspercapita": 10.35973656,
+            "Entity": "Germany",
+            "GDPpercapita": 14498,
+            "TotalpopulationGapminderHYDEUN": 72955000,
+            "Year": 1959
+        },
+        {
+            "CO2emissionspercapita": 11.08712521,
+            "Entity": "Germany",
+            "GDPpercapita": 15565,
+            "TotalpopulationGapminderHYDEUN": 73414000,
+            "Year": 1960
+        },
+        {
+            "CO2emissionspercapita": 11.29260393,
+            "Entity": "Germany",
+            "GDPpercapita": 16064,
+            "TotalpopulationGapminderHYDEUN": 73928000,
+            "Year": 1961
+        },
+        {
+            "CO2emissionspercapita": 11.85636273,
+            "Entity": "Germany",
+            "GDPpercapita": 16609,
+            "TotalpopulationGapminderHYDEUN": 74489000,
+            "Year": 1962
+        },
+        {
+            "CO2emissionspercapita": 12.59303932,
+            "Entity": "Germany",
+            "GDPpercapita": 16940,
+            "TotalpopulationGapminderHYDEUN": 75081000,
+            "Year": 1963
+        },
+        {
+            "CO2emissionspercapita": 12.80332843,
+            "Entity": "Germany",
+            "GDPpercapita": 17822,
+            "TotalpopulationGapminderHYDEUN": 75677000,
+            "Year": 1964
+        },
+        {
+            "CO2emissionspercapita": 12.59018382,
+            "Entity": "Germany",
+            "GDPpercapita": 18556,
+            "TotalpopulationGapminderHYDEUN": 76258000,
+            "Year": 1965
+        },
+        {
+            "CO2emissionspercapita": 12.38508191,
+            "Entity": "Germany",
+            "GDPpercapita": 18964,
+            "TotalpopulationGapminderHYDEUN": 76820000,
+            "Year": 1966
+        },
+        {
+            "CO2emissionspercapita": 12.10271104,
+            "Entity": "Germany",
+            "GDPpercapita": 18982,
+            "TotalpopulationGapminderHYDEUN": 77357000,
+            "Year": 1967
+        },
+        {
+            "CO2emissionspercapita": 12.65033737,
+            "Entity": "Germany",
+            "GDPpercapita": 19927,
+            "TotalpopulationGapminderHYDEUN": 77847000,
+            "Year": 1968
+        },
+        {
+            "CO2emissionspercapita": 13.44221045,
+            "Entity": "Germany",
+            "GDPpercapita": 21090,
+            "TotalpopulationGapminderHYDEUN": 78261000,
+            "Year": 1969
+        },
+        {
+            "CO2emissionspercapita": 13.05737363,
+            "Entity": "Germany",
+            "GDPpercapita": 21896,
+            "TotalpopulationGapminderHYDEUN": 78578000,
+            "Year": 1970
+        },
+        {
+            "CO2emissionspercapita": 13.16456513,
+            "Entity": "Germany",
+            "GDPpercapita": 22376,
+            "TotalpopulationGapminderHYDEUN": 78790000,
+            "Year": 1971
+        },
+        {
+            "CO2emissionspercapita": 13.19965918,
+            "Entity": "Germany",
+            "GDPpercapita": 23192,
+            "TotalpopulationGapminderHYDEUN": 78902000,
+            "Year": 1972
+        },
+        {
+            "CO2emissionspercapita": 13.75533688,
+            "Entity": "Germany",
+            "GDPpercapita": 24173,
+            "TotalpopulationGapminderHYDEUN": 78932000,
+            "Year": 1973
+        },
+        {
+            "CO2emissionspercapita": 13.46754961,
+            "Entity": "Germany",
+            "GDPpercapita": 24368,
+            "TotalpopulationGapminderHYDEUN": 78910000,
+            "Year": 1974
+        },
+        {
+            "CO2emissionspercapita": 12.71233498,
+            "Entity": "Germany",
+            "GDPpercapita": 24323,
+            "TotalpopulationGapminderHYDEUN": 78856000,
+            "Year": 1975
+        },
+        {
+            "CO2emissionspercapita": 13.84626615,
+            "Entity": "Germany",
+            "GDPpercapita": 25623,
+            "TotalpopulationGapminderHYDEUN": 78782000,
+            "Year": 1976
+        },
+        {
+            "CO2emissionspercapita": 13.37710302,
+            "Entity": "Germany",
+            "GDPpercapita": 26406,
+            "TotalpopulationGapminderHYDEUN": 78687000,
+            "Year": 1977
+        },
+        {
+            "CO2emissionspercapita": 13.73389712,
+            "Entity": "Germany",
+            "GDPpercapita": 27181,
+            "TotalpopulationGapminderHYDEUN": 78574000,
+            "Year": 1978
+        },
+        {
+            "CO2emissionspercapita": 14.25179285,
+            "Entity": "Germany",
+            "GDPpercapita": 28268,
+            "TotalpopulationGapminderHYDEUN": 78438000,
+            "Year": 1979
+        },
+        {
+            "CO2emissionspercapita": 14.0523415,
+            "Entity": "Germany",
+            "GDPpercapita": 28512,
+            "TotalpopulationGapminderHYDEUN": 78283000,
+            "Year": 1980
+        },
+        {
+            "CO2emissionspercapita": 13.42393363,
+            "Entity": "Germany",
+            "GDPpercapita": 28581,
+            "TotalpopulationGapminderHYDEUN": 78108000,
+            "Year": 1981
+        },
+        {
+            "CO2emissionspercapita": 13.0345052,
+            "Entity": "Germany",
+            "GDPpercapita": 28361,
+            "TotalpopulationGapminderHYDEUN": 77926000,
+            "Year": 1982
+        },
+        {
+            "CO2emissionspercapita": 13.00755041,
+            "Entity": "Germany",
+            "GDPpercapita": 28946,
+            "TotalpopulationGapminderHYDEUN": 77770000,
+            "Year": 1983
+        },
+        {
+            "CO2emissionspercapita": 13.30084997,
+            "Entity": "Germany",
+            "GDPpercapita": 29863,
+            "TotalpopulationGapminderHYDEUN": 77682000,
+            "Year": 1984
+        },
+        {
+            "CO2emissionspercapita": 13.43909394,
+            "Entity": "Germany",
+            "GDPpercapita": 30584,
+            "TotalpopulationGapminderHYDEUN": 77692000,
+            "Year": 1985
+        },
+        {
+            "CO2emissionspercapita": 13.46249957,
+            "Entity": "Germany",
+            "GDPpercapita": 31249,
+            "TotalpopulationGapminderHYDEUN": 77806000,
+            "Year": 1986
+        },
+        {
+            "CO2emissionspercapita": 13.23361677,
+            "Entity": "Germany",
+            "GDPpercapita": 31718,
+            "TotalpopulationGapminderHYDEUN": 78016000,
+            "Year": 1987
+        },
+        {
+            "CO2emissionspercapita": 13.14060305,
+            "Entity": "Germany",
+            "GDPpercapita": 32645,
+            "TotalpopulationGapminderHYDEUN": 78308000,
+            "Year": 1988
+        },
+        {
+            "CO2emissionspercapita": 12.82458008,
+            "Entity": "Germany",
+            "GDPpercapita": 33449,
+            "TotalpopulationGapminderHYDEUN": 78660000,
+            "Year": 1989
+        },
+        {
+            "CO2emissionspercapita": 13.31393899,
+            "Entity": "Germany",
+            "GDPpercapita": 32178,
+            "TotalpopulationGapminderHYDEUN": 79054000,
+            "Year": 1990
+        },
+        {
+            "CO2emissionspercapita": 12.76169676,
+            "Entity": "Germany",
+            "GDPpercapita": 33545,
+            "TotalpopulationGapminderHYDEUN": 79491000,
+            "Year": 1991
+        },
+        {
+            "CO2emissionspercapita": 12.08279787,
+            "Entity": "Germany",
+            "GDPpercapita": 33931,
+            "TotalpopulationGapminderHYDEUN": 79963000,
+            "Year": 1992
+        },
+        {
+            "CO2emissionspercapita": 11.89269379,
+            "Entity": "Germany",
+            "GDPpercapita": 33387,
+            "TotalpopulationGapminderHYDEUN": 80429000,
+            "Year": 1993
+        },
+        {
+            "CO2emissionspercapita": 11.62778015,
+            "Entity": "Germany",
+            "GDPpercapita": 34089,
+            "TotalpopulationGapminderHYDEUN": 80833000,
+            "Year": 1994
+        },
+        {
+            "CO2emissionspercapita": 11.57942338,
+            "Entity": "Germany",
+            "GDPpercapita": 34579,
+            "TotalpopulationGapminderHYDEUN": 81139000,
+            "Year": 1995
+        },
+        {
+            "CO2emissionspercapita": 11.79979277,
+            "Entity": "Germany",
+            "GDPpercapita": 34761,
+            "TotalpopulationGapminderHYDEUN": 81324000,
+            "Year": 1996
+        },
+        {
+            "CO2emissionspercapita": 11.44670496,
+            "Entity": "Germany",
+            "GDPpercapita": 35352,
+            "TotalpopulationGapminderHYDEUN": 81399000,
+            "Year": 1997
+        },
+        {
+            "CO2emissionspercapita": 11.34876722,
+            "Entity": "Germany",
+            "GDPpercapita": 36047,
+            "TotalpopulationGapminderHYDEUN": 81403000,
+            "Year": 1998
+        },
+        {
+            "CO2emissionspercapita": 11.0125641,
+            "Entity": "Germany",
+            "GDPpercapita": 36739,
+            "TotalpopulationGapminderHYDEUN": 81390000,
+            "Year": 1999
+        },
+        {
+            "CO2emissionspercapita": 11.06099753,
+            "Entity": "Germany",
+            "GDPpercapita": 37776,
+            "TotalpopulationGapminderHYDEUN": 81401000,
+            "Year": 2000
+        },
+        {
+            "CO2emissionspercapita": 11.25681393,
+            "Entity": "Germany",
+            "GDPpercapita": 38352,
+            "TotalpopulationGapminderHYDEUN": 81454000,
+            "Year": 2001
+        },
+        {
+            "CO2emissionspercapita": 11.04295451,
+            "Entity": "Germany",
+            "GDPpercapita": 38288,
+            "TotalpopulationGapminderHYDEUN": 81535000,
+            "Year": 2002
+        },
+        {
+            "CO2emissionspercapita": 11.04478795,
+            "Entity": "Germany",
+            "GDPpercapita": 37995,
+            "TotalpopulationGapminderHYDEUN": 81614000,
+            "Year": 2003
+        },
+        {
+            "CO2emissionspercapita": 10.86958269,
+            "Entity": "Germany",
+            "GDPpercapita": 38448,
+            "TotalpopulationGapminderHYDEUN": 81646000,
+            "Year": 2004
+        },
+        {
+            "CO2emissionspercapita": 10.62020388,
+            "Entity": "Germany",
+            "GDPpercapita": 38741,
+            "TotalpopulationGapminderHYDEUN": 81603000,
+            "Year": 2005
+        },
+        {
+            "CO2emissionspercapita": 10.77764708,
+            "Entity": "Germany",
+            "GDPpercapita": 40220,
+            "TotalpopulationGapminderHYDEUN": 81472000,
+            "Year": 2006
+        },
+        {
+            "CO2emissionspercapita": 10.47538692,
+            "Entity": "Germany",
+            "GDPpercapita": 41587,
+            "TotalpopulationGapminderHYDEUN": 81278000,
+            "Year": 2007
+        },
+        {
+            "CO2emissionspercapita": 10.53180639,
+            "Entity": "Germany",
+            "GDPpercapita": 42117,
+            "TotalpopulationGapminderHYDEUN": 81066000,
+            "Year": 2008
+        },
+        {
+            "CO2emissionspercapita": 9.751835772,
+            "Entity": "Germany",
+            "GDPpercapita": 39852,
+            "TotalpopulationGapminderHYDEUN": 80900000,
+            "Year": 2009
+        },
+        {
+            "CO2emissionspercapita": 10.29838643,
+            "Entity": "Germany",
+            "GDPpercapita": 41576,
+            "TotalpopulationGapminderHYDEUN": 80827000,
+            "Year": 2010
+        },
+        {
+            "CO2emissionspercapita": 10.01469954,
+            "Entity": "Germany",
+            "GDPpercapita": 43189,
+            "TotalpopulationGapminderHYDEUN": 80856000,
+            "Year": 2011
+        },
+        {
+            "CO2emissionspercapita": 10.05443763,
+            "Entity": "Germany",
+            "GDPpercapita": 43320,
+            "TotalpopulationGapminderHYDEUN": 80973000,
+            "Year": 2012
+        },
+        {
+            "CO2emissionspercapita": 10.24429441,
+            "Entity": "Germany",
+            "GDPpercapita": 43413,
+            "TotalpopulationGapminderHYDEUN": 81174000,
+            "Year": 2013
+        },
+        {
+            "CO2emissionspercapita": 9.733495216,
+            "Entity": "Germany",
+            "GDPpercapita": 43922,
+            "TotalpopulationGapminderHYDEUN": 81450000,
+            "Year": 2014
+        },
+        {
+            "CO2emissionspercapita": 9.731858963,
+            "Entity": "Germany",
+            "GDPpercapita": 44293,
+            "TotalpopulationGapminderHYDEUN": 81787000,
+            "Year": 2015
+        },
+        {
+            "CO2emissionspercapita": 9.753203752,
+            "Entity": "Germany",
+            "GDPpercapita": 44689,
+            "TotalpopulationGapminderHYDEUN": 82194000,
+            "Year": 2016
+        },
+        {
+            "CO2emissionspercapita": 0.3979679854,
+            "Entity": "Italy",
+            "GDPpercapita": 3843,
+            "TotalpopulationGapminderHYDEUN": 33972984,
+            "Year": 1901
+        },
+        {
+            "CO2emissionspercapita": 0.4390495685,
+            "Entity": "Italy",
+            "GDPpercapita": 3904,
+            "TotalpopulationGapminderHYDEUN": 34199036,
+            "Year": 1902
+        },
+        {
+            "CO2emissionspercapita": 0.4445062575,
+            "Entity": "Italy",
+            "GDPpercapita": 3939,
+            "TotalpopulationGapminderHYDEUN": 34455128,
+            "Year": 1903
+        },
+        {
+            "CO2emissionspercapita": 0.4661956735,
+            "Entity": "Italy",
+            "GDPpercapita": 4008,
+            "TotalpopulationGapminderHYDEUN": 34722656,
+            "Year": 1904
+        },
+        {
+            "CO2emissionspercapita": 0.5097538305,
+            "Entity": "Italy",
+            "GDPpercapita": 4091,
+            "TotalpopulationGapminderHYDEUN": 35004504,
+            "Year": 1905
+        },
+        {
+            "CO2emissionspercapita": 0.5973916202,
+            "Entity": "Italy",
+            "GDPpercapita": 4229,
+            "TotalpopulationGapminderHYDEUN": 35303448,
+            "Year": 1906
+        },
+        {
+            "CO2emissionspercapita": 0.640987954,
+            "Entity": "Italy",
+            "GDPpercapita": 4304,
+            "TotalpopulationGapminderHYDEUN": 35583196,
+            "Year": 1907
+        },
+        {
+            "CO2emissionspercapita": 0.6480795033,
+            "Entity": "Italy",
+            "GDPpercapita": 4395,
+            "TotalpopulationGapminderHYDEUN": 35894880,
+            "Year": 1908
+        },
+        {
+            "CO2emissionspercapita": 0.7096668241,
+            "Entity": "Italy",
+            "GDPpercapita": 4430,
+            "TotalpopulationGapminderHYDEUN": 36218348,
+            "Year": 1909
+        },
+        {
+            "CO2emissionspercapita": 0.7045340614,
+            "Entity": "Italy",
+            "GDPpercapita": 4435,
+            "TotalpopulationGapminderHYDEUN": 36529016,
+            "Year": 1910
+        },
+        {
+            "CO2emissionspercapita": 0.7200173119,
+            "Entity": "Italy",
+            "GDPpercapita": 4483,
+            "TotalpopulationGapminderHYDEUN": 36857936,
+            "Year": 1911
+        },
+        {
+            "CO2emissionspercapita": 0.7510242491,
+            "Entity": "Italy",
+            "GDPpercapita": 4487,
+            "TotalpopulationGapminderHYDEUN": 37082776,
+            "Year": 1912
+        },
+        {
+            "CO2emissionspercapita": 0.803646349,
+            "Entity": "Italy",
+            "GDPpercapita": 4698,
+            "TotalpopulationGapminderHYDEUN": 37285296,
+            "Year": 1913
+        },
+        {
+            "CO2emissionspercapita": 0.725150588,
+            "Entity": "Italy",
+            "GDPpercapita": 4442,
+            "TotalpopulationGapminderHYDEUN": 37562096,
+            "Year": 1914
+        },
+        {
+            "CO2emissionspercapita": 0.6280941336,
+            "Entity": "Italy",
+            "GDPpercapita": 4219,
+            "TotalpopulationGapminderHYDEUN": 37859548,
+            "Year": 1915
+        },
+        {
+            "CO2emissionspercapita": 0.6185588751,
+            "Entity": "Italy",
+            "GDPpercapita": 4566,
+            "TotalpopulationGapminderHYDEUN": 38010752,
+            "Year": 1916
+        },
+        {
+            "CO2emissionspercapita": 0.4258609965,
+            "Entity": "Italy",
+            "GDPpercapita": 4581,
+            "TotalpopulationGapminderHYDEUN": 37856484,
+            "Year": 1917
+        },
+        {
+            "CO2emissionspercapita": 0.5053192452,
+            "Entity": "Italy",
+            "GDPpercapita": 4465,
+            "TotalpopulationGapminderHYDEUN": 37559464,
+            "Year": 1918
+        },
+        {
+            "CO2emissionspercapita": 0.4980417102,
+            "Entity": "Italy",
+            "GDPpercapita": 4286,
+            "TotalpopulationGapminderHYDEUN": 37365256,
+            "Year": 1919
+        },
+        {
+            "CO2emissionspercapita": 0.4775058241,
+            "Entity": "Italy",
+            "GDPpercapita": 4388,
+            "TotalpopulationGapminderHYDEUN": 37422220,
+            "Year": 1920
+        },
+        {
+            "CO2emissionspercapita": 0.5803978621,
+            "Entity": "Italy",
+            "GDPpercapita": 4239,
+            "TotalpopulationGapminderHYDEUN": 37700704,
+            "Year": 1921
+        },
+        {
+            "CO2emissionspercapita": 0.6753290546,
+            "Entity": "Italy",
+            "GDPpercapita": 4548,
+            "TotalpopulationGapminderHYDEUN": 38054480,
+            "Year": 1922
+        },
+        {
+            "CO2emissionspercapita": 0.6980502373,
+            "Entity": "Italy",
+            "GDPpercapita": 4920,
+            "TotalpopulationGapminderHYDEUN": 38427240,
+            "Year": 1923
+        },
+        {
+            "CO2emissionspercapita": 0.8296899512,
+            "Entity": "Italy",
+            "GDPpercapita": 5008,
+            "TotalpopulationGapminderHYDEUN": 38786672,
+            "Year": 1924
+        },
+        {
+            "CO2emissionspercapita": 0.7913399839,
+            "Entity": "Italy",
+            "GDPpercapita": 5305,
+            "TotalpopulationGapminderHYDEUN": 39133784,
+            "Year": 1925
+        },
+        {
+            "CO2emissionspercapita": 0.9078431472,
+            "Entity": "Italy",
+            "GDPpercapita": 5300,
+            "TotalpopulationGapminderHYDEUN": 39479560,
+            "Year": 1926
+        },
+        {
+            "CO2emissionspercapita": 1.014187359,
+            "Entity": "Italy",
+            "GDPpercapita": 5159,
+            "TotalpopulationGapminderHYDEUN": 39819672,
+            "Year": 1927
+        },
+        {
+            "CO2emissionspercapita": 0.9506439671,
+            "Entity": "Italy",
+            "GDPpercapita": 5435,
+            "TotalpopulationGapminderHYDEUN": 40141800,
+            "Year": 1928
+        },
+        {
+            "CO2emissionspercapita": 1.088623542,
+            "Entity": "Italy",
+            "GDPpercapita": 5663,
+            "TotalpopulationGapminderHYDEUN": 40455932,
+            "Year": 1929
+        },
+        {
+            "CO2emissionspercapita": 0.9703910568,
+            "Entity": "Italy",
+            "GDPpercapita": 5363,
+            "TotalpopulationGapminderHYDEUN": 40771060,
+            "Year": 1930
+        },
+        {
+            "CO2emissionspercapita": 0.8319263926,
+            "Entity": "Italy",
+            "GDPpercapita": 5257,
+            "TotalpopulationGapminderHYDEUN": 41091520,
+            "Year": 1931
+        },
+        {
+            "CO2emissionspercapita": 0.6779977506,
+            "Entity": "Italy",
+            "GDPpercapita": 5331,
+            "TotalpopulationGapminderHYDEUN": 41411984,
+            "Year": 1932
+        },
+        {
+            "CO2emissionspercapita": 0.7305680317,
+            "Entity": "Italy",
+            "GDPpercapita": 5229,
+            "TotalpopulationGapminderHYDEUN": 41732108,
+            "Year": 1933
+        },
+        {
+            "CO2emissionspercapita": 0.9432514211,
+            "Entity": "Italy",
+            "GDPpercapita": 5174,
+            "TotalpopulationGapminderHYDEUN": 42064560,
+            "Year": 1934
+        },
+        {
+            "CO2emissionspercapita": 1.07068044,
+            "Entity": "Italy",
+            "GDPpercapita": 5410,
+            "TotalpopulationGapminderHYDEUN": 42396680,
+            "Year": 1935
+        },
+        {
+            "CO2emissionspercapita": 0.7491558343,
+            "Entity": "Italy",
+            "GDPpercapita": 5178,
+            "TotalpopulationGapminderHYDEUN": 42721472,
+            "Year": 1936
+        },
+        {
+            "CO2emissionspercapita": 1.049720171,
+            "Entity": "Italy",
+            "GDPpercapita": 5651,
+            "TotalpopulationGapminderHYDEUN": 43051260,
+            "Year": 1937
+        },
+        {
+            "CO2emissionspercapita": 1.036268966,
+            "Entity": "Italy",
+            "GDPpercapita": 5769,
+            "TotalpopulationGapminderHYDEUN": 43422688,
+            "Year": 1938
+        },
+        {
+            "CO2emissionspercapita": 1.052318777,
+            "Entity": "Italy",
+            "GDPpercapita": 6076,
+            "TotalpopulationGapminderHYDEUN": 43846744,
+            "Year": 1939
+        },
+        {
+            "CO2emissionspercapita": 1.107602889,
+            "Entity": "Italy",
+            "GDPpercapita": 5905,
+            "TotalpopulationGapminderHYDEUN": 44284796,
+            "Year": 1940
+        },
+        {
+            "CO2emissionspercapita": 0.9606221714,
+            "Entity": "Italy",
+            "GDPpercapita": 5753,
+            "TotalpopulationGapminderHYDEUN": 44664220,
+            "Year": 1941
+        },
+        {
+            "CO2emissionspercapita": 0.9322500934,
+            "Entity": "Italy",
+            "GDPpercapita": 5398,
+            "TotalpopulationGapminderHYDEUN": 44942704,
+            "Year": 1942
+        },
+        {
+            "CO2emissionspercapita": 0.1577549331,
+            "Entity": "Italy",
+            "GDPpercapita": 4553,
+            "TotalpopulationGapminderHYDEUN": 45127920,
+            "Year": 1943
+        },
+        {
+            "CO2emissionspercapita": 0.07914931153,
+            "Entity": "Italy",
+            "GDPpercapita": 3663,
+            "TotalpopulationGapminderHYDEUN": 45273824,
+            "Year": 1944
+        },
+        {
+            "CO2emissionspercapita": 0.09583905237,
+            "Entity": "Italy",
+            "GDPpercapita": 3279,
+            "TotalpopulationGapminderHYDEUN": 45456376,
+            "Year": 1945
+        },
+        {
+            "CO2emissionspercapita": 0.4851534417,
+            "Entity": "Italy",
+            "GDPpercapita": 4406,
+            "TotalpopulationGapminderHYDEUN": 45706216,
+            "Year": 1946
+        },
+        {
+            "CO2emissionspercapita": 0.7996162977,
+            "Entity": "Italy",
+            "GDPpercapita": 5209,
+            "TotalpopulationGapminderHYDEUN": 46019012,
+            "Year": 1947
+        },
+        {
+            "CO2emissionspercapita": 0.766712467,
+            "Entity": "Italy",
+            "GDPpercapita": 5575,
+            "TotalpopulationGapminderHYDEUN": 46354796,
+            "Year": 1948
+        },
+        {
+            "CO2emissionspercapita": 0.856311928,
+            "Entity": "Italy",
+            "GDPpercapita": 6010,
+            "TotalpopulationGapminderHYDEUN": 46463648,
+            "Year": 1949
+        },
+        {
+            "CO2emissionspercapita": 0.8895219211,
+            "Entity": "Italy",
+            "GDPpercapita": 6465,
+            "TotalpopulationGapminderHYDEUN": 46599000,
+            "Year": 1950
+        },
+        {
+            "CO2emissionspercapita": 1.039029653,
+            "Entity": "Italy",
+            "GDPpercapita": 6902,
+            "TotalpopulationGapminderHYDEUN": 47010000,
+            "Year": 1951
+        },
+        {
+            "CO2emissionspercapita": 1.068714988,
+            "Entity": "Italy",
+            "GDPpercapita": 7380,
+            "TotalpopulationGapminderHYDEUN": 47391000,
+            "Year": 1952
+        },
+        {
+            "CO2emissionspercapita": 1.173643589,
+            "Entity": "Italy",
+            "GDPpercapita": 7864,
+            "TotalpopulationGapminderHYDEUN": 47737000,
+            "Year": 1953
+        },
+        {
+            "CO2emissionspercapita": 1.352182306,
+            "Entity": "Italy",
+            "GDPpercapita": 8214,
+            "TotalpopulationGapminderHYDEUN": 48051000,
+            "Year": 1954
+        },
+        {
+            "CO2emissionspercapita": 1.516660708,
+            "Entity": "Italy",
+            "GDPpercapita": 8632,
+            "TotalpopulationGapminderHYDEUN": 48336000,
+            "Year": 1955
+        },
+        {
+            "CO2emissionspercapita": 1.718571987,
+            "Entity": "Italy",
+            "GDPpercapita": 8970,
+            "TotalpopulationGapminderHYDEUN": 48599000,
+            "Year": 1956
+        },
+        {
+            "CO2emissionspercapita": 1.783473676,
+            "Entity": "Italy",
+            "GDPpercapita": 9449,
+            "TotalpopulationGapminderHYDEUN": 48852000,
+            "Year": 1957
+        },
+        {
+            "CO2emissionspercapita": 1.784773122,
+            "Entity": "Italy",
+            "GDPpercapita": 9896,
+            "TotalpopulationGapminderHYDEUN": 49110000,
+            "Year": 1958
+        },
+        {
+            "CO2emissionspercapita": 1.905009365,
+            "Entity": "Italy",
+            "GDPpercapita": 10437,
+            "TotalpopulationGapminderHYDEUN": 49388000,
+            "Year": 1959
+        },
+        {
+            "CO2emissionspercapita": 2.197245206,
+            "Entity": "Italy",
+            "GDPpercapita": 10922,
+            "TotalpopulationGapminderHYDEUN": 49700000,
+            "Year": 1960
+        },
+        {
+            "CO2emissionspercapita": 2.484913622,
+            "Entity": "Italy",
+            "GDPpercapita": 11766,
+            "TotalpopulationGapminderHYDEUN": 50052000,
+            "Year": 1961
+        },
+        {
+            "CO2emissionspercapita": 2.899468405,
+            "Entity": "Italy",
+            "GDPpercapita": 12604,
+            "TotalpopulationGapminderHYDEUN": 50442000,
+            "Year": 1962
+        },
+        {
+            "CO2emissionspercapita": 3.235729106,
+            "Entity": "Italy",
+            "GDPpercapita": 13408,
+            "TotalpopulationGapminderHYDEUN": 50856000,
+            "Year": 1963
+        },
+        {
+            "CO2emissionspercapita": 3.427165886,
+            "Entity": "Italy",
+            "GDPpercapita": 13822,
+            "TotalpopulationGapminderHYDEUN": 51273000,
+            "Year": 1964
+        },
+        {
+            "CO2emissionspercapita": 3.667557703,
+            "Entity": "Italy",
+            "GDPpercapita": 14028,
+            "TotalpopulationGapminderHYDEUN": 51677000,
+            "Year": 1965
+        },
+        {
+            "CO2emissionspercapita": 4.110063965,
+            "Entity": "Italy",
+            "GDPpercapita": 14663,
+            "TotalpopulationGapminderHYDEUN": 52063000,
+            "Year": 1966
+        },
+        {
+            "CO2emissionspercapita": 4.465312726,
+            "Entity": "Italy",
+            "GDPpercapita": 15607,
+            "TotalpopulationGapminderHYDEUN": 52433000,
+            "Year": 1967
+        },
+        {
+            "CO2emissionspercapita": 4.719616637,
+            "Entity": "Italy",
+            "GDPpercapita": 16810,
+            "TotalpopulationGapminderHYDEUN": 52795000,
+            "Year": 1968
+        },
+        {
+            "CO2emissionspercapita": 5.07310637,
+            "Entity": "Italy",
+            "GDPpercapita": 17661,
+            "TotalpopulationGapminderHYDEUN": 53155000,
+            "Year": 1969
+        },
+        {
+            "CO2emissionspercapita": 5.537557612,
+            "Entity": "Italy",
+            "GDPpercapita": 17942,
+            "TotalpopulationGapminderHYDEUN": 53519000,
+            "Year": 1970
+        },
+        {
+            "CO2emissionspercapita": 5.772035366,
+            "Entity": "Italy",
+            "GDPpercapita": 18165,
+            "TotalpopulationGapminderHYDEUN": 53889000,
+            "Year": 1971
+        },
+        {
+            "CO2emissionspercapita": 6.049458059,
+            "Entity": "Italy",
+            "GDPpercapita": 18573,
+            "TotalpopulationGapminderHYDEUN": 54259000,
+            "Year": 1972
+        },
+        {
+            "CO2emissionspercapita": 6.469346636,
+            "Entity": "Italy",
+            "GDPpercapita": 19632,
+            "TotalpopulationGapminderHYDEUN": 54619000,
+            "Year": 1973
+        },
+        {
+            "CO2emissionspercapita": 6.518670333,
+            "Entity": "Italy",
+            "GDPpercapita": 20393,
+            "TotalpopulationGapminderHYDEUN": 54958000,
+            "Year": 1974
+        },
+        {
+            "CO2emissionspercapita": 6.171222945,
+            "Entity": "Italy",
+            "GDPpercapita": 19831,
+            "TotalpopulationGapminderHYDEUN": 55265000,
+            "Year": 1975
+        },
+        {
+            "CO2emissionspercapita": 6.586403694,
+            "Entity": "Italy",
+            "GDPpercapita": 21019,
+            "TotalpopulationGapminderHYDEUN": 55538000,
+            "Year": 1976
+        },
+        {
+            "CO2emissionspercapita": 6.354080665,
+            "Entity": "Italy",
+            "GDPpercapita": 21541,
+            "TotalpopulationGapminderHYDEUN": 55778000,
+            "Year": 1977
+        },
+        {
+            "CO2emissionspercapita": 6.631198168,
+            "Entity": "Italy",
+            "GDPpercapita": 22273,
+            "TotalpopulationGapminderHYDEUN": 55989000,
+            "Year": 1978
+        },
+        {
+            "CO2emissionspercapita": 6.85777161,
+            "Entity": "Italy",
+            "GDPpercapita": 23483,
+            "TotalpopulationGapminderHYDEUN": 56178000,
+            "Year": 1979
+        },
+        {
+            "CO2emissionspercapita": 6.857857966,
+            "Entity": "Italy",
+            "GDPpercapita": 24276,
+            "TotalpopulationGapminderHYDEUN": 56349000,
+            "Year": 1980
+        },
+        {
+            "CO2emissionspercapita": 6.641900856,
+            "Entity": "Italy",
+            "GDPpercapita": 24369,
+            "TotalpopulationGapminderHYDEUN": 56505000,
+            "Year": 1981
+        },
+        {
+            "CO2emissionspercapita": 6.476821,
+            "Entity": "Italy",
+            "GDPpercapita": 24466,
+            "TotalpopulationGapminderHYDEUN": 56645000,
+            "Year": 1982
+        },
+        {
+            "CO2emissionspercapita": 6.313918957,
+            "Entity": "Italy",
+            "GDPpercapita": 24723,
+            "TotalpopulationGapminderHYDEUN": 56765000,
+            "Year": 1983
+        },
+        {
+            "CO2emissionspercapita": 6.41193054,
+            "Entity": "Italy",
+            "GDPpercapita": 25328,
+            "TotalpopulationGapminderHYDEUN": 56863000,
+            "Year": 1984
+        },
+        {
+            "CO2emissionspercapita": 6.480547999,
+            "Entity": "Italy",
+            "GDPpercapita": 26024,
+            "TotalpopulationGapminderHYDEUN": 56937000,
+            "Year": 1985
+        },
+        {
+            "CO2emissionspercapita": 6.373512156,
+            "Entity": "Italy",
+            "GDPpercapita": 26762,
+            "TotalpopulationGapminderHYDEUN": 56984000,
+            "Year": 1986
+        },
+        {
+            "CO2emissionspercapita": 6.667471834,
+            "Entity": "Italy",
+            "GDPpercapita": 27593,
+            "TotalpopulationGapminderHYDEUN": 57008000,
+            "Year": 1987
+        },
+        {
+            "CO2emissionspercapita": 6.769142508,
+            "Entity": "Italy",
+            "GDPpercapita": 28658,
+            "TotalpopulationGapminderHYDEUN": 57018000,
+            "Year": 1988
+        },
+        {
+            "CO2emissionspercapita": 7.097138466,
+            "Entity": "Italy",
+            "GDPpercapita": 29482,
+            "TotalpopulationGapminderHYDEUN": 57029000,
+            "Year": 1989
+        },
+        {
+            "CO2emissionspercapita": 7.706487617,
+            "Entity": "Italy",
+            "GDPpercapita": 30117,
+            "TotalpopulationGapminderHYDEUN": 57048000,
+            "Year": 1990
+        },
+        {
+            "CO2emissionspercapita": 7.695918732,
+            "Entity": "Italy",
+            "GDPpercapita": 30559,
+            "TotalpopulationGapminderHYDEUN": 57088000,
+            "Year": 1991
+        },
+        {
+            "CO2emissionspercapita": 7.651608968,
+            "Entity": "Italy",
+            "GDPpercapita": 30793,
+            "TotalpopulationGapminderHYDEUN": 57145000,
+            "Year": 1992
+        },
+        {
+            "CO2emissionspercapita": 7.527279151,
+            "Entity": "Italy",
+            "GDPpercapita": 30512,
+            "TotalpopulationGapminderHYDEUN": 57198000,
+            "Year": 1993
+        },
+        {
+            "CO2emissionspercapita": 7.424941724,
+            "Entity": "Italy",
+            "GDPpercapita": 31162,
+            "TotalpopulationGapminderHYDEUN": 57214000,
+            "Year": 1994
+        },
+        {
+            "CO2emissionspercapita": 7.895778577,
+            "Entity": "Italy",
+            "GDPpercapita": 32061,
+            "TotalpopulationGapminderHYDEUN": 57174000,
+            "Year": 1995
+        },
+        {
+            "CO2emissionspercapita": 7.783863512,
+            "Entity": "Italy",
+            "GDPpercapita": 32464,
+            "TotalpopulationGapminderHYDEUN": 57065000,
+            "Year": 1996
+        },
+        {
+            "CO2emissionspercapita": 7.8875909,
+            "Entity": "Italy",
+            "GDPpercapita": 33043,
+            "TotalpopulationGapminderHYDEUN": 56904000,
+            "Year": 1997
+        },
+        {
+            "CO2emissionspercapita": 8.105100354,
+            "Entity": "Italy",
+            "GDPpercapita": 33567,
+            "TotalpopulationGapminderHYDEUN": 56743000,
+            "Year": 1998
+        },
+        {
+            "CO2emissionspercapita": 8.194908368,
+            "Entity": "Italy",
+            "GDPpercapita": 34085,
+            "TotalpopulationGapminderHYDEUN": 56656000,
+            "Year": 1999
+        },
+        {
+            "CO2emissionspercapita": 8.295592979,
+            "Entity": "Italy",
+            "GDPpercapita": 35333,
+            "TotalpopulationGapminderHYDEUN": 56692000,
+            "Year": 2000
+        },
+        {
+            "CO2emissionspercapita": 8.368628443,
+            "Entity": "Italy",
+            "GDPpercapita": 35939,
+            "TotalpopulationGapminderHYDEUN": 56875000,
+            "Year": 2001
+        },
+        {
+            "CO2emissionspercapita": 8.350467025,
+            "Entity": "Italy",
+            "GDPpercapita": 35975,
+            "TotalpopulationGapminderHYDEUN": 57183000,
+            "Year": 2002
+        },
+        {
+            "CO2emissionspercapita": 8.525152432,
+            "Entity": "Italy",
+            "GDPpercapita": 35870,
+            "TotalpopulationGapminderHYDEUN": 57565000,
+            "Year": 2003
+        },
+        {
+            "CO2emissionspercapita": 8.535076973,
+            "Entity": "Italy",
+            "GDPpercapita": 36202,
+            "TotalpopulationGapminderHYDEUN": 57948000,
+            "Year": 2004
+        },
+        {
+            "CO2emissionspercapita": 8.484034861,
+            "Entity": "Italy",
+            "GDPpercapita": 36367,
+            "TotalpopulationGapminderHYDEUN": 58281000,
+            "Year": 2005
+        },
+        {
+            "CO2emissionspercapita": 8.35287141,
+            "Entity": "Italy",
+            "GDPpercapita": 36985,
+            "TotalpopulationGapminderHYDEUN": 58543000,
+            "Year": 2006
+        },
+        {
+            "CO2emissionspercapita": 8.154804937,
+            "Entity": "Italy",
+            "GDPpercapita": 37341,
+            "TotalpopulationGapminderHYDEUN": 58748000,
+            "Year": 2007
+        },
+        {
+            "CO2emissionspercapita": 7.933742695,
+            "Entity": "Italy",
+            "GDPpercapita": 36705,
+            "TotalpopulationGapminderHYDEUN": 58922000,
+            "Year": 2008
+        },
+        {
+            "CO2emissionspercapita": 7.04962616,
+            "Entity": "Italy",
+            "GDPpercapita": 34535,
+            "TotalpopulationGapminderHYDEUN": 59106000,
+            "Year": 2009
+        },
+        {
+            "CO2emissionspercapita": 7.186699847,
+            "Entity": "Italy",
+            "GDPpercapita": 35010,
+            "TotalpopulationGapminderHYDEUN": 59325000,
+            "Year": 2010
+        },
+        {
+            "CO2emissionspercapita": 6.946655171,
+            "Entity": "Italy",
+            "GDPpercapita": 35151,
+            "TotalpopulationGapminderHYDEUN": 59589000,
+            "Year": 2011
+        },
+        {
+            "CO2emissionspercapita": 6.55705293,
+            "Entity": "Italy",
+            "GDPpercapita": 34068,
+            "TotalpopulationGapminderHYDEUN": 59879000,
+            "Year": 2012
+        },
+        {
+            "CO2emissionspercapita": 6.051309274,
+            "Entity": "Italy",
+            "GDPpercapita": 33094,
+            "TotalpopulationGapminderHYDEUN": 60167000,
+            "Year": 2013
+        },
+        {
+            "CO2emissionspercapita": 5.769698532,
+            "Entity": "Italy",
+            "GDPpercapita": 32829,
+            "TotalpopulationGapminderHYDEUN": 60410000,
+            "Year": 2014
+        },
+        {
+            "CO2emissionspercapita": 5.873165784,
+            "Entity": "Italy",
+            "GDPpercapita": 33118,
+            "TotalpopulationGapminderHYDEUN": 60578000,
+            "Year": 2015
+        },
+        {
+            "CO2emissionspercapita": 5.82706538,
+            "Entity": "Italy",
+            "GDPpercapita": 33419,
+            "TotalpopulationGapminderHYDEUN": 60663000,
+            "Year": 2016
+        },
+        {
+            "CO2emissionspercapita": 9.101996226,
+            "Entity": "United States",
+            "GDPpercapita": 6822,
+            "TotalpopulationGapminderHYDEUN": 79271168,
+            "Year": 1901
+        },
+        {
+            "CO2emissionspercapita": 9.47087999,
+            "Entity": "United States",
+            "GDPpercapita": 6756,
+            "TotalpopulationGapminderHYDEUN": 80720440,
+            "Year": 1902
+        },
+        {
+            "CO2emissionspercapita": 10.87132229,
+            "Entity": "United States",
+            "GDPpercapita": 6955,
+            "TotalpopulationGapminderHYDEUN": 82271904,
+            "Year": 1903
+        },
+        {
+            "CO2emissionspercapita": 10.49506126,
+            "Entity": "United States",
+            "GDPpercapita": 6739,
+            "TotalpopulationGapminderHYDEUN": 83870024,
+            "Year": 1904
+        },
+        {
+            "CO2emissionspercapita": 11.51132993,
+            "Entity": "United States",
+            "GDPpercapita": 7094,
+            "TotalpopulationGapminderHYDEUN": 85524304,
+            "Year": 1905
+        },
+        {
+            "CO2emissionspercapita": 11.84649367,
+            "Entity": "United States",
+            "GDPpercapita": 7762,
+            "TotalpopulationGapminderHYDEUN": 87227464,
+            "Year": 1906
+        },
+        {
+            "CO2emissionspercapita": 13.52789933,
+            "Entity": "United States",
+            "GDPpercapita": 7740,
+            "TotalpopulationGapminderHYDEUN": 88838848,
+            "Year": 1907
+        },
+        {
+            "CO2emissionspercapita": 11.59813871,
+            "Entity": "United States",
+            "GDPpercapita": 6970,
+            "TotalpopulationGapminderHYDEUN": 90615784,
+            "Year": 1908
+        },
+        {
+            "CO2emissionspercapita": 12.59558345,
+            "Entity": "United States",
+            "GDPpercapita": 7668,
+            "TotalpopulationGapminderHYDEUN": 92361976,
+            "Year": 1909
+        },
+        {
+            "CO2emissionspercapita": 13.48968238,
+            "Entity": "United States",
+            "GDPpercapita": 7586,
+            "TotalpopulationGapminderHYDEUN": 94088792,
+            "Year": 1910
+        },
+        {
+            "CO2emissionspercapita": 13.10669329,
+            "Entity": "United States",
+            "GDPpercapita": 7711,
+            "TotalpopulationGapminderHYDEUN": 95858320,
+            "Year": 1911
+        },
+        {
+            "CO2emissionspercapita": 13.75231562,
+            "Entity": "United States",
+            "GDPpercapita": 7948,
+            "TotalpopulationGapminderHYDEUN": 97526184,
+            "Year": 1912
+        },
+        {
+            "CO2emissionspercapita": 14.4965893,
+            "Entity": "United States",
+            "GDPpercapita": 8101,
+            "TotalpopulationGapminderHYDEUN": 99341520,
+            "Year": 1913
+        },
+        {
+            "CO2emissionspercapita": 13.00782927,
+            "Entity": "United States",
+            "GDPpercapita": 7334,
+            "TotalpopulationGapminderHYDEUN": 101146656,
+            "Year": 1914
+        },
+        {
+            "CO2emissionspercapita": 13.28213756,
+            "Entity": "United States",
+            "GDPpercapita": 7434,
+            "TotalpopulationGapminderHYDEUN": 102789832,
+            "Year": 1915
+        },
+        {
+            "CO2emissionspercapita": 14.53991678,
+            "Entity": "United States",
+            "GDPpercapita": 8342,
+            "TotalpopulationGapminderHYDEUN": 104282472,
+            "Year": 1916
+        },
+        {
+            "CO2emissionspercapita": 15.78856738,
+            "Entity": "United States",
+            "GDPpercapita": 8020,
+            "TotalpopulationGapminderHYDEUN": 105675728,
+            "Year": 1917
+        },
+        {
+            "CO2emissionspercapita": 16.35639981,
+            "Entity": "United States",
+            "GDPpercapita": 8648,
+            "TotalpopulationGapminderHYDEUN": 106721808,
+            "Year": 1918
+        },
+        {
+            "CO2emissionspercapita": 13.70562832,
+            "Entity": "United States",
+            "GDPpercapita": 8681,
+            "TotalpopulationGapminderHYDEUN": 107762376,
+            "Year": 1919
+        },
+        {
+            "CO2emissionspercapita": 15.90766297,
+            "Entity": "United States",
+            "GDPpercapita": 8485,
+            "TotalpopulationGapminderHYDEUN": 109122856,
+            "Year": 1920
+        },
+        {
+            "CO2emissionspercapita": 12.83083574,
+            "Entity": "United States",
+            "GDPpercapita": 8134,
+            "TotalpopulationGapminderHYDEUN": 110824640,
+            "Year": 1921
+        },
+        {
+            "CO2emissionspercapita": 12.7186955,
+            "Entity": "United States",
+            "GDPpercapita": 8466,
+            "TotalpopulationGapminderHYDEUN": 112694536,
+            "Year": 1922
+        },
+        {
+            "CO2emissionspercapita": 16.52795416,
+            "Entity": "United States",
+            "GDPpercapita": 9420,
+            "TotalpopulationGapminderHYDEUN": 114594312,
+            "Year": 1923
+        },
+        {
+            "CO2emissionspercapita": 14.5464477,
+            "Entity": "United States",
+            "GDPpercapita": 9525,
+            "TotalpopulationGapminderHYDEUN": 116564056,
+            "Year": 1924
+        },
+        {
+            "CO2emissionspercapita": 14.70083616,
+            "Entity": "United States",
+            "GDPpercapita": 9601,
+            "TotalpopulationGapminderHYDEUN": 118421720,
+            "Year": 1925
+        },
+        {
+            "CO2emissionspercapita": 15.72459363,
+            "Entity": "United States",
+            "GDPpercapita": 10090,
+            "TotalpopulationGapminderHYDEUN": 120100752,
+            "Year": 1926
+        },
+        {
+            "CO2emissionspercapita": 15.15983808,
+            "Entity": "United States",
+            "GDPpercapita": 10050,
+            "TotalpopulationGapminderHYDEUN": 121692504,
+            "Year": 1927
+        },
+        {
+            "CO2emissionspercapita": 14.83800975,
+            "Entity": "United States",
+            "GDPpercapita": 10040,
+            "TotalpopulationGapminderHYDEUN": 123182720,
+            "Year": 1928
+        },
+        {
+            "CO2emissionspercapita": 15.73336834,
+            "Entity": "United States",
+            "GDPpercapita": 10543,
+            "TotalpopulationGapminderHYDEUN": 124597536,
+            "Year": 1929
+        },
+        {
+            "CO2emissionspercapita": 13.84451386,
+            "Entity": "United States",
+            "GDPpercapita": 9490,
+            "TotalpopulationGapminderHYDEUN": 125841184,
+            "Year": 1930
+        },
+        {
+            "CO2emissionspercapita": 11.68471417,
+            "Entity": "United States",
+            "GDPpercapita": 8864,
+            "TotalpopulationGapminderHYDEUN": 126924880,
+            "Year": 1931
+        },
+        {
+            "CO2emissionspercapita": 9.832681787,
+            "Entity": "United States",
+            "GDPpercapita": 7525,
+            "TotalpopulationGapminderHYDEUN": 127777984,
+            "Year": 1932
+        },
+        {
+            "CO2emissionspercapita": 10.47785188,
+            "Entity": "United States",
+            "GDPpercapita": 7270,
+            "TotalpopulationGapminderHYDEUN": 128574368,
+            "Year": 1933
+        },
+        {
+            "CO2emissionspercapita": 11.08516726,
+            "Entity": "United States",
+            "GDPpercapita": 7876,
+            "TotalpopulationGapminderHYDEUN": 129397240,
+            "Year": 1934
+        },
+        {
+            "CO2emissionspercapita": 11.44185178,
+            "Entity": "United States",
+            "GDPpercapita": 8850,
+            "TotalpopulationGapminderHYDEUN": 130246608,
+            "Year": 1935
+        },
+        {
+            "CO2emissionspercapita": 13.04969462,
+            "Entity": "United States",
+            "GDPpercapita": 9718,
+            "TotalpopulationGapminderHYDEUN": 131090880,
+            "Year": 1936
+        },
+        {
+            "CO2emissionspercapita": 13.55939107,
+            "Entity": "United States",
+            "GDPpercapita": 10450,
+            "TotalpopulationGapminderHYDEUN": 131979640,
+            "Year": 1937
+        },
+        {
+            "CO2emissionspercapita": 11.38334812,
+            "Entity": "United States",
+            "GDPpercapita": 9797,
+            "TotalpopulationGapminderHYDEUN": 132950240,
+            "Year": 1938
+        },
+        {
+            "CO2emissionspercapita": 12.44416079,
+            "Entity": "United States",
+            "GDPpercapita": 10459,
+            "TotalpopulationGapminderHYDEUN": 134027824,
+            "Year": 1939
+        },
+        {
+            "CO2emissionspercapita": 13.8425777,
+            "Entity": "United States",
+            "GDPpercapita": 11307,
+            "TotalpopulationGapminderHYDEUN": 135198128,
+            "Year": 1940
+        },
+        {
+            "CO2emissionspercapita": 14.93879134,
+            "Entity": "United States",
+            "GDPpercapita": 12844,
+            "TotalpopulationGapminderHYDEUN": 136504608,
+            "Year": 1941
+        },
+        {
+            "CO2emissionspercapita": 15.88874229,
+            "Entity": "United States",
+            "GDPpercapita": 14175,
+            "TotalpopulationGapminderHYDEUN": 138078704,
+            "Year": 1942
+        },
+        {
+            "CO2emissionspercapita": 16.21944791,
+            "Entity": "United States",
+            "GDPpercapita": 15392,
+            "TotalpopulationGapminderHYDEUN": 139781840,
+            "Year": 1943
+        },
+        {
+            "CO2emissionspercapita": 17.24529539,
+            "Entity": "United States",
+            "GDPpercapita": 16401,
+            "TotalpopulationGapminderHYDEUN": 141509776,
+            "Year": 1944
+        },
+        {
+            "CO2emissionspercapita": 16.45996664,
+            "Entity": "United States",
+            "GDPpercapita": 15992,
+            "TotalpopulationGapminderHYDEUN": 143095072,
+            "Year": 1945
+        },
+        {
+            "CO2emissionspercapita": 19.55814227,
+            "Entity": "United States",
+            "GDPpercapita": 30056,
+            "TotalpopulationGapminderHYDEUN": 231636000,
+            "Year": 1981
+        },
+        {
+            "CO2emissionspercapita": 18.39848556,
+            "Entity": "United States",
+            "GDPpercapita": 29211,
+            "TotalpopulationGapminderHYDEUN": 233822000,
+            "Year": 1982
+        },
+        {
+            "CO2emissionspercapita": 18.37019261,
+            "Entity": "United States",
+            "GDPpercapita": 30159,
+            "TotalpopulationGapminderHYDEUN": 236030000,
+            "Year": 1983
+        },
+        {
+            "CO2emissionspercapita": 18.75395982,
+            "Entity": "United States",
+            "GDPpercapita": 32076,
+            "TotalpopulationGapminderHYDEUN": 238256992,
+            "Year": 1984
+        },
+        {
+            "CO2emissionspercapita": 18.64589681,
+            "Entity": "United States",
+            "GDPpercapita": 33024,
+            "TotalpopulationGapminderHYDEUN": 240500000,
+            "Year": 1985
+        },
+        {
+            "CO2emissionspercapita": 18.48657218,
+            "Entity": "United States",
+            "GDPpercapita": 33851,
+            "TotalpopulationGapminderHYDEUN": 242763008,
+            "Year": 1986
+        },
+        {
+            "CO2emissionspercapita": 19.10131361,
+            "Entity": "United States",
+            "GDPpercapita": 34730,
+            "TotalpopulationGapminderHYDEUN": 245052992,
+            "Year": 1987
+        },
+        {
+            "CO2emissionspercapita": 19.74997374,
+            "Entity": "United States",
+            "GDPpercapita": 35865,
+            "TotalpopulationGapminderHYDEUN": 247372000,
+            "Year": 1988
+        },
+        {
+            "CO2emissionspercapita": 19.81380058,
+            "Entity": "United States",
+            "GDPpercapita": 36757,
+            "TotalpopulationGapminderHYDEUN": 249726000,
+            "Year": 1989
+        },
+        {
+            "CO2emissionspercapita": 20.31246803,
+            "Entity": "United States",
+            "GDPpercapita": 36982,
+            "TotalpopulationGapminderHYDEUN": 252120000,
+            "Year": 1990
+        },
+        {
+            "CO2emissionspercapita": 19.92450569,
+            "Entity": "United States",
+            "GDPpercapita": 36464,
+            "TotalpopulationGapminderHYDEUN": 254539008,
+            "Year": 1991
+        },
+        {
+            "CO2emissionspercapita": 20.13560957,
+            "Entity": "United States",
+            "GDPpercapita": 37241,
+            "TotalpopulationGapminderHYDEUN": 256991008,
+            "Year": 1992
+        },
+        {
+            "CO2emissionspercapita": 20.3496548,
+            "Entity": "United States",
+            "GDPpercapita": 37762,
+            "TotalpopulationGapminderHYDEUN": 259532000,
+            "Year": 1993
+        },
+        {
+            "CO2emissionspercapita": 20.49654313,
+            "Entity": "United States",
+            "GDPpercapita": 38808,
+            "TotalpopulationGapminderHYDEUN": 262240992,
+            "Year": 1994
+        },
+        {
+            "CO2emissionspercapita": 20.50315271,
+            "Entity": "United States",
+            "GDPpercapita": 39391,
+            "TotalpopulationGapminderHYDEUN": 265164000,
+            "Year": 1995
+        },
+        {
+            "CO2emissionspercapita": 20.96275818,
+            "Entity": "United States",
+            "GDPpercapita": 40414,
+            "TotalpopulationGapminderHYDEUN": 268335008,
+            "Year": 1996
+        },
+        {
+            "CO2emissionspercapita": 20.98501091,
+            "Entity": "United States",
+            "GDPpercapita": 41723,
+            "TotalpopulationGapminderHYDEUN": 271713984,
+            "Year": 1997
+        },
+        {
+            "CO2emissionspercapita": 20.89540434,
+            "Entity": "United States",
+            "GDPpercapita": 43073,
+            "TotalpopulationGapminderHYDEUN": 275175008,
+            "Year": 1998
+        },
+        {
+            "CO2emissionspercapita": 20.92824199,
+            "Entity": "United States",
+            "GDPpercapita": 44576,
+            "TotalpopulationGapminderHYDEUN": 278548000,
+            "Year": 1999
+        },
+        {
+            "CO2emissionspercapita": 21.2888341,
+            "Entity": "United States",
+            "GDPpercapita": 45887,
+            "TotalpopulationGapminderHYDEUN": 281711008,
+            "Year": 2000
+        },
+        {
+            "CO2emissionspercapita": 20.72975983,
+            "Entity": "United States",
+            "GDPpercapita": 45878,
+            "TotalpopulationGapminderHYDEUN": 284608000,
+            "Year": 2001
+        },
+        {
+            "CO2emissionspercapita": 20.6851919,
+            "Entity": "United States",
+            "GDPpercapita": 46267,
+            "TotalpopulationGapminderHYDEUN": 287279008,
+            "Year": 2002
+        },
+        {
+            "CO2emissionspercapita": 20.67239536,
+            "Entity": "United States",
+            "GDPpercapita": 47158,
+            "TotalpopulationGapminderHYDEUN": 289816000,
+            "Year": 2003
+        },
+        {
+            "CO2emissionspercapita": 20.88366521,
+            "Entity": "United States",
+            "GDPpercapita": 48493,
+            "TotalpopulationGapminderHYDEUN": 292355008,
+            "Year": 2004
+        },
+        {
+            "CO2emissionspercapita": 20.78195743,
+            "Entity": "United States",
+            "GDPpercapita": 49655,
+            "TotalpopulationGapminderHYDEUN": 294993984,
+            "Year": 2005
+        },
+        {
+            "CO2emissionspercapita": 20.31973657,
+            "Entity": "United States",
+            "GDPpercapita": 50490,
+            "TotalpopulationGapminderHYDEUN": 297759008,
+            "Year": 2006
+        },
+        {
+            "CO2emissionspercapita": 20.38498051,
+            "Entity": "United States",
+            "GDPpercapita": 50902,
+            "TotalpopulationGapminderHYDEUN": 300608000,
+            "Year": 2007
+        },
+        {
+            "CO2emissionspercapita": 19.53386982,
+            "Entity": "United States",
+            "GDPpercapita": 50276,
+            "TotalpopulationGapminderHYDEUN": 303486016,
+            "Year": 2008
+        },
+        {
+            "CO2emissionspercapita": 17.934719,
+            "Entity": "United States",
+            "GDPpercapita": 48453,
+            "TotalpopulationGapminderHYDEUN": 306308000,
+            "Year": 2009
+        },
+        {
+            "CO2emissionspercapita": 18.4462954,
+            "Entity": "United States",
+            "GDPpercapita": 49267,
+            "TotalpopulationGapminderHYDEUN": 309011008,
+            "Year": 2010
+        },
+        {
+            "CO2emissionspercapita": 17.8846949,
+            "Entity": "United States",
+            "GDPpercapita": 49675,
+            "TotalpopulationGapminderHYDEUN": 311584000,
+            "Year": 2011
+        },
+        {
+            "CO2emissionspercapita": 17.1051737,
+            "Entity": "United States",
+            "GDPpercapita": 50394,
+            "TotalpopulationGapminderHYDEUN": 314044000,
+            "Year": 2012
+        },
+        {
+            "CO2emissionspercapita": 17.45540787,
+            "Entity": "United States",
+            "GDPpercapita": 50863,
+            "TotalpopulationGapminderHYDEUN": 316400992,
+            "Year": 2013
+        },
+        {
+            "CO2emissionspercapita": 17.48534219,
+            "Entity": "United States",
+            "GDPpercapita": 51664,
+            "TotalpopulationGapminderHYDEUN": 318672992,
+            "Year": 2014
+        },
+        {
+            "CO2emissionspercapita": 16.90039643,
+            "Entity": "United States",
+            "GDPpercapita": 52591,
+            "TotalpopulationGapminderHYDEUN": 320878016,
+            "Year": 2015
+        },
+        {
+            "CO2emissionspercapita": 16.42848174,
+            "Entity": "United States",
+            "GDPpercapita": 53015,
+            "TotalpopulationGapminderHYDEUN": 323016000,
+            "Year": 2016
+        }
+    ],
+    "dataTypes": {
+        "CO2emissionspercapita": "number",
+        "Entity": "string",
+        "GDPpercapita": "number",
+        "TotalpopulationGapminderHYDEUN": "number",
+        "Year": "number"
+    },
+    "errors": [],
+    "count": 464,
+    "sample": [
+        {
+            "CO2emissionspercapita": 15.53300404,
+            "Entity": "United States",
+            "GDPpercapita": 14471,
+            "TotalpopulationGapminderHYDEUN": 145048176,
+            "Year": 1946
+        },
+        {
+            "CO2emissionspercapita": 16.83774596,
+            "Entity": "United States",
+            "GDPpercapita": 14057,
+            "TotalpopulationGapminderHYDEUN": 147333408,
+            "Year": 1947
+        },
+        {
+            "CO2emissionspercapita": 17.18120163,
+            "Entity": "United States",
+            "GDPpercapita": 14559,
+            "TotalpopulationGapminderHYDEUN": 149992560,
+            "Year": 1948
+        },
+        {
+            "CO2emissionspercapita": 13.98504991,
+            "Entity": "United States",
+            "GDPpercapita": 14112,
+            "TotalpopulationGapminderHYDEUN": 154449952,
+            "Year": 1949
+        },
+        {
+            "CO2emissionspercapita": 15.96900793,
+            "Entity": "United States",
+            "GDPpercapita": 15241,
+            "TotalpopulationGapminderHYDEUN": 158804000,
+            "Year": 1950
+        },
+        {
+            "CO2emissionspercapita": 16.23880919,
+            "Entity": "United States",
+            "GDPpercapita": 16126,
+            "TotalpopulationGapminderHYDEUN": 160872000,
+            "Year": 1951
+        },
+        {
+            "CO2emissionspercapita": 15.5885509,
+            "Entity": "United States",
+            "GDPpercapita": 16443,
+            "TotalpopulationGapminderHYDEUN": 163266000,
+            "Year": 1952
+        },
+        {
+            "CO2emissionspercapita": 15.70577542,
+            "Entity": "United States",
+            "GDPpercapita": 16917,
+            "TotalpopulationGapminderHYDEUN": 165910000,
+            "Year": 1953
+        },
+        {
+            "CO2emissionspercapita": 14.71560601,
+            "Entity": "United States",
+            "GDPpercapita": 16513,
+            "TotalpopulationGapminderHYDEUN": 168736000,
+            "Year": 1954
+        },
+        {
+            "CO2emissionspercapita": 15.85299775,
+            "Entity": "United States",
+            "GDPpercapita": 17370,
+            "TotalpopulationGapminderHYDEUN": 171684992,
+            "Year": 1955
+        }
+    ],
+    "stats": [
+        {
+            "name": "CO2emissionspercapita",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 464
+                }
+            ]
+        },
+        {
+            "name": "Entity",
+            "type": "bar",
+            "data": [
+                {
+                    "name": "France",
+                    "value": 116
+                },
+                {
+                    "name": "Germany",
+                    "value": 116
+                },
+                {
+                    "name": "Italy",
+                    "value": 116
+                },
+                {
+                    "name": "United States",
+                    "value": 116
+                }
+            ]
+        },
+        {
+            "name": "GDPpercapita",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 463
+                }
+            ]
+        },
+        {
+            "name": "TotalpopulationGapminderHYDEUN",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 462
+                }
+            ]
+        },
+        {
+            "name": "Year",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": 1946,
+                    "value": 0.8620689655172413
+                },
+                {
+                    "name": 1960,
+                    "value": 0.8620689655172413
+                },
+                {
+                    "name": "Others",
+                    "value": 98.27586206896552
+                }
+            ]
+        }
+    ]
+}
