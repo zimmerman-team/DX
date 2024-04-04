@@ -1,5 +1,11 @@
-# This folder holds data to be populated for the public
+# Prepopulate Data
 
-## To generate data run the backup.sh script
+This folder holds public assets data to be populated for guest users.
 
-## To populate run the prepopulate script
+## Generate
+
+To generate the data run the backup script [backup.sh](../scripts/backup.sh)
+
+## Populate
+
+To Populate the data run the prepopulate script [prepopulate.sh](../scripts/prepopulate.sh)
