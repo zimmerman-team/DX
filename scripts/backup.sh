@@ -8,19 +8,6 @@ if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
   exit 0
 fi
 
-# Function to replace owner and authId fields
-replace_fields() {
-    local id="$1"
-    local json="$2"
-
-    # Replace owner field
-    json=$(echo "$json" | jq --arg id "$id" '.owner = $id')
-
-    json=$(echo "$json" | jq --arg id "$id" '.authId = $id')
-
-    echo "$json" 
-}
-
 MONGO_SERVICE_ID="mongo-dev"
 MONGO_CONTAINER_ID="dx-mongo-dev"
 
@@ -30,15 +17,24 @@ BACKEND_CONTAINER_ID="dx-backend-dev"
 # ensure mongodb and backend is running
 bash ./scripts/start.sh dev $MONGO_SERVICE_ID $BACKEND_SERVICE_ID -d
 
-echo "Waiting for MongoDB and Backend to be available..."
-sleep 15
+preprocess_json() {
+    local input_file="$1"
+    local temp_file=$(mktemp)
+
+    sudo jq . "$input_file" > "$temp_file"
+
+    sudo mv "$temp_file" "$input_file"
+}
+
+# echo "Waiting for MongoDB and Backend to be available..."
+# sleep 15
 
 echo "Backing up datasets"
 
 # Run the python script that backs up public parsed datasets to a staging folder
 sudo docker exec -it "$BACKEND_CONTAINER_ID" python scripts/backup-baseline-datasets.py
 
-# Copy the parsed datasets to the propulate folder
+# Copy the parsed datasets to the prepopulate folder
 cp -r  ./dx.backend/staging/prepopulate-data/parsed-data-files ./prepopulate-data/
 cp -r  ./dx.backend/staging/prepopulate-data/sample-data-files ./prepopulate-data/
 
@@ -63,15 +59,32 @@ sudo docker cp "$MONGO_CONTAINER_ID":/Chart ./prepopulate-data/Chart
 sudo docker cp "$MONGO_CONTAINER_ID":/Report ./prepopulate-data/Report
 sudo docker cp "$MONGO_CONTAINER_ID":/Dataset ./prepopulate-data/Dataset
 
-sudo chown -R $(whoami) ./prepopulate-data
+preprocess_json ./prepopulate-data/Chart
+preprocess_json ./prepopulate-data/Report
+preprocess_json ./prepopulate-data/Dataset
 
-chart_data=$(<./prepopulate-data/Chart)
-report_data=$(<./prepopulate-data/Report)
-dataset_data=$(<./prepopulate-data/Dataset)
+# Replace the authId and owner with `REPL` in ./prepopulate-data/
+if [ "$(uname)" == "Linux" ]; then
+    echo "Linux detected"
+    sed -i 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Dataset
+    sed -i 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Report
+    sed -i 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Chart
 
-replace_fields "$id" $chart_data > ./prepopulate-data/Chart
-replace_fields "$id" $report_data > ./prepopulate-data/Report
-replace_fields "$id" $dataset_data > ./prepopulate-data/Dataset
+    sed -i 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Dataset
+    sed -i 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Report
+    sed -i 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Chart
+elif [ "$(uname)" == "Darwin" ]; then
+    echo "macOS detected"
+    sed -i '' 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Dataset
+    sed -i '' 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Report
+    sed -i '' 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Chart
+
+    sed -i '' 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Dataset
+    sed -i '' 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Report
+    sed -i '' 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Chart
+else
+    echo "Unsupported operating system"
+fi
 
 echo "Backing up public data is done."
 

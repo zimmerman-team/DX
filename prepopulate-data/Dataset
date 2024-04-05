@@ -1,1 +1,152 @@
-
+{
+    "_id": {
+        "$oid": "6602d1b6bfec1b70c468145f"
+    },
+    "name": "Cities and Population",
+    "description": "Dataset consisting of continents, countries, cities and the population of each city.",
+    "public": true,
+    "category": "Economy",
+    "source": "Rawgraphs",
+    "sourceUrl": "Not Available",
+    "owner": "REPL",
+    "createdDate": {
+        "$date": "2024-03-26T13:49:15.142Z"
+    },
+    "updatedDate": {
+        "$date": "2024-03-26T13:49:15.142Z"
+    },
+    "authId": "REPL"
+}
+{
+    "_id": {
+        "$oid": "6602d2c8451966c4f9082f4c"
+    },
+    "name": "Covid Countries",
+    "description": "Dataset showing number of covid deaths per country for different weeks.",
+    "public": true,
+    "category": "Healthcare",
+    "source": "Unknown",
+    "sourceUrl": "Not Available",
+    "owner": "REPL",
+    "createdDate": {
+        "$date": "2024-03-26T13:54:21.659Z"
+    },
+    "updatedDate": {
+        "$date": "2024-03-26T13:54:21.659Z"
+    },
+    "authId": "REPL"
+}
+{
+    "_id": {
+        "$oid": "66030b9930139b9b34fa4250"
+    },
+    "name": "Energy",
+    "description": "Dataset showing energy sources and their value.",
+    "public": true,
+    "category": "Environment",
+    "source": "Rawgraphs",
+    "sourceUrl": "Not Available",
+    "owner": "REPL",
+    "createdDate": {
+        "$date": "2024-03-26T17:56:52.189Z"
+    },
+    "updatedDate": {
+        "$date": "2024-03-26T17:58:23.467Z"
+    },
+    "authId": "REPL"
+}
+{
+    "_id": {
+        "$oid": "6603136cab07ef3d7c7ff9be"
+    },
+    "name": "GDP",
+    "description": "Dataset showing agricultural, industrial and service gdp of countries",
+    "public": true,
+    "category": "Economy",
+    "source": "Rawgraphs",
+    "sourceUrl": "Not Available",
+    "owner": "REPL",
+    "createdDate": {
+        "$date": "2024-03-26T18:27:46.647Z"
+    },
+    "updatedDate": {
+        "$date": "2024-03-26T18:30:00.274Z"
+    },
+    "authId": "REPL"
+}
+{
+    "_id": {
+        "$oid": "660313df860c7d1d06c24408"
+    },
+    "name": "Government receipts of GDP",
+    "description": "Dataset showing government receipts of GDP in 1970 and 1979",
+    "public": true,
+    "category": "Economy",
+    "source": "Rawgraphs",
+    "sourceUrl": "Not Available",
+    "owner": "REPL",
+    "createdDate": {
+        "$date": "2024-03-26T18:29:44.362Z"
+    },
+    "updatedDate": {
+        "$date": "2024-03-26T18:29:44.362Z"
+    },
+    "authId": "REPL"
+}
+{
+    "_id": {
+        "$oid": "6603146792e50916a2525314"
+    },
+    "name": "Population Census",
+    "description": "Dataset showing the population, GDP and CO2 emissions of countries at different years.",
+    "public": true,
+    "category": "Economy",
+    "source": "Rawgraphs",
+    "sourceUrl": "Not Available",
+    "owner": "REPL",
+    "createdDate": {
+        "$date": "2024-03-26T18:32:08.995Z"
+    },
+    "updatedDate": {
+        "$date": "2024-03-26T18:32:08.995Z"
+    },
+    "authId": "REPL"
+}
+{
+    "_id": {
+        "$oid": "6603b191a40ad496d24761a5"
+    },
+    "name": "Global Malaria Deaths - Data file: global malaria",
+    "description": "Malaria deaths by region: 1990 to 2019 - Data file: global malaria",
+    "public": true,
+    "category": "Healthcare",
+    "source": "Kaggle",
+    "sourceUrl": "https://www.kaggle.com/datasets/sansuthi/global-malaria-deaths",
+    "owner": "REPL",
+    "createdDate": {
+        "$date": "2024-03-27T05:41:49.409Z"
+    },
+    "updatedDate": {
+        "$date": "2024-03-27T05:41:49.409Z"
+    },
+    "authId": "REPL"
+}
+{
+    "_id": {
+        "$oid": "6603b591c4696473e6c08c19"
+    },
+    "name": "Malaria - Data file: global malaria deaths by world region",
+    "description": "Malaria is not good. :( - Data file: global malaria deaths by world region",
+    "public": true,
+    "category": "Healthcare",
+    "source": "Kaggle",
+    "sourceUrl": "https://www.kaggle.com/datasets/programmerrdai/malaria",
+    "owner": "REPL",
+    "createdDate": {
+        "$date": "2024-03-27T05:58:50.786Z"
+    },
+    "updatedDate": {
+        "$date": "2024-03-27T05:58:50.786Z"
+    },
+    "authId": "REPL"
+}

@@ -45,10 +45,54 @@ fi
 MONGO_INITDB_ROOT_USERNAME=$(grep -E "^MONGO_INITDB_ROOT_USERNAME=" ".env.$MODE" | cut -d= -f2)
 MONGO_INITDB_ROOT_PASSWORD=$(grep -E "^MONGO_INITDB_ROOT_PASSWORD=" ".env.$MODE" | cut -d= -f2)
 
+# Ask the user for the authId for the base data
+read -s -p "Please enter the authId for the public data: " authId
+
+# Replace the string `REPL` with $authId in ./prepopulate-data/
+
+if [ "$(uname)" == "Linux" ]; then
+    echo "Linux detected"
+    sed -i "s/REPL/$authId/g" ./prepopulate-data/Chart
+    sed -i "s/REPL/$authId/g" ./prepopulate-data/Dataset
+    sed -i "s/REPL/$authId/g" ./prepopulate-data/Report
+elif [ "$(uname)" == "Darwin" ]; then
+    echo "macOS detected"
+    sed -i '' "s/REPL/$authId/g" ./prepopulate-data/Chart
+    sed -i '' "s/REPL/$authId/g" ./prepopulate-data/Dataset
+    sed -i '' "s/REPL/$authId/g" ./prepopulate-data/Report
+else
+    echo "Unsupported operating system"
+fi
+
 # copy the mongodb.dump file to the container and execute mongoimport
 sudo docker cp ./prepopulate-data/Chart "$CONTAINER_ID":/Chart
 sudo docker cp ./prepopulate-data/Report "$CONTAINER_ID":/Report
 sudo docker cp ./prepopulate-data/Dataset "$CONTAINER_ID":/Dataset
+
+# Replace the authId and owner with `REPL` in ./prepopulate-data/
+if [ "$(uname)" == "Linux" ]; then
+    echo "Linux detected"
+    sed -i 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Dataset
+    sed -i 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Report
+    sed -i 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Chart
+
+    sed -i 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Dataset
+    sed -i 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Report
+    sed -i 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Chart
+elif [ "$(uname)" == "Darwin" ]; then
+    echo "macOS detected"
+    sed -i '' 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Dataset
+    sed -i '' 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Report
+    sed -i '' 's/"authId": "[^"]*"/"authId": "REPL"/g' ./prepopulate-data/Chart
+
+    sed -i '' 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Dataset
+    sed -i '' 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Report
+    sed -i '' 's/"owner": "[^"]*"/"owner": "REPL"/g' ./prepopulate-data/Chart
+else
+    echo "Unsupported operating system"
+fi
+
+
 echo "Waiting for MongoDB to be available..."
 sleep 10 # wait for mongodb to start
 sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Chart --file /Chart --mode upsert
@@ -56,3 +100,4 @@ sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT
 sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Dataset --file /Dataset --mode upsert
 
 echo "Prepolulating data is done."
+

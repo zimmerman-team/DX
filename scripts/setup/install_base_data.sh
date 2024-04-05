@@ -27,14 +27,6 @@ ask_for_confirmation() {
   esac
 }
 
-# Ask the user for the authId for the base data
-read -s -p "Please enter the authId for the public data: " authId
-
-# Replace the string `REPL` with $authId in ./prepopulate-data/
-sed -i "s/REPL/$authId/g" ./prepopulate-data/Chart
-sed -i "s/REPL/$authId/g" ./prepopulate-data/Dataset
-sed -i "s/REPL/$authId/g" ./prepopulate-data/Report
-
 # Prepopulate environments
 print_status "We will ask you for each of [dev | test | staging | prod]
 if you want to prepopulate data for that environment."
