@@ -8,6 +8,19 @@ if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
   exit 0
 fi
 
+# Function to replace owner and authId fields
+replace_fields() {
+    local id="$1"
+    local json="$2"
+
+    # Replace owner field
+    json=$(echo "$json" | jq --arg id "$id" '.owner = $id')
+
+    json=$(echo "$json" | jq --arg id "$id" '.authId = $id')
+
+    echo "$json" 
+}
+
 MONGO_SERVICE_ID="mongo-dev"
 MONGO_CONTAINER_ID="dx-mongo-dev"
 
@@ -15,8 +28,7 @@ BACKEND_SERVICE_ID="backend-dev"
 BACKEND_CONTAINER_ID="dx-backend-dev"
 
 # ensure mongodb and backend is running
-bash ./scripts/stop.sh dev
-bash ./scripts/start.sh dev "" $MONGO_SERVICE_ID $BACKEND_SERVICE_ID -d
+bash ./scripts/start.sh dev $MONGO_SERVICE_ID $BACKEND_SERVICE_ID -d
 
 echo "Waiting for MongoDB and Backend to be available..."
 sleep 15
@@ -44,8 +56,22 @@ sudo docker exec -it "$MONGO_CONTAINER_ID" mongoexport  --username "$MONGO_INITD
 sudo docker exec -it "$MONGO_CONTAINER_ID" mongoexport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Report -q '{"public": true}' --out ./Report 
 sudo docker exec -it "$MONGO_CONTAINER_ID" mongoexport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Dataset -q '{"public": true}' --out ./Dataset 
 
-sudo docker cp  "$MONGO_CONTAINER_ID":/Chart ./prepopulate-data/Chart
-sudo docker cp  "$MONGO_CONTAINER_ID":/Report ./prepopulate-data/Report
-sudo docker cp  "$MONGO_CONTAINER_ID":/Dataset ./prepopulate-data/Dataset
+# Id for replacing auth and owner
+id="REPL"
+
+sudo docker cp "$MONGO_CONTAINER_ID":/Chart ./prepopulate-data/Chart
+sudo docker cp "$MONGO_CONTAINER_ID":/Report ./prepopulate-data/Report
+sudo docker cp "$MONGO_CONTAINER_ID":/Dataset ./prepopulate-data/Dataset
+
+sudo chown -R $(whoami) ./prepopulate-data
+
+chart_data=$(<./prepopulate-data/Chart)
+report_data=$(<./prepopulate-data/Report)
+dataset_data=$(<./prepopulate-data/Dataset)
+
+replace_fields "$id" $chart_data > ./prepopulate-data/Chart
+replace_fields "$id" $report_data > ./prepopulate-data/Report
+replace_fields "$id" $dataset_data > ./prepopulate-data/Dataset
 
 echo "Backing up public data is done."
+
