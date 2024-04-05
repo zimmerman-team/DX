@@ -35,6 +35,7 @@ rm -rf ./dx.backend/staging/prepopulate-data
 
 echo "Dataset backup complete"
 
+MODE="dev"
 MONGO_INITDB_ROOT_USERNAME=$(grep -E "^MONGO_INITDB_ROOT_USERNAME=" ".env.$MODE" | cut -d= -f2)
 MONGO_INITDB_ROOT_PASSWORD=$(grep -E "^MONGO_INITDB_ROOT_PASSWORD=" ".env.$MODE" | cut -d= -f2)
 
