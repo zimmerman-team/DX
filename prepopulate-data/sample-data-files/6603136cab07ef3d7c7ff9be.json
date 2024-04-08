@@ -1,0 +1,114 @@
+{
+    "dataset": [
+        {
+            "AgriculturalUSMM": 1833590,
+            "Country": "China",
+            "IndustrialUSMM": 9400050,
+            "ServiceUSMM": 11976360
+        },
+        {
+            "AgriculturalUSMM": 333600,
+            "Country": "European Union",
+            "IndustrialUSMM": 5233350,
+            "ServiceUSMM": 14782650
+        },
+        {
+            "AgriculturalUSMM": 175410,
+            "Country": "United States",
+            "IndustrialUSMM": 3722590,
+            "ServiceUSMM": 15592000
+        },
+        {
+            "AgriculturalUSMM": 1458996,
+            "Country": "India",
+            "IndustrialUSMM": 2179020,
+            "ServiceUSMM": 5826510
+        },
+        {
+            "AgriculturalUSMM": 59873,
+            "Country": "Japan",
+            "IndustrialUSMM": 1638343,
+            "ServiceUSMM": 3739341
+        },
+        {
+            "AgriculturalUSMM": 29393,
+            "Country": "Germany",
+            "IndustrialUSMM": 1289093,
+            "ServiceUSMM": 2880514
+        },
+        {
+            "AgriculturalUSMM": 188752,
+            "Country": "Russia",
+            "IndustrialUSMM": 1301184,
+            "ServiceUSMM": 2501968
+        },
+        {
+            "AgriculturalUSMM": 445250,
+            "Country": "Indonesia",
+            "IndustrialUSMM": 1332500,
+            "ServiceUSMM": 1475500
+        },
+        {
+            "AgriculturalUSMM": 214368,
+            "Country": "Brazil",
+            "IndustrialUSMM": 672336,
+            "ServiceUSMM": 2361296
+        },
+        {
+            "AgriculturalUSMM": 20475,
+            "Country": "United Kingdom",
+            "IndustrialUSMM": 590850,
+            "ServiceUSMM": 2316600
+        }
+    ],
+    "dataTypes": {
+        "AgriculturalUSMM": "number",
+        "Country": "string",
+        "IndustrialUSMM": "number",
+        "ServiceUSMM": "number"
+    },
+    "errors": [],
+    "count": 30,
+    "stats": [
+        {
+            "name": "AgriculturalUSMM",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 30
+                }
+            ]
+        },
+        {
+            "name": "Country",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 30
+                }
+            ]
+        },
+        {
+            "name": "IndustrialUSMM",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 30
+                }
+            ]
+        },
+        {
+            "name": "ServiceUSMM",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 30
+                }
+            ]
+        }
+    ]
+}

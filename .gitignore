@@ -3,3 +3,4 @@
 .env.test
 .env.staging
 .env.prod
+.DS_Store

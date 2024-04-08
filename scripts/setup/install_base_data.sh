@@ -27,6 +27,7 @@ ask_for_confirmation() {
   esac
 }
 
+# Prepopulate environments
 print_status "We will ask you for each of [dev | test | staging | prod]
 if you want to prepopulate data for that environment."
 if ask_for_confirmation "Do you want to Prepopulate data for the DEV environment?"; then

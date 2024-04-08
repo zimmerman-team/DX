@@ -1,0 +1,753 @@
+{
+    "dataset": [
+        {
+            "Entity": "Africa",
+            "Year": 2000,
+            "malariadeaths": 840000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2001,
+            "malariadeaths": 838000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2002,
+            "malariadeaths": 797000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2003,
+            "malariadeaths": 774000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2004,
+            "malariadeaths": 750000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2005,
+            "malariadeaths": 723000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2006,
+            "malariadeaths": 715000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2007,
+            "malariadeaths": 698000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2008,
+            "malariadeaths": 678000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2009,
+            "malariadeaths": 671000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2010,
+            "malariadeaths": 646000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2011,
+            "malariadeaths": 608000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2012,
+            "malariadeaths": 575000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2013,
+            "malariadeaths": 556000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2014,
+            "malariadeaths": 534000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2015,
+            "malariadeaths": 527000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2016,
+            "malariadeaths": 528000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2017,
+            "malariadeaths": 542000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2018,
+            "malariadeaths": 533000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2019,
+            "malariadeaths": 534000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2020,
+            "malariadeaths": 602000
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2000,
+            "malariadeaths": 909
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2001,
+            "malariadeaths": 832
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2002,
+            "malariadeaths": 764
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2003,
+            "malariadeaths": 726
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2004,
+            "malariadeaths": 711
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2005,
+            "malariadeaths": 687
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2006,
+            "malariadeaths": 581
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2007,
+            "malariadeaths": 503
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2008,
+            "malariadeaths": 470
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2009,
+            "malariadeaths": 463
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2010,
+            "malariadeaths": 502
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2011,
+            "malariadeaths": 464
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2012,
+            "malariadeaths": 430
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2013,
+            "malariadeaths": 470
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2014,
+            "malariadeaths": 348
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2015,
+            "malariadeaths": 414
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2016,
+            "malariadeaths": 529
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2017,
+            "malariadeaths": 664
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2018,
+            "malariadeaths": 571
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2019,
+            "malariadeaths": 509
+        },
+        {
+            "Entity": "Americas",
+            "Year": 2020,
+            "malariadeaths": 409
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2000,
+            "malariadeaths": 13700
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2001,
+            "malariadeaths": 13900
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2002,
+            "malariadeaths": 13200
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2003,
+            "malariadeaths": 12200
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2004,
+            "malariadeaths": 10600
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2005,
+            "malariadeaths": 11500
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2006,
+            "malariadeaths": 11500
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2007,
+            "malariadeaths": 9800
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2008,
+            "malariadeaths": 7200
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2009,
+            "malariadeaths": 6900
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2010,
+            "malariadeaths": 8800
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2011,
+            "malariadeaths": 8000
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2012,
+            "malariadeaths": 8100
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2013,
+            "malariadeaths": 7700
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2014,
+            "malariadeaths": 7900
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2015,
+            "malariadeaths": 8300
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2016,
+            "malariadeaths": 9500
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2017,
+            "malariadeaths": 10200
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2018,
+            "malariadeaths": 10900
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2019,
+            "malariadeaths": 11500
+        },
+        {
+            "Entity": "Eastern Mediterranean",
+            "Year": 2020,
+            "malariadeaths": 12300
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2000,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2001,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2002,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2003,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2004,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2005,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2006,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2007,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2008,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2009,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2010,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2011,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2012,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2013,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2014,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2015,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2016,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2017,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2018,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2019,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "Europe",
+            "Year": 2020,
+            "malariadeaths": 0
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2000,
+            "malariadeaths": 35000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2001,
+            "malariadeaths": 34000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2002,
+            "malariadeaths": 33000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2003,
+            "malariadeaths": 33000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2004,
+            "malariadeaths": 36000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2005,
+            "malariadeaths": 38000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2006,
+            "malariadeaths": 33000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2007,
+            "malariadeaths": 33000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2008,
+            "malariadeaths": 36000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2009,
+            "malariadeaths": 37000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2010,
+            "malariadeaths": 39000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2011,
+            "malariadeaths": 32000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2012,
+            "malariadeaths": 27000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2013,
+            "malariadeaths": 21000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2014,
+            "malariadeaths": 23000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2015,
+            "malariadeaths": 24000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2016,
+            "malariadeaths": 25000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2017,
+            "malariadeaths": 18000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2018,
+            "malariadeaths": 11000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2019,
+            "malariadeaths": 9000
+        },
+        {
+            "Entity": "South-East Asia",
+            "Year": 2020,
+            "malariadeaths": 9000
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2000,
+            "malariadeaths": 6100
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2001,
+            "malariadeaths": 5300
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2002,
+            "malariadeaths": 4700
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2003,
+            "malariadeaths": 5000
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2004,
+            "malariadeaths": 5600
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2005,
+            "malariadeaths": 4500
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2006,
+            "malariadeaths": 4900
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2007,
+            "malariadeaths": 3800
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2008,
+            "malariadeaths": 3500
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2009,
+            "malariadeaths": 4700
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2010,
+            "malariadeaths": 3500
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2011,
+            "malariadeaths": 3000
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2012,
+            "malariadeaths": 3400
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2013,
+            "malariadeaths": 4000
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2014,
+            "malariadeaths": 3800
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2015,
+            "malariadeaths": 2400
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2016,
+            "malariadeaths": 2900
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2017,
+            "malariadeaths": 3000
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2018,
+            "malariadeaths": 3000
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2019,
+            "malariadeaths": 2600
+        },
+        {
+            "Entity": "Western Pacific",
+            "Year": 2020,
+            "malariadeaths": 3200
+        }
+    ],
+    "dataTypes": {
+        "Entity": "string",
+        "Year": "number",
+        "malariadeaths": "number"
+    },
+    "errors": [],
+    "count": 126,
+    "sample": [
+        {
+            "Entity": "Africa",
+            "Year": 2000,
+            "malariadeaths": 840000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2001,
+            "malariadeaths": 838000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2002,
+            "malariadeaths": 797000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2003,
+            "malariadeaths": 774000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2004,
+            "malariadeaths": 750000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2005,
+            "malariadeaths": 723000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2006,
+            "malariadeaths": 715000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2007,
+            "malariadeaths": 698000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2008,
+            "malariadeaths": 678000
+        },
+        {
+            "Entity": "Africa",
+            "Year": 2009,
+            "malariadeaths": 671000
+        }
+    ],
+    "stats": [
+        {
+            "name": "Entity",
+            "type": "bar",
+            "data": [
+                {
+                    "name": "Africa",
+                    "value": 21
+                },
+                {
+                    "name": "Americas",
+                    "value": 21
+                },
+                {
+                    "name": "Eastern Mediterranean",
+                    "value": 21
+                },
+                {
+                    "name": "Europe",
+                    "value": 21
+                },
+                {
+                    "name": "South-East Asia",
+                    "value": 21
+                },
+                {
+                    "name": "Western Pacific",
+                    "value": 21
+                }
+            ]
+        },
+        {
+            "name": "Year",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": 2000,
+                    "value": 4.761904761904762
+                },
+                {
+                    "name": 2001,
+                    "value": 4.761904761904762
+                },
+                {
+                    "name": "Others",
+                    "value": 90.47619047619047
+                }
+            ]
+        },
+        {
+            "name": "malariadeaths",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 92
+                }
+            ]
+        }
+    ]
+}
