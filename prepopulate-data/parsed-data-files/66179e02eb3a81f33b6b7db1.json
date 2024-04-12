@@ -1,0 +1,4268 @@
+{
+    "dataset": [
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Barcelona",
+            "Totalcases": 36,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Barcelona",
+            "Totalcases": 137,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Barcelona",
+            "Totalcases": 2161,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Barcelona",
+            "Totalcases": 8,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Barcelona",
+            "Totalcases": 2406,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Barcelona",
+            "Totalcases": 436,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Barcelona",
+            "Totalcases": 1970,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Barcelona",
+            "Totalcases": 18360,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Barcelona",
+            "Totalcases": 16743,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Barcelona",
+            "Totalcases": 10697,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Barcelona",
+            "Totalcases": 97043,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Barcelona",
+            "Totalcases": 5074,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Barcelona",
+            "Totalcases": 2833,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Barcelona",
+            "Totalcases": 152565,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Madrid",
+            "Totalcases": 37,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Madrid",
+            "Totalcases": 94,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Madrid",
+            "Totalcases": 2717,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Madrid",
+            "Totalcases": 13,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Madrid",
+            "Totalcases": 2420,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Madrid",
+            "Totalcases": 274,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Madrid",
+            "Totalcases": 2146,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Madrid",
+            "Totalcases": 12153,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Madrid",
+            "Totalcases": 12262,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Madrid",
+            "Totalcases": 8243,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Madrid",
+            "Totalcases": 108778,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Madrid",
+            "Totalcases": 6922,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Madrid",
+            "Totalcases": 2502,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Madrid",
+            "Totalcases": 197970,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Valencia",
+            "Totalcases": 22,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Valencia",
+            "Totalcases": 65,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Valencia",
+            "Totalcases": 1241,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Valencia",
+            "Totalcases": 2,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Valencia",
+            "Totalcases": 1081,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Valencia",
+            "Totalcases": 124,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Valencia",
+            "Totalcases": 957,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Valencia",
+            "Totalcases": 3063,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Valencia",
+            "Totalcases": 7018,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Valencia",
+            "Totalcases": 6054,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Valencia",
+            "Totalcases": 34443,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Valencia",
+            "Totalcases": 1338,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Valencia",
+            "Totalcases": 904,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Valencia",
+            "Totalcases": 74380,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Murcia",
+            "Totalcases": 14,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Murcia",
+            "Totalcases": 46,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Murcia",
+            "Totalcases": 863,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Murcia",
+            "Totalcases": 3,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Murcia",
+            "Totalcases": 613,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Murcia",
+            "Totalcases": 61,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Murcia",
+            "Totalcases": 552,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Murcia",
+            "Totalcases": 1375,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Murcia",
+            "Totalcases": 4701,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Murcia",
+            "Totalcases": 3793,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Murcia",
+            "Totalcases": 11925,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Murcia",
+            "Totalcases": 666,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Murcia",
+            "Totalcases": 506,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Murcia",
+            "Totalcases": 37088,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Seville",
+            "Totalcases": 8,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Seville",
+            "Totalcases": 57,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Seville",
+            "Totalcases": 691,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Seville",
+            "Totalcases": 5,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Seville",
+            "Totalcases": 600,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Seville",
+            "Totalcases": 38,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Seville",
+            "Totalcases": 562,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Seville",
+            "Totalcases": 1937,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Seville",
+            "Totalcases": 4697,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Seville",
+            "Totalcases": 2565,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Seville",
+            "Totalcases": 18880,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Seville",
+            "Totalcases": 1309,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Seville",
+            "Totalcases": 642,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Seville",
+            "Totalcases": 48461,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Zaragoza",
+            "Totalcases": 4,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Zaragoza",
+            "Totalcases": 8,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Zaragoza",
+            "Totalcases": 376,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Zaragoza",
+            "Totalcases": 2,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Zaragoza",
+            "Totalcases": 326,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Zaragoza",
+            "Totalcases": 41,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Zaragoza",
+            "Totalcases": 285,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Zaragoza",
+            "Totalcases": 912,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Zaragoza",
+            "Totalcases": 1563,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Zaragoza",
+            "Totalcases": 1044,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Zaragoza",
+            "Totalcases": 7663,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Zaragoza",
+            "Totalcases": 199,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Zaragoza",
+            "Totalcases": 327,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Zaragoza",
+            "Totalcases": 21316,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Malaga",
+            "Totalcases": 15,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Malaga",
+            "Totalcases": 48,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Malaga",
+            "Totalcases": 913,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Malaga",
+            "Totalcases": 13,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Malaga",
+            "Totalcases": 577,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Malaga",
+            "Totalcases": 49,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Malaga",
+            "Totalcases": 528,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Malaga",
+            "Totalcases": 1388,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Malaga",
+            "Totalcases": 4154,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Malaga",
+            "Totalcases": 2933,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Malaga",
+            "Totalcases": 18720,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Malaga",
+            "Totalcases": 1493,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Malaga",
+            "Totalcases": 1078,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Malaga",
+            "Totalcases": 47803,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Barcelona",
+            "Totalcases": 36,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Barcelona",
+            "Totalcases": 108,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Barcelona",
+            "Totalcases": 1598,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Barcelona",
+            "Totalcases": 3,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Barcelona",
+            "Totalcases": 1703,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Barcelona",
+            "Totalcases": 285,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Barcelona",
+            "Totalcases": 1418,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Barcelona",
+            "Totalcases": 15249,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Barcelona",
+            "Totalcases": 4061,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Barcelona",
+            "Totalcases": 10979,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Barcelona",
+            "Totalcases": 92393,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Barcelona",
+            "Totalcases": 5075,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Barcelona",
+            "Totalcases": 2090,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Barcelona",
+            "Totalcases": 135216,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Madrid",
+            "Totalcases": 38,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Madrid",
+            "Totalcases": 98,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Madrid",
+            "Totalcases": 2287,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Madrid",
+            "Totalcases": 10,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Madrid",
+            "Totalcases": 1976,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Madrid",
+            "Totalcases": 217,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Madrid",
+            "Totalcases": 1759,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Madrid",
+            "Totalcases": 10688,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Madrid",
+            "Totalcases": 3234,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Madrid",
+            "Totalcases": 7052,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Madrid",
+            "Totalcases": 92213,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Madrid",
+            "Totalcases": 6235,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Madrid",
+            "Totalcases": 2470,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Madrid",
+            "Totalcases": 181917,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Valencia",
+            "Totalcases": 14,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Valencia",
+            "Totalcases": 53,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Valencia",
+            "Totalcases": 892,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Valencia",
+            "Totalcases": 8,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Valencia",
+            "Totalcases": 779,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Valencia",
+            "Totalcases": 92,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Valencia",
+            "Totalcases": 687,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Valencia",
+            "Totalcases": 2355,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Valencia",
+            "Totalcases": 1162,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Valencia",
+            "Totalcases": 5077,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Valencia",
+            "Totalcases": 24012,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Valencia",
+            "Totalcases": 1257,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Valencia",
+            "Totalcases": 907,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Valencia",
+            "Totalcases": 64822,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Murcia",
+            "Totalcases": 10,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Murcia",
+            "Totalcases": 41,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Murcia",
+            "Totalcases": 645,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Murcia",
+            "Totalcases": 1,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Murcia",
+            "Totalcases": 505,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Murcia",
+            "Totalcases": 64,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Murcia",
+            "Totalcases": 441,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Murcia",
+            "Totalcases": 1207,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Murcia",
+            "Totalcases": 400,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Murcia",
+            "Totalcases": 3796,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Murcia",
+            "Totalcases": 9925,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Murcia",
+            "Totalcases": 726,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Murcia",
+            "Totalcases": 389,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Murcia",
+            "Totalcases": 32819,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Seville",
+            "Totalcases": 12,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Seville",
+            "Totalcases": 64,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Seville",
+            "Totalcases": 612,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Seville",
+            "Totalcases": 5,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Seville",
+            "Totalcases": 508,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Seville",
+            "Totalcases": 31,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Seville",
+            "Totalcases": 477,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Seville",
+            "Totalcases": 1802,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Seville",
+            "Totalcases": 1223,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Seville",
+            "Totalcases": 2966,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Seville",
+            "Totalcases": 16081,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Seville",
+            "Totalcases": 1458,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Seville",
+            "Totalcases": 547,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Seville",
+            "Totalcases": 46704,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Zaragoza",
+            "Totalcases": 2,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Zaragoza",
+            "Totalcases": 26,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Zaragoza",
+            "Totalcases": 303,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Zaragoza",
+            "Totalcases": 1,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Zaragoza",
+            "Totalcases": 225,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Zaragoza",
+            "Totalcases": 29,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Zaragoza",
+            "Totalcases": 196,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Zaragoza",
+            "Totalcases": 728,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Zaragoza",
+            "Totalcases": 425,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Zaragoza",
+            "Totalcases": 913,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Zaragoza",
+            "Totalcases": 5765,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Zaragoza",
+            "Totalcases": 158,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Zaragoza",
+            "Totalcases": 245,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Zaragoza",
+            "Totalcases": 19358,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Malaga",
+            "Totalcases": 8,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Malaga",
+            "Totalcases": 41,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Malaga",
+            "Totalcases": 691,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Malaga",
+            "Totalcases": 5,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Malaga",
+            "Totalcases": 458,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Malaga",
+            "Totalcases": 58,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Malaga",
+            "Totalcases": 400,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Malaga",
+            "Totalcases": 1119,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Malaga",
+            "Totalcases": 689,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Malaga",
+            "Totalcases": 3007,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Malaga",
+            "Totalcases": 15265,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Malaga",
+            "Totalcases": 1293,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Malaga",
+            "Totalcases": 1045,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Malaga",
+            "Totalcases": 42372,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Barcelona",
+            "Totalcases": 45,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Barcelona",
+            "Totalcases": 142,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Barcelona",
+            "Totalcases": 2389,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Barcelona",
+            "Totalcases": 2,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Barcelona",
+            "Totalcases": 2219,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Barcelona",
+            "Totalcases": 412,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Barcelona",
+            "Totalcases": 1807,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Barcelona",
+            "Totalcases": 23836,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Barcelona",
+            "Totalcases": 23986,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Barcelona",
+            "Totalcases": 16180,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Barcelona",
+            "Totalcases": 165901,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Barcelona",
+            "Totalcases": 8392,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Barcelona",
+            "Totalcases": 1716,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Barcelona",
+            "Totalcases": 157525,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Madrid",
+            "Totalcases": 32,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Madrid",
+            "Totalcases": 78,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Madrid",
+            "Totalcases": 2402,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Madrid",
+            "Totalcases": 16,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Madrid",
+            "Totalcases": 2221,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Madrid",
+            "Totalcases": 243,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Madrid",
+            "Totalcases": 1978,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Madrid",
+            "Totalcases": 15586,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Madrid",
+            "Totalcases": 19317,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Madrid",
+            "Totalcases": 11484,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Madrid",
+            "Totalcases": 154217,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Madrid",
+            "Totalcases": 8086,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Madrid",
+            "Totalcases": 2427,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Madrid",
+            "Totalcases": 205312,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Valencia",
+            "Totalcases": 23,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Valencia",
+            "Totalcases": 66,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Valencia",
+            "Totalcases": 1131,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Valencia",
+            "Totalcases": 2,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Valencia",
+            "Totalcases": 910,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Valencia",
+            "Totalcases": 82,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Valencia",
+            "Totalcases": 828,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Valencia",
+            "Totalcases": 2958,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Valencia",
+            "Totalcases": 9674,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Valencia",
+            "Totalcases": 6660,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Valencia",
+            "Totalcases": 35820,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Valencia",
+            "Totalcases": 1677,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Valencia",
+            "Totalcases": 1031,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Valencia",
+            "Totalcases": 68853,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Murcia",
+            "Totalcases": 13,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Murcia",
+            "Totalcases": 25,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Murcia",
+            "Totalcases": 736,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Murcia",
+            "Totalcases": 3,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Murcia",
+            "Totalcases": 531,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Murcia",
+            "Totalcases": 49,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Murcia",
+            "Totalcases": 482,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Murcia",
+            "Totalcases": 1528,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Murcia",
+            "Totalcases": 6778,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Murcia",
+            "Totalcases": 5014,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Murcia",
+            "Totalcases": 15149,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Murcia",
+            "Totalcases": 905,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Murcia",
+            "Totalcases": 356,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Murcia",
+            "Totalcases": 31679,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Seville",
+            "Totalcases": 9,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Seville",
+            "Totalcases": 40,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Seville",
+            "Totalcases": 695,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Seville",
+            "Totalcases": 8,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Seville",
+            "Totalcases": 550,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Seville",
+            "Totalcases": 54,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Seville",
+            "Totalcases": 496,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Seville",
+            "Totalcases": 2463,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Seville",
+            "Totalcases": 6007,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Seville",
+            "Totalcases": 3657,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Seville",
+            "Totalcases": 26397,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Seville",
+            "Totalcases": 1926,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Seville",
+            "Totalcases": 519,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Seville",
+            "Totalcases": 48365,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Zaragoza",
+            "Totalcases": 4,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Zaragoza",
+            "Totalcases": 7,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Zaragoza",
+            "Totalcases": 450,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Zaragoza",
+            "Totalcases": 0,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Zaragoza",
+            "Totalcases": 242,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Zaragoza",
+            "Totalcases": 20,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Zaragoza",
+            "Totalcases": 222,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Zaragoza",
+            "Totalcases": 1005,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Zaragoza",
+            "Totalcases": 1980,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Zaragoza",
+            "Totalcases": 1279,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Zaragoza",
+            "Totalcases": 8961,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Zaragoza",
+            "Totalcases": 220,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Zaragoza",
+            "Totalcases": 262,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Zaragoza",
+            "Totalcases": 21357,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Malaga",
+            "Totalcases": 25,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Malaga",
+            "Totalcases": 24,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Malaga",
+            "Totalcases": 829,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Malaga",
+            "Totalcases": 11,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Malaga",
+            "Totalcases": 565,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Malaga",
+            "Totalcases": 42,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Malaga",
+            "Totalcases": 523,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Malaga",
+            "Totalcases": 1605,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Malaga",
+            "Totalcases": 5106,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Malaga",
+            "Totalcases": 4050,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Malaga",
+            "Totalcases": 24506,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Malaga",
+            "Totalcases": 1776,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Malaga",
+            "Totalcases": 1005,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Malaga",
+            "Totalcases": 44516,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Spain",
+            "Totalcases": 5,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Spain",
+            "Totalcases": 19,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Spain",
+            "Totalcases": 382,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Spain",
+            "Totalcases": 2,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Spain",
+            "Totalcases": 321,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Spain",
+            "Totalcases": 40,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Spain",
+            "Totalcases": 281,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Spain",
+            "Totalcases": 1001,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Spain",
+            "Totalcases": 2002,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Spain",
+            "Totalcases": 1425,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Spain",
+            "Totalcases": 9311,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Spain",
+            "Totalcases": 498,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Spain",
+            "Totalcases": 346,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Spain",
+            "Totalcases": 23066,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Spain",
+            "Totalcases": 6,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Spain",
+            "Totalcases": 17,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Spain",
+            "Totalcases": 302,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Spain",
+            "Totalcases": 1,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Spain",
+            "Totalcases": 249,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Spain",
+            "Totalcases": 30,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Spain",
+            "Totalcases": 218,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Spain",
+            "Totalcases": 854,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Spain",
+            "Totalcases": 388,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Spain",
+            "Totalcases": 1366,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Spain",
+            "Totalcases": 7942,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Spain",
+            "Totalcases": 479,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Spain",
+            "Totalcases": 323,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Spain",
+            "Totalcases": 21161,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Spain",
+            "Totalcases": 6,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Spain",
+            "Totalcases": 16,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Spain",
+            "Totalcases": 377,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Spain",
+            "Totalcases": 2,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Spain",
+            "Totalcases": 289,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Spain",
+            "Totalcases": 35,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Spain",
+            "Totalcases": 254,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Spain",
+            "Totalcases": 1249,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Spain",
+            "Totalcases": 2847,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Spain",
+            "Totalcases": 1859,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Spain",
+            "Totalcases": 13217,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Spain",
+            "Totalcases": 665,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Spain",
+            "Totalcases": 307,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Spain",
+            "Totalcases": 22723,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Alicante",
+            "Totalcases": 14,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Alicante",
+            "Totalcases": 35,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Alicante",
+            "Totalcases": 766,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Alicante",
+            "Totalcases": 2,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Alicante",
+            "Totalcases": 677,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Alicante",
+            "Totalcases": 85,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Alicante",
+            "Totalcases": 592,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Alicante",
+            "Totalcases": 1665,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Alicante",
+            "Totalcases": 9346,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Alicante",
+            "Totalcases": 6893,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Alicante",
+            "Totalcases": 26132,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Alicante",
+            "Totalcases": 1364,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Alicante",
+            "Totalcases": 774,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Alicante",
+            "Totalcases": 48178,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Alicante",
+            "Totalcases": 18,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Alicante",
+            "Totalcases": 27,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Alicante",
+            "Totalcases": 640,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Alicante",
+            "Totalcases": 4,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Alicante",
+            "Totalcases": 573,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Alicante",
+            "Totalcases": 81,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Alicante",
+            "Totalcases": 492,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Alicante",
+            "Totalcases": 1187,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Alicante",
+            "Totalcases": 620,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Alicante",
+            "Totalcases": 5479,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Alicante",
+            "Totalcases": 16192,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Alicante",
+            "Totalcases": 996,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Alicante",
+            "Totalcases": 816,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Alicante",
+            "Totalcases": 45607,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Alicante",
+            "Totalcases": 10,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Alicante",
+            "Totalcases": 48,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Alicante",
+            "Totalcases": 878,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Alicante",
+            "Totalcases": 4,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Alicante",
+            "Totalcases": 838,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Alicante",
+            "Totalcases": 99,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Alicante",
+            "Totalcases": 739,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Alicante",
+            "Totalcases": 1212,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Alicante",
+            "Totalcases": 6672,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Alicante",
+            "Totalcases": 5282,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Alicante",
+            "Totalcases": 18481,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Alicante",
+            "Totalcases": 969,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Alicante",
+            "Totalcases": 935,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Alicante",
+            "Totalcases": 49211,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Cordoba",
+            "Totalcases": 7,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Cordoba",
+            "Totalcases": 11,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Cordoba",
+            "Totalcases": 203,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Cordoba",
+            "Totalcases": 2,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Cordoba",
+            "Totalcases": 205,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Cordoba",
+            "Totalcases": 21,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Cordoba",
+            "Totalcases": 184,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Cordoba",
+            "Totalcases": 490,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Cordoba",
+            "Totalcases": 1731,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Cordoba",
+            "Totalcases": 897,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Cordoba",
+            "Totalcases": 6283,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Cordoba",
+            "Totalcases": 288,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Cordoba",
+            "Totalcases": 291,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Cordoba",
+            "Totalcases": 16004,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Cordoba",
+            "Totalcases": 3,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Cordoba",
+            "Totalcases": 21,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Cordoba",
+            "Totalcases": 210,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Cordoba",
+            "Totalcases": 4,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Cordoba",
+            "Totalcases": 228,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Cordoba",
+            "Totalcases": 22,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Cordoba",
+            "Totalcases": 206,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Cordoba",
+            "Totalcases": 286,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Cordoba",
+            "Totalcases": 168,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Cordoba",
+            "Totalcases": 648,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Cordoba",
+            "Totalcases": 4051,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Cordoba",
+            "Totalcases": 208,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Cordoba",
+            "Totalcases": 291,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Cordoba",
+            "Totalcases": 15592,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Cordoba",
+            "Totalcases": 1,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Cordoba",
+            "Totalcases": 16,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Cordoba",
+            "Totalcases": 247,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Cordoba",
+            "Totalcases": 0,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Cordoba",
+            "Totalcases": 213,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Cordoba",
+            "Totalcases": 24,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Cordoba",
+            "Totalcases": 189,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Cordoba",
+            "Totalcases": 273,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Cordoba",
+            "Totalcases": 1044,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Cordoba",
+            "Totalcases": 736,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Cordoba",
+            "Totalcases": 4505,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Cordoba",
+            "Totalcases": 183,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Cordoba",
+            "Totalcases": 184,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Cordoba",
+            "Totalcases": 16675,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Granada",
+            "Totalcases": 12,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Granada",
+            "Totalcases": 20,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Granada",
+            "Totalcases": 330,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Granada",
+            "Totalcases": 2,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Granada",
+            "Totalcases": 240,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Granada",
+            "Totalcases": 32,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Granada",
+            "Totalcases": 208,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Granada",
+            "Totalcases": 844,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Granada",
+            "Totalcases": 2389,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Granada",
+            "Totalcases": 1604,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Granada",
+            "Totalcases": 8034,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Granada",
+            "Totalcases": 433,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Granada",
+            "Totalcases": 644,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Granada",
+            "Totalcases": 20654,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Granada",
+            "Totalcases": 10,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Granada",
+            "Totalcases": 27,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Granada",
+            "Totalcases": 300,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Granada",
+            "Totalcases": 0,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Granada",
+            "Totalcases": 208,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Granada",
+            "Totalcases": 25,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Granada",
+            "Totalcases": 183,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Granada",
+            "Totalcases": 566,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Granada",
+            "Totalcases": 401,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Granada",
+            "Totalcases": 1123,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Granada",
+            "Totalcases": 4867,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Granada",
+            "Totalcases": 321,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Granada",
+            "Totalcases": 792,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Granada",
+            "Totalcases": 20017,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Granada",
+            "Totalcases": 8,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Granada",
+            "Totalcases": 20,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Granada",
+            "Totalcases": 343,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Granada",
+            "Totalcases": 1,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Granada",
+            "Totalcases": 268,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Granada",
+            "Totalcases": 43,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Granada",
+            "Totalcases": 225,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Granada",
+            "Totalcases": 611,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Granada",
+            "Totalcases": 1732,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Granada",
+            "Totalcases": 1178,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Granada",
+            "Totalcases": 5998,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Granada",
+            "Totalcases": 270,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Granada",
+            "Totalcases": 1007,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Granada",
+            "Totalcases": 21570,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Rioja",
+            "Totalcases": 0,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Rioja",
+            "Totalcases": 5,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Rioja",
+            "Totalcases": 144,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Rioja",
+            "Totalcases": 0,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Rioja",
+            "Totalcases": 92,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Rioja",
+            "Totalcases": 9,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Rioja",
+            "Totalcases": 83,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Rioja",
+            "Totalcases": 90,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Rioja",
+            "Totalcases": 604,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Rioja",
+            "Totalcases": 437,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Rioja",
+            "Totalcases": 2422,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Rioja",
+            "Totalcases": 68,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Rioja",
+            "Totalcases": 104,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Rioja",
+            "Totalcases": 5283,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Rioja",
+            "Totalcases": 5,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Rioja",
+            "Totalcases": 3,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Rioja",
+            "Totalcases": 120,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Rioja",
+            "Totalcases": 0,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Rioja",
+            "Totalcases": 104,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Rioja",
+            "Totalcases": 10,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Rioja",
+            "Totalcases": 94,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Rioja",
+            "Totalcases": 78,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Rioja",
+            "Totalcases": 440,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Rioja",
+            "Totalcases": 352,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Rioja",
+            "Totalcases": 1475,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Rioja",
+            "Totalcases": 31,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Rioja",
+            "Totalcases": 72,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Rioja",
+            "Totalcases": 5484,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Rioja",
+            "Totalcases": 3,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Rioja",
+            "Totalcases": 5,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Rioja",
+            "Totalcases": 161,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Rioja",
+            "Totalcases": 0,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Rioja",
+            "Totalcases": 102,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Rioja",
+            "Totalcases": 9,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Rioja",
+            "Totalcases": 93,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Rioja",
+            "Totalcases": 116,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Rioja",
+            "Totalcases": 455,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Rioja",
+            "Totalcases": 397,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Rioja",
+            "Totalcases": 1789,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Rioja",
+            "Totalcases": 59,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Rioja",
+            "Totalcases": 75,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Rioja",
+            "Totalcases": 6309,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Salamanca",
+            "Totalcases": 0,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Salamanca",
+            "Totalcases": 2,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Salamanca",
+            "Totalcases": 86,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Salamanca",
+            "Totalcases": 1,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Salamanca",
+            "Totalcases": 65,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Salamanca",
+            "Totalcases": 6,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Salamanca",
+            "Totalcases": 59,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Salamanca",
+            "Totalcases": 99,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Salamanca",
+            "Totalcases": 531,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Salamanca",
+            "Totalcases": 361,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Salamanca",
+            "Totalcases": 3269,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Salamanca",
+            "Totalcases": 46,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Salamanca",
+            "Totalcases": 62,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Salamanca",
+            "Totalcases": 5733,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Salamanca",
+            "Totalcases": 2,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Salamanca",
+            "Totalcases": 2,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Salamanca",
+            "Totalcases": 64,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Salamanca",
+            "Totalcases": 0,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Salamanca",
+            "Totalcases": 53,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Salamanca",
+            "Totalcases": 9,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Salamanca",
+            "Totalcases": 44,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Salamanca",
+            "Totalcases": 87,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Salamanca",
+            "Totalcases": 56,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Salamanca",
+            "Totalcases": 221,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Salamanca",
+            "Totalcases": 1826,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Salamanca",
+            "Totalcases": 49,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Salamanca",
+            "Totalcases": 78,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Salamanca",
+            "Totalcases": 6029,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Salamanca",
+            "Totalcases": 1,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Salamanca",
+            "Totalcases": 4,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Salamanca",
+            "Totalcases": 80,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Salamanca",
+            "Totalcases": 0,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Salamanca",
+            "Totalcases": 78,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Salamanca",
+            "Totalcases": 11,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Salamanca",
+            "Totalcases": 67,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Salamanca",
+            "Totalcases": 83,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Salamanca",
+            "Totalcases": 330,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Salamanca",
+            "Totalcases": 265,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Salamanca",
+            "Totalcases": 2303,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Salamanca",
+            "Totalcases": 60,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Salamanca",
+            "Totalcases": 61,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Salamanca",
+            "Totalcases": 6600,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Segovia",
+            "Totalcases": 1,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Segovia",
+            "Totalcases": 2,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Segovia",
+            "Totalcases": 37,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Segovia",
+            "Totalcases": 0,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Segovia",
+            "Totalcases": 49,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Segovia",
+            "Totalcases": 3,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Segovia",
+            "Totalcases": 46,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Segovia",
+            "Totalcases": 24,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Segovia",
+            "Totalcases": 381,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Segovia",
+            "Totalcases": 195,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Segovia",
+            "Totalcases": 877,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Segovia",
+            "Totalcases": 20,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Segovia",
+            "Totalcases": 43,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Segovia",
+            "Totalcases": 3022,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Segovia",
+            "Totalcases": 8,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Segovia",
+            "Totalcases": 18,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Segovia",
+            "Totalcases": 426,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Segovia",
+            "Totalcases": 2,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Segovia",
+            "Totalcases": 315,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Segovia",
+            "Totalcases": 42,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Segovia",
+            "Totalcases": 273,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Segovia",
+            "Totalcases": 495,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Segovia",
+            "Totalcases": 185,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Segovia",
+            "Totalcases": 1208,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Segovia",
+            "Totalcases": 7771,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Segovia",
+            "Totalcases": 475,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Segovia",
+            "Totalcases": 256,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Segovia",
+            "Totalcases": 24015,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Segovia",
+            "Totalcases": 6,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Segovia",
+            "Totalcases": 13,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Segovia",
+            "Totalcases": 513,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Segovia",
+            "Totalcases": 0,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Segovia",
+            "Totalcases": 390,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Segovia",
+            "Totalcases": 39,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Segovia",
+            "Totalcases": 351,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Segovia",
+            "Totalcases": 520,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Segovia",
+            "Totalcases": 1708,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Segovia",
+            "Totalcases": 1261,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Segovia",
+            "Totalcases": 7727,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Segovia",
+            "Totalcases": 414,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Segovia",
+            "Totalcases": 198,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Segovia",
+            "Totalcases": 23381,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Ceuta",
+            "Totalcases": 4,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Ceuta",
+            "Totalcases": 16,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Ceuta",
+            "Totalcases": 44,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Ceuta",
+            "Totalcases": 2,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Ceuta",
+            "Totalcases": 23,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Ceuta",
+            "Totalcases": 1,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Ceuta",
+            "Totalcases": 22,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Ceuta",
+            "Totalcases": 145,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Ceuta",
+            "Totalcases": 88,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Ceuta",
+            "Totalcases": 42,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Ceuta",
+            "Totalcases": 823,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Ceuta",
+            "Totalcases": 168,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Ceuta",
+            "Totalcases": 297,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Ceuta",
+            "Totalcases": 3179,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Ceuta",
+            "Totalcases": 2,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Ceuta",
+            "Totalcases": 5,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Ceuta",
+            "Totalcases": 74,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Ceuta",
+            "Totalcases": 0,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Ceuta",
+            "Totalcases": 37,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Ceuta",
+            "Totalcases": 2,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Ceuta",
+            "Totalcases": 35,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Ceuta",
+            "Totalcases": 128,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Ceuta",
+            "Totalcases": 59,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Ceuta",
+            "Totalcases": 37,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Ceuta",
+            "Totalcases": 471,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Ceuta",
+            "Totalcases": 84,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Ceuta",
+            "Totalcases": 220,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Ceuta",
+            "Totalcases": 2558,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Ceuta",
+            "Totalcases": 2,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Ceuta",
+            "Totalcases": 10,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Ceuta",
+            "Totalcases": 73,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Ceuta",
+            "Totalcases": 3,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Ceuta",
+            "Totalcases": 47,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Ceuta",
+            "Totalcases": 4,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Ceuta",
+            "Totalcases": 43,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Ceuta",
+            "Totalcases": 195,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Ceuta",
+            "Totalcases": 69,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Ceuta",
+            "Totalcases": 31,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Ceuta",
+            "Totalcases": 434,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Ceuta",
+            "Totalcases": 103,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Ceuta",
+            "Totalcases": 205,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Ceuta",
+            "Totalcases": 2785,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Melilla",
+            "Totalcases": 1,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Melilla",
+            "Totalcases": 8,
+            "Year": 2019
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Melilla",
+            "Totalcases": 146,
+            "Year": 2019
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Melilla",
+            "Totalcases": 0,
+            "Year": 2019
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Melilla",
+            "Totalcases": 33,
+            "Year": 2019
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Melilla",
+            "Totalcases": 5,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Melilla",
+            "Totalcases": 28,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Melilla",
+            "Totalcases": 373,
+            "Year": 2019
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Melilla",
+            "Totalcases": 131,
+            "Year": 2019
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Melilla",
+            "Totalcases": 71,
+            "Year": 2019
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Melilla",
+            "Totalcases": 1204,
+            "Year": 2019
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Melilla",
+            "Totalcases": 76,
+            "Year": 2019
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Melilla",
+            "Totalcases": 63,
+            "Year": 2019
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Melilla",
+            "Totalcases": 3577,
+            "Year": 2019
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Melilla",
+            "Totalcases": 0,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Melilla",
+            "Totalcases": 2,
+            "Year": 2020
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Melilla",
+            "Totalcases": 157,
+            "Year": 2020
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Melilla",
+            "Totalcases": 0,
+            "Year": 2020
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Melilla",
+            "Totalcases": 34,
+            "Year": 2020
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Melilla",
+            "Totalcases": 4,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Melilla",
+            "Totalcases": 30,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Melilla",
+            "Totalcases": 300,
+            "Year": 2020
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Melilla",
+            "Totalcases": 65,
+            "Year": 2020
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Melilla",
+            "Totalcases": 44,
+            "Year": 2020
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Melilla",
+            "Totalcases": 778,
+            "Year": 2020
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Melilla",
+            "Totalcases": 42,
+            "Year": 2020
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Melilla",
+            "Totalcases": 232,
+            "Year": 2020
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Melilla",
+            "Totalcases": 2857,
+            "Year": 2020
+        },
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Melilla",
+            "Totalcases": 0,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Melilla",
+            "Totalcases": 4,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Melilla",
+            "Totalcases": 119,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Melilla",
+            "Totalcases": 0,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Melilla",
+            "Totalcases": 39,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Melilla",
+            "Totalcases": 2,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Melilla",
+            "Totalcases": 37,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Melilla",
+            "Totalcases": 201,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Melilla",
+            "Totalcases": 68,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Melilla",
+            "Totalcases": 55,
+            "Year": 2021
+        },
+        {
+            "Crime": "Theft",
+            "Location": "Melilla",
+            "Totalcases": 576,
+            "Year": 2021
+        },
+        {
+            "Crime": "Vehicle theft",
+            "Location": "Melilla",
+            "Totalcases": 35,
+            "Year": 2021
+        },
+        {
+            "Crime": "Drug trafficking",
+            "Location": "Melilla",
+            "Totalcases": 230,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other criminal offenses",
+            "Location": "Melilla",
+            "Totalcases": 2842,
+            "Year": 2021
+        }
+    ],
+    "dataTypes": {
+        "Crime": "string",
+        "Location": "string",
+        "Totalcases": "number",
+        "Year": "number"
+    },
+    "errors": [],
+    "count": 672,
+    "sample": [
+        {
+            "Crime": "Intentional homicides and consummated murders",
+            "Location": "Barcelona",
+            "Totalcases": 36,
+            "Year": 2021
+        },
+        {
+            "Crime": "Intentional homicides and attempted murders",
+            "Location": "Barcelona",
+            "Totalcases": 137,
+            "Year": 2021
+        },
+        {
+            "Crime": "Serious and less serious crimes of injuries and riotous brawl",
+            "Location": "Barcelona",
+            "Totalcases": 2161,
+            "Year": 2021
+        },
+        {
+            "Crime": "Kidnapping",
+            "Location": "Barcelona",
+            "Totalcases": 8,
+            "Year": 2021
+        },
+        {
+            "Crime": "Crimes against freedom and sexual indemnity",
+            "Location": "Barcelona",
+            "Totalcases": 2406,
+            "Year": 2021
+        },
+        {
+            "Crime": "Sexual assault with penetration",
+            "Location": "Barcelona",
+            "Totalcases": 436,
+            "Year": 2021
+        },
+        {
+            "Crime": "Other crimes against freedom and sexual indemnity",
+            "Location": "Barcelona",
+            "Totalcases": 1970,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robbery with violence and intimidation",
+            "Location": "Barcelona",
+            "Totalcases": 18360,
+            "Year": 2021
+        },
+        {
+            "Crime": "Burglaries with force in homes",
+            "Location": "Barcelona",
+            "Totalcases": 16743,
+            "Year": 2021
+        },
+        {
+            "Crime": "Robberies with force in homes",
+            "Location": "Barcelona",
+            "Totalcases": 10697,
+            "Year": 2021
+        }
+    ],
+    "stats": [
+        {
+            "name": "Crime",
+            "type": "bar",
+            "data": [
+                {
+                    "name": "Burglaries with force in homes",
+                    "value": 48
+                },
+                {
+                    "name": "Crimes against freedom and sexual indemnity",
+                    "value": 48
+                },
+                {
+                    "name": "Drug trafficking",
+                    "value": 48
+                },
+                {
+                    "name": "Intentional homicides and attempted murders",
+                    "value": 48
+                },
+                {
+                    "name": "Intentional homicides and consummated murders",
+                    "value": 48
+                },
+                {
+                    "name": "Kidnapping",
+                    "value": 48
+                },
+                {
+                    "name": "Other crimes against freedom and sexual indemnity",
+                    "value": 48
+                },
+                {
+                    "name": "Other criminal offenses",
+                    "value": 48
+                },
+                {
+                    "name": "Robberies with force in homes",
+                    "value": 48
+                },
+                {
+                    "name": "Robbery with violence and intimidation",
+                    "value": 48
+                },
+                {
+                    "name": "Serious and less serious crimes of injuries and riotous brawl",
+                    "value": 48
+                },
+                {
+                    "name": "Sexual assault with penetration",
+                    "value": 48
+                },
+                {
+                    "name": "Theft",
+                    "value": 48
+                },
+                {
+                    "name": "Vehicle theft",
+                    "value": 48
+                }
+            ]
+        },
+        {
+            "name": "Location",
+            "type": "bar",
+            "data": [
+                {
+                    "name": "Alicante",
+                    "value": 42
+                },
+                {
+                    "name": "Barcelona",
+                    "value": 42
+                },
+                {
+                    "name": "Ceuta",
+                    "value": 42
+                },
+                {
+                    "name": "Cordoba",
+                    "value": 42
+                },
+                {
+                    "name": "Granada",
+                    "value": 42
+                },
+                {
+                    "name": "Madrid",
+                    "value": 42
+                },
+                {
+                    "name": "Malaga",
+                    "value": 42
+                },
+                {
+                    "name": "Melilla",
+                    "value": 42
+                },
+                {
+                    "name": "Murcia",
+                    "value": 42
+                },
+                {
+                    "name": "Rioja",
+                    "value": 42
+                },
+                {
+                    "name": "Salamanca",
+                    "value": 42
+                },
+                {
+                    "name": "Segovia",
+                    "value": 42
+                },
+                {
+                    "name": "Seville",
+                    "value": 42
+                },
+                {
+                    "name": "Spain",
+                    "value": 42
+                },
+                {
+                    "name": "Valencia",
+                    "value": 42
+                },
+                {
+                    "name": "Zaragoza",
+                    "value": 42
+                }
+            ]
+        },
+        {
+            "name": "Totalcases",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 488
+                }
+            ]
+        },
+        {
+            "name": "Year",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": 2021,
+                    "value": 33.33333333333333
+                },
+                {
+                    "name": 2020,
+                    "value": 33.33333333333333
+                },
+                {
+                    "name": 2019,
+                    "value": 33.33333333333333
+                }
+            ]
+        }
+    ]
+}
