@@ -1,0 +1,198 @@
+{
+    "dataset": [
+        {
+            "Affordability": 91.9,
+            "Availability": 70.5,
+            "Country": "Finland",
+            "Overallscore": 83.7,
+            "QualityandSafety": 88.4,
+            "Rank": "1st",
+            "SustainabilityandAdaptation": 82.6,
+            "Unnamed0": 0
+        },
+        {
+            "Affordability": 92.6,
+            "Availability": 70.5,
+            "Country": "Ireland",
+            "Overallscore": 81.7,
+            "QualityandSafety": 86.1,
+            "Rank": "2nd",
+            "SustainabilityandAdaptation": 75.1,
+            "Unnamed0": 1
+        },
+        {
+            "Affordability": 87.2,
+            "Availability": 60.4,
+            "Country": "Norway",
+            "Overallscore": 80.5,
+            "QualityandSafety": 86.8,
+            "Rank": "3rd",
+            "SustainabilityandAdaptation": 87.4,
+            "Unnamed0": 2
+        },
+        {
+            "Affordability": 91.3,
+            "Availability": 69.0,
+            "Country": "France",
+            "Overallscore": 80.2,
+            "QualityandSafety": 87.7,
+            "Rank": "4th",
+            "SustainabilityandAdaptation": 70.3,
+            "Unnamed0": 3
+        },
+        {
+            "Affordability": 92.7,
+            "Availability": 70.7,
+            "Country": "Netherlands",
+            "Overallscore": 80.1,
+            "QualityandSafety": 84.7,
+            "Rank": "5th",
+            "SustainabilityandAdaptation": 69.2,
+            "Unnamed0": 4
+        },
+        {
+            "Affordability": 89.8,
+            "Availability": 81.2,
+            "Country": "Japan",
+            "Overallscore": 79.5,
+            "QualityandSafety": 77.4,
+            "Rank": "6th",
+            "SustainabilityandAdaptation": 66.1,
+            "Unnamed0": 5
+        },
+        {
+            "Affordability": 91.9,
+            "Availability": 68.3,
+            "Country": "Sweden",
+            "Overallscore": 79.1,
+            "QualityandSafety": 85.0,
+            "Rank": "=7th",
+            "SustainabilityandAdaptation": 68.3,
+            "Unnamed0": 6
+        },
+        {
+            "Affordability": 88.3,
+            "Availability": 75.7,
+            "Country": "Canada",
+            "Overallscore": 79.1,
+            "QualityandSafety": 89.5,
+            "Rank": "=7th",
+            "SustainabilityandAdaptation": 60.1,
+            "Unnamed0": 7
+        },
+        {
+            "Affordability": 91.5,
+            "Availability": 71.6,
+            "Country": "United Kingdom",
+            "Overallscore": 78.8,
+            "QualityandSafety": 77.6,
+            "Rank": "9th",
+            "SustainabilityandAdaptation": 71.1,
+            "Unnamed0": 8
+        },
+        {
+            "Affordability": 90.0,
+            "Availability": 77.0,
+            "Country": "Portugal",
+            "Overallscore": 78.7,
+            "QualityandSafety": 79.8,
+            "Rank": "10th",
+            "SustainabilityandAdaptation": 64.5,
+            "Unnamed0": 9
+        }
+    ],
+    "dataTypes": {
+        "Affordability": "number",
+        "Availability": "number",
+        "Country": "string",
+        "Overallscore": "number",
+        "QualityandSafety": "number",
+        "Rank": "string",
+        "SustainabilityandAdaptation": "number",
+        "Unnamed0": "number"
+    },
+    "errors": [],
+    "count": 113,
+    "stats": [
+        {
+            "name": "Affordability",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 99
+                }
+            ]
+        },
+        {
+            "name": "Availability",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 103
+                }
+            ]
+        },
+        {
+            "name": "Country",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 113
+                }
+            ]
+        },
+        {
+            "name": "Overallscore",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 103
+                }
+            ]
+        },
+        {
+            "name": "QualityandSafety",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 99
+                }
+            ]
+        },
+        {
+            "name": "Rank",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 103
+                }
+            ]
+        },
+        {
+            "name": "SustainabilityandAdaptation",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 96
+                }
+            ]
+        },
+        {
+            "name": "Unnamed0",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 113
+                }
+            ]
+        }
+    ]
+}

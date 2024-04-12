@@ -1688,3 +1688,1305 @@
   },
   "authId": "REPL"
 }
+{
+  "_id": {
+    "$oid": "66179e45d2434b8e13194a43"
+  },
+  "name": "Crime rate in Spain 2019 - 2021 on a Treemap",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "echartsTreemap",
+  "datasetId": {
+    "$oid": "66179e02eb3a81f33b6b7db1"
+  },
+  "mapping": {
+    "hierarchy": {
+      "ids": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "value": [
+        "Year",
+        "Location",
+        "Crime",
+        "Totalcases"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "size": {
+      "ids": [
+        "19"
+      ],
+      "value": [
+        "Totalcases"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "Crime": "string",
+    "Location": "string",
+    "Totalcases": "number",
+    "Year": "number"
+  },
+  "vizOptions": {
+    "width": 881,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "nodeClick": "zoomToNode",
+    "showLabels": "leaf",
+    "showBreadcrumbs": true,
+    "upperLabel": true,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "nodesWidth": 8,
+    "nodesPadding": 5,
+    "linksOpacity": 0.5,
+    "draggable": false,
+    "orient": "horizontal",
+    "nodeAlign": "justify",
+    "showEdgeLabels": true,
+    "labelPosition": "right",
+    "labelRotate": 0,
+    "labelFontSize": 12,
+    "leafLabelPositon": "inside",
+    "palette": "TGF Default",
+    "borderWidth": 1,
+    "borderRadius": 0,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "Crime",
+    "Location",
+    "Totalcases",
+    "Year"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-11T08:24:37.284Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-11T08:39:02.908Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "6617b150d2434b8e13194a44"
+  },
+  "name": "Health Facilities in the EAC.",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "echartsBarchart",
+  "datasetId": {
+    "$oid": "6617b11cf372402a53e3ef64"
+  },
+  "mapping": {
+    "bars": {
+      "ids": [
+        "1"
+      ],
+      "value": [
+        "country"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "size": {
+      "ids": [
+        "2"
+      ],
+      "value": [
+        "facilitiescount"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "country": "string",
+    "facilitiescount": "number"
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "barWidth": 35,
+    "stack": false,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "label": false,
+    "nodeClick": "zoomToNode",
+    "showLabels": "leaf",
+    "showBreadcrumbs": true,
+    "upperLabel": true,
+    "nodesWidth": 8,
+    "nodesPadding": 5,
+    "linksOpacity": 0.5,
+    "draggable": false,
+    "orient": "horizontal",
+    "nodeAlign": "justify",
+    "showEdgeLabels": true,
+    "labelPosition": "right",
+    "labelRotate": 0,
+    "labelFontSize": 12,
+    "leafLabelPositon": "inside",
+    "palette": "TGF Default",
+    "borderWidth": 1,
+    "borderRadius": 0,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "country",
+    "facilitiescount"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-11T09:45:52.785Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-11T09:46:22.881Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "6617c04bd2434b8e13194a47"
+  },
+  "name": "Violence Against Women & Girls in Afghanistan",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "echartsCirclepacking",
+  "datasetId": {
+    "$oid": "6617be0585f1cebf7e77aaac"
+  },
+  "mapping": {
+    "hierarchy": {
+      "ids": [
+        "18",
+        "22",
+        "23"
+      ],
+      "value": [
+        "Country",
+        "DemographicsQuestion",
+        "Question"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "size": {
+      "ids": [
+        "24"
+      ],
+      "value": [
+        "RecordID"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "Country": "string",
+    "DemographicsQuestion": "string",
+    "DemographicsResponse": "string",
+    "Gender": "string",
+    "Question": "string",
+    "RecordID": "number",
+    "SurveyYear": "string",
+    "Value": "number"
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 600,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "nodeClick": "zoomToNode",
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "showLabels": "leaf",
+    "leafLabelPositon": "inside",
+    "labelFontSize": 12,
+    "borderWidth": 1,
+    "borderRadius": 0,
+    "showLegend": false,
+    "linksOpacity": 0.5,
+    "linksCurveness": 0.3,
+    "roam": "none",
+    "rotateLabel": true,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "legendHoverLink": false,
+    "label": false,
+    "showAntarctica": true,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1
+  },
+  "appliedFilters": {
+    "Country": [
+      "Afghanistan"
+    ],
+    "Gender": [
+      "F"
+    ]
+  },
+  "enabledFilterOptionGroups": [
+    "Country",
+    "DemographicsQuestion",
+    "DemographicsResponse",
+    "Gender",
+    "Question",
+    "RecordID",
+    "SurveyYear",
+    "Value"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-11T10:49:47.052Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-11T11:07:01.425Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "6617f215d2434b8e13194a48"
+  },
+  "name": "Global Food Security Index - Sustainability and Adaptation - 2022",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "echartsGeomap",
+  "datasetId": {
+    "$oid": "6617f0245e532a0e504f808f"
+  },
+  "mapping": {
+    "country": {
+      "ids": [
+        "1"
+      ],
+      "value": [
+        "Country"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "size": {
+      "ids": [
+        "2"
+      ],
+      "value": [
+        "SustainabilityandAdaptation"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "Affordability": "number",
+    "Availability": "number",
+    "Country": "string",
+    "Overallscore": "number",
+    "QualityandSafety": "number",
+    "Rank": "string",
+    "SustainabilityandAdaptation": "number",
+    "Unnamed0": "number"
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "barWidth": 35,
+    "stack": false,
+    "label": false,
+    "nodeClick": "zoomToNode",
+    "showLabels": "leaf",
+    "showBreadcrumbs": true,
+    "upperLabel": true,
+    "nodesWidth": 8,
+    "nodesPadding": 5,
+    "linksOpacity": 0.5,
+    "draggable": false,
+    "orient": "horizontal",
+    "nodeAlign": "justify",
+    "showEdgeLabels": true,
+    "labelPosition": "right",
+    "labelRotate": 0,
+    "labelFontSize": 12,
+    "leafLabelPositon": "inside",
+    "borderWidth": 1,
+    "borderRadius": 0,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "Affordability",
+    "Availability",
+    "Country",
+    "Overallscore",
+    "QualityandSafety",
+    "Rank",
+    "SustainabilityandAdaptation",
+    "Unnamed0"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-11T14:22:13.626Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-11T14:23:33.124Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "66188a07d2434b8e13194a4a"
+  },
+  "name": "Net migration 2021-2023",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "echartsGeomap",
+  "datasetId": {
+    "$oid": "6618896d9ae27053f59c5808"
+  },
+  "mapping": {
+    "country": {
+      "ids": [
+        "4"
+      ],
+      "value": [
+        "Country"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "size": {
+      "ids": [
+        "5"
+      ],
+      "value": [
+        "Value"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "Country": "string",
+    "Value": "number",
+    "Year": "number"
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "Country",
+    "Value",
+    "Year"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T01:10:31.709Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T01:14:41.934Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "66189520d2434b8e13194a4b"
+  },
+  "name": "Total losses in Euros due to impacts of extreme weather",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "echartsBarchart",
+  "datasetId": {
+    "$oid": "661894719f5f275252bed856"
+  },
+  "mapping": {
+    "bars": {
+      "ids": [
+        "4"
+      ],
+      "value": [
+        "Countrytext"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "size": {
+      "ids": [
+        "5"
+      ],
+      "value": [
+        "TotallossesMillionEUROnumber"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "Countrytext": "string",
+    "Fatalitiesnumber": "number",
+    "InsuredlossesMillionEUROnumber": "number",
+    "Insuredlossesnumber": "number",
+    "LossespercapitaEUROnumber": "number",
+    "LossespersqkmEUROnumber": "number",
+    "TotallossesMillionEUROnumber": "number"
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "barWidth": 20,
+    "stack": false,
+    "showTooltip": true,
+    "isMonetaryValue": true,
+    "label": false,
+    "showLabels": "leaf",
+    "leafLabelPositon": "inside",
+    "labelFontSize": 12,
+    "palette": "TGF Default",
+    "borderWidth": 1,
+    "borderRadius": 0,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "nodeClick": "zoomToNode",
+    "showBreadcrumbs": true,
+    "upperLabel": true,
+    "nodesWidth": 8,
+    "nodesPadding": 5,
+    "linksOpacity": 0.5,
+    "draggable": false,
+    "orient": "horizontal",
+    "nodeAlign": "justify",
+    "showEdgeLabels": true,
+    "labelPosition": "right",
+    "labelRotate": 0,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "Countrytext",
+    "Fatalitiesnumber",
+    "InsuredlossesMillionEUROnumber",
+    "Insuredlossesnumber",
+    "LossespercapitaEUROnumber",
+    "LossespersqkmEUROnumber",
+    "TotallossesMillionEUROnumber"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T01:57:52.02Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T01:59:29.398Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "661899acd2434b8e13194a4f"
+  },
+  "name": "Out of school girls - 2021",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6602d1b6bfec1b70c468145f"
+  },
+  "mapping": {
+    "mainKPImetric": {
+      "ids": [
+        "12",
+        "17",
+        "21"
+      ],
+      "value": [
+        "132"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "13",
+        "18",
+        "22",
+        "23"
+      ],
+      "value": [
+        "Out of school"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "14",
+        "19",
+        "24",
+        "25"
+      ],
+      "value": [
+        "Million Girls"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "15",
+        "20",
+        "26"
+      ],
+      "value": [
+        "Globally, between the ages of 6 and 17\n"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "16"
+      ],
+      "value": [
+        "Population"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "City": "string",
+    "Continent": "string",
+    "Country": "string",
+    "Population": "number"
+  },
+  "vizOptions": {
+    "width": 881,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "City",
+    "Continent",
+    "Country",
+    "Population"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T02:17:16.52Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T02:23:58.847Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "66189b68a9c7bd1121984aed"
+  },
+  "name": "Gender-based violence in schools",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6602d1b6bfec1b70c468145f"
+  },
+  "mapping": {
+    "mainKPImetric": {
+      "ids": [
+        "1",
+        "7"
+      ],
+      "value": [
+        "35"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "2",
+        "6"
+      ],
+      "value": [
+        "GENDER-BASED VIOLENCE"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "3",
+        "8"
+      ],
+      "value": [
+        "PERCENT OF GIRLS IN SCHOOLS"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "4",
+        "9"
+      ],
+      "value": [
+        "Experience some form of gender-based violence in s"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "5"
+      ],
+      "value": [
+        "Population"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "City": "string",
+    "Continent": "string",
+    "Country": "string",
+    "Population": "number"
+  },
+  "vizOptions": {
+    "width": 881,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "City",
+    "Continent",
+    "Country",
+    "Population"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T02:24:40.964Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T02:25:57.528Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "66189bd5a9c7bd1121984aee"
+  },
+  "name": "Child marriage",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6602d1b6bfec1b70c468145f"
+  },
+  "mapping": {
+    "mainKPImetric": {
+      "ids": [
+        "10",
+        "15"
+      ],
+      "value": [
+        "75"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "11",
+        "16"
+      ],
+      "value": [
+        "CHILD MARRIAGE"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "12",
+        "17",
+        "18"
+      ],
+      "value": [
+        "PERCENT OF GIRLS IN NIGER AND BANGLADESH"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "13",
+        "19"
+      ],
+      "value": [
+        "Are married before the age of 18"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "14"
+      ],
+      "value": [
+        "Population"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "City": "string",
+    "Continent": "string",
+    "Country": "string",
+    "Population": "number"
+  },
+  "vizOptions": {
+    "width": 881,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "City",
+    "Continent",
+    "Country",
+    "Population"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T02:26:29.472Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T02:27:33.609Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "66189c6ba9c7bd1121984aef"
+  },
+  "name": "Primary School Completion rates",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6602d1b6bfec1b70c468145f"
+  },
+  "mapping": {
+    "mainKPImetric": {
+      "ids": [
+        "20",
+        "27"
+      ],
+      "value": [
+        "75"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "21",
+        "25"
+      ],
+      "value": [
+        "PRIMARY SCHOOL COMPLETION RATE"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "22",
+        "26"
+      ],
+      "value": [
+        "PERCENT FOR GIRLS IN MALAWI AND ETHIOPIA"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "23",
+        "28"
+      ],
+      "value": [
+        "Indicating progress in educational attainment"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "24"
+      ],
+      "value": [
+        "Population"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "City": "string",
+    "Continent": "string",
+    "Country": "string",
+    "Population": "number"
+  },
+  "vizOptions": {
+    "width": 881,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "City",
+    "Continent",
+    "Country",
+    "Population"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T02:28:59.247Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T02:30:07.499Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "66189ce0a9c7bd1121984af0"
+  },
+  "name": "Gender wage gap",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6602d1b6bfec1b70c468145f"
+  },
+  "mapping": {
+    "mainKPImetric": {
+      "ids": [
+        "29",
+        "35"
+      ],
+      "value": [
+        "78"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "30",
+        "34",
+        "36",
+        "37"
+      ],
+      "value": [
+        "WOMEN EARN"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "31",
+        "38"
+      ],
+      "value": [
+        "CENTS FOR EVERY DOLLAR EARNED BY MEN"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "32",
+        "39"
+      ],
+      "value": [
+        "Highlighting a persistent gender wage gap"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "33"
+      ],
+      "value": [
+        "Population"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "City": "string",
+    "Continent": "string",
+    "Country": "string",
+    "Population": "number"
+  },
+  "vizOptions": {
+    "width": 881,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "City",
+    "Continent",
+    "Country",
+    "Population"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T02:30:56.922Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T02:32:26.636Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "66189d4ca9c7bd1121984af1"
+  },
+  "name": "Maternal mortality rates",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6602d1b6bfec1b70c468145f"
+  },
+  "mapping": {
+    "mainKPImetric": {
+      "ids": [
+        "40",
+        "45"
+      ],
+      "value": [
+        "1360"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "41",
+        "46",
+        "47"
+      ],
+      "value": [
+        "MATERNAL MORTALITY RATES"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "42",
+        "48",
+        "49"
+      ],
+      "value": [
+        "DEATHS PER 100,000 "
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "43",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ],
+      "value": [
+        "Live births in Sierra Leone"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "44"
+      ],
+      "value": [
+        "Population"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "City": "string",
+    "Continent": "string",
+    "Country": "string",
+    "Population": "number"
+  },
+  "vizOptions": {
+    "width": 881,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "City",
+    "Continent",
+    "Country",
+    "Population"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T02:32:44.074Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T02:34:36.569Z"
+  },
+  "authId": "REPL"
+}

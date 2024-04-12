@@ -1,0 +1,4094 @@
+{
+    "dataset": [
+        {
+            "Country": "ABW",
+            "Value": 501.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ABW",
+            "Value": 164.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ABW",
+            "Value": 157.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AFE",
+            "Value": -179444.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AFE",
+            "Value": -274282.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AFE",
+            "Value": -271749.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AFG",
+            "Value": -183672.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AFG",
+            "Value": -65846.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AFG",
+            "Value": -65846.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AFW",
+            "Value": -264802.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AFW",
+            "Value": -186109.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AFW",
+            "Value": -183333.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AGO",
+            "Value": 29089.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AGO",
+            "Value": -1000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AGO",
+            "Value": -1000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ALB",
+            "Value": -10612.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ALB",
+            "Value": -8000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ALB",
+            "Value": -8000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AND",
+            "Value": 1377.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AND",
+            "Value": 200.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AND",
+            "Value": 200.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ARB",
+            "Value": -458710.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ARB",
+            "Value": 308780.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ARB",
+            "Value": 298369.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ARE",
+            "Value": -2762.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ARE",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ARE",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ARG",
+            "Value": 2344.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ARG",
+            "Value": 3886.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ARG",
+            "Value": 3718.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ARM",
+            "Value": -12825.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ARM",
+            "Value": -5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ARM",
+            "Value": -5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ASM",
+            "Value": -1646.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ASM",
+            "Value": -810.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ASM",
+            "Value": -790.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ATG",
+            "Value": 0.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ATG",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ATG",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AUS",
+            "Value": 117929.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AUS",
+            "Value": 139991.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AUS",
+            "Value": 139991.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AUT",
+            "Value": 20314.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AUT",
+            "Value": 19999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AUT",
+            "Value": 19999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AZE",
+            "Value": 1084.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AZE",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AZE",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BDI",
+            "Value": -14415.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BDI",
+            "Value": 2000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BDI",
+            "Value": 2000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BEL",
+            "Value": 52356.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BEL",
+            "Value": 23999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BEL",
+            "Value": 23999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BEN",
+            "Value": 1732.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BEN",
+            "Value": -200.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BEN",
+            "Value": -200.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BFA",
+            "Value": -13097.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BFA",
+            "Value": -24998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BFA",
+            "Value": -24998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BGD",
+            "Value": -174500.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BGD",
+            "Value": -309977.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BGD",
+            "Value": -309977.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BGR",
+            "Value": -8716.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BGR",
+            "Value": -4800.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BGR",
+            "Value": -4800.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BHR",
+            "Value": -9150.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BHR",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BHR",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BHS",
+            "Value": 485.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BHS",
+            "Value": 1000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BHS",
+            "Value": 1000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BIH",
+            "Value": -25865.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BIH",
+            "Value": -500.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BIH",
+            "Value": -500.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BLR",
+            "Value": 12961.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BLR",
+            "Value": 30308.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BLR",
+            "Value": -4282.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BLZ",
+            "Value": 577.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BLZ",
+            "Value": 600.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BLZ",
+            "Value": 600.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BMU",
+            "Value": 291.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BMU",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BMU",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BOL",
+            "Value": -4666.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BOL",
+            "Value": -3000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BOL",
+            "Value": -3000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BRA",
+            "Value": 20376.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BRA",
+            "Value": 6425.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BRA",
+            "Value": 6000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BRB",
+            "Value": -28.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BRB",
+            "Value": -80.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BRB",
+            "Value": -80.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BRN",
+            "Value": -192.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BRN",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BRN",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BTN",
+            "Value": 291.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BTN",
+            "Value": 300.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BTN",
+            "Value": 300.0,
+            "Year": 2023
+        },
+        {
+            "Country": "BWA",
+            "Value": 1816.0,
+            "Year": 2021
+        },
+        {
+            "Country": "BWA",
+            "Value": 3000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "BWA",
+            "Value": 3000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CAF",
+            "Value": -85860.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CAF",
+            "Value": -17463.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CAF",
+            "Value": -14716.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CAN",
+            "Value": 195181.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CAN",
+            "Value": 248586.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CAN",
+            "Value": 249746.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CEB",
+            "Value": -20678.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CEB",
+            "Value": 5316792.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CEB",
+            "Value": -1438382.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CHE",
+            "Value": 23872.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CHE",
+            "Value": 39998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CHE",
+            "Value": 39998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CHI",
+            "Value": 1242.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CHI",
+            "Value": 900.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CHI",
+            "Value": 900.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CHL",
+            "Value": 113709.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CHL",
+            "Value": -66850.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CHL",
+            "Value": -71205.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CHN",
+            "Value": -200194.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CHN",
+            "Value": -311380.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CHN",
+            "Value": -310220.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CIV",
+            "Value": -21000.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CIV",
+            "Value": 6000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CIV",
+            "Value": 6000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CMR",
+            "Value": -9889.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CMR",
+            "Value": -4800.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CMR",
+            "Value": -4800.0,
+            "Year": 2023
+        },
+        {
+            "Country": "COD",
+            "Value": -64643.0,
+            "Year": 2021
+        },
+        {
+            "Country": "COD",
+            "Value": -14999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "COD",
+            "Value": -14999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "COG",
+            "Value": -4466.0,
+            "Year": 2021
+        },
+        {
+            "Country": "COG",
+            "Value": -1000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "COG",
+            "Value": -1000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "COL",
+            "Value": 211978.0,
+            "Year": 2021
+        },
+        {
+            "Country": "COL",
+            "Value": -167924.0,
+            "Year": 2022
+        },
+        {
+            "Country": "COL",
+            "Value": -175051.0,
+            "Year": 2023
+        },
+        {
+            "Country": "COM",
+            "Value": -1772.0,
+            "Year": 2021
+        },
+        {
+            "Country": "COM",
+            "Value": -2000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "COM",
+            "Value": -2000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CPV",
+            "Value": -1274.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CPV",
+            "Value": -1256.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CPV",
+            "Value": -1227.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CRI",
+            "Value": 2084.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CRI",
+            "Value": 3850.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CRI",
+            "Value": 3750.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CSS",
+            "Value": -7303.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CSS",
+            "Value": -15599.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CSS",
+            "Value": -15599.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CUB",
+            "Value": -7068.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CUB",
+            "Value": -6000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CUB",
+            "Value": -6000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CUW",
+            "Value": 502.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CUW",
+            "Value": 515.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CUW",
+            "Value": 515.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CYM",
+            "Value": 276.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CYM",
+            "Value": 400.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CYM",
+            "Value": 400.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CYP",
+            "Value": 1995.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CYP",
+            "Value": 5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CYP",
+            "Value": 5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "CZE",
+            "Value": 3621.0,
+            "Year": 2021
+        },
+        {
+            "Country": "CZE",
+            "Value": 22011.0,
+            "Year": 2022
+        },
+        {
+            "Country": "CZE",
+            "Value": 22011.0,
+            "Year": 2023
+        },
+        {
+            "Country": "DEU",
+            "Value": 312735.0,
+            "Year": 2021
+        },
+        {
+            "Country": "DEU",
+            "Value": 154592.0,
+            "Year": 2022
+        },
+        {
+            "Country": "DEU",
+            "Value": 155751.0,
+            "Year": 2023
+        },
+        {
+            "Country": "DJI",
+            "Value": 742.0,
+            "Year": 2021
+        },
+        {
+            "Country": "DJI",
+            "Value": 900.0,
+            "Year": 2022
+        },
+        {
+            "Country": "DJI",
+            "Value": 900.0,
+            "Year": 2023
+        },
+        {
+            "Country": "DMA",
+            "Value": 57.0,
+            "Year": 2021
+        },
+        {
+            "Country": "DMA",
+            "Value": -40.0,
+            "Year": 2022
+        },
+        {
+            "Country": "DMA",
+            "Value": -40.0,
+            "Year": 2023
+        },
+        {
+            "Country": "DNK",
+            "Value": 22746.0,
+            "Year": 2021
+        },
+        {
+            "Country": "DNK",
+            "Value": 19999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "DNK",
+            "Value": 19999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "DOM",
+            "Value": -14966.0,
+            "Year": 2021
+        },
+        {
+            "Country": "DOM",
+            "Value": -29294.0,
+            "Year": 2022
+        },
+        {
+            "Country": "DOM",
+            "Value": -29099.0,
+            "Year": 2023
+        },
+        {
+            "Country": "DZA",
+            "Value": -18797.0,
+            "Year": 2021
+        },
+        {
+            "Country": "DZA",
+            "Value": -9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "DZA",
+            "Value": -9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "EAP",
+            "Value": -323525.0,
+            "Year": 2021
+        },
+        {
+            "Country": "EAP",
+            "Value": -538259.0,
+            "Year": 2022
+        },
+        {
+            "Country": "EAP",
+            "Value": -536831.0,
+            "Year": 2023
+        },
+        {
+            "Country": "EAR",
+            "Value": -1622432.0,
+            "Year": 2021
+        },
+        {
+            "Country": "EAR",
+            "Value": -1002880.0,
+            "Year": 2022
+        },
+        {
+            "Country": "EAR",
+            "Value": -988952.0,
+            "Year": 2023
+        },
+        {
+            "Country": "EAS",
+            "Value": 9227.0,
+            "Year": 2021
+        },
+        {
+            "Country": "EAS",
+            "Value": -180381.0,
+            "Year": 2022
+        },
+        {
+            "Country": "EAS",
+            "Value": -178933.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ECA",
+            "Value": 92645.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ECA",
+            "Value": -5638322.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ECA",
+            "Value": 1101976.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ECS",
+            "Value": 1242327.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ECS",
+            "Value": 422101.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ECS",
+            "Value": 409205.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ECU",
+            "Value": 35894.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ECU",
+            "Value": -20206.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ECU",
+            "Value": -21525.0,
+            "Year": 2023
+        },
+        {
+            "Country": "EGY",
+            "Value": -32370.0,
+            "Year": 2021
+        },
+        {
+            "Country": "EGY",
+            "Value": -29998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "EGY",
+            "Value": -29998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "EMU",
+            "Value": 808829.0,
+            "Year": 2021
+        },
+        {
+            "Country": "EMU",
+            "Value": 844095.0,
+            "Year": 2022
+        },
+        {
+            "Country": "EMU",
+            "Value": 311907.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ERI",
+            "Value": -14988.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ERI",
+            "Value": -17152.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ERI",
+            "Value": -15297.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ESP",
+            "Value": 275022.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ESP",
+            "Value": 39998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ESP",
+            "Value": 39998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "EST",
+            "Value": 2995.0,
+            "Year": 2021
+        },
+        {
+            "Country": "EST",
+            "Value": -1000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "EST",
+            "Value": -1000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ETH",
+            "Value": -1391.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ETH",
+            "Value": -11999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ETH",
+            "Value": -11999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "EUU",
+            "Value": 910755.0,
+            "Year": 2021
+        },
+        {
+            "Country": "EUU",
+            "Value": 5820541.0,
+            "Year": 2022
+        },
+        {
+            "Country": "EUU",
+            "Value": -932653.0,
+            "Year": 2023
+        },
+        {
+            "Country": "FCS",
+            "Value": -1269284.0,
+            "Year": 2021
+        },
+        {
+            "Country": "FCS",
+            "Value": -6272447.0,
+            "Year": 2022
+        },
+        {
+            "Country": "FCS",
+            "Value": 2227475.0,
+            "Year": 2023
+        },
+        {
+            "Country": "FIN",
+            "Value": 14928.0,
+            "Year": 2021
+        },
+        {
+            "Country": "FIN",
+            "Value": 13999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "FIN",
+            "Value": 13999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "FJI",
+            "Value": -6003.0,
+            "Year": 2021
+        },
+        {
+            "Country": "FJI",
+            "Value": -3557.0,
+            "Year": 2022
+        },
+        {
+            "Country": "FJI",
+            "Value": -3289.0,
+            "Year": 2023
+        },
+        {
+            "Country": "FRA",
+            "Value": 20614.0,
+            "Year": 2021
+        },
+        {
+            "Country": "FRA",
+            "Value": 66601.0,
+            "Year": 2022
+        },
+        {
+            "Country": "FRA",
+            "Value": 67761.0,
+            "Year": 2023
+        },
+        {
+            "Country": "FRO",
+            "Value": 0.0,
+            "Year": 2021
+        },
+        {
+            "Country": "FRO",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "FRO",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "FSM",
+            "Value": -635.0,
+            "Year": 2021
+        },
+        {
+            "Country": "FSM",
+            "Value": -600.0,
+            "Year": 2022
+        },
+        {
+            "Country": "FSM",
+            "Value": -600.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GAB",
+            "Value": 1516.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GAB",
+            "Value": 1000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GAB",
+            "Value": 1000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GBR",
+            "Value": 202027.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GBR",
+            "Value": 165790.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GBR",
+            "Value": 165790.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GEO",
+            "Value": -2734.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GEO",
+            "Value": -9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GEO",
+            "Value": -9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GHA",
+            "Value": -11253.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GHA",
+            "Value": -9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GHA",
+            "Value": -9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GIB",
+            "Value": -58.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GIB",
+            "Value": -24.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GIB",
+            "Value": -24.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GIN",
+            "Value": -4367.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GIN",
+            "Value": -4000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GIN",
+            "Value": -4000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GMB",
+            "Value": -1960.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GMB",
+            "Value": -3000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GMB",
+            "Value": -3000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GNB",
+            "Value": -1395.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GNB",
+            "Value": -1400.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GNB",
+            "Value": -1400.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GNQ",
+            "Value": 6486.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GNQ",
+            "Value": 4000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GNQ",
+            "Value": 4000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GRC",
+            "Value": -14806.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GRC",
+            "Value": 5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GRC",
+            "Value": 5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GRD",
+            "Value": -85.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GRD",
+            "Value": -200.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GRD",
+            "Value": -200.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GRL",
+            "Value": -62.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GRL",
+            "Value": -100.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GRL",
+            "Value": -100.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GTM",
+            "Value": -29118.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GTM",
+            "Value": -9128.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GTM",
+            "Value": -9110.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GUM",
+            "Value": -244.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GUM",
+            "Value": -500.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GUM",
+            "Value": -500.0,
+            "Year": 2023
+        },
+        {
+            "Country": "GUY",
+            "Value": -4316.0,
+            "Year": 2021
+        },
+        {
+            "Country": "GUY",
+            "Value": -3900.0,
+            "Year": 2022
+        },
+        {
+            "Country": "GUY",
+            "Value": -3900.0,
+            "Year": 2023
+        },
+        {
+            "Country": "HIC",
+            "Value": 2122893.0,
+            "Year": 2021
+        },
+        {
+            "Country": "HIC",
+            "Value": 7670661.0,
+            "Year": 2022
+        },
+        {
+            "Country": "HIC",
+            "Value": 917873.0,
+            "Year": 2023
+        },
+        {
+            "Country": "HKG",
+            "Value": 0.0,
+            "Year": 2021
+        },
+        {
+            "Country": "HKG",
+            "Value": 19999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "HKG",
+            "Value": 19999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "HND",
+            "Value": -5779.0,
+            "Year": 2021
+        },
+        {
+            "Country": "HND",
+            "Value": -5374.0,
+            "Year": 2022
+        },
+        {
+            "Country": "HND",
+            "Value": -5034.0,
+            "Year": 2023
+        },
+        {
+            "Country": "HPC",
+            "Value": -537784.0,
+            "Year": 2021
+        },
+        {
+            "Country": "HPC",
+            "Value": -518316.0,
+            "Year": 2022
+        },
+        {
+            "Country": "HPC",
+            "Value": -520272.0,
+            "Year": 2023
+        },
+        {
+            "Country": "HRV",
+            "Value": -10402.0,
+            "Year": 2021
+        },
+        {
+            "Country": "HRV",
+            "Value": -2000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "HRV",
+            "Value": -2000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "HTI",
+            "Value": -32977.0,
+            "Year": 2021
+        },
+        {
+            "Country": "HTI",
+            "Value": -32248.0,
+            "Year": 2022
+        },
+        {
+            "Country": "HTI",
+            "Value": -31811.0,
+            "Year": 2023
+        },
+        {
+            "Country": "HUN",
+            "Value": 19870.0,
+            "Year": 2021
+        },
+        {
+            "Country": "HUN",
+            "Value": 616038.0,
+            "Year": 2022
+        },
+        {
+            "Country": "HUN",
+            "Value": -156677.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IBD",
+            "Value": -816651.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IBD",
+            "Value": -2752474.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IBD",
+            "Value": -1481047.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IBT",
+            "Value": -2014815.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IBT",
+            "Value": -3446461.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IBT",
+            "Value": -2147048.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IDA",
+            "Value": -1198164.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IDA",
+            "Value": -693987.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IDA",
+            "Value": -666001.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IDB",
+            "Value": -677855.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IDB",
+            "Value": -282835.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IDB",
+            "Value": -282538.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IDN",
+            "Value": -14992.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IDN",
+            "Value": -49997.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IDN",
+            "Value": -49997.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IDX",
+            "Value": -520309.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IDX",
+            "Value": -411152.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IDX",
+            "Value": -383463.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IMN",
+            "Value": 517.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IMN",
+            "Value": 340.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IMN",
+            "Value": 340.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IND",
+            "Value": -301970.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IND",
+            "Value": -487303.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IND",
+            "Value": -486136.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IRL",
+            "Value": 15320.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IRL",
+            "Value": 9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IRL",
+            "Value": 9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IRN",
+            "Value": 28080.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IRN",
+            "Value": -39998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IRN",
+            "Value": -39998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "IRQ",
+            "Value": -60097.0,
+            "Year": 2021
+        },
+        {
+            "Country": "IRQ",
+            "Value": -6000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "IRQ",
+            "Value": -6000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ISL",
+            "Value": 622.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ISL",
+            "Value": 380.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ISL",
+            "Value": 380.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ISR",
+            "Value": 16856.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ISR",
+            "Value": 9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ISR",
+            "Value": 9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ITA",
+            "Value": 28021.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ITA",
+            "Value": 58496.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ITA",
+            "Value": 58496.0,
+            "Year": 2023
+        },
+        {
+            "Country": "JAM",
+            "Value": -5664.0,
+            "Year": 2021
+        },
+        {
+            "Country": "JAM",
+            "Value": -10999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "JAM",
+            "Value": -10999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "JOR",
+            "Value": 14374.0,
+            "Year": 2021
+        },
+        {
+            "Country": "JOR",
+            "Value": -141192.0,
+            "Year": 2022
+        },
+        {
+            "Country": "JOR",
+            "Value": -157392.0,
+            "Year": 2023
+        },
+        {
+            "Country": "JPN",
+            "Value": 87584.0,
+            "Year": 2021
+        },
+        {
+            "Country": "JPN",
+            "Value": 99994.0,
+            "Year": 2022
+        },
+        {
+            "Country": "JPN",
+            "Value": 99994.0,
+            "Year": 2023
+        },
+        {
+            "Country": "KAZ",
+            "Value": -18917.0,
+            "Year": 2021
+        },
+        {
+            "Country": "KAZ",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "KAZ",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "KEN",
+            "Value": -52549.0,
+            "Year": 2021
+        },
+        {
+            "Country": "KEN",
+            "Value": -10000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "KEN",
+            "Value": -10000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "KGZ",
+            "Value": -16510.0,
+            "Year": 2021
+        },
+        {
+            "Country": "KGZ",
+            "Value": -9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "KGZ",
+            "Value": -9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "KHM",
+            "Value": -24262.0,
+            "Year": 2021
+        },
+        {
+            "Country": "KHM",
+            "Value": -29998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "KHM",
+            "Value": -29998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "KIR",
+            "Value": -296.0,
+            "Year": 2021
+        },
+        {
+            "Country": "KIR",
+            "Value": -400.0,
+            "Year": 2022
+        },
+        {
+            "Country": "KIR",
+            "Value": -400.0,
+            "Year": 2023
+        },
+        {
+            "Country": "KNA",
+            "Value": -90.0,
+            "Year": 2021
+        },
+        {
+            "Country": "KNA",
+            "Value": 20.0,
+            "Year": 2022
+        },
+        {
+            "Country": "KNA",
+            "Value": 20.0,
+            "Year": 2023
+        },
+        {
+            "Country": "KOR",
+            "Value": 43440.0,
+            "Year": 2021
+        },
+        {
+            "Country": "KOR",
+            "Value": 29998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "KOR",
+            "Value": 29998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "KWT",
+            "Value": -36843.0,
+            "Year": 2021
+        },
+        {
+            "Country": "KWT",
+            "Value": 11999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "KWT",
+            "Value": 11999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LAC",
+            "Value": 141522.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LAC",
+            "Value": -426651.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LAC",
+            "Value": -434430.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LAO",
+            "Value": -10303.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LAO",
+            "Value": -9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LAO",
+            "Value": -9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LBN",
+            "Value": -115122.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LBN",
+            "Value": -160237.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LBN",
+            "Value": -177331.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LBR",
+            "Value": -11862.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LBR",
+            "Value": -5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LBR",
+            "Value": -5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LBY",
+            "Value": -696.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LBY",
+            "Value": -2000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LBY",
+            "Value": -2000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LCA",
+            "Value": 0.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LCA",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LCA",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LCN",
+            "Value": -273494.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LCN",
+            "Value": -175350.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LCN",
+            "Value": -161670.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LDC",
+            "Value": -522065.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LDC",
+            "Value": -1007079.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LDC",
+            "Value": -1001888.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LIC",
+            "Value": -343175.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LIC",
+            "Value": 284413.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LIC",
+            "Value": 311966.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LIE",
+            "Value": 231.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LIE",
+            "Value": 150.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LIE",
+            "Value": 150.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LKA",
+            "Value": -92400.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LKA",
+            "Value": -77495.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LKA",
+            "Value": -77495.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LMC",
+            "Value": -1371123.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LMC",
+            "Value": -8708216.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LMC",
+            "Value": -280774.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LMY",
+            "Value": -1600633.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LMY",
+            "Value": -7972971.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LMY",
+            "Value": -1243600.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LSO",
+            "Value": -1490.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LSO",
+            "Value": -4000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LSO",
+            "Value": -4000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LTE",
+            "Value": 60109.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LTE",
+            "Value": 5247944.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LTE",
+            "Value": -2428055.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LTU",
+            "Value": -11853.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LTU",
+            "Value": -15192.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LTU",
+            "Value": -13128.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LUX",
+            "Value": 6949.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LUX",
+            "Value": 5222.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LUX",
+            "Value": 4883.0,
+            "Year": 2023
+        },
+        {
+            "Country": "LVA",
+            "Value": -6815.0,
+            "Year": 2021
+        },
+        {
+            "Country": "LVA",
+            "Value": -8466.0,
+            "Year": 2022
+        },
+        {
+            "Country": "LVA",
+            "Value": -7630.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MAC",
+            "Value": 4004.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MAC",
+            "Value": 5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MAC",
+            "Value": 5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MAF",
+            "Value": -948.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MAF",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MAF",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MAR",
+            "Value": -46242.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MAR",
+            "Value": -39998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MAR",
+            "Value": -39998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MCO",
+            "Value": 206.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MCO",
+            "Value": 200.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MCO",
+            "Value": 200.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MDA",
+            "Value": -14278.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MDA",
+            "Value": 462866.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MDA",
+            "Value": -125204.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MDG",
+            "Value": -742.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MDG",
+            "Value": -1500.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MDG",
+            "Value": -1500.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MDV",
+            "Value": 1189.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MDV",
+            "Value": -8011.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MDV",
+            "Value": -8652.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MEA",
+            "Value": -367806.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MEA",
+            "Value": 318630.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MEA",
+            "Value": 308219.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MEX",
+            "Value": -52649.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MEX",
+            "Value": -51399.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MEX",
+            "Value": -50239.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MHL",
+            "Value": -1901.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MHL",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MHL",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MIC",
+            "Value": -1257458.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MIC",
+            "Value": -8257384.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MIC",
+            "Value": -1555566.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MKD",
+            "Value": -486.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MKD",
+            "Value": -1000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MKD",
+            "Value": -1000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MLI",
+            "Value": -22236.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MLI",
+            "Value": -39998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MLI",
+            "Value": -39998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MLT",
+            "Value": 10408.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MLT",
+            "Value": 850.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MLT",
+            "Value": 850.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MMR",
+            "Value": -35382.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MMR",
+            "Value": -34998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MMR",
+            "Value": -34998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MNA",
+            "Value": -140967.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MNA",
+            "Value": 266784.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MNA",
+            "Value": 256373.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MNE",
+            "Value": -101.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MNE",
+            "Value": -480.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MNE",
+            "Value": -480.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MNG",
+            "Value": 0.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MNG",
+            "Value": -850.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MNG",
+            "Value": -850.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MNP",
+            "Value": -431.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MNP",
+            "Value": -50.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MNP",
+            "Value": -50.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MOZ",
+            "Value": -9515.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MOZ",
+            "Value": -5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MOZ",
+            "Value": -5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MRT",
+            "Value": -1494.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MRT",
+            "Value": 3000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MRT",
+            "Value": 3000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MUS",
+            "Value": -478.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MUS",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MUS",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MWI",
+            "Value": -1775.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MWI",
+            "Value": -6000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MWI",
+            "Value": -6000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "MYS",
+            "Value": 46165.0,
+            "Year": 2021
+        },
+        {
+            "Country": "MYS",
+            "Value": 48997.0,
+            "Year": 2022
+        },
+        {
+            "Country": "MYS",
+            "Value": 48997.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NAC",
+            "Value": 757052.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NAC",
+            "Value": 1247126.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NAC",
+            "Value": 1249446.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NAM",
+            "Value": -4301.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NAM",
+            "Value": -4061.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NAM",
+            "Value": -3916.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NCL",
+            "Value": -1182.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NCL",
+            "Value": 500.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NCL",
+            "Value": 500.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NER",
+            "Value": -4405.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NER",
+            "Value": 1000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NER",
+            "Value": 1000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NGA",
+            "Value": -76364.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NGA",
+            "Value": -59996.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NGA",
+            "Value": -59996.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NIC",
+            "Value": -10384.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NIC",
+            "Value": -8000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NIC",
+            "Value": -8000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NLD",
+            "Value": 57439.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NLD",
+            "Value": 29998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NLD",
+            "Value": 29998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NOR",
+            "Value": 10604.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NOR",
+            "Value": 27998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NOR",
+            "Value": 27998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NPL",
+            "Value": 296541.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NPL",
+            "Value": -62012.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NPL",
+            "Value": -62012.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NRU",
+            "Value": -66.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NRU",
+            "Value": -140.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NRU",
+            "Value": -140.0,
+            "Year": 2023
+        },
+        {
+            "Country": "NZL",
+            "Value": 38220.0,
+            "Year": 2021
+        },
+        {
+            "Country": "NZL",
+            "Value": 12999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "NZL",
+            "Value": 12999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "OED",
+            "Value": 2433502.0,
+            "Year": 2021
+        },
+        {
+            "Country": "OED",
+            "Value": 6095042.0,
+            "Year": 2022
+        },
+        {
+            "Country": "OED",
+            "Value": 488694.0,
+            "Year": 2023
+        },
+        {
+            "Country": "OMN",
+            "Value": -20664.0,
+            "Year": 2021
+        },
+        {
+            "Country": "OMN",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "OMN",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "OSS",
+            "Value": -32353.0,
+            "Year": 2021
+        },
+        {
+            "Country": "OSS",
+            "Value": -21211.0,
+            "Year": 2022
+        },
+        {
+            "Country": "OSS",
+            "Value": -21213.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PAK",
+            "Value": -471395.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PAK",
+            "Value": -165988.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PAK",
+            "Value": -165988.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PAN",
+            "Value": 5473.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PAN",
+            "Value": 7967.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PAN",
+            "Value": 7262.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PER",
+            "Value": 68012.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PER",
+            "Value": -60652.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PER",
+            "Value": -61442.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PHL",
+            "Value": -80125.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PHL",
+            "Value": -69996.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PHL",
+            "Value": -69996.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PLW",
+            "Value": 3.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PLW",
+            "Value": -20.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PLW",
+            "Value": -20.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PNG",
+            "Value": 10695.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PNG",
+            "Value": -800.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PNG",
+            "Value": -800.0,
+            "Year": 2023
+        },
+        {
+            "Country": "POL",
+            "Value": -2968.0,
+            "Year": 2021
+        },
+        {
+            "Country": "POL",
+            "Value": 3366387.0,
+            "Year": 2022
+        },
+        {
+            "Country": "POL",
+            "Value": -910475.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PRE",
+            "Value": -647431.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PRE",
+            "Value": -542887.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PRE",
+            "Value": -538217.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PRI",
+            "Value": -7408.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PRI",
+            "Value": 16702.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PRI",
+            "Value": 19835.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PRK",
+            "Value": -1589.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PRK",
+            "Value": -2000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PRK",
+            "Value": -2000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PRT",
+            "Value": 27295.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PRT",
+            "Value": 9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PRT",
+            "Value": 9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PRY",
+            "Value": -8230.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PRY",
+            "Value": -12499.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PRY",
+            "Value": -12499.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PSE",
+            "Value": -12369.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PSE",
+            "Value": -5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PSE",
+            "Value": -5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PSS",
+            "Value": -11748.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PSS",
+            "Value": -8677.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PSS",
+            "Value": -8409.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PST",
+            "Value": 2195799.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PST",
+            "Value": -3727154.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PST",
+            "Value": 3930203.0,
+            "Year": 2023
+        },
+        {
+            "Country": "PYF",
+            "Value": -378.0,
+            "Year": 2021
+        },
+        {
+            "Country": "PYF",
+            "Value": -100.0,
+            "Year": 2022
+        },
+        {
+            "Country": "PYF",
+            "Value": -100.0,
+            "Year": 2023
+        },
+        {
+            "Country": "QAT",
+            "Value": -30801.0,
+            "Year": 2021
+        },
+        {
+            "Country": "QAT",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "QAT",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ROU",
+            "Value": -12724.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ROU",
+            "Value": 916813.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ROU",
+            "Value": -254616.0,
+            "Year": 2023
+        },
+        {
+            "Country": "RUS",
+            "Value": 320617.0,
+            "Year": 2021
+        },
+        {
+            "Country": "RUS",
+            "Value": 942445.0,
+            "Year": 2022
+        },
+        {
+            "Country": "RUS",
+            "Value": -136414.0,
+            "Year": 2023
+        },
+        {
+            "Country": "RWA",
+            "Value": -6112.0,
+            "Year": 2021
+        },
+        {
+            "Country": "RWA",
+            "Value": -8999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "RWA",
+            "Value": -8999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SAS",
+            "Value": -925916.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SAS",
+            "Value": -1176332.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SAS",
+            "Value": -1175806.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SAU",
+            "Value": -153883.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SAU",
+            "Value": 28998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SAU",
+            "Value": 28998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SDN",
+            "Value": -15223.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SDN",
+            "Value": -9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SDN",
+            "Value": -9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SEN",
+            "Value": -10091.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SEN",
+            "Value": -19999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SEN",
+            "Value": -19999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SGP",
+            "Value": 19321.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SGP",
+            "Value": 26998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SGP",
+            "Value": 26998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SLB",
+            "Value": -808.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SLB",
+            "Value": -1600.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SLB",
+            "Value": -1600.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SLE",
+            "Value": -1544.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SLE",
+            "Value": -4000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SLE",
+            "Value": -4000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SLV",
+            "Value": -27343.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SLV",
+            "Value": -23249.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SLV",
+            "Value": -23249.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SMR",
+            "Value": 41.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SMR",
+            "Value": 100.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SMR",
+            "Value": 100.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SOM",
+            "Value": -17071.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SOM",
+            "Value": -30000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SOM",
+            "Value": -30000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SRB",
+            "Value": 243.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SRB",
+            "Value": -9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SRB",
+            "Value": -9999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SSA",
+            "Value": -444392.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SSA",
+            "Value": -460191.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SSA",
+            "Value": -454882.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SSD",
+            "Value": -31885.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SSD",
+            "Value": -30694.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SSD",
+            "Value": -23291.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SSF",
+            "Value": -444246.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SSF",
+            "Value": -460391.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SSF",
+            "Value": -455082.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SST",
+            "Value": -51404.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SST",
+            "Value": -45487.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SST",
+            "Value": -45221.0,
+            "Year": 2023
+        },
+        {
+            "Country": "STP",
+            "Value": -792.0,
+            "Year": 2021
+        },
+        {
+            "Country": "STP",
+            "Value": -600.0,
+            "Year": 2022
+        },
+        {
+            "Country": "STP",
+            "Value": -600.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SUR",
+            "Value": -492.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SUR",
+            "Value": -1000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SUR",
+            "Value": -1000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SVK",
+            "Value": 1746.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SVK",
+            "Value": 425001.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SVK",
+            "Value": -112067.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SVN",
+            "Value": 4568.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SVN",
+            "Value": 2000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SVN",
+            "Value": 2000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SWE",
+            "Value": 80097.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SWE",
+            "Value": 39998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SWE",
+            "Value": 39998.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SWZ",
+            "Value": -4897.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SWZ",
+            "Value": -5733.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SWZ",
+            "Value": -5268.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SXM",
+            "Value": 212.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SXM",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SXM",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SYC",
+            "Value": 146.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SYC",
+            "Value": -200.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SYC",
+            "Value": -200.0,
+            "Year": 2023
+        },
+        {
+            "Country": "SYR",
+            "Value": 212187.0,
+            "Year": 2021
+        },
+        {
+            "Country": "SYR",
+            "Value": 734304.0,
+            "Year": 2022
+        },
+        {
+            "Country": "SYR",
+            "Value": 757103.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TCA",
+            "Value": 682.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TCA",
+            "Value": 200.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TCA",
+            "Value": 200.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TCD",
+            "Value": 9016.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TCD",
+            "Value": -2000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TCD",
+            "Value": -2000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TEA",
+            "Value": -322002.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TEA",
+            "Value": -536399.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TEA",
+            "Value": -534971.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TEC",
+            "Value": 66551.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TEC",
+            "Value": -1357122.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TEC",
+            "Value": -65115.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TGO",
+            "Value": -995.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TGO",
+            "Value": -2000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TGO",
+            "Value": -2000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "THA",
+            "Value": 1133.0,
+            "Year": 2021
+        },
+        {
+            "Country": "THA",
+            "Value": 18999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "THA",
+            "Value": 18999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TJK",
+            "Value": -3564.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TJK",
+            "Value": -19999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TJK",
+            "Value": -19999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TKM",
+            "Value": -4503.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TKM",
+            "Value": -4000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TKM",
+            "Value": -4000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TLA",
+            "Value": -260604.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TLA",
+            "Value": -188001.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TLA",
+            "Value": -177447.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TLS",
+            "Value": -1997.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TLS",
+            "Value": -5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TLS",
+            "Value": -5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TMN",
+            "Value": -128598.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TMN",
+            "Value": 271784.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TMN",
+            "Value": 261373.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TON",
+            "Value": -948.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TON",
+            "Value": -800.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TON",
+            "Value": -800.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TSA",
+            "Value": -925916.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TSA",
+            "Value": -1176332.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TSA",
+            "Value": -1175806.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TSS",
+            "Value": -444246.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TSS",
+            "Value": -460391.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TSS",
+            "Value": -455082.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TTO",
+            "Value": 2632.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TTO",
+            "Value": -800.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TTO",
+            "Value": -800.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TUN",
+            "Value": -9189.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TUN",
+            "Value": -4000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TUN",
+            "Value": -4000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TUR",
+            "Value": -69729.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TUR",
+            "Value": -301586.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TUR",
+            "Value": -318067.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TUV",
+            "Value": -15.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TUV",
+            "Value": -60.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TUV",
+            "Value": -60.0,
+            "Year": 2023
+        },
+        {
+            "Country": "TZA",
+            "Value": -4865.0,
+            "Year": 2021
+        },
+        {
+            "Country": "TZA",
+            "Value": -39997.0,
+            "Year": 2022
+        },
+        {
+            "Country": "TZA",
+            "Value": -39997.0,
+            "Year": 2023
+        },
+        {
+            "Country": "UGA",
+            "Value": 43465.0,
+            "Year": 2021
+        },
+        {
+            "Country": "UGA",
+            "Value": -118846.0,
+            "Year": 2022
+        },
+        {
+            "Country": "UGA",
+            "Value": -126181.0,
+            "Year": 2023
+        },
+        {
+            "Country": "UKR",
+            "Value": 831.0,
+            "Year": 2021
+        },
+        {
+            "Country": "UKR",
+            "Value": -6673580.0,
+            "Year": 2022
+        },
+        {
+            "Country": "UKR",
+            "Value": 1784718.0,
+            "Year": 2023
+        },
+        {
+            "Country": "UMC",
+            "Value": 113665.0,
+            "Year": 2021
+        },
+        {
+            "Country": "UMC",
+            "Value": 450832.0,
+            "Year": 2022
+        },
+        {
+            "Country": "UMC",
+            "Value": -1274792.0,
+            "Year": 2023
+        },
+        {
+            "Country": "URY",
+            "Value": -1486.0,
+            "Year": 2021
+        },
+        {
+            "Country": "URY",
+            "Value": -1500.0,
+            "Year": 2022
+        },
+        {
+            "Country": "URY",
+            "Value": -1500.0,
+            "Year": 2023
+        },
+        {
+            "Country": "USA",
+            "Value": 561580.0,
+            "Year": 2021
+        },
+        {
+            "Country": "USA",
+            "Value": 998540.0,
+            "Year": 2022
+        },
+        {
+            "Country": "USA",
+            "Value": 999700.0,
+            "Year": 2023
+        },
+        {
+            "Country": "UZB",
+            "Value": -39201.0,
+            "Year": 2021
+        },
+        {
+            "Country": "UZB",
+            "Value": -19999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "UZB",
+            "Value": -19999.0,
+            "Year": 2023
+        },
+        {
+            "Country": "VCT",
+            "Value": -379.0,
+            "Year": 2021
+        },
+        {
+            "Country": "VCT",
+            "Value": -200.0,
+            "Year": 2022
+        },
+        {
+            "Country": "VCT",
+            "Value": -200.0,
+            "Year": 2023
+        },
+        {
+            "Country": "VEN",
+            "Value": -525116.0,
+            "Year": 2021
+        },
+        {
+            "Country": "VEN",
+            "Value": 297713.0,
+            "Year": 2022
+        },
+        {
+            "Country": "VEN",
+            "Value": 321106.0,
+            "Year": 2023
+        },
+        {
+            "Country": "VGB",
+            "Value": 128.0,
+            "Year": 2021
+        },
+        {
+            "Country": "VGB",
+            "Value": 200.0,
+            "Year": 2022
+        },
+        {
+            "Country": "VGB",
+            "Value": 200.0,
+            "Year": 2023
+        },
+        {
+            "Country": "VIR",
+            "Value": -224.0,
+            "Year": 2021
+        },
+        {
+            "Country": "VIR",
+            "Value": -450.0,
+            "Year": 2022
+        },
+        {
+            "Country": "VIR",
+            "Value": -450.0,
+            "Year": 2023
+        },
+        {
+            "Country": "VNM",
+            "Value": -992.0,
+            "Year": 2021
+        },
+        {
+            "Country": "VNM",
+            "Value": -82700.0,
+            "Year": 2022
+        },
+        {
+            "Country": "VNM",
+            "Value": -82700.0,
+            "Year": 2023
+        },
+        {
+            "Country": "VUT",
+            "Value": -197.0,
+            "Year": 2021
+        },
+        {
+            "Country": "VUT",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "VUT",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "WLD",
+            "Value": 0.0,
+            "Year": 2021
+        },
+        {
+            "Country": "WLD",
+            "Value": 0.0,
+            "Year": 2022
+        },
+        {
+            "Country": "WLD",
+            "Value": 0.0,
+            "Year": 2023
+        },
+        {
+            "Country": "WSM",
+            "Value": -882.0,
+            "Year": 2021
+        },
+        {
+            "Country": "WSM",
+            "Value": -1500.0,
+            "Year": 2022
+        },
+        {
+            "Country": "WSM",
+            "Value": -1500.0,
+            "Year": 2023
+        },
+        {
+            "Country": "XKX",
+            "Value": -15050.0,
+            "Year": 2021
+        },
+        {
+            "Country": "XKX",
+            "Value": -5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "XKX",
+            "Value": -5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "YEM",
+            "Value": -101468.0,
+            "Year": 2021
+        },
+        {
+            "Country": "YEM",
+            "Value": -29998.0,
+            "Year": 2022
+        },
+        {
+            "Country": "YEM",
+            "Value": -29914.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ZAF",
+            "Value": 10934.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ZAF",
+            "Value": 58496.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ZAF",
+            "Value": 58496.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ZMB",
+            "Value": 9015.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ZMB",
+            "Value": -5000.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ZMB",
+            "Value": -5000.0,
+            "Year": 2023
+        },
+        {
+            "Country": "ZWE",
+            "Value": -25005.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ZWE",
+            "Value": -9999.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ZWE",
+            "Value": -9999.0,
+            "Year": 2023
+        }
+    ],
+    "dataTypes": {
+        "Country": "string",
+        "Value": "number",
+        "Year": "number"
+    },
+    "errors": [],
+    "count": 795,
+    "sample": [
+        {
+            "Country": "ABW",
+            "Value": 501.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ABW",
+            "Value": 164.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ABW",
+            "Value": 157.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AFE",
+            "Value": -179444.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AFE",
+            "Value": -274282.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AFE",
+            "Value": -271749.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AFG",
+            "Value": -183672.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AFG",
+            "Value": -65846.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AFG",
+            "Value": -65846.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AFW",
+            "Value": -264802.0,
+            "Year": 2021
+        }
+    ],
+    "stats": [
+        {
+            "name": "Country",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": "ABW",
+                    "value": 0.37735849056603776
+                },
+                {
+                    "name": "AZE",
+                    "value": 0.37735849056603776
+                },
+                {
+                    "name": "Others",
+                    "value": 99.24528301886792
+                }
+            ]
+        },
+        {
+            "name": "Value",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": 0.0,
+                    "value": 5.031446540880504
+                },
+                {
+                    "name": -9999.0,
+                    "value": 2.0125786163522013
+                },
+                {
+                    "name": "Others",
+                    "value": 92.95597484276729
+                }
+            ]
+        },
+        {
+            "name": "Year",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": 2021,
+                    "value": 33.33333333333333
+                },
+                {
+                    "name": 2022,
+                    "value": 33.33333333333333
+                },
+                {
+                    "name": 2023,
+                    "value": 33.33333333333333
+                }
+            ]
+        }
+    ]
+}

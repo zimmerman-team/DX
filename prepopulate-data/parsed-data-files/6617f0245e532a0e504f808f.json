@@ -1,0 +1,1330 @@
+{
+    "dataset": [
+        {
+            "Affordability": 91.9,
+            "Availability": 70.5,
+            "Country": "Finland",
+            "Overallscore": 83.7,
+            "QualityandSafety": 88.4,
+            "Rank": "1st",
+            "SustainabilityandAdaptation": 82.6,
+            "Unnamed0": 0
+        },
+        {
+            "Affordability": 92.6,
+            "Availability": 70.5,
+            "Country": "Ireland",
+            "Overallscore": 81.7,
+            "QualityandSafety": 86.1,
+            "Rank": "2nd",
+            "SustainabilityandAdaptation": 75.1,
+            "Unnamed0": 1
+        },
+        {
+            "Affordability": 87.2,
+            "Availability": 60.4,
+            "Country": "Norway",
+            "Overallscore": 80.5,
+            "QualityandSafety": 86.8,
+            "Rank": "3rd",
+            "SustainabilityandAdaptation": 87.4,
+            "Unnamed0": 2
+        },
+        {
+            "Affordability": 91.3,
+            "Availability": 69.0,
+            "Country": "France",
+            "Overallscore": 80.2,
+            "QualityandSafety": 87.7,
+            "Rank": "4th",
+            "SustainabilityandAdaptation": 70.3,
+            "Unnamed0": 3
+        },
+        {
+            "Affordability": 92.7,
+            "Availability": 70.7,
+            "Country": "Netherlands",
+            "Overallscore": 80.1,
+            "QualityandSafety": 84.7,
+            "Rank": "5th",
+            "SustainabilityandAdaptation": 69.2,
+            "Unnamed0": 4
+        },
+        {
+            "Affordability": 89.8,
+            "Availability": 81.2,
+            "Country": "Japan",
+            "Overallscore": 79.5,
+            "QualityandSafety": 77.4,
+            "Rank": "6th",
+            "SustainabilityandAdaptation": 66.1,
+            "Unnamed0": 5
+        },
+        {
+            "Affordability": 91.9,
+            "Availability": 68.3,
+            "Country": "Sweden",
+            "Overallscore": 79.1,
+            "QualityandSafety": 85.0,
+            "Rank": "=7th",
+            "SustainabilityandAdaptation": 68.3,
+            "Unnamed0": 6
+        },
+        {
+            "Affordability": 88.3,
+            "Availability": 75.7,
+            "Country": "Canada",
+            "Overallscore": 79.1,
+            "QualityandSafety": 89.5,
+            "Rank": "=7th",
+            "SustainabilityandAdaptation": 60.1,
+            "Unnamed0": 7
+        },
+        {
+            "Affordability": 91.5,
+            "Availability": 71.6,
+            "Country": "United Kingdom",
+            "Overallscore": 78.8,
+            "QualityandSafety": 77.6,
+            "Rank": "9th",
+            "SustainabilityandAdaptation": 71.1,
+            "Unnamed0": 8
+        },
+        {
+            "Affordability": 90.0,
+            "Availability": 77.0,
+            "Country": "Portugal",
+            "Overallscore": 78.7,
+            "QualityandSafety": 79.8,
+            "Rank": "10th",
+            "SustainabilityandAdaptation": 64.5,
+            "Unnamed0": 9
+        },
+        {
+            "Affordability": 89.2,
+            "Availability": 76.8,
+            "Country": "Switzerland",
+            "Overallscore": 78.2,
+            "QualityandSafety": 73.5,
+            "Rank": "11th",
+            "SustainabilityandAdaptation": 69.5,
+            "Unnamed0": 10
+        },
+        {
+            "Affordability": 91.3,
+            "Availability": 67.1,
+            "Country": "Austria",
+            "Overallscore": 78.1,
+            "QualityandSafety": 81.2,
+            "Rank": "12th",
+            "SustainabilityandAdaptation": 69.7,
+            "Unnamed0": 11
+        },
+        {
+            "Affordability": 87.1,
+            "Availability": 65.1,
+            "Country": "United States",
+            "Overallscore": 78.0,
+            "QualityandSafety": 88.8,
+            "Rank": "13th",
+            "SustainabilityandAdaptation": 69.4,
+            "Unnamed0": 12
+        },
+        {
+            "Affordability": 92.1,
+            "Availability": 63.2,
+            "Country": "Denmark",
+            "Overallscore": 77.8,
+            "QualityandSafety": 89.1,
+            "Rank": "=14th",
+            "SustainabilityandAdaptation": 63.8,
+            "Unnamed0": 13
+        },
+        {
+            "Affordability": 91.6,
+            "Availability": 67.7,
+            "Country": "New Zealand",
+            "Overallscore": 77.8,
+            "QualityandSafety": 73.1,
+            "Rank": "=14th",
+            "SustainabilityandAdaptation": 75.1,
+            "Unnamed0": 14
+        },
+        {
+            "Affordability": 91.3,
+            "Availability": 69.4,
+            "Country": "Czech Republic",
+            "Overallscore": 77.7,
+            "QualityandSafety": 76.3,
+            "Rank": "16th",
+            "SustainabilityandAdaptation": 70.3,
+            "Unnamed0": 15
+        },
+        {
+            "Affordability": 92.6,
+            "Availability": 64.6,
+            "Country": "Belgium",
+            "Overallscore": 77.5,
+            "QualityandSafety": 88.4,
+            "Rank": "17th",
+            "SustainabilityandAdaptation": 61.0,
+            "Unnamed0": 16
+        },
+        {
+            "Affordability": 83.0,
+            "Availability": 73.0,
+            "Country": "Costa Rica",
+            "Overallscore": 77.4,
+            "QualityandSafety": 79.2,
+            "Rank": "18th",
+            "SustainabilityandAdaptation": 73.3,
+            "Unnamed0": 17
+        },
+        {
+            "Affordability": 87.9,
+            "Availability": 67.0,
+            "Country": "Germany",
+            "Overallscore": 77.0,
+            "QualityandSafety": 79.9,
+            "Rank": "19th",
+            "SustainabilityandAdaptation": 70.8,
+            "Unnamed0": 18
+        },
+        {
+            "Affordability": 89.0,
+            "Availability": 63.1,
+            "Country": "Spain",
+            "Overallscore": 75.7,
+            "QualityandSafety": 81.2,
+            "Rank": "20th",
+            "SustainabilityandAdaptation": 66.4,
+            "Unnamed0": 19
+        },
+        {
+            "Affordability": 87.4,
+            "Availability": 63.8,
+            "Country": "Poland",
+            "Overallscore": 75.5,
+            "QualityandSafety": 81.5,
+            "Rank": "21st",
+            "SustainabilityandAdaptation": 66.7,
+            "Unnamed0": 20
+        },
+        {
+            "Affordability": 93.3,
+            "Availability": 61.1,
+            "Country": "Australia",
+            "Overallscore": 75.4,
+            "QualityandSafety": 84.0,
+            "Rank": "22nd",
+            "SustainabilityandAdaptation": 58.8,
+            "Unnamed0": 21
+        },
+        {
+            "Affordability": 86.7,
+            "Availability": 73.8,
+            "Country": "United Arab Emirates",
+            "Overallscore": 75.2,
+            "QualityandSafety": 81.3,
+            "Rank": "23rd",
+            "SustainabilityandAdaptation": 55.2,
+            "Unnamed0": 22
+        },
+        {
+            "Affordability": 88.6,
+            "Availability": 67.2,
+            "Country": "Israel",
+            "Overallscore": 74.8,
+            "QualityandSafety": 87.4,
+            "Rank": "24th",
+            "SustainabilityandAdaptation": 52.2,
+            "Unnamed0": 23
+        },
+        {
+            "Affordability": 82.4,
+            "Availability": 68.8,
+            "Country": "Chile",
+            "Overallscore": 74.2,
+            "QualityandSafety": 77.0,
+            "Rank": "=25th",
+            "SustainabilityandAdaptation": 66.6,
+            "Unnamed0": 24
+        },
+        {
+            "Affordability": 86.4,
+            "Availability": 79.2,
+            "Country": "China",
+            "Overallscore": 74.2,
+            "QualityandSafety": 72.0,
+            "Rank": "=25th",
+            "SustainabilityandAdaptation": 54.5,
+            "Unnamed0": 25
+        },
+        {
+            "Affordability": 89.5,
+            "Availability": 68.7,
+            "Country": "Italy",
+            "Overallscore": 74.0,
+            "QualityandSafety": 75.9,
+            "Rank": "27th",
+            "SustainabilityandAdaptation": 57.3,
+            "Unnamed0": 26
+        },
+        {
+            "Affordability": 93.2,
+            "Availability": 77.8,
+            "Country": "Singapore",
+            "Overallscore": 73.1,
+            "QualityandSafety": 69.7,
+            "Rank": "28th",
+            "SustainabilityandAdaptation": 44.3,
+            "Unnamed0": 27
+        },
+        {
+            "Affordability": 85.8,
+            "Availability": 66.5,
+            "Country": "Bulgaria",
+            "Overallscore": 73.0,
+            "QualityandSafety": 79.5,
+            "Rank": "29th",
+            "SustainabilityandAdaptation": 56.6,
+            "Unnamed0": 28
+        },
+        {
+            "Affordability": 88.6,
+            "Availability": 72.9,
+            "Country": "Qatar",
+            "Overallscore": 72.4,
+            "QualityandSafety": 71.7,
+            "Rank": "30th",
+            "SustainabilityandAdaptation": 51.0,
+            "Unnamed0": 29
+        },
+        {
+            "Affordability": 88.5,
+            "Availability": 58.3,
+            "Country": "Greece",
+            "Overallscore": 72.2,
+            "QualityandSafety": 80.8,
+            "Rank": "31st",
+            "SustainabilityandAdaptation": 57.3,
+            "Unnamed0": 30
+        },
+        {
+            "Affordability": 78.0,
+            "Availability": 67.2,
+            "Country": "Kazakhstan",
+            "Overallscore": 72.1,
+            "QualityandSafety": 76.3,
+            "Rank": "32nd",
+            "SustainabilityandAdaptation": 65.4,
+            "Unnamed0": 31
+        },
+        {
+            "Affordability": 80.0,
+            "Availability": 65.6,
+            "Country": "Uruguay",
+            "Overallscore": 71.8,
+            "QualityandSafety": 73.8,
+            "Rank": "33rd",
+            "SustainabilityandAdaptation": 65.8,
+            "Unnamed0": 32
+        },
+        {
+            "Affordability": 86.7,
+            "Availability": 63.3,
+            "Country": "Hungary",
+            "Overallscore": 71.4,
+            "QualityandSafety": 74.4,
+            "Rank": "34th",
+            "SustainabilityandAdaptation": 57.0,
+            "Unnamed0": 33
+        },
+        {
+            "Affordability": 88.6,
+            "Availability": 64.3,
+            "Country": "Oman",
+            "Overallscore": 71.2,
+            "QualityandSafety": 73.2,
+            "Rank": "35th",
+            "SustainabilityandAdaptation": 53.6,
+            "Unnamed0": 34
+        },
+        {
+            "Affordability": 89.1,
+            "Availability": 55.3,
+            "Country": "Slovakia",
+            "Overallscore": 71.1,
+            "QualityandSafety": 77.9,
+            "Rank": "36th",
+            "SustainabilityandAdaptation": 57.6,
+            "Unnamed0": 35
+        },
+        {
+            "Affordability": 79.7,
+            "Availability": 58.6,
+            "Country": "Peru",
+            "Overallscore": 70.8,
+            "QualityandSafety": 75.2,
+            "Rank": "37th",
+            "SustainabilityandAdaptation": 68.1,
+            "Unnamed0": 36
+        },
+        {
+            "Affordability": 91.3,
+            "Availability": 60.1,
+            "Country": "Bahrain",
+            "Overallscore": 70.3,
+            "QualityandSafety": 76.3,
+            "Rank": "38th",
+            "SustainabilityandAdaptation": 47.3,
+            "Unnamed0": 37
+        },
+        {
+            "Affordability": 76.8,
+            "Availability": 71.5,
+            "Country": "South Korea",
+            "Overallscore": 70.2,
+            "QualityandSafety": 71.5,
+            "Rank": "39th",
+            "SustainabilityandAdaptation": 58.5,
+            "Unnamed0": 38
+        },
+        {
+            "Affordability": 84.4,
+            "Availability": 63.3,
+            "Country": "Panama",
+            "Overallscore": 70.0,
+            "QualityandSafety": 69.7,
+            "Rank": "40th",
+            "SustainabilityandAdaptation": 58.3,
+            "Unnamed0": 39
+        },
+        {
+            "Affordability": 83.2,
+            "Availability": 67.2,
+            "Country": "Saudi Arabia",
+            "Overallscore": 69.9,
+            "QualityandSafety": 71.6,
+            "Rank": "=41st",
+            "SustainabilityandAdaptation": 53.7,
+            "Unnamed0": 40
+        },
+        {
+            "Affordability": 87.0,
+            "Availability": 59.5,
+            "Country": "Malaysia",
+            "Overallscore": 69.9,
+            "QualityandSafety": 74.7,
+            "Rank": "=41st",
+            "SustainabilityandAdaptation": 53.7,
+            "Unnamed0": 41
+        },
+        {
+            "Affordability": 77.8,
+            "Availability": 61.4,
+            "Country": "Russia",
+            "Overallscore": 69.1,
+            "QualityandSafety": 78.7,
+            "Rank": "=43rd",
+            "SustainabilityandAdaptation": 56.6,
+            "Unnamed0": 42
+        },
+        {
+            "Affordability": 76.0,
+            "Availability": 60.0,
+            "Country": "Mexico",
+            "Overallscore": 69.1,
+            "QualityandSafety": 78.9,
+            "Rank": "=43rd",
+            "SustainabilityandAdaptation": 60.2,
+            "Unnamed0": 43
+        },
+        {
+            "Affordability": 85.1,
+            "Availability": 60.6,
+            "Country": "Romania",
+            "Overallscore": 68.8,
+            "QualityandSafety": 77.9,
+            "Rank": "45th",
+            "SustainabilityandAdaptation": 47.1,
+            "Unnamed0": 44
+        },
+        {
+            "Affordability": 84.0,
+            "Availability": 60.7,
+            "Country": "Vietnam",
+            "Overallscore": 67.9,
+            "QualityandSafety": 70.2,
+            "Rank": "46th",
+            "SustainabilityandAdaptation": 52.2,
+            "Unnamed0": 45
+        },
+        {
+            "Affordability": 85.3,
+            "Availability": 59.8,
+            "Country": "Jordan",
+            "Overallscore": 66.2,
+            "QualityandSafety": 55.4,
+            "Rank": "47th",
+            "SustainabilityandAdaptation": 58.9,
+            "Unnamed0": 46
+        },
+        {
+            "Affordability": 70.8,
+            "Availability": 59.3,
+            "Country": "Ecuador",
+            "Overallscore": 65.6,
+            "QualityandSafety": 69.4,
+            "Rank": "48th",
+            "SustainabilityandAdaptation": 62.0,
+            "Unnamed0": 47
+        },
+        {
+            "Affordability": 58.4,
+            "Availability": 65.3,
+            "Country": "Turkey",
+            "Overallscore": 65.3,
+            "QualityandSafety": 78.5,
+            "Rank": "49th",
+            "SustainabilityandAdaptation": 61.2,
+            "Unnamed0": 48
+        },
+        {
+            "Affordability": 80.0,
+            "Availability": 62.9,
+            "Country": "Kuwait",
+            "Overallscore": 65.2,
+            "QualityandSafety": 67.8,
+            "Rank": "50th",
+            "SustainabilityandAdaptation": 45.5,
+            "Unnamed0": 49
+        },
+        {
+            "Affordability": 63.0,
+            "Availability": 58.6,
+            "Country": "Brazil",
+            "Overallscore": 65.1,
+            "QualityandSafety": 83.9,
+            "Rank": "51st",
+            "SustainabilityandAdaptation": 56.3,
+            "Unnamed0": 50
+        },
+        {
+            "Affordability": 73.4,
+            "Availability": 65.0,
+            "Country": "Dominican Republic",
+            "Overallscore": 65.0,
+            "QualityandSafety": 65.3,
+            "Rank": "=52nd",
+            "SustainabilityandAdaptation": 53.5,
+            "Unnamed0": 51
+        },
+        {
+            "Affordability": 71.6,
+            "Availability": 61.6,
+            "Country": "Bolivia",
+            "Overallscore": 65.0,
+            "QualityandSafety": 71.7,
+            "Rank": "=52nd",
+            "SustainabilityandAdaptation": 53.2,
+            "Unnamed0": 52
+        },
+        {
+            "Affordability": 62.0,
+            "Availability": 63.4,
+            "Country": "Argentina",
+            "Overallscore": 64.8,
+            "QualityandSafety": 85.5,
+            "Rank": "54th",
+            "SustainabilityandAdaptation": 49.4,
+            "Unnamed0": 53
+        },
+        {
+            "Affordability": 67.8,
+            "Availability": 61.9,
+            "Country": "Belarus",
+            "Overallscore": 64.5,
+            "QualityandSafety": 69.0,
+            "Rank": "55th",
+            "SustainabilityandAdaptation": 58.5,
+            "Unnamed0": 54
+        },
+        {
+            "Affordability": 72.5,
+            "Availability": 71.2,
+            "Country": "El Salvador",
+            "Overallscore": 64.2,
+            "QualityandSafety": 71.5,
+            "Rank": "56th",
+            "SustainabilityandAdaptation": 38.1,
+            "Unnamed0": 55
+        },
+        {
+            "Affordability": 74.6,
+            "Availability": 42.9,
+            "Country": "Morocco",
+            "Overallscore": 63.0,
+            "QualityandSafety": 73.1,
+            "Rank": "57th",
+            "SustainabilityandAdaptation": 60.0,
+            "Unnamed0": 56
+        },
+        {
+            "Affordability": 65.2,
+            "Availability": 56.7,
+            "Country": "Guatemala",
+            "Overallscore": 62.8,
+            "QualityandSafety": 61.3,
+            "Rank": "58th",
+            "SustainabilityandAdaptation": 67.9,
+            "Unnamed0": 57
+        },
+        {
+            "Affordability": 63.4,
+            "Availability": 60.1,
+            "Country": "South Africa",
+            "Overallscore": 61.7,
+            "QualityandSafety": 66.1,
+            "Rank": "59th",
+            "SustainabilityandAdaptation": 56.9,
+            "Unnamed0": 58
+        },
+        {
+            "Affordability": 59.8,
+            "Availability": 61.9,
+            "Country": "Honduras",
+            "Overallscore": 61.5,
+            "QualityandSafety": 64.9,
+            "Rank": "60th",
+            "SustainabilityandAdaptation": 60.0,
+            "Unnamed0": 59
+        },
+        {
+            "Affordability": 81.5,
+            "Availability": 49.3,
+            "Country": "Serbia",
+            "Overallscore": 61.4,
+            "QualityandSafety": 72.6,
+            "Rank": "61st",
+            "SustainabilityandAdaptation": 37.0,
+            "Unnamed0": 60
+        },
+        {
+            "Affordability": 74.5,
+            "Availability": 54.1,
+            "Country": "Tunisia",
+            "Overallscore": 60.3,
+            "QualityandSafety": 58.8,
+            "Rank": "62nd",
+            "SustainabilityandAdaptation": 49.7,
+            "Unnamed0": 61
+        },
+        {
+            "Affordability": 81.4,
+            "Availability": 50.9,
+            "Country": "Indonesia",
+            "Overallscore": 60.2,
+            "QualityandSafety": 56.2,
+            "Rank": "63rd",
+            "SustainabilityandAdaptation": 46.3,
+            "Unnamed0": 62
+        },
+        {
+            "Affordability": 83.7,
+            "Availability": 52.9,
+            "Country": "Thailand",
+            "Overallscore": 60.1,
+            "QualityandSafety": 45.3,
+            "Rank": "=64th",
+            "SustainabilityandAdaptation": 51.6,
+            "Unnamed0": 63
+        },
+        {
+            "Affordability": 64.6,
+            "Availability": 54.6,
+            "Country": "Colombia",
+            "Overallscore": 60.1,
+            "QualityandSafety": 63.3,
+            "Rank": "=64th",
+            "SustainabilityandAdaptation": 56.9,
+            "Unnamed0": 64
+        },
+        {
+            "Affordability": 78.1,
+            "Availability": 56.2,
+            "Country": "Azerbaijan",
+            "Overallscore": 59.8,
+            "QualityandSafety": 54.5,
+            "Rank": "66th",
+            "SustainabilityandAdaptation": 44.6,
+            "Unnamed0": 65
+        },
+        {
+            "Affordability": 71.5,
+            "Availability": 55.2,
+            "Country": "Philippines",
+            "Overallscore": 59.3,
+            "QualityandSafety": 65.3,
+            "Rank": "67th",
+            "SustainabilityandAdaptation": 41.8,
+            "Unnamed0": 66
+        },
+        {
+            "Affordability": 66.8,
+            "Availability": 57.3,
+            "Country": "Algeria",
+            "Overallscore": 58.9,
+            "QualityandSafety": 54.7,
+            "Rank": "=68th",
+            "SustainabilityandAdaptation": 54.2,
+            "Unnamed0": 67
+        },
+        {
+            "Affordability": 59.3,
+            "Availability": 62.3,
+            "Country": "India",
+            "Overallscore": 58.9,
+            "QualityandSafety": 62.1,
+            "Rank": "=68th",
+            "SustainabilityandAdaptation": 51.2,
+            "Unnamed0": 68
+        },
+        {
+            "Affordability": 74.3,
+            "Availability": 47.0,
+            "Country": "Paraguay",
+            "Overallscore": 58.6,
+            "QualityandSafety": 76.3,
+            "Rank": "70th",
+            "SustainabilityandAdaptation": 32.8,
+            "Unnamed0": 69
+        },
+        {
+            "Affordability": 66.6,
+            "Availability": 48.1,
+            "Country": "Ukraine",
+            "Overallscore": 57.9,
+            "QualityandSafety": 71.3,
+            "Rank": "71st",
+            "SustainabilityandAdaptation": 43.5,
+            "Unnamed0": 70
+        },
+        {
+            "Affordability": 62.1,
+            "Availability": 53.5,
+            "Country": "Myanmar",
+            "Overallscore": 57.6,
+            "QualityandSafety": 64.4,
+            "Rank": "72nd",
+            "SustainabilityandAdaptation": 49.0,
+            "Unnamed0": 71
+        },
+        {
+            "Affordability": 52.7,
+            "Availability": 56.4,
+            "Country": "Uzbekistan",
+            "Overallscore": 57.5,
+            "QualityandSafety": 64.6,
+            "Rank": "73rd",
+            "SustainabilityandAdaptation": 57.9,
+            "Unnamed0": 72
+        },
+        {
+            "Affordability": 52.7,
+            "Availability": 70.9,
+            "Country": "Nepal",
+            "Overallscore": 56.9,
+            "QualityandSafety": 57.8,
+            "Rank": "74th",
+            "SustainabilityandAdaptation": 46.2,
+            "Unnamed0": 73
+        },
+        {
+            "Affordability": 59.8,
+            "Availability": 56.3,
+            "Country": "Tajikistan",
+            "Overallscore": 56.7,
+            "QualityandSafety": 56.5,
+            "Rank": "75th",
+            "SustainabilityandAdaptation": 53.1,
+            "Unnamed0": 74
+        },
+        {
+            "Affordability": 64.4,
+            "Availability": 50.2,
+            "Country": "Nicaragua",
+            "Overallscore": 56.6,
+            "QualityandSafety": 57.5,
+            "Rank": "76th",
+            "SustainabilityandAdaptation": 52.7,
+            "Unnamed0": 75
+        },
+        {
+            "Affordability": 65.2,
+            "Availability": 54.2,
+            "Country": "Egypt",
+            "Overallscore": 56.0,
+            "QualityandSafety": 45.9,
+            "Rank": "77th",
+            "SustainabilityandAdaptation": 55.8,
+            "Unnamed0": 76
+        },
+        {
+            "Affordability": 74.3,
+            "Availability": 54.5,
+            "Country": "Cambodia",
+            "Overallscore": 55.7,
+            "QualityandSafety": 54.0,
+            "Rank": "78th",
+            "SustainabilityandAdaptation": 33.9,
+            "Unnamed0": 77
+        },
+        {
+            "Affordability": 61.0,
+            "Availability": 57.2,
+            "Country": "Sri Lanka",
+            "Overallscore": 55.2,
+            "QualityandSafety": 55.0,
+            "Rank": "79th",
+            "SustainabilityandAdaptation": 45.3,
+            "Unnamed0": 78
+        },
+        {
+            "Affordability": 52.1,
+            "Availability": 61.5,
+            "Country": "Bangladesh",
+            "Overallscore": 54.0,
+            "QualityandSafety": 58.4,
+            "Rank": "80th",
+            "SustainabilityandAdaptation": 43.9,
+            "Unnamed0": 79
+        },
+        {
+            "Affordability": 59.7,
+            "Availability": 51.8,
+            "Country": "Laos",
+            "Overallscore": 53.1,
+            "QualityandSafety": 51.7,
+            "Rank": "81st",
+            "SustainabilityandAdaptation": 47.0,
+            "Unnamed0": 80
+        },
+        {
+            "Affordability": 41.7,
+            "Availability": 52.5,
+            "Country": "Kenya",
+            "Overallscore": 53.0,
+            "QualityandSafety": 68.8,
+            "Rank": "82nd",
+            "SustainabilityandAdaptation": 52.6,
+            "Unnamed0": 81
+        },
+        {
+            "Affordability": 59.9,
+            "Availability": 52.4,
+            "Country": "Ghana",
+            "Overallscore": 52.6,
+            "QualityandSafety": 50.5,
+            "Rank": "83rd",
+            "SustainabilityandAdaptation": 45.1,
+            "Unnamed0": 82
+        },
+        {
+            "Affordability": 59.9,
+            "Availability": 58.3,
+            "Country": "Pakistan",
+            "Overallscore": 52.2,
+            "QualityandSafety": 49.4,
+            "Rank": "84th",
+            "SustainabilityandAdaptation": 37.7,
+            "Unnamed0": 83
+        },
+        {
+            "Affordability": 53.4,
+            "Availability": 48.7,
+            "Country": "Mali",
+            "Overallscore": 51.9,
+            "QualityandSafety": 56.8,
+            "Rank": "85th",
+            "SustainabilityandAdaptation": 48.8,
+            "Unnamed0": 84
+        },
+        {
+            "Affordability": 57.9,
+            "Availability": 47.8,
+            "Country": "Senegal",
+            "Overallscore": 51.2,
+            "QualityandSafety": 53.9,
+            "Rank": "86th",
+            "SustainabilityandAdaptation": 43.5,
+            "Unnamed0": 85
+        },
+        {
+            "Affordability": 69.0,
+            "Availability": 40.5,
+            "Country": "Botswana",
+            "Overallscore": 51.1,
+            "QualityandSafety": 57.3,
+            "Rank": "87th",
+            "SustainabilityandAdaptation": 32.9,
+            "Unnamed0": 86
+        },
+        {
+            "Affordability": 48.4,
+            "Availability": 51.8,
+            "Country": "Rwanda",
+            "Overallscore": 50.6,
+            "QualityandSafety": 50.3,
+            "Rank": "88th",
+            "SustainabilityandAdaptation": 52.7,
+            "Unnamed0": 87
+        },
+        {
+            "Affordability": 49.5,
+            "Availability": 49.8,
+            "Country": "Burkina Faso",
+            "Overallscore": 49.6,
+            "QualityandSafety": 52.8,
+            "Rank": "89th",
+            "SustainabilityandAdaptation": 46.4,
+            "Unnamed0": 88
+        },
+        {
+            "Affordability": 45.8,
+            "Availability": 58.7,
+            "Country": "Tanzania",
+            "Overallscore": 49.1,
+            "QualityandSafety": 50.2,
+            "Rank": "90th",
+            "SustainabilityandAdaptation": 41.7,
+            "Unnamed0": 89
+        },
+        {
+            "Affordability": 50.5,
+            "Availability": 53.6,
+            "Country": "Benin",
+            "Overallscore": 48.1,
+            "QualityandSafety": 48.1,
+            "Rank": "=91st",
+            "SustainabilityandAdaptation": 38.9,
+            "Unnamed0": 90
+        },
+        {
+            "Affordability": 33.6,
+            "Availability": 52.9,
+            "Country": "Malawi",
+            "Overallscore": 48.1,
+            "QualityandSafety": 52.0,
+            "Rank": "=91st",
+            "SustainabilityandAdaptation": 58.2,
+            "Unnamed0": 91
+        },
+        {
+            "Affordability": 48.3,
+            "Availability": 41.0,
+            "Country": "Uganda",
+            "Overallscore": 47.7,
+            "QualityandSafety": 45.1,
+            "Rank": "93rd",
+            "SustainabilityandAdaptation": 57.0,
+            "Unnamed0": 92
+        },
+        {
+            "Affordability": 42.6,
+            "Availability": 49.4,
+            "Country": "Mozambique",
+            "Overallscore": 47.3,
+            "QualityandSafety": 41.8,
+            "Rank": "94th",
+            "SustainabilityandAdaptation": 56.5,
+            "Unnamed0": 93
+        },
+        {
+            "Affordability": 54.2,
+            "Availability": 42.1,
+            "Country": "C\u00c3\u00b4te d'Ivoire",
+            "Overallscore": 46.5,
+            "QualityandSafety": 44.1,
+            "Rank": "95th",
+            "SustainabilityandAdaptation": 43.2,
+            "Unnamed0": 94
+        },
+        {
+            "Affordability": 50.4,
+            "Availability": 31.9,
+            "Country": "Cameroon",
+            "Overallscore": 46.4,
+            "QualityandSafety": 56.5,
+            "Rank": "96th",
+            "SustainabilityandAdaptation": 47.0,
+            "Unnamed0": 95
+        },
+        {
+            "Affordability": 42.8,
+            "Availability": 41.7,
+            "Country": "Niger",
+            "Overallscore": 46.3,
+            "QualityandSafety": 47.0,
+            "Rank": "97th",
+            "SustainabilityandAdaptation": 55.5,
+            "Unnamed0": 96
+        },
+        {
+            "Affordability": 45.7,
+            "Availability": 51.0,
+            "Country": "Togo",
+            "Overallscore": 46.2,
+            "QualityandSafety": 42.3,
+            "Rank": "98th",
+            "SustainabilityandAdaptation": 45.4,
+            "Unnamed0": 97
+        },
+        {
+            "Affordability": 37.0,
+            "Availability": 49.0,
+            "Country": "Guinea",
+            "Overallscore": 45.1,
+            "QualityandSafety": 39.8,
+            "Rank": "99th",
+            "SustainabilityandAdaptation": 56.9,
+            "Unnamed0": 98
+        },
+        {
+            "Affordability": 32.9,
+            "Availability": 44.7,
+            "Country": "Ethiopia",
+            "Overallscore": 44.5,
+            "QualityandSafety": 59.3,
+            "Rank": "100th",
+            "SustainabilityandAdaptation": 44.9,
+            "Unnamed0": 99
+        },
+        {
+            "Affordability": 35.5,
+            "Availability": 43.5,
+            "Country": "Angola",
+            "Overallscore": 43.7,
+            "QualityandSafety": 43.9,
+            "Rank": "101st",
+            "SustainabilityandAdaptation": 54.6,
+            "Unnamed0": 100
+        },
+        {
+            "Affordability": 26.8,
+            "Availability": 46.7,
+            "Country": "Zambia",
+            "Overallscore": 43.5,
+            "QualityandSafety": 54.2,
+            "Rank": "102nd",
+            "SustainabilityandAdaptation": 51.6,
+            "Unnamed0": 101
+        },
+        {
+            "Affordability": 50.1,
+            "Availability": 40.0,
+            "Country": "Chad",
+            "Overallscore": 43.2,
+            "QualityandSafety": 44.7,
+            "Rank": "103rd",
+            "SustainabilityandAdaptation": 35.9,
+            "Unnamed0": 102
+        },
+        {
+            "Affordability": 46.9,
+            "Availability": 40.6,
+            "Country": "Democratic Republic of Congo",
+            "Overallscore": 43.0,
+            "QualityandSafety": 43.5,
+            "Rank": "104th",
+            "SustainabilityandAdaptation": 40.1,
+            "Unnamed0": 103
+        },
+        {
+            "Affordability": 35.2,
+            "Availability": 48.2,
+            "Country": "Sudan",
+            "Overallscore": 42.8,
+            "QualityandSafety": 53.9,
+            "Rank": "105th",
+            "SustainabilityandAdaptation": 35.7,
+            "Unnamed0": 104
+        },
+        {
+            "Affordability": 41.8,
+            "Availability": 36.7,
+            "Country": "Venezuela",
+            "Overallscore": 42.6,
+            "QualityandSafety": 51.5,
+            "Rank": "106th",
+            "SustainabilityandAdaptation": 41.4,
+            "Unnamed0": 105
+        },
+        {
+            "Affordability": 25.0,
+            "Availability": 39.5,
+            "Country": "Nigeria",
+            "Overallscore": 42.0,
+            "QualityandSafety": 55.6,
+            "Rank": "107th",
+            "SustainabilityandAdaptation": 53.7,
+            "Unnamed0": 106
+        },
+        {
+            "Affordability": 32.5,
+            "Availability": 41.4,
+            "Country": "Burundi",
+            "Overallscore": 40.6,
+            "QualityandSafety": 52.4,
+            "Rank": "=108th",
+            "SustainabilityandAdaptation": 38.6,
+            "Unnamed0": 107
+        },
+        {
+            "Affordability": 39.5,
+            "Availability": 43.0,
+            "Country": "Madagascar",
+            "Overallscore": 40.6,
+            "QualityandSafety": 34.9,
+            "Rank": "=108th",
+            "SustainabilityandAdaptation": 44.9,
+            "Unnamed0": 108
+        },
+        {
+            "Affordability": 36.6,
+            "Availability": 35.5,
+            "Country": "Sierra Leone",
+            "Overallscore": 40.5,
+            "QualityandSafety": 41.8,
+            "Rank": "110th",
+            "SustainabilityandAdaptation": 49.8,
+            "Unnamed0": 109
+        },
+        {
+            "Affordability": 46.4,
+            "Availability": 26.9,
+            "Country": "Yemen",
+            "Overallscore": 40.1,
+            "QualityandSafety": 48.7,
+            "Rank": "111th",
+            "SustainabilityandAdaptation": 37.8,
+            "Unnamed0": 110
+        },
+        {
+            "Affordability": 32.8,
+            "Availability": 49.6,
+            "Country": "Haiti",
+            "Overallscore": 38.5,
+            "QualityandSafety": 37.9,
+            "Rank": "112th",
+            "SustainabilityandAdaptation": 34.2,
+            "Unnamed0": 111
+        },
+        {
+            "Affordability": 32.0,
+            "Availability": 26.6,
+            "Country": "Syria",
+            "Overallscore": 36.3,
+            "QualityandSafety": 50.8,
+            "Rank": "113th",
+            "SustainabilityandAdaptation": 38.4,
+            "Unnamed0": 112
+        }
+    ],
+    "dataTypes": {
+        "Affordability": "number",
+        "Availability": "number",
+        "Country": "string",
+        "Overallscore": "number",
+        "QualityandSafety": "number",
+        "Rank": "string",
+        "SustainabilityandAdaptation": "number",
+        "Unnamed0": "number"
+    },
+    "errors": [],
+    "count": 113,
+    "sample": [
+        {
+            "Affordability": 91.9,
+            "Availability": 70.5,
+            "Country": "Finland",
+            "Overallscore": 83.7,
+            "QualityandSafety": 88.4,
+            "Rank": "1st",
+            "SustainabilityandAdaptation": 82.6,
+            "Unnamed0": 0
+        },
+        {
+            "Affordability": 92.6,
+            "Availability": 70.5,
+            "Country": "Ireland",
+            "Overallscore": 81.7,
+            "QualityandSafety": 86.1,
+            "Rank": "2nd",
+            "SustainabilityandAdaptation": 75.1,
+            "Unnamed0": 1
+        },
+        {
+            "Affordability": 87.2,
+            "Availability": 60.4,
+            "Country": "Norway",
+            "Overallscore": 80.5,
+            "QualityandSafety": 86.8,
+            "Rank": "3rd",
+            "SustainabilityandAdaptation": 87.4,
+            "Unnamed0": 2
+        },
+        {
+            "Affordability": 91.3,
+            "Availability": 69.0,
+            "Country": "France",
+            "Overallscore": 80.2,
+            "QualityandSafety": 87.7,
+            "Rank": "4th",
+            "SustainabilityandAdaptation": 70.3,
+            "Unnamed0": 3
+        },
+        {
+            "Affordability": 92.7,
+            "Availability": 70.7,
+            "Country": "Netherlands",
+            "Overallscore": 80.1,
+            "QualityandSafety": 84.7,
+            "Rank": "5th",
+            "SustainabilityandAdaptation": 69.2,
+            "Unnamed0": 4
+        },
+        {
+            "Affordability": 89.8,
+            "Availability": 81.2,
+            "Country": "Japan",
+            "Overallscore": 79.5,
+            "QualityandSafety": 77.4,
+            "Rank": "6th",
+            "SustainabilityandAdaptation": 66.1,
+            "Unnamed0": 5
+        },
+        {
+            "Affordability": 91.9,
+            "Availability": 68.3,
+            "Country": "Sweden",
+            "Overallscore": 79.1,
+            "QualityandSafety": 85.0,
+            "Rank": "=7th",
+            "SustainabilityandAdaptation": 68.3,
+            "Unnamed0": 6
+        },
+        {
+            "Affordability": 88.3,
+            "Availability": 75.7,
+            "Country": "Canada",
+            "Overallscore": 79.1,
+            "QualityandSafety": 89.5,
+            "Rank": "=7th",
+            "SustainabilityandAdaptation": 60.1,
+            "Unnamed0": 7
+        },
+        {
+            "Affordability": 91.5,
+            "Availability": 71.6,
+            "Country": "United Kingdom",
+            "Overallscore": 78.8,
+            "QualityandSafety": 77.6,
+            "Rank": "9th",
+            "SustainabilityandAdaptation": 71.1,
+            "Unnamed0": 8
+        },
+        {
+            "Affordability": 90.0,
+            "Availability": 77.0,
+            "Country": "Portugal",
+            "Overallscore": 78.7,
+            "QualityandSafety": 79.8,
+            "Rank": "10th",
+            "SustainabilityandAdaptation": 64.5,
+            "Unnamed0": 9
+        }
+    ],
+    "stats": [
+        {
+            "name": "Affordability",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 99
+                }
+            ]
+        },
+        {
+            "name": "Availability",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 103
+                }
+            ]
+        },
+        {
+            "name": "Country",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 113
+                }
+            ]
+        },
+        {
+            "name": "Overallscore",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 103
+                }
+            ]
+        },
+        {
+            "name": "QualityandSafety",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 99
+                }
+            ]
+        },
+        {
+            "name": "Rank",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 103
+                }
+            ]
+        },
+        {
+            "name": "SustainabilityandAdaptation",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 96
+                }
+            ]
+        },
+        {
+            "name": "Unnamed0",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 113
+                }
+            ]
+        }
+    ]
+}

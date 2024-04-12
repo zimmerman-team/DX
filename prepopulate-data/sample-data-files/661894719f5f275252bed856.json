@@ -1,0 +1,253 @@
+{
+    "dataset": [
+        {
+            "Countrytext": "Austria",
+            "Fatalitiesnumber": 755,
+            "InsuredlossesMillionEUROnumber": 2333.0,
+            "Insuredlossesnumber": 18.0,
+            "LossespercapitaEUROnumber": 1626,
+            "LossespersqkmEUROnumber": 157566,
+            "TotallossesMillionEUROnumber": 13216
+        },
+        {
+            "Countrytext": "Belgium",
+            "Fatalitiesnumber": 4690,
+            "InsuredlossesMillionEUROnumber": 6310.0,
+            "Insuredlossesnumber": 39.0,
+            "LossespercapitaEUROnumber": 1543,
+            "LossespersqkmEUROnumber": 528524,
+            "TotallossesMillionEUROnumber": 16208
+        },
+        {
+            "Countrytext": "Bulgaria",
+            "Fatalitiesnumber": 256,
+            "InsuredlossesMillionEUROnumber": 86.0,
+            "Insuredlossesnumber": 2.0,
+            "LossespercapitaEUROnumber": 594,
+            "LossespersqkmEUROnumber": 42715,
+            "TotallossesMillionEUROnumber": 4741
+        },
+        {
+            "Countrytext": "Croatia",
+            "Fatalitiesnumber": 906,
+            "InsuredlossesMillionEUROnumber": 92.0,
+            "Insuredlossesnumber": 3.0,
+            "LossespercapitaEUROnumber": 830,
+            "LossespersqkmEUROnumber": 64802,
+            "TotallossesMillionEUROnumber": 3667
+        },
+        {
+            "Countrytext": "Cyprus",
+            "Fatalitiesnumber": 67,
+            "InsuredlossesMillionEUROnumber": 7.0,
+            "Insuredlossesnumber": 2.0,
+            "LossespercapitaEUROnumber": 597,
+            "LossespersqkmEUROnumber": 45701,
+            "TotallossesMillionEUROnumber": 423
+        },
+        {
+            "Countrytext": "Czechia",
+            "Fatalitiesnumber": 715,
+            "InsuredlossesMillionEUROnumber": 1896.0,
+            "Insuredlossesnumber": 12.0,
+            "LossespercapitaEUROnumber": 1567,
+            "LossespersqkmEUROnumber": 206334,
+            "TotallossesMillionEUROnumber": 16274
+        },
+        {
+            "Countrytext": "Denmark",
+            "Fatalitiesnumber": 532,
+            "InsuredlossesMillionEUROnumber": 5459.0,
+            "Insuredlossesnumber": 61.0,
+            "LossespercapitaEUROnumber": 1646,
+            "LossespersqkmEUROnumber": 206896,
+            "TotallossesMillionEUROnumber": 8881
+        },
+        {
+            "Countrytext": "Estonia",
+            "Fatalitiesnumber": 5,
+            "InsuredlossesMillionEUROnumber": 44.0,
+            "Insuredlossesnumber": 14.0,
+            "LossespercapitaEUROnumber": 217,
+            "LossespersqkmEUROnumber": 6750,
+            "TotallossesMillionEUROnumber": 306
+        },
+        {
+            "Countrytext": "Finland",
+            "Fatalitiesnumber": 7,
+            "InsuredlossesMillionEUROnumber": 70.0,
+            "Insuredlossesnumber": 3.0,
+            "LossespercapitaEUROnumber": 440,
+            "LossespersqkmEUROnumber": 6755,
+            "TotallossesMillionEUROnumber": 2286
+        },
+        {
+            "Countrytext": "France",
+            "Fatalitiesnumber": 45260,
+            "InsuredlossesMillionEUROnumber": 41727.0,
+            "Insuredlossesnumber": 35.0,
+            "LossespercapitaEUROnumber": 1947,
+            "LossespersqkmEUROnumber": 188907,
+            "TotallossesMillionEUROnumber": 120613
+        }
+    ],
+    "dataTypes": {
+        "Countrytext": "string",
+        "Fatalitiesnumber": "number",
+        "InsuredlossesMillionEUROnumber": "number",
+        "Insuredlossesnumber": "number",
+        "LossespercapitaEUROnumber": "number",
+        "LossespersqkmEUROnumber": "number",
+        "TotallossesMillionEUROnumber": "number"
+    },
+    "errors": [],
+    "count": 32,
+    "stats": [
+        {
+            "name": "Countrytext",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 32
+                }
+            ]
+        },
+        {
+            "name": "Fatalitiesnumber",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 31
+                }
+            ]
+        },
+        {
+            "name": "InsuredlossesMillionEUROnumber",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 31
+                }
+            ]
+        },
+        {
+            "name": "Insuredlossesnumber",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 0.0,
+                    "value": 2
+                },
+                {
+                    "name": 1.0,
+                    "value": 2
+                },
+                {
+                    "name": 2.0,
+                    "value": 2
+                },
+                {
+                    "name": 3.0,
+                    "value": 3
+                },
+                {
+                    "name": 4.0,
+                    "value": 3
+                },
+                {
+                    "name": 5.0,
+                    "value": 4
+                },
+                {
+                    "name": 7.0,
+                    "value": 2
+                },
+                {
+                    "name": 12.0,
+                    "value": 1
+                },
+                {
+                    "name": 14.0,
+                    "value": 1
+                },
+                {
+                    "name": 15.0,
+                    "value": 1
+                },
+                {
+                    "name": 18.0,
+                    "value": 1
+                },
+                {
+                    "name": 26.0,
+                    "value": 1
+                },
+                {
+                    "name": 30.0,
+                    "value": 1
+                },
+                {
+                    "name": 35.0,
+                    "value": 1
+                },
+                {
+                    "name": 36.0,
+                    "value": 1
+                },
+                {
+                    "name": 39.0,
+                    "value": 2
+                },
+                {
+                    "name": 48.0,
+                    "value": 1
+                },
+                {
+                    "name": 50.0,
+                    "value": 1
+                },
+                {
+                    "name": 61.0,
+                    "value": 1
+                },
+                {
+                    "name": 72.0,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "LossespercapitaEUROnumber",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 32
+                }
+            ]
+        },
+        {
+            "name": "LossespersqkmEUROnumber",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 32
+                }
+            ]
+        },
+        {
+            "name": "TotallossesMillionEUROnumber",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 32
+                }
+            ]
+        }
+    ]
+}
