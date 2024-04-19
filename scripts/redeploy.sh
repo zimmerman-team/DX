@@ -113,7 +113,7 @@ if ask_for_confirmation "Was there an update to: Rawgraphs-charts?"; then
   yarn initialise-server
   rm .env
   cd ..
-  
+
   echo "Rebuilding Server and Client docker images..."
   SERVERIMAGE="server"
   CLIENTIMAGE="frontend"
