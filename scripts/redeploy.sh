@@ -152,4 +152,11 @@ echo "Restarting services..."
 . ./scripts/stop.sh $MODE
 . ./scripts/start.sh $MODE -d
 
+echo "Cleaning up docker system..."
+if ask_for_confirmation "Are you sure you want to clean your docker system?"; then
+  docker system purge
+else
+  echo "Skipping docker cleanup."
+fi
+
 echo "Redeployment script is done. Services have been rebuilt and restarted."
