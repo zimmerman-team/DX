@@ -57,6 +57,7 @@ services:
       - ./dx.backend/parsed-data-files/:/app/parsed-data-files/
       - ./dx.backend/sample-data-files/:/app/sample-data-files/
       - ./dx.backend/services/:/app/services/
+      - ./dx.backend/util/:/app/util/
       - ./dx.backend/app.py:/app/app.py
 
   ai-api-dev:
