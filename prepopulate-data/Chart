@@ -76,7 +76,8 @@
   "updatedDate": {
     "$date": "2024-03-26T19:18:56.031Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -156,7 +157,8 @@
   "updatedDate": {
     "$date": "2024-03-26T19:18:30.644Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -225,7 +227,8 @@
   "updatedDate": {
     "$date": "2024-03-26T19:17:57.359Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -312,7 +315,8 @@
   "updatedDate": {
     "$date": "2024-03-26T19:23:36.38Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -383,7 +387,8 @@
   "updatedDate": {
     "$date": "2024-03-26T19:26:51.863Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -487,7 +492,8 @@
   "updatedDate": {
     "$date": "2024-03-26T22:01:33.216Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -596,7 +602,8 @@
   "updatedDate": {
     "$date": "2024-03-26T22:03:07.429Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -668,7 +675,8 @@
   "updatedDate": {
     "$date": "2024-03-26T22:11:48.297Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -732,7 +740,8 @@
   "updatedDate": {
     "$date": "2024-03-26T22:21:16.756Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -799,7 +808,8 @@
   "updatedDate": {
     "$date": "2024-03-26T22:25:46.088Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -860,7 +870,8 @@
   "updatedDate": {
     "$date": "2024-03-26T22:30:16.275Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -947,7 +958,8 @@
   "updatedDate": {
     "$date": "2024-03-26T22:45:34.596Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -1065,7 +1077,8 @@
   "updatedDate": {
     "$date": "2024-03-27T05:44:39.239Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -1192,7 +1205,8 @@
   "updatedDate": {
     "$date": "2024-03-27T05:47:59.3Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -1324,7 +1338,8 @@
   "updatedDate": {
     "$date": "2024-03-27T05:49:30.093Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -1461,7 +1476,8 @@
   "updatedDate": {
     "$date": "2024-03-27T05:50:28.125Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -1603,7 +1619,8 @@
   "updatedDate": {
     "$date": "2024-03-27T05:52:53.863Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -1686,7 +1703,8 @@
   "updatedDate": {
     "$date": "2024-03-27T06:02:16.349Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
