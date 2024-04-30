@@ -1,0 +1,117 @@
+{
+    "dataset": [
+        {
+            "Country": "ABW",
+            "Value": 501.0,
+            "Year": 2021
+        },
+        {
+            "Country": "ABW",
+            "Value": 164.0,
+            "Year": 2022
+        },
+        {
+            "Country": "ABW",
+            "Value": 157.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AFE",
+            "Value": -179444.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AFE",
+            "Value": -274282.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AFE",
+            "Value": -271749.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AFG",
+            "Value": -183672.0,
+            "Year": 2021
+        },
+        {
+            "Country": "AFG",
+            "Value": -65846.0,
+            "Year": 2022
+        },
+        {
+            "Country": "AFG",
+            "Value": -65846.0,
+            "Year": 2023
+        },
+        {
+            "Country": "AFW",
+            "Value": -264802.0,
+            "Year": 2021
+        }
+    ],
+    "dataTypes": {
+        "Country": "string",
+        "Value": "number",
+        "Year": "number"
+    },
+    "errors": [],
+    "count": 795,
+    "stats": [
+        {
+            "name": "Country",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": "ABW",
+                    "value": 0.37735849056603776
+                },
+                {
+                    "name": "AZE",
+                    "value": 0.37735849056603776
+                },
+                {
+                    "name": "Others",
+                    "value": 99.24528301886792
+                }
+            ]
+        },
+        {
+            "name": "Value",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": 0.0,
+                    "value": 5.031446540880504
+                },
+                {
+                    "name": -9999.0,
+                    "value": 2.0125786163522013
+                },
+                {
+                    "name": "Others",
+                    "value": 92.95597484276729
+                }
+            ]
+        },
+        {
+            "name": "Year",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": 2021,
+                    "value": 33.33333333333333
+                },
+                {
+                    "name": 2022,
+                    "value": 33.33333333333333
+                },
+                {
+                    "name": 2023,
+                    "value": 33.33333333333333
+                }
+            ]
+        }
+    ]
+}

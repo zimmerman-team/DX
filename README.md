@@ -155,7 +155,6 @@ In docker, provides access to mongodb, a backend and a server instance, and crea
 In docker, provides access to mongodb, a backend and a server instance, and creates a `build` folder in `./dx.client/prod/`. Additionally, creates a in-docker locally hosted NGINX instance that provides access to addresses like [server.localhost](server.localhost), [backend.localhost](backend.localhost), and [client.localhost](client.localhost). Additionally, With a locally hosted webserver you can again point to the build folder and directly use it.
 
 ## Scripts
-
 These scripts are provided in the ./scripts/ directory:
 
 - setup.sh
@@ -163,6 +162,7 @@ These scripts are provided in the ./scripts/ directory:
 - start.sh
 - stop.sh
 - monitoring.sh
+- redeploy.sh
 
 They take an argument: `dev | test | staging | prod`
 
@@ -171,3 +171,10 @@ To get started immediately, run `. scripts/setup.sh`. _Note, the . is important 
 You can setup and run the project in no-time. This is based on docker, so make sure it is [installed](./docs/DOCKER.md#installing-docker).
 
 The exception to the above arguments is `monitoring.sh`. This script takes `start | stop | restart | dev`, the latter starting the docker containers without detaching from the logs.
+
+Additional scripts are also available.
+- backup.sh: Available in `dev` environment, it snapshots the public datasets in the dev environment.
+- patchCharts.sh: Available in `dev | test | staging | prod`, updates existing charts to contain the updated values for `isMappingValid`.
+- prepopulate.sh: Available in `dev | test | staging | prod`, inserts sample files and database values into the selected environment's MongoDB.
+- snapshot_db.sh: Available in `dev | test | staging | prod`, creates a snapshot of the existing MongoDB database.
+- snapshot_db_restore.sh: Available in `dev | test | staging | prod`, upserts a snapshot of the MongoDB database.

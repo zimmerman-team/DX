@@ -64,10 +64,16 @@ else
     echo "Unsupported operating system"
 fi
 
+# Untar the ./prepopulate-data/FederatedSearchIndex.tar.xz file
+tar -xvf ./prepopulate-data/FederatedSearchIndex.tar.xz -C ./prepopulate-data/
+
 # copy the mongodb.dump file to the container and execute mongoimport
 sudo docker cp ./prepopulate-data/Chart "$CONTAINER_ID":/Chart
 sudo docker cp ./prepopulate-data/Report "$CONTAINER_ID":/Report
 sudo docker cp ./prepopulate-data/Dataset "$CONTAINER_ID":/Dataset
+sudo docker cp ./prepopulate-data/FederatedSearchIndex "$CONTAINER_ID":/FederatedSearchIndex
+
+rm -rf ./prepopulate-data/FederatedSearchIndex
 
 # Replace the authId and owner with `REPL` in ./prepopulate-data/
 if [ "$(uname)" == "Linux" ]; then
@@ -98,6 +104,7 @@ sleep 10 # wait for mongodb to start
 sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Chart --file /Chart --mode upsert
 sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Report --file /Report --mode upsert
 sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Dataset --file /Dataset --mode upsert
+sudo docker exec -it "$CONTAINER_ID" mongoimport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection FederatedSearchIndex --file /FederatedSearchIndex --mode upsert
 
 echo "Prepolulating data is done."
 
