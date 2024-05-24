@@ -264,3 +264,60 @@
   },
   "authId": "REPL"
 }
+{
+  "_id": {
+    "$oid": "664c8470ea6cce1613154259"
+  },
+  "name": "Global Annual Mean Temperature - Data file: Global annual mean temp",
+  "description": "See how the global average temperature has changed since 1880  - This Datasource was retrieved from https://www.kaggle.com/. - Data file: Global annua",
+  "public": true,
+  "category": "Environment",
+  "source": "Kaggle",
+  "sourceUrl": "https://www.kaggle.com/datasets/jarredpriester/global-annual-mean-temperature",
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-05-21T11:24:40.599Z"
+  },
+  "updatedDate": {
+    "$date": "2024-05-21T11:24:40.599Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "664c9c42f73155f2187e3a7b"
+  },
+  "name": "Global Sea Level Rise",
+  "description": "Global Sea Level Measurements Since 1880  - This Datasource was retrieved from https://www.kaggle.com/. - Data file: Global sea level rise",
+  "public": true,
+  "category": "Environment",
+  "source": "Kaggle",
+  "sourceUrl": "https://www.kaggle.com/datasets/jarredpriester/global-sea-level-rise",
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-05-21T13:06:24.599Z"
+  },
+  "updatedDate": {
+    "$date": "2024-05-21T13:06:24.599Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "664dbee7cdacc4a1142dea05"
+  },
+  "name": "Climate Mobility Impacts",
+  "description": "Migration as a results of rising temperatures",
+  "public": true,
+  "category": "Environment",
+  "source": "Migration Data Portal",
+  "sourceUrl": "migrationdataportal.org",
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-05-22T09:47:15.599Z"
+  },
+  "updatedDate": {
+    "$date": "2024-05-22T09:47:15.599Z"
+  },
+  "authId": "REPL"
+}

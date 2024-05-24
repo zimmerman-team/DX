@@ -1,0 +1,93 @@
+{
+    "dataset": [
+        {
+            "date": "07/15/1880",
+            "mmfrom19932008average": -183.2473958,
+            "year": 1880
+        },
+        {
+            "date": "07/15/1881",
+            "mmfrom19932008average": -174.0140625,
+            "year": 1881
+        },
+        {
+            "date": "07/15/1882",
+            "mmfrom19932008average": -190.0807292,
+            "year": 1882
+        },
+        {
+            "date": "07/15/1883",
+            "mmfrom19932008average": -185.1473958,
+            "year": 1883
+        },
+        {
+            "date": "07/15/1884",
+            "mmfrom19932008average": -166.2807292,
+            "year": 1884
+        },
+        {
+            "date": "07/15/1885",
+            "mmfrom19932008average": -167.6807292,
+            "year": 1885
+        },
+        {
+            "date": "07/15/1886",
+            "mmfrom19932008average": -164.2140625,
+            "year": 1886
+        },
+        {
+            "date": "07/15/1887",
+            "mmfrom19932008average": -170.2140625,
+            "year": 1887
+        },
+        {
+            "date": "07/15/1888",
+            "mmfrom19932008average": -172.6140625,
+            "year": 1888
+        },
+        {
+            "date": "07/15/1889",
+            "mmfrom19932008average": -169.7140625,
+            "year": 1889
+        }
+    ],
+    "dataTypes": {
+        "date": "string",
+        "mmfrom19932008average": "number",
+        "year": "number"
+    },
+    "errors": [],
+    "count": 143,
+    "stats": [
+        {
+            "name": "date",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 143
+                }
+            ]
+        },
+        {
+            "name": "mmfrom19932008average",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 142
+                }
+            ]
+        },
+        {
+            "name": "year",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 143
+                }
+            ]
+        }
+    ]
+}
