@@ -1,0 +1,593 @@
+{
+    "dataset": [
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 583113000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2030
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 722548000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2040
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 793946000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2050
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 893805000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2060
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 884284000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2070
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 861935000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2080
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 749708000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2090
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 567756000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2030
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 737295000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2040
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 880198000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2050
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1085430000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2060
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1394290000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2070
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1475440000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2080
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1616380000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2090
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 606955000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2030
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 770158000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2040
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 872141000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2050
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1012680000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2060
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1037500000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2070
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1055680000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2080
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 959580000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2090
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 591730000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2030
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 787791000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2040
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 966701000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2050
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1233500000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2060
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1626140000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2070
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1782360000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2080
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 2034620000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 2 ('Middle of the Road')",
+            "Year": 2090
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 632811000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2030
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 826520000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2040
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 971667000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2050
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1183400000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2060
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1279270000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2070
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1394440000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2080
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1343940000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2090
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 618187000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2030
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 847219000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2040
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1075920000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2050
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1444620000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2060
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 1986440000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2070
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 2301330000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2080
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 2799570000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 3 ('Regional Rivalry')",
+            "Year": 2090
+        }
+    ],
+    "dataTypes": {
+        "ClimateScenario": "string",
+        "Hazard": "string",
+        "Income": "string",
+        "Populationexposed": "number",
+        "Region": "string",
+        "SocioeconomicScenario": "string",
+        "Year": "number"
+    },
+    "errors": [],
+    "count": 42,
+    "sample": [
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 583113000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2030
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 722548000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2040
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 793946000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2050
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 893805000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2060
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 884284000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2070
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 861935000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2080
+        },
+        {
+            "ClimateScenario": "RCP 2.6 (Low warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 749708000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2090
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 567756000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2030
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 737295000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2040
+        },
+        {
+            "ClimateScenario": "RCP 6.0 (High warming)",
+            "Hazard": "Heat wave",
+            "Income": "Total",
+            "Populationexposed": 880198000,
+            "Region": "World",
+            "SocioeconomicScenario": "SSP 1 ('Sustainability')",
+            "Year": 2050
+        }
+    ],
+    "stats": [
+        {
+            "name": "ClimateScenario",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": "RCP 2.6 (Low warming)",
+                    "value": 50.0
+                },
+                {
+                    "name": "RCP 6.0 (High warming)",
+                    "value": 50.0
+                }
+            ]
+        },
+        {
+            "name": "Hazard",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": "Heat wave",
+                    "value": 100.0
+                }
+            ]
+        },
+        {
+            "name": "Income",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": "Total",
+                    "value": 100.0
+                }
+            ]
+        },
+        {
+            "name": "Populationexposed",
+            "type": "unique",
+            "data": [
+                {
+                    "name": "Unique",
+                    "value": 42
+                }
+            ]
+        },
+        {
+            "name": "Region",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": "World",
+                    "value": 100.0
+                }
+            ]
+        },
+        {
+            "name": "SocioeconomicScenario",
+            "type": "percentage",
+            "data": [
+                {
+                    "name": "SSP 1 ('Sustainability')",
+                    "value": 33.33333333333333
+                },
+                {
+                    "name": "SSP 2 ('Middle of the Road')",
+                    "value": 33.33333333333333
+                },
+                {
+                    "name": "SSP 3 ('Regional Rivalry')",
+                    "value": 33.33333333333333
+                }
+            ]
+        },
+        {
+            "name": "Year",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 2030,
+                    "value": 6
+                },
+                {
+                    "name": 2040,
+                    "value": 6
+                },
+                {
+                    "name": 2050,
+                    "value": 6
+                },
+                {
+                    "name": 2060,
+                    "value": 6
+                },
+                {
+                    "name": 2070,
+                    "value": 6
+                },
+                {
+                    "name": 2080,
+                    "value": 6
+                },
+                {
+                    "name": 2090,
+                    "value": 6
+                }
+            ]
+        }
+    ]
+}

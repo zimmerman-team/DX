@@ -81,157 +81,6 @@
 }
 {
   "_id": {
-    "$oid": "66031cead6b19700d9e2a8ac"
-  },
-  "name": "GDP per Capita for 4 Countries from 1901 - 2016",
-  "public": true,
-  "vizType": "echartsLinechart",
-  "datasetId": {
-    "$oid": "6603146792e50916a2525314"
-  },
-  "mapping": {
-    "x": {
-      "ids": [
-        "3"
-      ],
-      "value": [
-        "Year"
-      ],
-      "isValid": true,
-      "mappedType": "number"
-    },
-    "y": {
-      "ids": [
-        "4"
-      ],
-      "value": [
-        "GDPpercapita"
-      ],
-      "isValid": true,
-      "mappedType": "number",
-      "config": {
-        "aggregation": [
-          "sum"
-        ]
-      }
-    },
-    "lines": {
-      "ids": [
-        "5"
-      ],
-      "value": [
-        "Entity"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    }
-  },
-  "vizOptions": {
-    "width": 1006,
-    "height": 738,
-    "background": "#FFFFFF",
-    "marginTop": 10,
-    "marginRight": 10,
-    "marginBottom": 50,
-    "marginLeft": 10,
-    "lineType": "solid",
-    "lineWidth": 1,
-    "showLegend": true,
-    "legendHoverLink": false,
-    "showTooltip": true,
-    "isMonetaryValue": true,
-    "label": false
-  },
-  "appliedFilters": {},
-  "enabledFilterOptionGroups": [
-    "CO2emissionspercapita",
-    "Entity",
-    "GDPpercapita",
-    "TotalpopulationGapminderHYDEUN",
-    "Year"
-  ],
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-03-26T19:07:22.594Z"
-  },
-  "updatedDate": {
-    "$date": "2024-03-26T19:18:30.644Z"
-  },
-  "authId": "REPL",
-  "isMappingValid": true
-}
-{
-  "_id": {
-    "$oid": "66031f2ecbe8be009fc0c2f9"
-  },
-  "name": "Countries and their population.",
-  "public": true,
-  "vizType": "echartsGeomap",
-  "datasetId": {
-    "$oid": "6602d1b6bfec1b70c468145f"
-  },
-  "mapping": {
-    "country": {
-      "ids": [
-        "6"
-      ],
-      "value": [
-        "Country"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "size": {
-      "ids": [
-        "7"
-      ],
-      "value": [
-        "Population"
-      ],
-      "isValid": true,
-      "mappedType": "number",
-      "config": {
-        "aggregation": [
-          "sum"
-        ]
-      }
-    }
-  },
-  "vizOptions": {
-    "width": 1006,
-    "height": 738,
-    "background": "#FEFEFE",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "roam": "none",
-    "showAntarctica": false,
-    "scaleLimitMin": 1,
-    "scaleLimitMax": 1,
-    "showTooltip": true,
-    "isMonetaryValue": false,
-    "palette": "TGF Default"
-  },
-  "appliedFilters": {},
-  "enabledFilterOptionGroups": [
-    "City",
-    "Continent",
-    "Country",
-    "Population"
-  ],
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-03-26T19:17:02.652Z"
-  },
-  "updatedDate": {
-    "$date": "2024-03-26T19:17:57.359Z"
-  },
-  "authId": "REPL",
-  "isMappingValid": true
-}
-{
-  "_id": {
     "$oid": "660320b812b24a00caa198f8"
   },
   "name": "Energy Sources, applications and value",
@@ -320,35 +169,31 @@
 }
 {
   "_id": {
-    "$oid": "6603217b39317100c3b3a1af"
+    "$oid": "66031cead6b19700d9e2a8ac"
   },
-  "name": "More energy sources, applications and value on a Treemap",
+  "name": "GDP per Capita for 4 Countries from 1901 - 2016",
   "public": true,
-  "vizType": "echartsTreemap",
+  "vizType": "echartsLinechart",
   "datasetId": {
-    "$oid": "66030b9930139b9b34fa4250"
+    "$oid": "6603146792e50916a2525314"
   },
   "mapping": {
-    "hierarchy": {
+    "x": {
       "ids": [
-        "12",
-        "13",
-        "14"
+        "3"
       ],
       "value": [
-        "source",
-        "target",
-        "value"
+        "Year"
       ],
       "isValid": true,
       "mappedType": "number"
     },
-    "size": {
+    "y": {
       "ids": [
-        "15"
+        "4"
       ],
       "value": [
-        "value"
+        "GDPpercapita"
       ],
       "isValid": true,
       "mappedType": "number",
@@ -357,323 +202,48 @@
           "sum"
         ]
       }
+    },
+    "lines": {
+      "ids": [
+        "5"
+      ],
+      "value": [
+        "Entity"
+      ],
+      "isValid": true,
+      "mappedType": "string"
     }
   },
   "vizOptions": {
     "width": 1006,
     "height": 738,
     "background": "#FFFFFF",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "nodeClick": "link",
-    "showLabels": true,
-    "showBreadcrumbs": true,
-    "upperLabel": true,
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
     "showTooltip": true,
-    "isMonetaryValue": false
+    "isMonetaryValue": true,
+    "label": false
   },
   "appliedFilters": {},
   "enabledFilterOptionGroups": [
-    "source",
-    "target",
-    "value"
+    "CO2emissionspercapita",
+    "Entity",
+    "GDPpercapita",
+    "TotalpopulationGapminderHYDEUN",
+    "Year"
   ],
   "owner": "REPL",
   "createdDate": {
-    "$date": "2024-03-26T19:26:51.863Z"
+    "$date": "2024-03-26T19:07:22.594Z"
   },
   "updatedDate": {
-    "$date": "2024-03-26T19:26:51.863Z"
-  },
-  "authId": "REPL",
-  "isMappingValid": true
-}
-{
-  "_id": {
-    "$oid": "660345bd9b11a300b870c801"
-  },
-  "name": "Total receipt of GDP for countries in 1970",
-  "public": true,
-  "vizType": "bigNumber",
-  "datasetId": {
-    "$oid": "660313df860c7d1d06c24408"
-  },
-  "mapping": {
-    "mainKPImetric": {
-      "ids": [
-        "16",
-        "20",
-        "24"
-      ],
-      "value": [
-        ""
-      ],
-      "isValid": true,
-      "mappedType": "number"
-    },
-    "header": {
-      "ids": [
-        "17",
-        "21",
-        "25",
-        "29",
-        "30",
-        "31",
-        "32"
-      ],
-      "value": [
-        "Total receipt of gdp"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "subheader": {
-      "ids": [
-        "18",
-        "22",
-        "26",
-        "33",
-        "34"
-      ],
-      "value": [
-        "for countries in 1970"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "unitofmeasurement": {
-      "ids": [
-        "19",
-        "23",
-        "27",
-        "35",
-        "36",
-        "37"
-      ],
-      "value": [
-        "Million USD"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "metric": {
-      "ids": [
-        "28"
-      ],
-      "value": [
-        "1970"
-      ],
-      "isValid": true,
-      "mappedType": "number",
-      "config": {
-        "aggregation": [
-          "sum"
-        ]
-      }
-    }
-  },
-  "vizOptions": {
-    "width": 1006,
-    "height": 600,
-    "background": "#FFFFFF"
-  },
-  "appliedFilters": {},
-  "enabledFilterOptionGroups": [
-    "1970",
-    "1979",
-    "country"
-  ],
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-03-26T22:01:33.216Z"
-  },
-  "updatedDate": {
-    "$date": "2024-03-26T22:01:33.216Z"
-  },
-  "authId": "REPL",
-  "isMappingValid": true
-}
-{
-  "_id": {
-    "$oid": "660345d69b11a300b870c802"
-  },
-  "name": "Total receipt of GDP for countries in 1976",
-  "public": true,
-  "vizType": "bigNumber",
-  "datasetId": {
-    "$oid": "660313df860c7d1d06c24408"
-  },
-  "mapping": {
-    "mainKPImetric": {
-      "ids": [
-        "16",
-        "20",
-        "24",
-        "38"
-      ],
-      "value": [
-        ""
-      ],
-      "isValid": true,
-      "mappedType": "number"
-    },
-    "header": {
-      "ids": [
-        "17",
-        "21",
-        "25",
-        "29",
-        "30",
-        "31",
-        "32",
-        "39"
-      ],
-      "value": [
-        "Total receipt of gdp"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "subheader": {
-      "ids": [
-        "18",
-        "22",
-        "26",
-        "33",
-        "34",
-        "40",
-        "43"
-      ],
-      "value": [
-        "for countries in 1976"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "unitofmeasurement": {
-      "ids": [
-        "19",
-        "23",
-        "27",
-        "35",
-        "36",
-        "37",
-        "41"
-      ],
-      "value": [
-        "Million USD"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "metric": {
-      "ids": [
-        "42"
-      ],
-      "value": [
-        "1979"
-      ],
-      "isValid": true,
-      "mappedType": "number",
-      "config": {
-        "aggregation": [
-          "sum"
-        ]
-      }
-    }
-  },
-  "vizOptions": {
-    "width": 1006,
-    "height": 600,
-    "background": "#FFFFFF"
-  },
-  "appliedFilters": {},
-  "enabledFilterOptionGroups": [
-    "1970",
-    "1979",
-    "country"
-  ],
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-03-26T22:01:58.32Z"
-  },
-  "updatedDate": {
-    "$date": "2024-03-26T22:03:07.429Z"
-  },
-  "authId": "REPL",
-  "isMappingValid": true
-}
-{
-  "_id": {
-    "$oid": "6603482467519500a62344e9"
-  },
-  "name": "Sunburst showing continents cities and their population",
-  "public": true,
-  "vizType": "echartsSunburst",
-  "datasetId": {
-    "$oid": "6602d1b6bfec1b70c468145f"
-  },
-  "mapping": {
-    "hierarchy": {
-      "ids": [
-        "49",
-        "50"
-      ],
-      "value": [
-        "Continent",
-        "Country"
-      ],
-      "isValid": true,
-      "mappedType": "number"
-    },
-    "size": {
-      "ids": [
-        "52"
-      ],
-      "value": [
-        "Population"
-      ],
-      "isValid": true,
-      "mappedType": "number",
-      "config": {
-        "aggregation": [
-          "sum"
-        ]
-      }
-    }
-  },
-  "vizOptions": {
-    "width": 1006,
-    "height": 600,
-    "background": "#FFFFFF",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "showLabels": "true",
-    "leafLabelPositon": "inside",
-    "labelFontSize": 7,
-    "showTooltip": true,
-    "isMonetaryValue": false,
-    "palette": "TGF Default",
-    "borderWidth": 1,
-    "borderRadius": 10
-  },
-  "appliedFilters": {},
-  "enabledFilterOptionGroups": [
-    "City",
-    "Continent",
-    "Country",
-    "Population"
-  ],
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-03-26T22:11:48.297Z"
-  },
-  "updatedDate": {
-    "$date": "2024-03-26T22:11:48.297Z"
+    "$date": "2024-03-26T19:18:30.644Z"
   },
   "authId": "REPL",
   "isMappingValid": true
@@ -1082,73 +652,31 @@
 }
 {
   "_id": {
-    "$oid": "6603b2d19b11a300b870c805"
+    "$oid": "66031f2ecbe8be009fc0c2f9"
   },
-  "name": "Global Malaria Deaths - 2018",
+  "name": "Countries and their population.",
   "public": true,
-  "vizType": "bigNumber",
+  "vizType": "echartsGeomap",
   "datasetId": {
-    "$oid": "6603b191a40ad496d24761a5"
+    "$oid": "6602d1b6bfec1b70c468145f"
   },
   "mapping": {
-    "mainKPImetric": {
+    "country": {
       "ids": [
-        "80",
-        "88",
-        "94"
+        "6"
       ],
       "value": [
-        ""
-      ],
-      "isValid": true,
-      "mappedType": "number"
-    },
-    "header": {
-      "ids": [
-        "81",
-        "85",
-        "89",
-        "95"
-      ],
-      "value": [
-        "Global malaria deaths"
+        "Country"
       ],
       "isValid": true,
       "mappedType": "string"
     },
-    "subheader": {
+    "size": {
       "ids": [
-        "82",
-        "86",
-        "90",
-        "92",
-        "96"
+        "7"
       ],
       "value": [
-        "2018"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "unitofmeasurement": {
-      "ids": [
-        "83",
-        "87",
-        "91",
-        "97"
-      ],
-      "value": [
-        "People"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "metric": {
-      "ids": [
-        "93"
-      ],
-      "value": [
-        "2018"
+        "Population"
       ],
       "isValid": true,
       "mappedType": "number",
@@ -1161,49 +689,105 @@
   },
   "vizOptions": {
     "width": 1006,
-    "height": 600,
-    "background": "#FFFFFF"
+    "height": 738,
+    "background": "#FEFEFE",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default"
   },
   "appliedFilters": {},
   "enabledFilterOptionGroups": [
-    "1990",
-    "1991",
-    "1992",
-    "1993",
-    "1994",
-    "1995",
-    "1996",
-    "1997",
-    "1998",
-    "1999",
-    "2000",
-    "2001",
-    "2002",
-    "2003",
-    "2004",
-    "2005",
-    "2006",
-    "2007",
-    "2008",
-    "2009",
-    "2010",
-    "2011",
-    "2012",
-    "2013",
-    "2014",
-    "2015",
-    "2016",
-    "2017",
-    "2018",
-    "2019",
-    "Region"
+    "City",
+    "Continent",
+    "Country",
+    "Population"
   ],
   "owner": "REPL",
   "createdDate": {
-    "$date": "2024-03-27T05:46:57.995Z"
+    "$date": "2024-03-26T19:17:02.652Z"
   },
   "updatedDate": {
-    "$date": "2024-03-27T05:47:59.3Z"
+    "$date": "2024-03-26T19:17:57.359Z"
+  },
+  "authId": "REPL",
+  "isMappingValid": true
+}
+{
+  "_id": {
+    "$oid": "6603217b39317100c3b3a1af"
+  },
+  "name": "More energy sources, applications and value on a Treemap",
+  "public": true,
+  "vizType": "echartsTreemap",
+  "datasetId": {
+    "$oid": "66030b9930139b9b34fa4250"
+  },
+  "mapping": {
+    "hierarchy": {
+      "ids": [
+        "12",
+        "13",
+        "14"
+      ],
+      "value": [
+        "source",
+        "target",
+        "value"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "size": {
+      "ids": [
+        "15"
+      ],
+      "value": [
+        "value"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "nodeClick": "link",
+    "showLabels": true,
+    "showBreadcrumbs": true,
+    "upperLabel": true,
+    "showTooltip": true,
+    "isMonetaryValue": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "source",
+    "target",
+    "value"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-03-26T19:26:51.863Z"
+  },
+  "updatedDate": {
+    "$date": "2024-03-26T19:26:51.863Z"
   },
   "authId": "REPL",
   "isMappingValid": true
@@ -1481,21 +1065,78 @@
 }
 {
   "_id": {
-    "$oid": "6603b3fb12b24a00caa198fa"
+    "$oid": "660345bd9b11a300b870c801"
   },
-  "name": "Global Malaria Deaths - 2015",
+  "name": "Total receipt of GDP for countries in 1970",
   "public": true,
   "vizType": "bigNumber",
   "datasetId": {
-    "$oid": "6603b191a40ad496d24761a5"
+    "$oid": "660313df860c7d1d06c24408"
   },
   "mapping": {
-    "metric": {
+    "mainKPImetric": {
       "ids": [
-        "114"
+        "16",
+        "20",
+        "24"
       ],
       "value": [
-        "2015"
+        ""
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "17",
+        "21",
+        "25",
+        "29",
+        "30",
+        "31",
+        "32"
+      ],
+      "value": [
+        "Total receipt of gdp"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "18",
+        "22",
+        "26",
+        "33",
+        "34"
+      ],
+      "value": [
+        "for countries in 1970"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "19",
+        "23",
+        "27",
+        "35",
+        "36",
+        "37"
+      ],
+      "value": [
+        "Million USD"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "28"
+      ],
+      "value": [
+        "1970"
       ],
       "isValid": true,
       "mappedType": "number",
@@ -1504,15 +1145,45 @@
           "sum"
         ]
       }
-    },
+    }
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 600,
+    "background": "#FFFFFF"
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "1970",
+    "1979",
+    "country"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-03-26T22:01:33.216Z"
+  },
+  "updatedDate": {
+    "$date": "2024-03-26T22:01:33.216Z"
+  },
+  "authId": "REPL",
+  "isMappingValid": true
+}
+{
+  "_id": {
+    "$oid": "6603b2d19b11a300b870c805"
+  },
+  "name": "Global Malaria Deaths - 2018",
+  "public": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6603b191a40ad496d24761a5"
+  },
+  "mapping": {
     "mainKPImetric": {
       "ids": [
         "80",
         "88",
-        "94",
-        "98",
-        "104",
-        "110"
+        "94"
       ],
       "value": [
         ""
@@ -1525,10 +1196,7 @@
         "81",
         "85",
         "89",
-        "95",
-        "99",
-        "105",
-        "111"
+        "95"
       ],
       "value": [
         "Global malaria deaths"
@@ -1542,16 +1210,10 @@
         "86",
         "90",
         "92",
-        "96",
-        "100",
-        "103",
-        "106",
-        "108",
-        "112",
-        "115"
+        "96"
       ],
       "value": [
-        "2015"
+        "2018"
       ],
       "isValid": true,
       "mappedType": "string"
@@ -1561,16 +1223,28 @@
         "83",
         "87",
         "91",
-        "97",
-        "101",
-        "107",
-        "113"
+        "97"
       ],
       "value": [
         "People"
       ],
       "isValid": true,
       "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "93"
+      ],
+      "value": [
+        "2018"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
     }
   },
   "vizOptions": {
@@ -1614,94 +1288,10 @@
   ],
   "owner": "REPL",
   "createdDate": {
-    "$date": "2024-03-27T05:51:55.092Z"
+    "$date": "2024-03-27T05:46:57.995Z"
   },
   "updatedDate": {
-    "$date": "2024-03-27T05:52:53.863Z"
-  },
-  "authId": "REPL",
-  "isMappingValid": true
-}
-{
-  "_id": {
-    "$oid": "6603b66867519500a62344ed"
-  },
-  "name": "Line chart showing global malaria deaths by world region",
-  "public": true,
-  "vizType": "echartsLinechart",
-  "datasetId": {
-    "$oid": "6603b591c4696473e6c08c19"
-  },
-  "mapping": {
-    "x": {
-      "ids": [
-        "118"
-      ],
-      "value": [
-        "Year"
-      ],
-      "isValid": true,
-      "mappedType": "number"
-    },
-    "y": {
-      "ids": [
-        "119"
-      ],
-      "value": [
-        "malariadeaths"
-      ],
-      "isValid": true,
-      "mappedType": "number",
-      "config": {
-        "aggregation": [
-          "sum"
-        ]
-      }
-    },
-    "lines": {
-      "ids": [
-        "120"
-      ],
-      "value": [
-        "Entity"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    }
-  },
-  "vizOptions": {
-    "width": 1006,
-    "height": 738,
-    "background": "#FEFEFE",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "lineType": "solid",
-    "lineWidth": 1,
-    "showLegend": true,
-    "legendHoverLink": false,
-    "showTooltip": true,
-    "isMonetaryValue": false,
-    "label": false,
-    "roam": "none",
-    "showAntarctica": true,
-    "scaleLimitMin": 1,
-    "scaleLimitMax": 1,
-    "palette": "TGF Default"
-  },
-  "appliedFilters": {},
-  "enabledFilterOptionGroups": [
-    "Entity",
-    "Year",
-    "malariadeaths"
-  ],
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-03-27T06:02:16.349Z"
-  },
-  "updatedDate": {
-    "$date": "2024-03-27T06:02:16.349Z"
+    "$date": "2024-03-27T05:47:59.3Z"
   },
   "authId": "REPL",
   "isMappingValid": true
@@ -1803,207 +1393,6 @@
   },
   "updatedDate": {
     "$date": "2024-04-11T08:39:02.908Z"
-  },
-  "authId": "REPL"
-}
-{
-  "_id": {
-    "$oid": "6617b150d2434b8e13194a44"
-  },
-  "name": "Health Facilities in the EAC.",
-  "public": true,
-  "isMappingValid": true,
-  "vizType": "echartsBarchart",
-  "datasetId": {
-    "$oid": "6617b11cf372402a53e3ef64"
-  },
-  "mapping": {
-    "bars": {
-      "ids": [
-        "1"
-      ],
-      "value": [
-        "country"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "size": {
-      "ids": [
-        "2"
-      ],
-      "value": [
-        "facilitiescount"
-      ],
-      "isValid": true,
-      "mappedType": "number",
-      "config": {
-        "aggregation": [
-          "sum"
-        ]
-      }
-    }
-  },
-  "dataTypes": {
-    "country": "string",
-    "facilitiescount": "number"
-  },
-  "vizOptions": {
-    "width": 1006,
-    "height": 738,
-    "background": "#FFFFFF",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "barWidth": 35,
-    "stack": false,
-    "showTooltip": true,
-    "isMonetaryValue": false,
-    "label": false,
-    "nodeClick": "zoomToNode",
-    "showLabels": "leaf",
-    "showBreadcrumbs": true,
-    "upperLabel": true,
-    "nodesWidth": 8,
-    "nodesPadding": 5,
-    "linksOpacity": 0.5,
-    "draggable": false,
-    "orient": "horizontal",
-    "nodeAlign": "justify",
-    "showEdgeLabels": true,
-    "labelPosition": "right",
-    "labelRotate": 0,
-    "labelFontSize": 12,
-    "leafLabelPositon": "inside",
-    "palette": "TGF Default",
-    "borderWidth": 1,
-    "borderRadius": 0,
-    "lineType": "solid",
-    "lineWidth": 1,
-    "showLegend": true,
-    "legendHoverLink": false
-  },
-  "appliedFilters": {},
-  "enabledFilterOptionGroups": [
-    "country",
-    "facilitiescount"
-  ],
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-04-11T09:45:52.785Z"
-  },
-  "updatedDate": {
-    "$date": "2024-04-11T09:46:22.881Z"
-  },
-  "authId": "REPL"
-}
-{
-  "_id": {
-    "$oid": "6617c04bd2434b8e13194a47"
-  },
-  "name": "Violence Against Women & Girls in Afghanistan",
-  "public": true,
-  "isMappingValid": true,
-  "vizType": "echartsCirclepacking",
-  "datasetId": {
-    "$oid": "6617be0585f1cebf7e77aaac"
-  },
-  "mapping": {
-    "hierarchy": {
-      "ids": [
-        "18",
-        "22",
-        "23"
-      ],
-      "value": [
-        "Country",
-        "DemographicsQuestion",
-        "Question"
-      ],
-      "isValid": true,
-      "mappedType": "number"
-    },
-    "size": {
-      "ids": [
-        "24"
-      ],
-      "value": [
-        "RecordID"
-      ],
-      "isValid": true,
-      "mappedType": "number",
-      "config": {
-        "aggregation": [
-          "sum"
-        ]
-      }
-    }
-  },
-  "dataTypes": {
-    "Country": "string",
-    "DemographicsQuestion": "string",
-    "DemographicsResponse": "string",
-    "Gender": "string",
-    "Question": "string",
-    "RecordID": "number",
-    "SurveyYear": "string",
-    "Value": "number"
-  },
-  "vizOptions": {
-    "width": 1006,
-    "height": 600,
-    "background": "#FFFFFF",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "nodeClick": "zoomToNode",
-    "showTooltip": true,
-    "isMonetaryValue": false,
-    "palette": "TGF Default",
-    "showLabels": "leaf",
-    "leafLabelPositon": "inside",
-    "labelFontSize": 12,
-    "borderWidth": 1,
-    "borderRadius": 0,
-    "showLegend": false,
-    "linksOpacity": 0.5,
-    "linksCurveness": 0.3,
-    "roam": "none",
-    "rotateLabel": true,
-    "lineType": "solid",
-    "lineWidth": 1,
-    "legendHoverLink": false,
-    "label": false,
-    "showAntarctica": true,
-    "scaleLimitMin": 1,
-    "scaleLimitMax": 1
-  },
-  "appliedFilters": {
-    "Country": [
-      "Afghanistan"
-    ],
-    "Gender": [
-      "F"
-    ]
-  },
-  "enabledFilterOptionGroups": [
-    "Country",
-    "DemographicsQuestion",
-    "DemographicsResponse",
-    "Gender",
-    "Question",
-    "RecordID",
-    "SurveyYear",
-    "Value"
-  ],
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-04-11T10:49:47.052Z"
-  },
-  "updatedDate": {
-    "$date": "2024-04-11T11:07:01.425Z"
   },
   "authId": "REPL"
 }
@@ -2117,6 +1506,98 @@
 }
 {
   "_id": {
+    "$oid": "6617b150d2434b8e13194a44"
+  },
+  "name": "Health Facilities in the EAC.",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "echartsBarchart",
+  "datasetId": {
+    "$oid": "6617b11cf372402a53e3ef64"
+  },
+  "mapping": {
+    "bars": {
+      "ids": [
+        "1"
+      ],
+      "value": [
+        "country"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "size": {
+      "ids": [
+        "2"
+      ],
+      "value": [
+        "facilitiescount"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "country": "string",
+    "facilitiescount": "number"
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "barWidth": 35,
+    "stack": false,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "label": false,
+    "nodeClick": "zoomToNode",
+    "showLabels": "leaf",
+    "showBreadcrumbs": true,
+    "upperLabel": true,
+    "nodesWidth": 8,
+    "nodesPadding": 5,
+    "linksOpacity": 0.5,
+    "draggable": false,
+    "orient": "horizontal",
+    "nodeAlign": "justify",
+    "showEdgeLabels": true,
+    "labelPosition": "right",
+    "labelRotate": 0,
+    "labelFontSize": 12,
+    "leafLabelPositon": "inside",
+    "palette": "TGF Default",
+    "borderWidth": 1,
+    "borderRadius": 0,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "country",
+    "facilitiescount"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-11T09:45:52.785Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-11T09:46:22.881Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
     "$oid": "66188a07d2434b8e13194a4a"
   },
   "name": "Net migration 2021-2023",
@@ -2196,178 +1677,83 @@
 }
 {
   "_id": {
-    "$oid": "66189520d2434b8e13194a4b"
+    "$oid": "660345d69b11a300b870c802"
   },
-  "name": "Total losses in Euros due to impacts of extreme weather",
+  "name": "Total receipt of GDP for countries in 1976",
   "public": true,
-  "isMappingValid": true,
-  "vizType": "echartsBarchart",
-  "datasetId": {
-    "$oid": "661894719f5f275252bed856"
-  },
-  "mapping": {
-    "bars": {
-      "ids": [
-        "4"
-      ],
-      "value": [
-        "Countrytext"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "size": {
-      "ids": [
-        "5"
-      ],
-      "value": [
-        "TotallossesMillionEUROnumber"
-      ],
-      "isValid": true,
-      "mappedType": "number",
-      "config": {
-        "aggregation": [
-          "sum"
-        ]
-      }
-    }
-  },
-  "dataTypes": {
-    "Countrytext": "string",
-    "Fatalitiesnumber": "number",
-    "InsuredlossesMillionEUROnumber": "number",
-    "Insuredlossesnumber": "number",
-    "LossespercapitaEUROnumber": "number",
-    "LossespersqkmEUROnumber": "number",
-    "TotallossesMillionEUROnumber": "number"
-  },
-  "vizOptions": {
-    "width": 1006,
-    "height": 738,
-    "background": "#FFFFFF",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "barWidth": 20,
-    "stack": false,
-    "showTooltip": true,
-    "isMonetaryValue": true,
-    "label": false,
-    "showLabels": "leaf",
-    "leafLabelPositon": "inside",
-    "labelFontSize": 12,
-    "palette": "TGF Default",
-    "borderWidth": 1,
-    "borderRadius": 0,
-    "roam": "none",
-    "showAntarctica": false,
-    "scaleLimitMin": 1,
-    "scaleLimitMax": 1,
-    "nodeClick": "zoomToNode",
-    "showBreadcrumbs": true,
-    "upperLabel": true,
-    "nodesWidth": 8,
-    "nodesPadding": 5,
-    "linksOpacity": 0.5,
-    "draggable": false,
-    "orient": "horizontal",
-    "nodeAlign": "justify",
-    "showEdgeLabels": true,
-    "labelPosition": "right",
-    "labelRotate": 0,
-    "lineType": "solid",
-    "lineWidth": 1,
-    "showLegend": true,
-    "legendHoverLink": false
-  },
-  "appliedFilters": {},
-  "enabledFilterOptionGroups": [
-    "Countrytext",
-    "Fatalitiesnumber",
-    "InsuredlossesMillionEUROnumber",
-    "Insuredlossesnumber",
-    "LossespercapitaEUROnumber",
-    "LossespersqkmEUROnumber",
-    "TotallossesMillionEUROnumber"
-  ],
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-04-12T01:57:52.02Z"
-  },
-  "updatedDate": {
-    "$date": "2024-04-12T01:59:29.398Z"
-  },
-  "authId": "REPL"
-}
-{
-  "_id": {
-    "$oid": "661899acd2434b8e13194a4f"
-  },
-  "name": "Out of school girls - 2021",
-  "public": true,
-  "isMappingValid": true,
   "vizType": "bigNumber",
   "datasetId": {
-    "$oid": "6602d1b6bfec1b70c468145f"
+    "$oid": "660313df860c7d1d06c24408"
   },
   "mapping": {
     "mainKPImetric": {
       "ids": [
-        "12",
-        "17",
-        "21"
+        "16",
+        "20",
+        "24",
+        "38"
       ],
       "value": [
-        "132"
+        ""
       ],
       "isValid": true,
       "mappedType": "number"
     },
     "header": {
       "ids": [
-        "13",
-        "18",
-        "22",
-        "23"
+        "17",
+        "21",
+        "25",
+        "29",
+        "30",
+        "31",
+        "32",
+        "39"
       ],
       "value": [
-        "Out of school"
+        "Total receipt of gdp"
       ],
       "isValid": true,
       "mappedType": "string"
     },
     "subheader": {
       "ids": [
-        "14",
-        "19",
-        "24",
-        "25"
+        "18",
+        "22",
+        "26",
+        "33",
+        "34",
+        "40",
+        "43"
       ],
       "value": [
-        "Million Girls"
+        "for countries in 1976"
       ],
       "isValid": true,
       "mappedType": "string"
     },
     "unitofmeasurement": {
       "ids": [
-        "15",
-        "20",
-        "26"
+        "19",
+        "23",
+        "27",
+        "35",
+        "36",
+        "37",
+        "41"
       ],
       "value": [
-        "Globally, between the ages of 6 and 17\n"
+        "Million USD"
       ],
       "isValid": true,
       "mappedType": "string"
     },
     "metric": {
       "ids": [
-        "16"
+        "42"
       ],
       "value": [
-        "Population"
+        "1979"
       ],
       "isValid": true,
       "mappedType": "number",
@@ -2378,48 +1764,26 @@
       }
     }
   },
-  "dataTypes": {
-    "City": "string",
-    "Continent": "string",
-    "Country": "string",
-    "Population": "number"
-  },
   "vizOptions": {
-    "width": 881,
-    "height": 738,
-    "background": "#FFFFFF",
-    "marginTop": 10,
-    "marginRight": 10,
-    "marginBottom": 50,
-    "marginLeft": 10,
-    "roam": "none",
-    "showAntarctica": false,
-    "scaleLimitMin": 1,
-    "scaleLimitMax": 1,
-    "showTooltip": true,
-    "isMonetaryValue": false,
-    "palette": "TGF Default",
-    "lineType": "solid",
-    "lineWidth": 1,
-    "showLegend": true,
-    "legendHoverLink": false,
-    "label": false
+    "width": 1006,
+    "height": 600,
+    "background": "#FFFFFF"
   },
   "appliedFilters": {},
   "enabledFilterOptionGroups": [
-    "City",
-    "Continent",
-    "Country",
-    "Population"
+    "1970",
+    "1979",
+    "country"
   ],
   "owner": "REPL",
   "createdDate": {
-    "$date": "2024-04-12T02:17:16.52Z"
+    "$date": "2024-03-26T22:01:58.32Z"
   },
   "updatedDate": {
-    "$date": "2024-04-12T02:23:58.847Z"
+    "$date": "2024-03-26T22:03:07.429Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -2533,6 +1897,112 @@
   },
   "updatedDate": {
     "$date": "2024-04-12T02:25:57.528Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "66189520d2434b8e13194a4b"
+  },
+  "name": "Total losses in Euros due to impacts of extreme weather",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "echartsBarchart",
+  "datasetId": {
+    "$oid": "661894719f5f275252bed856"
+  },
+  "mapping": {
+    "bars": {
+      "ids": [
+        "4"
+      ],
+      "value": [
+        "Countrytext"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "size": {
+      "ids": [
+        "5"
+      ],
+      "value": [
+        "TotallossesMillionEUROnumber"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "Countrytext": "string",
+    "Fatalitiesnumber": "number",
+    "InsuredlossesMillionEUROnumber": "number",
+    "Insuredlossesnumber": "number",
+    "LossespercapitaEUROnumber": "number",
+    "LossespersqkmEUROnumber": "number",
+    "TotallossesMillionEUROnumber": "number"
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "barWidth": 20,
+    "stack": false,
+    "showTooltip": true,
+    "isMonetaryValue": true,
+    "label": false,
+    "showLabels": "leaf",
+    "leafLabelPositon": "inside",
+    "labelFontSize": 12,
+    "palette": "TGF Default",
+    "borderWidth": 1,
+    "borderRadius": 0,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "nodeClick": "zoomToNode",
+    "showBreadcrumbs": true,
+    "upperLabel": true,
+    "nodesWidth": 8,
+    "nodesPadding": 5,
+    "linksOpacity": 0.5,
+    "draggable": false,
+    "orient": "horizontal",
+    "nodeAlign": "justify",
+    "showEdgeLabels": true,
+    "labelPosition": "right",
+    "labelRotate": 0,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "Countrytext",
+    "Fatalitiesnumber",
+    "InsuredlossesMillionEUROnumber",
+    "Insuredlossesnumber",
+    "LossespercapitaEUROnumber",
+    "LossespersqkmEUROnumber",
+    "TotallossesMillionEUROnumber"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T01:57:52.02Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T01:59:29.398Z"
   },
   "authId": "REPL"
 }
@@ -2769,65 +2239,30 @@
 }
 {
   "_id": {
-    "$oid": "66189ce0a9c7bd1121984af0"
+    "$oid": "6603482467519500a62344e9"
   },
-  "name": "Gender wage gap",
+  "name": "Sunburst showing continents cities and their population",
   "public": true,
-  "isMappingValid": true,
-  "vizType": "bigNumber",
+  "vizType": "echartsSunburst",
   "datasetId": {
     "$oid": "6602d1b6bfec1b70c468145f"
   },
   "mapping": {
-    "mainKPImetric": {
+    "hierarchy": {
       "ids": [
-        "29",
-        "35"
+        "49",
+        "50"
       ],
       "value": [
-        "78"
+        "Continent",
+        "Country"
       ],
       "isValid": true,
       "mappedType": "number"
     },
-    "header": {
+    "size": {
       "ids": [
-        "30",
-        "34",
-        "36",
-        "37"
-      ],
-      "value": [
-        "WOMEN EARN"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "subheader": {
-      "ids": [
-        "31",
-        "38"
-      ],
-      "value": [
-        "CENTS FOR EVERY DOLLAR EARNED BY MEN"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "unitofmeasurement": {
-      "ids": [
-        "32",
-        "39"
-      ],
-      "value": [
-        "Highlighting a persistent gender wage gap"
-      ],
-      "isValid": true,
-      "mappedType": "string"
-    },
-    "metric": {
-      "ids": [
-        "33"
+        "52"
       ],
       "value": [
         "Population"
@@ -2841,32 +2276,22 @@
       }
     }
   },
-  "dataTypes": {
-    "City": "string",
-    "Continent": "string",
-    "Country": "string",
-    "Population": "number"
-  },
   "vizOptions": {
-    "width": 881,
-    "height": 738,
+    "width": 1006,
+    "height": 600,
     "background": "#FFFFFF",
-    "marginTop": 10,
-    "marginRight": 10,
-    "marginBottom": 50,
-    "marginLeft": 10,
-    "roam": "none",
-    "showAntarctica": false,
-    "scaleLimitMin": 1,
-    "scaleLimitMax": 1,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "showLabels": "true",
+    "leafLabelPositon": "inside",
+    "labelFontSize": 7,
     "showTooltip": true,
     "isMonetaryValue": false,
     "palette": "TGF Default",
-    "lineType": "solid",
-    "lineWidth": 1,
-    "showLegend": true,
-    "legendHoverLink": false,
-    "label": false
+    "borderWidth": 1,
+    "borderRadius": 10
   },
   "appliedFilters": {},
   "enabledFilterOptionGroups": [
@@ -2877,12 +2302,156 @@
   ],
   "owner": "REPL",
   "createdDate": {
-    "$date": "2024-04-12T02:30:56.922Z"
+    "$date": "2024-03-26T22:11:48.297Z"
   },
   "updatedDate": {
-    "$date": "2024-04-12T02:32:26.636Z"
+    "$date": "2024-03-26T22:11:48.297Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "isMappingValid": true
+}
+{
+  "_id": {
+    "$oid": "6603b3fb12b24a00caa198fa"
+  },
+  "name": "Global Malaria Deaths - 2015",
+  "public": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6603b191a40ad496d24761a5"
+  },
+  "mapping": {
+    "metric": {
+      "ids": [
+        "114"
+      ],
+      "value": [
+        "2015"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    },
+    "mainKPImetric": {
+      "ids": [
+        "80",
+        "88",
+        "94",
+        "98",
+        "104",
+        "110"
+      ],
+      "value": [
+        ""
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "81",
+        "85",
+        "89",
+        "95",
+        "99",
+        "105",
+        "111"
+      ],
+      "value": [
+        "Global malaria deaths"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "82",
+        "86",
+        "90",
+        "92",
+        "96",
+        "100",
+        "103",
+        "106",
+        "108",
+        "112",
+        "115"
+      ],
+      "value": [
+        "2015"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "83",
+        "87",
+        "91",
+        "97",
+        "101",
+        "107",
+        "113"
+      ],
+      "value": [
+        "People"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    }
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 600,
+    "background": "#FFFFFF"
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "1990",
+    "1991",
+    "1992",
+    "1993",
+    "1994",
+    "1995",
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "Region"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-03-27T05:51:55.092Z"
+  },
+  "updatedDate": {
+    "$date": "2024-03-27T05:52:53.863Z"
+  },
+  "authId": "REPL",
+  "isMappingValid": true
 }
 {
   "_id": {
@@ -3007,4 +2576,659 @@
     "$date": "2024-04-12T02:34:36.569Z"
   },
   "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "6617c04bd2434b8e13194a47"
+  },
+  "name": "Violence Against Women & Girls in Afghanistan",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "echartsCirclepacking",
+  "datasetId": {
+    "$oid": "6617be0585f1cebf7e77aaac"
+  },
+  "mapping": {
+    "hierarchy": {
+      "ids": [
+        "18",
+        "22",
+        "23"
+      ],
+      "value": [
+        "Country",
+        "DemographicsQuestion",
+        "Question"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "size": {
+      "ids": [
+        "24"
+      ],
+      "value": [
+        "RecordID"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "Country": "string",
+    "DemographicsQuestion": "string",
+    "DemographicsResponse": "string",
+    "Gender": "string",
+    "Question": "string",
+    "RecordID": "number",
+    "SurveyYear": "string",
+    "Value": "number"
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 600,
+    "background": "#FFFFFF",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "nodeClick": "zoomToNode",
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "showLabels": "leaf",
+    "leafLabelPositon": "inside",
+    "labelFontSize": 12,
+    "borderWidth": 1,
+    "borderRadius": 0,
+    "showLegend": false,
+    "linksOpacity": 0.5,
+    "linksCurveness": 0.3,
+    "roam": "none",
+    "rotateLabel": true,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "legendHoverLink": false,
+    "label": false,
+    "showAntarctica": true,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1
+  },
+  "appliedFilters": {
+    "Country": [
+      "Afghanistan"
+    ],
+    "Gender": [
+      "F"
+    ]
+  },
+  "enabledFilterOptionGroups": [
+    "Country",
+    "DemographicsQuestion",
+    "DemographicsResponse",
+    "Gender",
+    "Question",
+    "RecordID",
+    "SurveyYear",
+    "Value"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-11T10:49:47.052Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-11T11:07:01.425Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "66189ce0a9c7bd1121984af0"
+  },
+  "name": "Gender wage gap",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6602d1b6bfec1b70c468145f"
+  },
+  "mapping": {
+    "mainKPImetric": {
+      "ids": [
+        "29",
+        "35"
+      ],
+      "value": [
+        "78"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "30",
+        "34",
+        "36",
+        "37"
+      ],
+      "value": [
+        "WOMEN EARN"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "31",
+        "38"
+      ],
+      "value": [
+        "CENTS FOR EVERY DOLLAR EARNED BY MEN"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "32",
+        "39"
+      ],
+      "value": [
+        "Highlighting a persistent gender wage gap"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "33"
+      ],
+      "value": [
+        "Population"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "City": "string",
+    "Continent": "string",
+    "Country": "string",
+    "Population": "number"
+  },
+  "vizOptions": {
+    "width": 881,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "City",
+    "Continent",
+    "Country",
+    "Population"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T02:30:56.922Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T02:32:26.636Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "6603b66867519500a62344ed"
+  },
+  "name": "Line chart showing global malaria deaths by world region",
+  "public": true,
+  "vizType": "echartsLinechart",
+  "datasetId": {
+    "$oid": "6603b591c4696473e6c08c19"
+  },
+  "mapping": {
+    "x": {
+      "ids": [
+        "118"
+      ],
+      "value": [
+        "Year"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "y": {
+      "ids": [
+        "119"
+      ],
+      "value": [
+        "malariadeaths"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    },
+    "lines": {
+      "ids": [
+        "120"
+      ],
+      "value": [
+        "Entity"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    }
+  },
+  "vizOptions": {
+    "width": 1006,
+    "height": 738,
+    "background": "#FEFEFE",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "label": false,
+    "roam": "none",
+    "showAntarctica": true,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "palette": "TGF Default"
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "Entity",
+    "Year",
+    "malariadeaths"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-03-27T06:02:16.349Z"
+  },
+  "updatedDate": {
+    "$date": "2024-03-27T06:02:16.349Z"
+  },
+  "authId": "REPL",
+  "isMappingValid": true
+}
+{
+  "_id": {
+    "$oid": "661899acd2434b8e13194a4f"
+  },
+  "name": "Out of school girls - 2021",
+  "public": true,
+  "isMappingValid": true,
+  "vizType": "bigNumber",
+  "datasetId": {
+    "$oid": "6602d1b6bfec1b70c468145f"
+  },
+  "mapping": {
+    "mainKPImetric": {
+      "ids": [
+        "12",
+        "17",
+        "21"
+      ],
+      "value": [
+        "132"
+      ],
+      "isValid": true,
+      "mappedType": "number"
+    },
+    "header": {
+      "ids": [
+        "13",
+        "18",
+        "22",
+        "23"
+      ],
+      "value": [
+        "Out of school"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "subheader": {
+      "ids": [
+        "14",
+        "19",
+        "24",
+        "25"
+      ],
+      "value": [
+        "Million Girls"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "unitofmeasurement": {
+      "ids": [
+        "15",
+        "20",
+        "26"
+      ],
+      "value": [
+        "Globally, between the ages of 6 and 17\n"
+      ],
+      "isValid": true,
+      "mappedType": "string"
+    },
+    "metric": {
+      "ids": [
+        "16"
+      ],
+      "value": [
+        "Population"
+      ],
+      "isValid": true,
+      "mappedType": "number",
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      }
+    }
+  },
+  "dataTypes": {
+    "City": "string",
+    "Continent": "string",
+    "Country": "string",
+    "Population": "number"
+  },
+  "vizOptions": {
+    "width": 881,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 10,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "roam": "none",
+    "showAntarctica": false,
+    "scaleLimitMin": 1,
+    "scaleLimitMax": 1,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "TGF Default",
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "City",
+    "Continent",
+    "Country",
+    "Population"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-04-12T02:17:16.52Z"
+  },
+  "updatedDate": {
+    "$date": "2024-04-12T02:23:58.847Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "664c9c651af88d00b4116c29"
+  },
+  "name": "Global Sea Level Rise",
+  "public": true,
+  "isMappingValid": true,
+  "isAIAssisted": true,
+  "vizType": "echartsScatterchart",
+  "datasetId": {
+    "$oid": "664c9c42f73155f2187e3a7b"
+  },
+  "mapping": {
+    "x": {
+      "ids": [
+        "72"
+      ],
+      "value": [
+        "year"
+      ],
+      "mappedType": "number",
+      "isValid": true
+    },
+    "y": {
+      "ids": [
+        "73"
+      ],
+      "value": [
+        "mmfrom19932008average"
+      ],
+      "mappedType": "number",
+      "isValid": true
+    }
+  },
+  "vizOptions": {
+    "width": 1256,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 30,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "symbolSize": 8,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "DataXplorer default"
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "date",
+    "mmfrom19932008average",
+    "year"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-05-21T13:06:45.599Z"
+  },
+  "updatedDate": {
+    "$date": "2024-05-21T14:13:32.599Z"
+  },
+  "authId": "REPL",
+  "dataTypes": {
+    "date": "string",
+    "mmfrom19932008average": "number",
+    "year": "number"
+  }
+}
+{
+  "_id": {
+    "$oid": "664c86b7856f1100c3e1200c"
+  },
+  "name": "Global Annual Mean Temperature",
+  "public": true,
+  "isMappingValid": true,
+  "isAIAssisted": true,
+  "vizType": "echartsScatterchart",
+  "datasetId": {
+    "$oid": "664c8470ea6cce1613154259"
+  },
+  "mapping": {
+    "x": {
+      "ids": [
+        "54"
+      ],
+      "value": [
+        "Year"
+      ],
+      "isValid": false
+    },
+    "y": {
+      "ids": [
+        "55"
+      ],
+      "value": [
+        "Lowess5"
+      ],
+      "isValid": false
+    }
+  },
+  "vizOptions": {
+    "width": 1256,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 30,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "symbolSize": 8,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "palette": "DataXplorer default"
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "Lowess5",
+    "NoSmoothing",
+    "Year"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-05-21T11:34:15.599Z"
+  },
+  "updatedDate": {
+    "$date": "2024-05-21T11:36:18.599Z"
+  },
+  "authId": "REPL",
+  "dataTypes": {
+    "Lowess5": "number",
+    "NoSmoothing": "number",
+    "Year": "number"
+  }
+}
+{
+  "_id": {
+    "$oid": "664dbf370436f60098d6810b"
+  },
+  "name": "Climate Mobility Impacts",
+  "public": true,
+  "isMappingValid": true,
+  "isAIAssisted": true,
+  "vizType": "echartsLinechart",
+  "datasetId": {
+    "$oid": "664dbee7cdacc4a1142dea05"
+  },
+  "mapping": {
+    "x": {
+      "ids": [
+        "27"
+      ],
+      "value": [
+        "Year"
+      ],
+      "mappedType": "number",
+      "isValid": true
+    },
+    "y": {
+      "config": {
+        "aggregation": [
+          "sum"
+        ]
+      },
+      "ids": [
+        "28"
+      ],
+      "value": [
+        "Populationexposed"
+      ],
+      "isValid": false
+    },
+    "lines": {
+      "ids": [
+        "29"
+      ],
+      "value": [
+        "SocioeconomicScenario"
+      ],
+      "mappedType": "string",
+      "isValid": true
+    }
+  },
+  "vizOptions": {
+    "width": 1256,
+    "height": 738,
+    "background": "#FFFFFF",
+    "marginTop": 30,
+    "marginRight": 10,
+    "marginBottom": 50,
+    "marginLeft": 10,
+    "lineType": "solid",
+    "lineWidth": 1,
+    "showLegend": true,
+    "legendHoverLink": true,
+    "showTooltip": true,
+    "isMonetaryValue": false,
+    "label": false
+  },
+  "appliedFilters": {},
+  "enabledFilterOptionGroups": [
+    "ClimateScenario",
+    "Hazard",
+    "Income",
+    "Populationexposed",
+    "Region",
+    "SocioeconomicScenario",
+    "Year"
+  ],
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-05-22T09:47:35.599Z"
+  },
+  "updatedDate": {
+    "$date": "2024-05-22T10:24:23.599Z"
+  },
+  "authId": "REPL",
+  "dataTypes": {
+    "ClimateScenario": "string",
+    "Hazard": "string",
+    "Income": "string",
+    "Populationexposed": "number",
+    "Region": "string",
+    "SocioeconomicScenario": "string",
+    "Year": "number"
+  }
 }
