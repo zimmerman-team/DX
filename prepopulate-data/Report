@@ -1,224 +1,5 @@
 {
   "_id": {
-    "$oid": "6603b021d6b19700d9e2a8ae"
-  },
-  "name": "Malaria Eradication by 2030: A Challenge that Requires Urgent Action",
-  "showHeader": true,
-  "title": "Malaria Eradication by 2030: A Challenge that Requires Urgent Action",
-  "subTitle": {
-    "blocks": [
-      {
-        "key": "316q6",
-        "text": "Malaria is a life-threatening disease that continues to claim the lives of thousands of people each year, particularly in sub-Saharan Africa. The World Health Organization (WHO) has set a goal to eradicate malaria by 2030, but achieving this goal will require significant efforts from governments, organizations, and communities around the world.",
-        "type": "unstyled",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {}
-      }
-    ],
-    "entityMap": {}
-  },
-  "rows": [
-    {
-      "structure": "oneByOne",
-      "items": [
-        {
-          "blocks": [
-            {
-              "key": "94d0c",
-              "text": "As a data journalist, I have analyzed the latest data on malaria and identified key challenges that must be addressed to achieve malaria eradication by 2030.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "fhoq7",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "ipdg",
-              "text": "According to the WHO, there were an estimated 229 million cases of malaria worldwide in 2021, resulting in approximately 409,000 deaths. While these numbers represent a decline from previous years, progress has slowed in recent years, and the COVID-19 pandemic has posed new challenges to malaria control efforts.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "a4jgq",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "319k3",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      ],
-      "contentWidths": {
-        "id": "72461a85-8c87-4021-8457-3d116b9f40af",
-        "widths": [
-          100
-        ]
-      },
-      "contentHeights": {
-        "id": "72461a85-8c87-4021-8457-3d116b9f40af",
-        "heights": [
-          167
-        ]
-      }
-    },
-    {
-      "structure": "oneByFive",
-      "items": [
-        "6603b3fb12b24a00caa198fa",
-        "6603b37367519500a62344ec",
-        "6603b32812b24a00caa198f9",
-        "6603b2d19b11a300b870c805",
-        "6603b2479b11a300b870c804"
-      ],
-      "contentWidths": {
-        "id": "721444c3-b748-45db-8b8b-b38a002f8b3a",
-        "widths": [
-          20,
-          20,
-          20,
-          20,
-          20
-        ]
-      },
-      "contentHeights": {
-        "id": "721444c3-b748-45db-8b8b-b38a002f8b3a",
-        "heights": [
-          142,
-          142,
-          142,
-          142,
-          142
-        ]
-      }
-    },
-    {
-      "structure": "oneByOne",
-      "items": [
-        "6603b66867519500a62344ed"
-      ],
-      "contentWidths": {
-        "id": "a3cb6166-3b3e-414e-8aa6-ecd10e6c2852",
-        "widths": [
-          100
-        ]
-      },
-      "contentHeights": {
-        "id": "a3cb6166-3b3e-414e-8aa6-ecd10e6c2852",
-        "heights": [
-          400
-        ]
-      }
-    },
-    {
-      "structure": "oneByOne",
-      "items": [
-        {
-          "blocks": [
-            {
-              "key": "bg4r1",
-              "text": "To achieve malaria eradication by 2030, there is an urgent need for increased funding, research, and implementation of prevention and treatment measures. This includes scaling up existing malaria control interventions such as vector control through insecticide-treated bed nets and indoor residual spraying, and improving access to effective antimalarial medicines.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "egpha",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "drong",
-              "text": "Strengthening health systems, including improving the availability and quality of health services, is also critical, especially in remote and rural areas where malaria is prevalent. Addressing social and environmental determinants of malaria such as poverty, poor sanitation, and climate change is also important.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "5m84b",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "q2uk",
-              "text": "Strengthening surveillance and monitoring systems to track and respond to outbreaks promptly is essential. Engaging communities and partners to support malaria control and elimination efforts is also critical.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      ],
-      "contentWidths": {
-        "id": "1150b200-5820-4d3a-9ebd-f9a22e8e5474",
-        "widths": [
-          100
-        ]
-      },
-      "contentHeights": {
-        "id": "1150b200-5820-4d3a-9ebd-f9a22e8e5474",
-        "heights": [
-          201
-        ]
-      }
-    }
-  ],
-  "public": true,
-  "backgroundColor": "#8b572a",
-  "titleColor": "#ffffff",
-  "descriptionColor": "#ffffff",
-  "dateColor": "#ffffff",
-  "owner": "REPL",
-  "createdDate": {
-    "$date": "2024-03-27T05:35:29.054Z"
-  },
-  "updatedDate": {
-    "$date": "2024-03-27T06:04:54.926Z"
-  },
-  "authId": "REPL"
-}
-{
-  "_id": {
     "$oid": "6603b753d6b19700d9e2a8af"
   },
   "name": "Europe Braces for More Extreme Weather as Climate Change Intensifies",
@@ -1767,6 +1548,1139 @@
   },
   "updatedDate": {
     "$date": "2024-04-11T09:47:24.297Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "6603b021d6b19700d9e2a8ae"
+  },
+  "name": "Malaria Eradication by 2030: A Challenge that Requires Urgent Action",
+  "showHeader": true,
+  "title": "Malaria Eradication by 2030: A Challenge that Requires Urgent Action",
+  "subTitle": {
+    "blocks": [
+      {
+        "key": "316q6",
+        "text": "Malaria is a life-threatening disease that continues to claim the lives of thousands of people each year, particularly in sub-Saharan Africa. The World Health Organization (WHO) has set a goal to eradicate malaria by 2030, but achieving this goal will require significant efforts from governments, organizations, and communities around the world.",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ],
+    "entityMap": {}
+  },
+  "rows": [
+    {
+      "structure": "oneByOne",
+      "items": [
+        {
+          "blocks": [
+            {
+              "key": "94d0c",
+              "text": "As a data journalist, I have analyzed the latest data on malaria and identified key challenges that must be addressed to achieve malaria eradication by 2030.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "fhoq7",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "ipdg",
+              "text": "According to the WHO, there were an estimated 229 million cases of malaria worldwide in 2021, resulting in approximately 409,000 deaths. While these numbers represent a decline from previous years, progress has slowed in recent years, and the COVID-19 pandemic has posed new challenges to malaria control efforts.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "a4jgq",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "319k3",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        }
+      ],
+      "contentWidths": {
+        "id": "72461a85-8c87-4021-8457-3d116b9f40af",
+        "widths": [
+          100
+        ]
+      },
+      "contentHeights": {
+        "id": "72461a85-8c87-4021-8457-3d116b9f40af",
+        "heights": [
+          167
+        ]
+      }
+    },
+    {
+      "structure": "oneByFive",
+      "items": [
+        "6603b3fb12b24a00caa198fa",
+        "6603b37367519500a62344ec",
+        "6603b32812b24a00caa198f9",
+        "6603b2d19b11a300b870c805",
+        "6603b2479b11a300b870c804"
+      ],
+      "contentWidths": {
+        "id": "721444c3-b748-45db-8b8b-b38a002f8b3a",
+        "widths": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      "contentHeights": {
+        "id": "721444c3-b748-45db-8b8b-b38a002f8b3a",
+        "heights": [
+          142,
+          142,
+          142,
+          142,
+          142
+        ]
+      }
+    },
+    {
+      "structure": "oneByOne",
+      "items": [
+        "6603b66867519500a62344ed"
+      ],
+      "contentWidths": {
+        "id": "a3cb6166-3b3e-414e-8aa6-ecd10e6c2852",
+        "widths": [
+          100
+        ]
+      },
+      "contentHeights": {
+        "id": "a3cb6166-3b3e-414e-8aa6-ecd10e6c2852",
+        "heights": [
+          400
+        ]
+      }
+    },
+    {
+      "structure": "oneByOne",
+      "items": [
+        {
+          "blocks": [
+            {
+              "key": "bg4r1",
+              "text": "To achieve malaria eradication by 2030, there is an urgent need for increased funding, research, and implementation of prevention and treatment measures. This includes scaling up existing malaria control interventions such as vector control through insecticide-treated bed nets and indoor residual spraying, and improving access to effective antimalarial medicines.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "egpha",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "drong",
+              "text": "Strengthening health systems, including improving the availability and quality of health services, is also critical, especially in remote and rural areas where malaria is prevalent. Addressing social and environmental determinants of malaria such as poverty, poor sanitation, and climate change is also important.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "5m84b",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "q2uk",
+              "text": "Strengthening surveillance and monitoring systems to track and respond to outbreaks promptly is essential. Engaging communities and partners to support malaria control and elimination efforts is also critical.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        }
+      ],
+      "contentWidths": {
+        "id": "1150b200-5820-4d3a-9ebd-f9a22e8e5474",
+        "widths": [
+          100
+        ]
+      },
+      "contentHeights": {
+        "id": "1150b200-5820-4d3a-9ebd-f9a22e8e5474",
+        "heights": [
+          201
+        ]
+      }
+    }
+  ],
+  "public": true,
+  "backgroundColor": "#8b572a",
+  "titleColor": "#ffffff",
+  "descriptionColor": "#ffffff",
+  "dateColor": "#ffffff",
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-03-27T05:35:29.054Z"
+  },
+  "updatedDate": {
+    "$date": "2024-03-27T06:04:54.926Z"
+  },
+  "authId": "REPL"
+}
+{
+  "_id": {
+    "$oid": "664f406b82350800ca942b92"
+  },
+  "name": "Impact Report on Climate Migration",
+  "showHeader": true,
+  "title": "Climate Change & Global Human Mobility",
+  "subTitle": {
+    "blocks": [
+      {
+        "key": "4jojn",
+        "text": "Climate change is the term used to describe changes in the state of the climate that can be identified by changes in the average and/or the variability of its properties and that persists for an extended period, typically decades or longer. Climate-related hazards like floods, storms, and wildfires are already a major driver of global human mobility. In many parts of the world, climate change is increasing these impacts.",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ],
+    "entityMap": {}
+  },
+  "rows": [
+    {
+      "structure": "oneByFour",
+      "items": [
+        {
+          "blocks": [
+            {
+              "key": "4atkp",
+              "text": "+1.45°C",
+              "type": "header-one",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 7,
+                  "style": "color-6DBDD6"
+                },
+                {
+                  "offset": 0,
+                  "length": 7,
+                  "style": "bg-4A96AD"
+                },
+                {
+                  "offset": 0,
+                  "length": 7,
+                  "style": "color-4A96AD"
+                },
+                {
+                  "offset": 0,
+                  "length": 7,
+                  "style": "bg-FFFFFF"
+                },
+                {
+                  "offset": 0,
+                  "length": 7,
+                  "style": "center"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "bu4t4",
+              "text": "The global mean temperature in 2023 was about +1.45°C above the 1850-1900 average",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 81,
+                  "style": "BOLD"
+                },
+                {
+                  "offset": 0,
+                  "length": 81,
+                  "style": "center"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        {
+          "blocks": [
+            {
+              "key": "4n3tg",
+              "text": "2023",
+              "type": "header-one",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 4,
+                  "style": "bg-4A96AD"
+                },
+                {
+                  "offset": 0,
+                  "length": 4,
+                  "style": "bg-FFFFFF"
+                },
+                {
+                  "offset": 0,
+                  "length": 4,
+                  "style": "HIGHLIGHT"
+                },
+                {
+                  "offset": 0,
+                  "length": 4,
+                  "style": "color-4A96AD"
+                },
+                {
+                  "offset": 0,
+                  "length": 4,
+                  "style": "center"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "m3ku",
+              "text": "was the warmest year on record, because of the long-term climate change and the effect of 2023/2024 El Niño episode",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 115,
+                  "style": "BOLD"
+                },
+                {
+                  "offset": 0,
+                  "length": 115,
+                  "style": "center"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        {
+          "blocks": [
+            {
+              "key": "oohj",
+              "text": "90%",
+              "type": "header-one",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 3,
+                  "style": "HIGHLIGHT"
+                },
+                {
+                  "offset": 0,
+                  "length": 3,
+                  "style": "color-4A96AD"
+                },
+                {
+                  "offset": 0,
+                  "length": 3,
+                  "style": "center"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "cenrp",
+              "text": "of energy in the climate system is absorbed by the ocean, warming it to record levels in 2023",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 93,
+                  "style": "BOLD"
+                },
+                {
+                  "offset": 0,
+                  "length": 93,
+                  "style": "center"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        {
+          "blocks": [
+            {
+              "key": "eu7uh",
+              "text": "110mm (4.3in)",
+              "type": "header-one",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 13,
+                  "style": "HIGHLIGHT"
+                },
+                {
+                  "offset": 0,
+                  "length": 13,
+                  "style": "color-4A96AD"
+                },
+                {
+                  "offset": 0,
+                  "length": 13,
+                  "style": "center"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "529va",
+              "text": "Global sea level increased to a new high in 2023, since the beginning of satellite altimetry measurement in 1993",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 112,
+                  "style": "BOLD"
+                },
+                {
+                  "offset": 0,
+                  "length": 112,
+                  "style": "center"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        }
+      ],
+      "contentWidths": {
+        "id": "8e239798-f8fe-4fca-beb8-1d1ad8b8c2c3",
+        "widths": [
+          25,
+          25,
+          25,
+          25
+        ]
+      },
+      "contentHeights": {
+        "id": "8e239798-f8fe-4fca-beb8-1d1ad8b8c2c3",
+        "heights": [
+          122,
+          122,
+          122,
+          122
+        ]
+      }
+    },
+    {
+      "structure": null,
+      "items": [
+        "divider"
+      ],
+      "contentWidths": {
+        "id": "f33ccfd8-7588-4769-9c29-9b30258eeb4f",
+        "widths": []
+      },
+      "contentHeights": {
+        "id": "f33ccfd8-7588-4769-9c29-9b30258eeb4f",
+        "heights": []
+      }
+    },
+    {
+      "structure": "oneByTwo",
+      "items": [
+        {
+          "blocks": [
+            {
+              "key": "ansrp",
+              "text": "Overview",
+              "type": "header-one",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 8,
+                  "style": "HIGHLIGHT"
+                },
+                {
+                  "offset": 0,
+                  "length": 8,
+                  "style": "color-4A96AD"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "eikdf",
+              "text": "Climate change may be due to natural internal processes or external forcings such as modulations of the solar cycles, volcanic eruptions and persistent human-induced changes in the composition of the atmosphere, ocean or in land use. ",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "edgc",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "a94gr",
+              "text": "“Anthropogenic” or “human-induced climate change” results from human activities which are already affecting many weather and climate extremes in every region across the globe.  These can include:",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "7fm43",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "cths4",
+              "text": "•    burning of fossil fuels,",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "5t0la",
+              "text": "•    deforestation,",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "3iegl",
+              "text": "•    land use and land use changes,",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "e54a3",
+              "text": "•    livestock management,",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "es342",
+              "text": "•    fertilisation,",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "26t14",
+              "text": "•    waste management, and",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "8c45u",
+              "text": "•    industrial processes.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "97c0k",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "bprc3",
+              "text": "According to IPCC’s Sixth Assessment Report, human activities, principally through emissions of greenhouse gases, have unequivocally caused global warming.  The 10-year average global surface temperature for 2011-2020 is estimated to be 1.1 °C above the 1850-1900 pre-industrial baseline (IPCC AR6 Synthesis Report).",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "2i0l0",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "cilsm",
+              "text": "Human-induced climate change has led to widespread and rapid changes in the atmosphere, ocean, cryosphere and biosphere, affecting many weather and climate extremes in every region across the globe and causing widespread adverse impacts and related losses and damages to nature and people.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "as560",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "d8hlf",
+              "text": "Global greenhouse gas emissions have continued to increase, with unequal historical and ongoing contributions arising from unsustainable energy use, land use and land-use change, lifestyles and patterns of consumption and production across regions, between and within countries, and among individuals. Only with deep, rapid and sustained reductions in greenhouse gas emissions can we limit the temperature increases and avoid the worst impacts of climate change.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "664c86b7856f1100c3e1200c"
+      ],
+      "contentWidths": {
+        "id": "c9e6ba60-591a-4932-a995-59e4b212ce50",
+        "widths": [
+          50,
+          50
+        ]
+      },
+      "contentHeights": {
+        "id": "c9e6ba60-591a-4932-a995-59e4b212ce50",
+        "heights": [
+          420,
+          631
+        ]
+      }
+    },
+    {
+      "structure": null,
+      "items": [
+        "divider"
+      ],
+      "contentWidths": {
+        "id": "36302558-fffb-478a-a1d4-6fb5f13fffed",
+        "widths": []
+      },
+      "contentHeights": {
+        "id": "36302558-fffb-478a-a1d4-6fb5f13fffed",
+        "heights": []
+      }
+    },
+    {
+      "structure": "oneByTwo",
+      "items": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1465917566611-efba2904dd8a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1ODMyNjl8MHwxfHNlYXJjaHwxfHxnbGFjaWVyJTIwbWVsdGluZ3xlbnwwfHx8fDE3MTYzMDExMTJ8MA&ixlib=rb-4.0.3&q=85",
+          "imageId": "SH_oYiwg224",
+          "thumbnail": "https://images.unsplash.com/photo-1465917566611-efba2904dd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1ODMyNjl8MHwxfHNlYXJjaHwxfHxnbGFjaWVyJTIwbWVsdGluZ3xlbnwwfHx8fDE3MTYzMDExMTJ8MA&ixlib=rb-4.0.3&q=80&w=400",
+          "source": "unsplash"
+        },
+        {
+          "blocks": [
+            {
+              "key": "cjlnb",
+              "text": "Impact",
+              "type": "header-one",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 6,
+                  "style": "color-191919"
+                },
+                {
+                  "offset": 0,
+                  "length": 6,
+                  "style": "color-4A96AD"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "fddpm",
+              "text": "Widespread and rapid changes in the atmosphere, ocean, cryosphere and biosphere have occurred.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "4c0hp",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "9a9mr",
+              "text": "Human-caused climate change is already affecting many weather and climate extremes in every region across the globe. This has led to widespread adverse impacts and related losses and damages to nature and people (IPCC AR6 Synthesis Report SPM). For example, the changing state of our glaciers has caused significant sea level rise.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "bemu9",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "98ose",
+              "text": "Risks and projected adverse impacts and related losses and damages from climate change escalate with every increment of global warming. Climatic and non-climatic risks will increasingly interact, creating compound and cascading risks that are more complex and difficult to manage. For example, increased air pollution from burning fossil fuels can worsen the impact of natural disasters like heat waves and droughts on human health.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "beip1",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "j3vi",
+              "text": "Constraining global warming to 1.5°C, rather than to 2°C and higher, is projected to have many benefits for terrestrial and wetland ecosystems and for the preservation of their services to humans.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        }
+      ],
+      "contentWidths": {
+        "id": "3c4fe7ed-afad-4ece-a44b-8910bbef1a01",
+        "widths": [
+          50,
+          50
+        ]
+      },
+      "contentHeights": {
+        "id": "3c4fe7ed-afad-4ece-a44b-8910bbef1a01",
+        "heights": [
+          420,
+          420
+        ]
+      }
+    },
+    {
+      "structure": null,
+      "items": [
+        "divider"
+      ],
+      "contentWidths": {
+        "id": "02f777ea-0e08-429b-b0de-80e0414a22d2",
+        "widths": []
+      },
+      "contentHeights": {
+        "id": "02f777ea-0e08-429b-b0de-80e0414a22d2",
+        "heights": []
+      }
+    },
+    {
+      "structure": "oneByTwo",
+      "items": [
+        {
+          "blocks": [
+            {
+              "key": "d9745",
+              "text": "The Changing State of our Glaciers has Caused Significant Sea Level Rise",
+              "type": "header-one",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 72,
+                  "style": "left"
+                },
+                {
+                  "offset": 0,
+                  "length": 72,
+                  "style": "color-191919"
+                },
+                {
+                  "offset": 0,
+                  "length": 72,
+                  "style": "color-4A96AD"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "20asn",
+              "text": "Sea level is rising, in part, because melting glaciers on land are adding more water to Earth’s oceans. Glaciers – large sheets of ice and snow – exist on land all year long. They are found in the mountains of every continent except Australia. Greenland and Antarctica contain giant ice sheets that are also considered glaciers. As temperatures rise, glaciers melt faster than they accumulate new snow. As these ice sheets and glaciers melt, the water eventually runs into the ocean, causing sea level to rise.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 510,
+                  "style": "left"
+                },
+                {
+                  "offset": 0,
+                  "length": 510,
+                  "style": "color-4A96AD"
+                },
+                {
+                  "offset": 0,
+                  "length": 510,
+                  "style": "color-191919"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "4j3jk",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "3f2fj",
+              "text": "Icebergs and frozen seawater also melt in warm temperatures but are not significant contributors to sea level rise. This is because they are already in the water. The volume of water they displace as ice is about the same as the volume of water they add to the ocean when they melt. As a result, sea level does not rise when sea ice melts. While density differences between salt water and freshwater result in a difference between the volume of salty sea water being displaced by sea ice and the freshwater that would result from the melting of that sea ice, it is minimal and beyond the scope of this lesson.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 609,
+                  "style": "left"
+                },
+                {
+                  "offset": 0,
+                  "length": 609,
+                  "style": "color-4A96AD"
+                },
+                {
+                  "offset": 0,
+                  "length": 609,
+                  "style": "color-191919"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "c75pr",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "ffc7g",
+              "text": "Another contributor to sea-level rise is the increase in volume that occurs when water is heated, called thermal expansion. Both thermal expansion and ice melt are the results of the rise in global average temperatures on land and sea known as climate change.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 259,
+                  "style": "left"
+                },
+                {
+                  "offset": 0,
+                  "length": 259,
+                  "style": "color-4A96AD"
+                },
+                {
+                  "offset": 0,
+                  "length": 259,
+                  "style": "color-191919"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "664c9c651af88d00b4116c29"
+      ],
+      "contentWidths": {
+        "id": "78617e9f-5172-419a-8953-c34d4668b52a",
+        "widths": [
+          49.860529986052995,
+          50.139470013947
+        ]
+      },
+      "contentHeights": {
+        "id": "78617e9f-5172-419a-8953-c34d4668b52a",
+        "heights": [
+          490,
+          490
+        ]
+      }
+    },
+    {
+      "structure": null,
+      "items": [
+        "divider"
+      ],
+      "contentWidths": {
+        "id": "566ad547-a01d-4867-bc55-324b1e9fd31a",
+        "widths": []
+      },
+      "contentHeights": {
+        "id": "566ad547-a01d-4867-bc55-324b1e9fd31a",
+        "heights": []
+      }
+    },
+    {
+      "structure": "oneByTwo",
+      "items": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1495756111155-45cb19b8aeee?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1ODMyNjl8MHwxfHNlYXJjaHw2fHxibHVlJTIwbWlncmF0aW9ufGVufDB8fHx8MTcxNjM3MjM1NXww&ixlib=rb-4.0.3&q=85",
+          "imageId": "tjiPN3e45WE",
+          "thumbnail": "https://images.unsplash.com/photo-1495756111155-45cb19b8aeee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1ODMyNjl8MHwxfHNlYXJjaHw2fHxibHVlJTIwbWlncmF0aW9ufGVufDB8fHx8MTcxNjM3MjM1NXww&ixlib=rb-4.0.3&q=80&w=400",
+          "source": "unsplash"
+        },
+        {
+          "blocks": [
+            {
+              "key": "624n5",
+              "text": "Climate Mobility Impacts",
+              "type": "header-one",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 24,
+                  "style": "HIGHLIGHT"
+                },
+                {
+                  "offset": 0,
+                  "length": 24,
+                  "style": "color-4A96AD"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "co8i2",
+              "text": "Climate change is reshaping human mobility across the planet.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "22jil",
+              "text": "Which areas and populations will be most at risk in the future?",
+              "type": "header-two",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "7hv81",
+              "text": "Climate-related hazards like floods, storms, and wildfires are already a major driver of global human mobility. In many parts of the world, climate change is increasing these impacts. ",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "8j39f",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "6q3st",
+              "text": "The Climate Mobility Impacts below visualizes where hazard exposure, high population density, and economic vulnerability are projected to coincide in future. These data help identify climate-sensitive hotspots and develop effective anticipatory action to support at-risk communities worldwide.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 0,
+                  "length": 293,
+                  "style": "left"
+                },
+                {
+                  "offset": 4,
+                  "length": 24,
+                  "style": "ITALIC"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        }
+      ],
+      "contentWidths": {
+        "id": "8f423743-8906-476e-8939-b698e4ec1da7",
+        "widths": [
+          50,
+          50
+        ]
+      },
+      "contentHeights": {
+        "id": "8f423743-8906-476e-8939-b698e4ec1da7",
+        "heights": [
+          420,
+          420
+        ]
+      }
+    },
+    {
+      "structure": "oneByOne",
+      "items": [
+        "664dbf370436f60098d6810b"
+      ],
+      "contentWidths": {
+        "id": "937f8ce4-491b-44c1-a0c5-9a1e48fe47b7",
+        "widths": [
+          100
+        ]
+      },
+      "contentHeights": {
+        "id": "937f8ce4-491b-44c1-a0c5-9a1e48fe47b7",
+        "heights": [
+          400
+        ]
+      }
+    }
+  ],
+  "public": true,
+  "backgroundColor": "#516d8d",
+  "titleColor": "#ffffff",
+  "descriptionColor": "#ffffff",
+  "dateColor": "#ffffff",
+  "owner": "REPL",
+  "createdDate": {
+    "$date": "2024-05-23T13:11:07.599Z"
+  },
+  "updatedDate": {
+    "$date": "2024-05-24T04:41:59.678Z"
   },
   "authId": "REPL"
 }
