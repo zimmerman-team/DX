@@ -4,7 +4,7 @@
   },
   "name": "Covid Countries",
   "description": "Dataset showing number of covid deaths per country for different weeks.",
-  "public": true,
+  "public": false,
   "category": "Healthcare",
   "source": "Unknown",
   "sourceUrl": "Not Available",
@@ -15,7 +15,8 @@
   "updatedDate": {
     "$date": "2024-03-26T13:54:21.659Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -23,7 +24,7 @@
   },
   "name": "Energy",
   "description": "Dataset showing energy sources and their value.",
-  "public": true,
+  "public": false,
   "category": "Environment",
   "source": "Rawgraphs",
   "sourceUrl": "Not Available",
@@ -34,7 +35,8 @@
   "updatedDate": {
     "$date": "2024-03-26T17:58:23.467Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -42,7 +44,7 @@
   },
   "name": "GDP",
   "description": "Dataset showing agricultural, industrial and service gdp of countries",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "Rawgraphs",
   "sourceUrl": "Not Available",
@@ -53,7 +55,8 @@
   "updatedDate": {
     "$date": "2024-03-26T18:30:00.274Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -61,7 +64,7 @@
   },
   "name": "Government receipts of GDP",
   "description": "Dataset showing government receipts of GDP in 1970 and 1979",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "Rawgraphs",
   "sourceUrl": "Not Available",
@@ -72,7 +75,8 @@
   "updatedDate": {
     "$date": "2024-03-26T18:29:44.362Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -80,7 +84,7 @@
   },
   "name": "Population Census",
   "description": "Dataset showing the population, GDP and CO2 emissions of countries at different years.",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "Rawgraphs",
   "sourceUrl": "Not Available",
@@ -91,7 +95,8 @@
   "updatedDate": {
     "$date": "2024-03-26T18:32:08.995Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -99,7 +104,7 @@
   },
   "name": "Global Malaria Deaths - Data file: global malaria",
   "description": "Malaria deaths by region: 1990 to 2019 - Data file: global malaria",
-  "public": true,
+  "public": false,
   "category": "Healthcare",
   "source": "Kaggle",
   "sourceUrl": "https://www.kaggle.com/datasets/sansuthi/global-malaria-deaths",
@@ -110,7 +115,8 @@
   "updatedDate": {
     "$date": "2024-03-27T05:41:49.409Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -118,7 +124,7 @@
   },
   "name": "Malaria - Data file: global malaria deaths by world region",
   "description": "Malaria is not good. :( - Data file: global malaria deaths by world region",
-  "public": true,
+  "public": false,
   "category": "Healthcare",
   "source": "Kaggle",
   "sourceUrl": "https://www.kaggle.com/datasets/programmerrdai/malaria",
@@ -129,7 +135,8 @@
   "updatedDate": {
     "$date": "2024-03-27T05:58:50.786Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -137,7 +144,7 @@
   },
   "name": "Cities and Population",
   "description": "Dataset consisting of continents, countries, cities and the population of each city.",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "Rawgraphs",
   "sourceUrl": "Not Available",
@@ -148,7 +155,8 @@
   "updatedDate": {
     "$date": "2024-03-26T13:49:15.142Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -156,7 +164,7 @@
   },
   "name": "Crime rate in Spain 2019 - 2021 - Data file: crime rate Spain",
   "description": "Types of crimes and their rate across cities in Spain and country's average - Data file: crime rate Spain",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "Kaggle",
   "sourceUrl": "https://www.kaggle.com/datasets/marshuu/crime-rate-in-spain-2019-2021",
@@ -167,7 +175,8 @@
   "updatedDate": {
     "$date": "2024-04-11T08:23:38.14Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -175,7 +184,7 @@
   },
   "name": "Health Facilities in the EAC.",
   "description": "Health Facilities in the East African Community.",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "data.world",
   "sourceUrl": "https://data.world/hdx/eb1ba830-9464-43c8-9370-28cee0c99f5d/workspace/query?newQueryContent=SELECT+%2A+FROM+ssa_mfl+LIMIT+5000&newQueryType=SQL&tempId=1712827592280",
@@ -186,7 +195,8 @@
   "updatedDate": {
     "$date": "2024-04-11T09:45:39.838Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -194,7 +204,7 @@
   },
   "name": "Violence Against Women & Girls - Data file: Violence Against Women  Girls Data",
   "description": "Visualize Gender Equality From Survey Data From 70 Countries  - Data file: Violence Against Women  Girls Data",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "Kaggle",
   "sourceUrl": "https://www.kaggle.com/datasets/whenamancodes/violence-against-women-girls",
@@ -205,7 +215,8 @@
   "updatedDate": {
     "$date": "2024-04-11T10:40:14.593Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -213,7 +224,7 @@
   },
   "name": "Global Food Security Index - Data file: Global Food Security Index 2022",
   "description": "Exploring challenges and solutions for food security across 113 countries - Data file: Global Food Security Index 2022",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "Kaggle",
   "sourceUrl": "https://www.kaggle.com/datasets/rahuljangam/global-food-security-index",
@@ -224,7 +235,8 @@
   "updatedDate": {
     "$date": "2024-04-11T14:14:04.788Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -232,7 +244,7 @@
   },
   "name": "Net migration",
   "description": "United Nations Population Division. World Population Prospects: 2022 Revision. - Dataset description: Net migration is the net total of migrants durin",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "World Bank",
   "sourceUrl": "https://www.worldbank.org/en/search?q=SM.POP.NETM",
@@ -243,7 +255,8 @@
   "updatedDate": {
     "$date": "2024-04-12T01:09:40.17Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -251,7 +264,7 @@
   },
   "name": "Impacts of extreme weather",
   "description": "Economic losses and fatalities caused by weather - and climate - related extreme events (1980-2022) - per country",
-  "public": true,
+  "public": false,
   "category": "Economy",
   "source": "European Environment Agency",
   "sourceUrl": "https://www.eea.europa.eu/data-and-maps/daviz/impacts-of-extreme-weather-and-5#tab-chart_1",
@@ -262,7 +275,8 @@
   "updatedDate": {
     "$date": "2024-04-12T01:56:21.253Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -270,7 +284,7 @@
   },
   "name": "Global Annual Mean Temperature - Data file: Global annual mean temp",
   "description": "See how the global average temperature has changed since 1880  - This Datasource was retrieved from https://www.kaggle.com/. - Data file: Global annua",
-  "public": true,
+  "public": false,
   "category": "Environment",
   "source": "Kaggle",
   "sourceUrl": "https://www.kaggle.com/datasets/jarredpriester/global-annual-mean-temperature",
@@ -281,7 +295,8 @@
   "updatedDate": {
     "$date": "2024-05-21T11:24:40.599Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -289,7 +304,7 @@
   },
   "name": "Global Sea Level Rise",
   "description": "Global Sea Level Measurements Since 1880  - This Datasource was retrieved from https://www.kaggle.com/. - Data file: Global sea level rise",
-  "public": true,
+  "public": false,
   "category": "Environment",
   "source": "Kaggle",
   "sourceUrl": "https://www.kaggle.com/datasets/jarredpriester/global-sea-level-rise",
@@ -300,7 +315,8 @@
   "updatedDate": {
     "$date": "2024-05-21T13:06:24.599Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
@@ -308,7 +324,7 @@
   },
   "name": "Climate Mobility Impacts",
   "description": "Migration as a results of rising temperatures",
-  "public": true,
+  "public": false,
   "category": "Environment",
   "source": "Migration Data Portal",
   "sourceUrl": "migrationdataportal.org",
@@ -319,5 +335,6 @@
   "updatedDate": {
     "$date": "2024-05-22T09:47:15.599Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
