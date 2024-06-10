@@ -48,9 +48,9 @@ MONGO_INITDB_ROOT_USERNAME=$(grep -E "^MONGO_INITDB_ROOT_USERNAME=" ".env.$MODE"
 MONGO_INITDB_ROOT_PASSWORD=$(grep -E "^MONGO_INITDB_ROOT_PASSWORD=" ".env.$MODE" | cut -d= -f2)
 
 # Execute mongoimport and copy the mongodb.dump file to the prepopulate-data folder
-sudo docker exec -it "$MONGO_CONTAINER_ID" mongoexport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Chart -q '{"public": true}' --out ./Chart 
-sudo docker exec -it "$MONGO_CONTAINER_ID" mongoexport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Report -q '{"public": true}' --out ./Report 
-sudo docker exec -it "$MONGO_CONTAINER_ID" mongoexport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Dataset -q '{"public": true}' --out ./Dataset 
+sudo docker exec -it "$MONGO_CONTAINER_ID" mongoexport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Chart -q '{"baseline": true}' --out ./Chart 
+sudo docker exec -it "$MONGO_CONTAINER_ID" mongoexport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Report -q '{"baseline": true}' --out ./Report 
+sudo docker exec -it "$MONGO_CONTAINER_ID" mongoexport  --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin --db the-data-explorer-db --collection Dataset -q '{"baseline": true}' --out ./Dataset 
 
 # Id for replacing auth and owner
 id="REPL"

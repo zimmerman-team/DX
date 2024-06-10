@@ -3,7 +3,7 @@
     "$oid": "66031b319b11a300b870c800"
   },
   "name": "Industrial GDP for 10 Countries",
-  "public": true,
+  "public": false,
   "vizType": "echartsBarchart",
   "datasetId": {
     "$oid": "6603136cab07ef3d7c7ff9be"
@@ -77,14 +77,15 @@
     "$date": "2024-03-26T19:18:56.031Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "660320b812b24a00caa198f8"
   },
   "name": "Energy Sources, applications and value",
-  "public": true,
+  "public": false,
   "vizType": "echartsSankey",
   "datasetId": {
     "$oid": "66030b9930139b9b34fa4250"
@@ -165,14 +166,15 @@
     "$date": "2024-03-26T19:23:36.38Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66031cead6b19700d9e2a8ac"
   },
   "name": "GDP per Capita for 4 Countries from 1901 - 2016",
-  "public": true,
+  "public": false,
   "vizType": "echartsLinechart",
   "datasetId": {
     "$oid": "6603146792e50916a2525314"
@@ -246,14 +248,15 @@
     "$date": "2024-03-26T19:18:30.644Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66034a5cd6b19700d9e2a8ad"
   },
   "name": "Pie chart showing the GDP of various sectors for some countries",
-  "public": true,
+  "public": false,
   "vizType": "echartsPiechart",
   "datasetId": {
     "$oid": "6603136cab07ef3d7c7ff9be"
@@ -311,14 +314,15 @@
     "$date": "2024-03-26T22:21:16.756Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66034b6a9b11a300b870c803"
   },
   "name": "Circle Packing Chart showing energy sources, applications and value.",
-  "public": true,
+  "public": false,
   "vizType": "echartsCirclepacking",
   "datasetId": {
     "$oid": "66030b9930139b9b34fa4250"
@@ -379,14 +383,15 @@
     "$date": "2024-03-26T22:25:46.088Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66034c7867519500a62344ea"
   },
   "name": "Network graph showing connections between continents, countries and cities",
-  "public": true,
+  "public": false,
   "vizType": "echartsForcegraph",
   "datasetId": {
     "$oid": "6602d1b6bfec1b70c468145f"
@@ -441,14 +446,15 @@
     "$date": "2024-03-26T22:30:16.275Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6603500e67519500a62344eb"
   },
   "name": "Line stacked chart showing Total Population for countries from 1901-2016",
-  "public": true,
+  "public": false,
   "vizType": "echartsAreastack",
   "datasetId": {
     "$oid": "6603146792e50916a2525314"
@@ -529,14 +535,15 @@
     "$date": "2024-03-26T22:45:34.596Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6603b2479b11a300b870c804"
   },
   "name": "Global Malaria Deaths - 2019",
-  "public": true,
+  "public": false,
   "vizType": "bigNumber",
   "datasetId": {
     "$oid": "6603b191a40ad496d24761a5"
@@ -648,14 +655,15 @@
     "$date": "2024-03-27T05:44:39.239Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66031f2ecbe8be009fc0c2f9"
   },
   "name": "Countries and their population.",
-  "public": true,
+  "public": false,
   "vizType": "echartsGeomap",
   "datasetId": {
     "$oid": "6602d1b6bfec1b70c468145f"
@@ -718,14 +726,15 @@
     "$date": "2024-03-26T19:17:57.359Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6603217b39317100c3b3a1af"
   },
   "name": "More energy sources, applications and value on a Treemap",
-  "public": true,
+  "public": false,
   "vizType": "echartsTreemap",
   "datasetId": {
     "$oid": "66030b9930139b9b34fa4250"
@@ -790,14 +799,15 @@
     "$date": "2024-03-26T19:26:51.863Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6603b32812b24a00caa198f9"
   },
   "name": "Global Malaria Deaths - 2017",
-  "public": true,
+  "public": false,
   "vizType": "bigNumber",
   "datasetId": {
     "$oid": "6603b191a40ad496d24761a5"
@@ -923,14 +933,15 @@
     "$date": "2024-03-27T05:49:30.093Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6603b37367519500a62344ec"
   },
   "name": "Global Malaria Deaths - 2016",
-  "public": true,
+  "public": false,
   "vizType": "bigNumber",
   "datasetId": {
     "$oid": "6603b191a40ad496d24761a5"
@@ -1061,14 +1072,15 @@
     "$date": "2024-03-27T05:50:28.125Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "660345bd9b11a300b870c801"
   },
   "name": "Total receipt of GDP for countries in 1970",
-  "public": true,
+  "public": false,
   "vizType": "bigNumber",
   "datasetId": {
     "$oid": "660313df860c7d1d06c24408"
@@ -1166,14 +1178,15 @@
     "$date": "2024-03-26T22:01:33.216Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6603b2d19b11a300b870c805"
   },
   "name": "Global Malaria Deaths - 2018",
-  "public": true,
+  "public": false,
   "vizType": "bigNumber",
   "datasetId": {
     "$oid": "6603b191a40ad496d24761a5"
@@ -1294,14 +1307,15 @@
     "$date": "2024-03-27T05:47:59.3Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66179e45d2434b8e13194a43"
   },
   "name": "Crime rate in Spain 2019 - 2021 on a Treemap",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "echartsTreemap",
   "datasetId": {
@@ -1394,14 +1408,15 @@
   "updatedDate": {
     "$date": "2024-04-11T08:39:02.908Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6617f215d2434b8e13194a48"
   },
   "name": "Global Food Security Index - Sustainability and Adaptation - 2022",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "echartsGeomap",
   "datasetId": {
@@ -1502,14 +1517,15 @@
   "updatedDate": {
     "$date": "2024-04-11T14:23:33.124Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6617b150d2434b8e13194a44"
   },
   "name": "Health Facilities in the EAC.",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "echartsBarchart",
   "datasetId": {
@@ -1594,14 +1610,15 @@
   "updatedDate": {
     "$date": "2024-04-11T09:46:22.881Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66188a07d2434b8e13194a4a"
   },
   "name": "Net migration 2021-2023",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "echartsGeomap",
   "datasetId": {
@@ -1673,14 +1690,15 @@
   "updatedDate": {
     "$date": "2024-04-12T01:14:41.934Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "660345d69b11a300b870c802"
   },
   "name": "Total receipt of GDP for countries in 1976",
-  "public": true,
+  "public": false,
   "vizType": "bigNumber",
   "datasetId": {
     "$oid": "660313df860c7d1d06c24408"
@@ -1783,14 +1801,15 @@
     "$date": "2024-03-26T22:03:07.429Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66189b68a9c7bd1121984aed"
   },
   "name": "Gender-based violence in schools",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "bigNumber",
   "datasetId": {
@@ -1898,14 +1917,15 @@
   "updatedDate": {
     "$date": "2024-04-12T02:25:57.528Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66189520d2434b8e13194a4b"
   },
   "name": "Total losses in Euros due to impacts of extreme weather",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "echartsBarchart",
   "datasetId": {
@@ -2004,14 +2024,15 @@
   "updatedDate": {
     "$date": "2024-04-12T01:59:29.398Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66189bd5a9c7bd1121984aee"
   },
   "name": "Child marriage",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "bigNumber",
   "datasetId": {
@@ -2120,14 +2141,15 @@
   "updatedDate": {
     "$date": "2024-04-12T02:27:33.609Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66189c6ba9c7bd1121984aef"
   },
   "name": "Primary School Completion rates",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "bigNumber",
   "datasetId": {
@@ -2235,14 +2257,15 @@
   "updatedDate": {
     "$date": "2024-04-12T02:30:07.499Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6603482467519500a62344e9"
   },
   "name": "Sunburst showing continents cities and their population",
-  "public": true,
+  "public": false,
   "vizType": "echartsSunburst",
   "datasetId": {
     "$oid": "6602d1b6bfec1b70c468145f"
@@ -2308,14 +2331,15 @@
     "$date": "2024-03-26T22:11:48.297Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6603b3fb12b24a00caa198fa"
   },
   "name": "Global Malaria Deaths - 2015",
-  "public": true,
+  "public": false,
   "vizType": "bigNumber",
   "datasetId": {
     "$oid": "6603b191a40ad496d24761a5"
@@ -2451,14 +2475,15 @@
     "$date": "2024-03-27T05:52:53.863Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66189d4ca9c7bd1121984af1"
   },
   "name": "Maternal mortality rates",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "bigNumber",
   "datasetId": {
@@ -2575,14 +2600,15 @@
   "updatedDate": {
     "$date": "2024-04-12T02:34:36.569Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6617c04bd2434b8e13194a47"
   },
   "name": "Violence Against Women & Girls in Afghanistan",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "echartsCirclepacking",
   "datasetId": {
@@ -2684,14 +2710,15 @@
   "updatedDate": {
     "$date": "2024-04-11T11:07:01.425Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "66189ce0a9c7bd1121984af0"
   },
   "name": "Gender wage gap",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "bigNumber",
   "datasetId": {
@@ -2801,14 +2828,15 @@
   "updatedDate": {
     "$date": "2024-04-12T02:32:26.636Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "6603b66867519500a62344ed"
   },
   "name": "Line chart showing global malaria deaths by world region",
-  "public": true,
+  "public": false,
   "vizType": "echartsLinechart",
   "datasetId": {
     "$oid": "6603b591c4696473e6c08c19"
@@ -2885,14 +2913,15 @@
     "$date": "2024-03-27T06:02:16.349Z"
   },
   "authId": "REPL",
-  "isMappingValid": true
+  "isMappingValid": true,
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "661899acd2434b8e13194a4f"
   },
   "name": "Out of school girls - 2021",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "vizType": "bigNumber",
   "datasetId": {
@@ -3006,14 +3035,15 @@
   "updatedDate": {
     "$date": "2024-04-12T02:23:58.847Z"
   },
-  "authId": "REPL"
+  "authId": "REPL",
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "664c9c651af88d00b4116c29"
   },
   "name": "Global Sea Level Rise",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "isAIAssisted": true,
   "vizType": "echartsScatterchart",
@@ -3073,14 +3103,15 @@
     "date": "string",
     "mmfrom19932008average": "number",
     "year": "number"
-  }
+  },
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "664c86b7856f1100c3e1200c"
   },
   "name": "Global Annual Mean Temperature",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "isAIAssisted": true,
   "vizType": "echartsScatterchart",
@@ -3138,14 +3169,15 @@
     "Lowess5": "number",
     "NoSmoothing": "number",
     "Year": "number"
-  }
+  },
+  "baseline": true
 }
 {
   "_id": {
     "$oid": "664dbf370436f60098d6810b"
   },
   "name": "Climate Mobility Impacts",
-  "public": true,
+  "public": false,
   "isMappingValid": true,
   "isAIAssisted": true,
   "vizType": "echartsLinechart",
@@ -3230,5 +3262,6 @@
     "Region": "string",
     "SocioeconomicScenario": "string",
     "Year": "number"
-  }
+  },
+  "baseline": true
 }
