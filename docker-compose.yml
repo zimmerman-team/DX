@@ -35,6 +35,7 @@ services:
       - 4200:4200
     depends_on:
       - mongo
+      - redis
     env_file:
       - .env
     volumes:
@@ -121,5 +122,21 @@ services:
     volumes:
       - ./dx.client/prod/:/app/client/prod/
 
+  redis:
+    container_name: dx-redis
+    image: redis:latest
+    restart: always
+    ports:
+      - 6379:6379
+    command:
+      - /bin/sh
+      - -c
+      - redis-server --save 20 1 --loglevel debug --requirepass "$${REDIS_PASSWORD:?REDIS_PASSWORD variable is not set}"
+    volumes:
+      - dx_redis_data:/data
+    env_file:
+      - .env
+
 volumes:
   dx_mongo_data:
+  dx_redis_data:

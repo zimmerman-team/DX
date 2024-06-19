@@ -35,6 +35,7 @@ services:
       - 4201:4200
     depends_on:
       - mongo-staging
+      - redis-staging
     env_file:
       - .env
     volumes:
@@ -120,5 +121,21 @@ services:
     volumes:
       - ./dx.client/staging/:/app/client/staging/
 
+  redis-staging:
+    container_name: dx-redis-staging
+    image: redis:latest
+    restart: always
+    ports:
+      - 6380:6379
+    command:
+      - /bin/sh
+      - -c
+      - redis-server --save 20 1 --loglevel debug --requirepass "$${REDIS_PASSWORD:?REDIS_PASSWORD variable is not set}"
+    volumes:
+      - dx_redis_data_staging:/data
+    env_file:
+      - .env
+
 volumes:
   dx_mongo_data_staging:
+  dx_redis_data_staging:
