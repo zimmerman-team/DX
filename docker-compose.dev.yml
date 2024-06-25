@@ -38,6 +38,8 @@ services:
     volumes:
       - ./dx.backend/:/app/dx.backend/
       - ./dx.server/src/:/app/src/
+    depends_on:
+      - redis-dev
 
   backend-dev:
     container_name: dx-backend-dev
@@ -100,5 +102,21 @@ services:
     env_file:
       - .env
 
+  redis-dev:
+    container_name: dx-redis-dev
+    image: redis:latest
+    restart: always
+    ports:
+      - 6379:6379
+    command:
+      - /bin/sh
+      - -c
+      - redis-server --save 20 1 --loglevel debug --requirepass "$${REDIS_PASSWORD:?REDIS_PASSWORD variable is not set}"
+    volumes:
+      - dx_redis_data_dev:/data
+    env_file:
+      - .env
+
 volumes:
   dx_mongo_data_dev:
+  dx_redis_data_dev:
