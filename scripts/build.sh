@@ -4,14 +4,14 @@
 if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
   echo "Used to (re)build services running through docker. Specify the environment type, optionally specify service names."
   echo ""
-  echo "Usage: bash $0 [dev|test|staging|prod] [service name (optional) (up to 5 service names)]"
+  echo "Usage: bash $0 [dev|test|staging|prod] [service name (optional) (up to 6 service names)]"
   exit 0
 fi
 
 # Start
 # Check if an argument is provided
 if [ $# -lt 1 ]; then
-  echo "Usage: $0 bash $0 [dev|test|staging|prod] [service name (optional) (up to 5 service names)]"
+  echo "Usage: $0 bash $0 [dev|test|staging|prod] [service name (optional) (up to 6 service names)]"
   exit 1
 fi
 # Extract the first argument provided
@@ -28,6 +28,7 @@ I2="$3"
 I3="$4"
 I4="$5"
 I5="$6"
+I6="$7"
 
 # Check if "frontend" is being updated, this is the case if any argument is "frontend", "frontend-dev", "frontend-test", or "frontend-staging", or if no arguments are provided
 is_frontend=false
@@ -57,9 +58,9 @@ fi
 
 # Check the value of the provided argument and run the appropriate command
 if [ "$MODE" = "dev" ]; then
-  sudo docker compose -f docker-compose.dev.yml build $I1 $I2 $I3 $I4 $I5
+  sudo docker compose -f docker-compose.dev.yml build $I1 $I2 $I3 $I4 $I5 $I6
 elif [ "$MODE" = "prod" ]; then
-  sudo docker compose build $I1 $I2 $I3 $I4 $I5
+  sudo docker compose build $I1 $I2 $I3 $I4 $I5 $I6
   if [ $is_frontend == true ]; then
     sudo docker compose up -d frontend
     sleep 3 # wait for the frontend to be mounted
@@ -68,7 +69,7 @@ elif [ "$MODE" = "prod" ]; then
     sudo docker compose down
   fi
 elif [ "$MODE" = "staging" ]; then
-  sudo docker compose -f docker-compose.staging.yml build $I1 $I2 $I3 $I4 $I5
+  sudo docker compose -f docker-compose.staging.yml build $I1 $I2 $I3 $I4 $I5 $I6
   if [ $is_frontend == true ]; then
     sudo docker compose -f docker-compose.staging.yml up -d frontend-staging
     sleep 3 # wait for the frontend to be mounted
@@ -77,7 +78,7 @@ elif [ "$MODE" = "staging" ]; then
     sudo docker compose -f docker-compose.staging.yml down
   fi
 elif [ "$MODE" = "test" ]; then
-  sudo docker compose -f docker-compose.test.yml build $I1 $I2 $I3 $I4 $I5
+  sudo docker compose -f docker-compose.test.yml build $I1 $I2 $I3 $I4 $I5 $I6
   if [ $is_frontend == true ]; then
     sudo docker compose -f docker-compose.staging.yml up -d frontend-test
     sleep 3 # wait for the frontend to be mounted
