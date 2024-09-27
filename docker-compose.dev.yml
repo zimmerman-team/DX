@@ -38,6 +38,7 @@ services:
     volumes:
       - ./dx.backend/:/app/dx.backend/
       - ./dx.server/src/:/app/src/
+      - ./dx.server/logging/:/app/logging/
     depends_on:
       - redis-dev
 

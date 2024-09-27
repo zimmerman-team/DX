@@ -40,6 +40,7 @@ services:
       - .env
     volumes:
       - ./dx.backend/:/app/dx.backend/
+      - ./dx.server/logging/:/app/logging/
 
   backend-test:
     container_name: dx-backend-test
