@@ -35,6 +35,7 @@ services:
       - 4202:4200
     depends_on:
       - mongo-test
+      - redis-test
     env_file:
       - .env
     volumes:
@@ -128,5 +129,21 @@ services:
     volumes:
       - ./dx.client/test/:/app/client/test/
 
+  redis-test:
+    container_name: dx-redis-test
+    image: redis:latest
+    restart: always
+    ports:
+      - 6381:6379
+    command:
+      - /bin/sh
+      - -c
+      - redis-server --save 20 1 --loglevel debug --requirepass "$${REDIS_PASSWORD:?REDIS_PASSWORD variable is not set}"
+    volumes:
+      - dx_redis_data_test:/data
+    env_file:
+      - .env
+
 volumes:
   dx_mongo_data_test:
+  dx_redis_data_test:
