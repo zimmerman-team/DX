@@ -64,6 +64,7 @@ I2="$3"
 I3="$4"
 I4="$5"
 I5="$6"
+I6="$7"
 
 # Prep the correct env file
 sudo rm -f .env
@@ -90,7 +91,7 @@ if ask_for_confirmation "Was there an update to: DX Backend?"; then
   if [ "$MODE" != "prod" ]; then
     IMAGE="$IMAGE-$MODE"
   fi
-  . ./scripts/build.sh $MODE $IMAGE $I1 $I2 $I3 $I4 $I5
+  . ./scripts/build.sh $MODE $IMAGE $I1 $I2 $I3 $I4 $I5 $I6
 else
   echo "Skipping DX Backend."
 fi
@@ -121,7 +122,7 @@ if ask_for_confirmation "Was there an update to: Rawgraphs-charts?"; then
     SERVERIMAGE="$SERVERIMAGE-$MODE"
     CLIENTIMAGE="$CLIENTIMAGE-$MODE"
   fi
-  . ./scripts/build.sh $MODE $SERVERIMAGE $CLIENTIMAGE $I1 $I2 $I3 $I4 $I5
+  . ./scripts/build.sh $MODE $SERVERIMAGE $CLIENTIMAGE $I1 $I2 $I3 $I4 $I5 $I6
 else
   # DX Server
   if ask_for_confirmation "Was there an update to: DX Server?"; then
@@ -142,7 +143,7 @@ else
     if [ "$MODE" != "prod" ]; then
       IMAGE="$IMAGE-$MODE"
     fi
-    . ./scripts/build.sh $MODE $IMAGE $I1 $I2 $I3 $I4 $I5
+    . ./scripts/build.sh $MODE $IMAGE $I1 $I2 $I3 $I4 $I5 $I6
   else
     echo "Skipping DX Client."
   fi
