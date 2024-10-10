@@ -50,6 +50,7 @@ services:
     image: dx-backend-test
     environment:
       - DATA_EXPLORER_SSR=${DATA_EXPLORER_SSR}
+      - DW_AUTH_TOKEN=${DW_AUTH_TOKEN}
     ports:
       - 4006:4004
     depends_on:
