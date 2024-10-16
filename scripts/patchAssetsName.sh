@@ -47,17 +47,47 @@ sleep 10 # wait for mongodb to start
 sudo docker exec -it "$CONTAINER_ID" mongosh --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin the-data-explorer-db --eval '
 db.Chart.updateMany(
    { name: { $exists: true } },  
-   [ { $set: { nameLower: { $toLower: "$name" } } } ]
+   [
+      { 
+         $set: { 
+            nameLower: { 
+               $toLower: { 
+                  $trim: { input: "$name" } 
+               } 
+            } 
+         } 
+      }
+   ]
 )'
 sudo docker exec -it "$CONTAINER_ID" mongosh --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin the-data-explorer-db --eval '
 db.Dataset.updateMany(
    { name: { $exists: true } },  
-   [ { $set: { nameLower: { $toLower: "$name" } } } ]
+   [
+      { 
+         $set: { 
+            nameLower: { 
+               $toLower: { 
+                  $trim: { input: "$name" } 
+               } 
+            } 
+         } 
+      }
+   ]
 )'
 sudo docker exec -it "$CONTAINER_ID" mongosh --username "$MONGO_INITDB_ROOT_USERNAME" --password "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin the-data-explorer-db --eval '
 db.Report.updateMany(
    { name: { $exists: true } },  
-   [ { $set: { nameLower: { $toLower: "$name" } } } ]
+   [
+      { 
+         $set: { 
+            nameLower: { 
+               $toLower: { 
+                  $trim: { input: "$name" } 
+               } 
+            } 
+         } 
+      }
+   ]
 )'
 
 
