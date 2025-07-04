@@ -1,0 +1,288 @@
+{
+    "dataset": [
+        {
+            "year": 2015,
+            "IoTSensors": 12,
+            "GPSGuidance": 25,
+            "DroneMonitoring": 3,
+            "AIAnalytics": 1
+        },
+        {
+            "year": 2016,
+            "IoTSensors": 18,
+            "GPSGuidance": 32,
+            "DroneMonitoring": 7,
+            "AIAnalytics": 3
+        },
+        {
+            "year": 2017,
+            "IoTSensors": 28,
+            "GPSGuidance": 42,
+            "DroneMonitoring": 12,
+            "AIAnalytics": 6
+        },
+        {
+            "year": 2018,
+            "IoTSensors": 35,
+            "GPSGuidance": 51,
+            "DroneMonitoring": 18,
+            "AIAnalytics": 11
+        },
+        {
+            "year": 2019,
+            "IoTSensors": 44,
+            "GPSGuidance": 59,
+            "DroneMonitoring": 26,
+            "AIAnalytics": 17
+        },
+        {
+            "year": 2020,
+            "IoTSensors": 52,
+            "GPSGuidance": 65,
+            "DroneMonitoring": 34,
+            "AIAnalytics": 24
+        },
+        {
+            "year": 2021,
+            "IoTSensors": 58,
+            "GPSGuidance": 70,
+            "DroneMonitoring": 41,
+            "AIAnalytics": 30
+        },
+        {
+            "year": 2022,
+            "IoTSensors": 62,
+            "GPSGuidance": 75,
+            "DroneMonitoring": 47,
+            "AIAnalytics": 36
+        },
+        {
+            "year": 2023,
+            "IoTSensors": 65,
+            "GPSGuidance": 78,
+            "DroneMonitoring": 52,
+            "AIAnalytics": 41
+        }
+    ],
+    "dataTypes": {
+        "year": "number",
+        "IoTSensors": "number",
+        "GPSGuidance": "number",
+        "DroneMonitoring": "number",
+        "AIAnalytics": "number"
+    },
+    "errors": [],
+    "count": 9,
+    "stats": [
+        {
+            "name": "year",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 2015,
+                    "value": 1
+                },
+                {
+                    "name": 2016,
+                    "value": 1
+                },
+                {
+                    "name": 2017,
+                    "value": 1
+                },
+                {
+                    "name": 2018,
+                    "value": 1
+                },
+                {
+                    "name": 2019,
+                    "value": 1
+                },
+                {
+                    "name": 2020,
+                    "value": 1
+                },
+                {
+                    "name": 2021,
+                    "value": 1
+                },
+                {
+                    "name": 2022,
+                    "value": 1
+                },
+                {
+                    "name": 2023,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "IoTSensors",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 12,
+                    "value": 1
+                },
+                {
+                    "name": 18,
+                    "value": 1
+                },
+                {
+                    "name": 28,
+                    "value": 1
+                },
+                {
+                    "name": 35,
+                    "value": 1
+                },
+                {
+                    "name": 44,
+                    "value": 1
+                },
+                {
+                    "name": 52,
+                    "value": 1
+                },
+                {
+                    "name": 58,
+                    "value": 1
+                },
+                {
+                    "name": 62,
+                    "value": 1
+                },
+                {
+                    "name": 65,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "GPSGuidance",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 25,
+                    "value": 1
+                },
+                {
+                    "name": 32,
+                    "value": 1
+                },
+                {
+                    "name": 42,
+                    "value": 1
+                },
+                {
+                    "name": 51,
+                    "value": 1
+                },
+                {
+                    "name": 59,
+                    "value": 1
+                },
+                {
+                    "name": 65,
+                    "value": 1
+                },
+                {
+                    "name": 70,
+                    "value": 1
+                },
+                {
+                    "name": 75,
+                    "value": 1
+                },
+                {
+                    "name": 78,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "DroneMonitoring",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 3,
+                    "value": 1
+                },
+                {
+                    "name": 7,
+                    "value": 1
+                },
+                {
+                    "name": 12,
+                    "value": 1
+                },
+                {
+                    "name": 18,
+                    "value": 1
+                },
+                {
+                    "name": 26,
+                    "value": 1
+                },
+                {
+                    "name": 34,
+                    "value": 1
+                },
+                {
+                    "name": 41,
+                    "value": 1
+                },
+                {
+                    "name": 47,
+                    "value": 1
+                },
+                {
+                    "name": 52,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "AIAnalytics",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 1,
+                    "value": 1
+                },
+                {
+                    "name": 3,
+                    "value": 1
+                },
+                {
+                    "name": 6,
+                    "value": 1
+                },
+                {
+                    "name": 11,
+                    "value": 1
+                },
+                {
+                    "name": 17,
+                    "value": 1
+                },
+                {
+                    "name": 24,
+                    "value": 1
+                },
+                {
+                    "name": 30,
+                    "value": 1
+                },
+                {
+                    "name": 36,
+                    "value": 1
+                },
+                {
+                    "name": 41,
+                    "value": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "dataset": [
+        {
+            "region": "North America",
+            "adoption": 72,
+            "investment": 8.5,
+            "farms": 850000
+        },
+        {
+            "region": "Europe",
+            "adoption": 68,
+            "investment": 6.2,
+            "farms": 720000
+        },
+        {
+            "region": "Asia-Pacific",
+            "adoption": 45,
+            "investment": 12.1,
+            "farms": 1200000
+        },
+        {
+            "region": "Latin America",
+            "adoption": 38,
+            "investment": 3.8,
+            "farms": 450000
+        },
+        {
+            "region": "Africa",
+            "adoption": 23,
+            "investment": 2.1,
+            "farms": 320000
+        },
+        {
+            "region": "Middle East",
+            "adoption": 41,
+            "investment": 1.9,
+            "farms": 180000
+        }
+    ],
+    "dataTypes": {
+        "region": "string",
+        "adoption": "number",
+        "investment": "number",
+        "farms": "number"
+    },
+    "errors": [],
+    "count": 6,
+    "sample": [
+        {
+            "region": "North America",
+            "adoption": 72,
+            "investment": 8.5,
+            "farms": 850000
+        },
+        {
+            "region": "Europe",
+            "adoption": 68,
+            "investment": 6.2,
+            "farms": 720000
+        },
+        {
+            "region": "Asia-Pacific",
+            "adoption": 45,
+            "investment": 12.1,
+            "farms": 1200000
+        },
+        {
+            "region": "Latin America",
+            "adoption": 38,
+            "investment": 3.8,
+            "farms": 450000
+        },
+        {
+            "region": "Africa",
+            "adoption": 23,
+            "investment": 2.1,
+            "farms": 320000
+        },
+        {
+            "region": "Middle East",
+            "adoption": 41,
+            "investment": 1.9,
+            "farms": 180000
+        }
+    ],
+    "stats": [
+        {
+            "name": "region",
+            "type": "bar",
+            "data": [
+                {
+                    "name": "Africa",
+                    "value": 1
+                },
+                {
+                    "name": "Asia-Pacific",
+                    "value": 1
+                },
+                {
+                    "name": "Europe",
+                    "value": 1
+                },
+                {
+                    "name": "Latin America",
+                    "value": 1
+                },
+                {
+                    "name": "Middle East",
+                    "value": 1
+                },
+                {
+                    "name": "North America",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "adoption",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 23,
+                    "value": 1
+                },
+                {
+                    "name": 38,
+                    "value": 1
+                },
+                {
+                    "name": 41,
+                    "value": 1
+                },
+                {
+                    "name": 45,
+                    "value": 1
+                },
+                {
+                    "name": 68,
+                    "value": 1
+                },
+                {
+                    "name": 72,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "investment",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 1.9,
+                    "value": 1
+                },
+                {
+                    "name": 2.1,
+                    "value": 1
+                },
+                {
+                    "name": 3.8,
+                    "value": 1
+                },
+                {
+                    "name": 6.2,
+                    "value": 1
+                },
+                {
+                    "name": 8.5,
+                    "value": 1
+                },
+                {
+                    "name": 12.1,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "farms",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 180000,
+                    "value": 1
+                },
+                {
+                    "name": 320000,
+                    "value": 1
+                },
+                {
+                    "name": 450000,
+                    "value": 1
+                },
+                {
+                    "name": 720000,
+                    "value": 1
+                },
+                {
+                    "name": 850000,
+                    "value": 1
+                },
+                {
+                    "name": 1200000,
+                    "value": 1
+                }
+            ]
+        }
+    ]
+}

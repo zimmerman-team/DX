@@ -1,0 +1,166 @@
+{
+    "dataset": [
+        {
+            "crop": "Corn",
+            "traditional": 165.0,
+            "smart": 203.0,
+            "improvement": 23
+        },
+        {
+            "crop": "Wheat",
+            "traditional": 48.0,
+            "smart": 59.0,
+            "improvement": 23
+        },
+        {
+            "crop": "Soybeans",
+            "traditional": 51.0,
+            "smart": 65.0,
+            "improvement": 27
+        },
+        {
+            "crop": "Rice",
+            "traditional": 4.6,
+            "smart": 5.8,
+            "improvement": 26
+        },
+        {
+            "crop": "Cotton",
+            "traditional": 816.0,
+            "smart": 1020.0,
+            "improvement": 25
+        },
+        {
+            "crop": "Tomatoes",
+            "traditional": 39.0,
+            "smart": 52.0,
+            "improvement": 33
+        }
+    ],
+    "dataTypes": {
+        "crop": "string",
+        "traditional": "number",
+        "smart": "number",
+        "improvement": "number"
+    },
+    "errors": [],
+    "count": 6,
+    "stats": [
+        {
+            "name": "crop",
+            "type": "bar",
+            "data": [
+                {
+                    "name": "Corn",
+                    "value": 1
+                },
+                {
+                    "name": "Cotton",
+                    "value": 1
+                },
+                {
+                    "name": "Rice",
+                    "value": 1
+                },
+                {
+                    "name": "Soybeans",
+                    "value": 1
+                },
+                {
+                    "name": "Tomatoes",
+                    "value": 1
+                },
+                {
+                    "name": "Wheat",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "traditional",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 4.6,
+                    "value": 1
+                },
+                {
+                    "name": 39.0,
+                    "value": 1
+                },
+                {
+                    "name": 48.0,
+                    "value": 1
+                },
+                {
+                    "name": 51.0,
+                    "value": 1
+                },
+                {
+                    "name": 165.0,
+                    "value": 1
+                },
+                {
+                    "name": 816.0,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "smart",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 5.8,
+                    "value": 1
+                },
+                {
+                    "name": 52.0,
+                    "value": 1
+                },
+                {
+                    "name": 59.0,
+                    "value": 1
+                },
+                {
+                    "name": 65.0,
+                    "value": 1
+                },
+                {
+                    "name": 203.0,
+                    "value": 1
+                },
+                {
+                    "name": 1020.0,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "improvement",
+            "type": "bar",
+            "data": [
+                {
+                    "name": 23,
+                    "value": 2
+                },
+                {
+                    "name": 25,
+                    "value": 1
+                },
+                {
+                    "name": 26,
+                    "value": 1
+                },
+                {
+                    "name": 27,
+                    "value": 1
+                },
+                {
+                    "name": 33,
+                    "value": 1
+                }
+            ]
+        }
+    ]
+}
