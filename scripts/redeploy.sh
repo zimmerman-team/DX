@@ -66,10 +66,6 @@ I4="$5"
 I5="$6"
 I6="$7"
 
-# Prep the correct env file
-sudo rm -f .env
-sudo ln .env.$MODE .env
-
 # Inform the user of the branches and last commits of the submodules
 echo "The following branches and last commit messages were found for the submodules:"
 display_branch_and_commit_message "dx.client"
