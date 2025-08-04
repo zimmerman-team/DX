@@ -82,6 +82,18 @@ jobs:
           cd ~/DX
           bash -c "yes || true" | sudo bash scripts/redeploy.sh test
 
+  update-client:
+    runs-on: self-hosted
+
+    needs:
+      - deploy
+
+    steps:
+      - name: Run copy script
+        run: |
+          cd ~/DX
+          sudo rm -rf /var/www/html/test/build/ && sudo cp -r ~/DX/dx.client/test/build/ /var/www/html/test/
+
   clean-up:
     runs-on: self-hosted
 
