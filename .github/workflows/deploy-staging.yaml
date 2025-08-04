@@ -1,0 +1,59 @@
+name: Deploy to Staging with Self-Hosted Runner
+
+on:
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, staging] # Use the self-hosted runner
+
+    steps:
+      - name: Navigate to DX folder
+        run: cd ~/DX
+
+      - name: Pull latest changes
+        run: |
+          git checkout staging  
+          git pull origin staging
+
+      - name: Pull Dx.Client
+        run: |
+          cd dx.client
+          git checkout develop
+          git pull origin develop
+          cd ..
+
+      - name: Pull Dx.Server
+        run: |
+          cd dx.server
+          git checkout develop
+          git pull origin develop
+          cd ..
+
+      - name: Pull Dx.backend
+        run: |
+          cd dx.backend
+          git checkout main
+          git pull origin main
+          cd ..
+
+      - name: Pull Rawgraphs
+        run: |
+          cd rawgraphs-charts
+          git checkout feat/DX-137
+          git pull origin feat/DX-137
+          cd ..
+
+      - name: Pull General AI API
+        run: |
+          cd general-ai-api
+          git checkout main
+          git pull origin main
+          cd ..
+
+      - name: Run deployment script
+        run: |
+          yes | run bash scripts/redeploy.sh test
+
+      - name: Run copy script
+        run: rm -rf /var/www/html/staging/build/ && cp -r /root/DX/dx.client/staging/build/ /var/www/html/staging/
