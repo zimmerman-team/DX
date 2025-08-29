@@ -36,7 +36,7 @@ jobs:
           git fetch origin "$BRANCH_NAME"
           git checkout "$BRANCH_NAME"
           git stash
-          git pull origin "$BRANCH_NAME"
+          git pull origin "$BRANCH_NAME" --rebase
           cd ..
 
       - name: Pull Dx.Server
@@ -47,7 +47,7 @@ jobs:
           git fetch origin "$BRANCH_NAME"
           git checkout "$BRANCH_NAME"
           git stash
-          git pull origin "$BRANCH_NAME"
+          git pull origin "$BRANCH_NAME" --rebase
           cd ..
 
       - name: Pull Dx.backend
@@ -56,7 +56,7 @@ jobs:
           cd dx.backend
           git checkout main
           git stash
-          git pull origin main
+          git pull origin main --rebase
           cd ..
 
       - name: Pull Rawgraphs
@@ -65,7 +65,7 @@ jobs:
           cd rawgraphs-charts
           git checkout feat/DX-137
           git stash
-          git pull origin feat/DX-137
+          git pull origin feat/DX-137 --rebase
           cd ..
 
       - name: Pull General AI API
@@ -74,7 +74,7 @@ jobs:
           cd general-ai-api
           git checkout main
           git stash
-          git pull origin main
+          git pull origin main --rebase
           cd ..
 
       - name: Run deployment script
