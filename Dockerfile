@@ -1,5 +1,5 @@
 # Create the react frontend build
-FROM node:16.19.1-alpine3.17 AS client
+FROM node:22.21-alpine3.21 AS client
 
 ARG REACT_APP_API
 ARG REACT_APP_GOOGLE_API_CLIENT_ID
