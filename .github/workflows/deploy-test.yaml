@@ -1,0 +1,106 @@
+name: Deploy to Test with Self-Hosted Runner
+
+on:
+  workflow_dispatch: # Allow manual triggering from github UI
+    inputs:
+      dx_client_branch:
+        description: "DX Client branch to deploy"
+        required: true
+        default: "develop"
+        type: string
+
+      dx_server_branch:
+        description: "DX Server branch to deploy"
+        required: true
+        default: "develop"
+        type: string
+
+jobs:
+  deploy:
+    runs-on: self-hosted # Use the self-hosted runner
+
+    steps:
+      - name: Pull latest changes
+        run: |
+          cd ~/DX
+          git fetch origin
+          git checkout develop  
+          git stash
+          git pull origin develop --rebase
+
+      - name: Pull Dx.Client
+        run: |
+          cd ~/DX
+          cd dx.client
+          BRANCH_NAME="${{ github.event.inputs.dx_client_branch }}"
+          git fetch origin "$BRANCH_NAME"
+          git checkout "$BRANCH_NAME"
+          git stash
+          git pull origin "$BRANCH_NAME"
+          cd ..
+
+      - name: Pull Dx.Server
+        run: |
+          cd ~/DX
+          cd dx.server
+          BRANCH_NAME="${{ github.event.inputs.dx_server_branch }}"
+          git fetch origin "$BRANCH_NAME"
+          git checkout "$BRANCH_NAME"
+          git stash
+          git pull origin "$BRANCH_NAME"
+          cd ..
+
+      - name: Pull Dx.backend
+        run: |
+          cd ~/DX
+          cd dx.backend
+          git checkout main
+          git stash
+          git pull origin main
+          cd ..
+
+      - name: Pull Rawgraphs
+        run: |
+          cd ~/DX
+          cd rawgraphs-charts
+          git checkout feat/DX-137
+          git stash
+          git pull origin feat/DX-137
+          cd ..
+
+      - name: Pull General AI API
+        run: |
+          cd ~/DX
+          cd general-ai-api
+          git checkout main
+          git stash
+          git pull origin main
+          cd ..
+
+      - name: Run deployment script
+        run: |
+          cd ~/DX
+          bash -c "yes || true" | sudo bash scripts/redeploy.sh test
+
+  update-client:
+    runs-on: self-hosted
+
+    needs:
+      - deploy
+
+    steps:
+      - name: Run copy script
+        run: |
+          cd ~/DX
+          sudo rm -rf /var/www/html/test/build/ && sudo cp -r ~/DX/dx.client/test/build/ /var/www/html/test/
+
+  clean-up:
+    runs-on: self-hosted
+
+    needs:
+      - deploy
+
+    steps:
+      - name: Clean up Docker system
+        run: |
+          bash -c "yes || true" | docker system prune

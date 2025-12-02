@@ -43,10 +43,6 @@ if [ -z "$I1" ]; then
   is_frontend=true
 fi
 
-# Activate the correct .env file
-sudo rm -f .env
-sudo ln .env.$MODE .env
-
 # create a compressed backup of the previous deployed build
 if [[ $is_frontend == true && "$MODE" != "dev" ]]; then
   directory_to_compress="/var/www/html/$MODE"

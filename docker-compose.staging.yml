@@ -13,7 +13,7 @@ services:
     volumes:
       - dx_mongo_data_staging:/data/db
     env_file:
-      - .env
+      - .env.staging
 
   server-staging:
     container_name: dx-server-staging
@@ -37,7 +37,7 @@ services:
       - mongo-staging
       - redis-staging
     env_file:
-      - .env
+      - .env.staging
     volumes:
       - ./dx.backend/:/app/dx.backend/
       - ./dx.server/logging/:/app/logging/
@@ -56,7 +56,7 @@ services:
     depends_on:
       - server-staging
     env_file:
-      - .env
+      - .env.staging
     volumes:
       - ./dx.backend/staging/:/app/staging/
       - ./dx.backend/logging/:/app/logging/
@@ -77,7 +77,7 @@ services:
       # path to be changed in deployment, this path assumes as part of DX central repo
       - ./dx.backend/parsed-data-files:/parsed-data-files
     env_file:
-      - .env
+      - .env.staging
     ports:
       - 5001:5000
 
@@ -123,7 +123,7 @@ services:
       - VITE_ENV_TYPE=${VITE_ENV_TYPE}
       - VITE_LIVE_SESSION_ID=${VITE_LIVE_SESSION_ID}
     env_file:
-      - .env
+      - .env.staging
     deploy:
       resources:
         limits:
@@ -144,7 +144,7 @@ services:
     volumes:
       - dx_redis_data_staging:/data
     env_file:
-      - .env
+      - .env.staging
 
 volumes:
   dx_mongo_data_staging:
