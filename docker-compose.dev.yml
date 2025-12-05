@@ -105,6 +105,8 @@ services:
       - VITE_ONEDRIVE_CLIENT_ID=${VITE_ONEDRIVE_CLIENT_ID}
       - VITE_ENV_TYPE=${VITE_ENV_TYPE}
       - VITE_LIVE_SESSION_ID=${VITE_LIVE_SESSION_ID}
+      - VITE_CMS_API=${VITE_CMS_API}
+      - VITE_CMS_TOKEN=${VITE_CMS_TOKEN}
     env_file:
       - .env.dev
 
